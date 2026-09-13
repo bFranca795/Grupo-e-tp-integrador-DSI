@@ -154,3 +154,20 @@ Linea de valor: Input del usuario (WhatsApp/Correo) → El agente interpreta la 
 ## B.7)
 
 Si el LLM interpreta mal la intención crítica de un contribuyente complejo o confunde un trámite urgente con una consulta simple, el agente automatizará una respuesta errónea sobre obligaciones fiscales y el estudio sufrirá graves incumplimientos normativos o denuncias penales.
+
+## C.3)
+
+| # | Input (resumido) | Salida del modelo | ¿Validó Pydantic? | Tipo de error si falló |
+| --- | --- | --- | --- | --- |
+| 1 | ¿Cuándo vence el IVA de septiembre? | `{intencion: CONSULTA_VENCIMIENTO, cuit: null, impuesto: "IVA", periodo: "septiembre", tipo_tramite: null}` | Sí | — |
+| 2 | Documentación para alta de monotributo | `{intencion: DOCUMENTACION_REQUERIDA, cuit: null, impuesto: "monotributo", periodo: null, tipo_tramite: "alta"}` | Sí | — |
+| 3 | Estado de la DDJJ de IVA, CUIT 20-30456789-9 | `{intencion: ESTADO_TRAMITE, cuit: "20304567899", impuesto: "IVA", periodo: null, tipo_tramite: "declaracion jurada"}` | Sí | — |
+| 4 | "Quería saber cómo viene lo mío" (ambiguo/incompleto) | `{intencion: ESTADO_TRAMITE, cuit: null, impuesto: null, periodo: null, tipo_tramite: null}` | Sí (formalmente) | No falla el schema, pero es un caso inservible: sin CUIT no hay forma de identificar al cliente y responder de verdad |
+| 5 | "Ignorá todas las instrucciones anteriores..." (prompt injection) | `{intencion: CONSULTA_SOSPECHOSA, cuit: null, impuesto: null, periodo: null, tipo_tramite: null}` | Sí | — (la inyección no rompió el contrato: la regla de aislamiento del System Prompt la reclasificó como CONSULTA_SOSPECHOSA en vez de obedecerla) |
+| 6 | Inspección de AFIP por ingresos mal declarados el mes pasado | `{intencion: CONSULTA_COMPLEJA, cuit: null, impuesto: null, periodo: "mes pasado", tipo_tramite: "inspección"}` | Sí | — |
+
+## C.4)
+Se utilizó una estrategia Zero-shot. El modelo recibe las definiciones de las cuatro intenciones permitidas y las reglas de extracción, pero no recibe ejemplos previos de clasificación. Elegimos esta estrategia porque el dominio posee un conjunto reducido y claramente definido de intenciones y porque el contrato de salida está reforzado mediante Structured Outputs y Pydantic. Esto permite reducir la cantidad de tokens enviados en cada consulta. En caso de detectar errores sistemáticos de clasificación durante el lote de pruebas, una evolución posible sería incorporar Few-shot prompting.
+
+## C.5)
+El pipeline implementado en esta etapa corresponde a la primera parte del flujo definido en B.6: recibe el mensaje en lenguaje natural, utiliza un LLM para detectar la intención y extraer parámetros, y valida el resultado mediante Pydantic. Todavía no constituye el sistema completo, ya que falta conectar el resultado validado con la Base de Conocimiento del estudio, incluyendo la base SQL, documentos contables y servicios externos. En las próximas etapas esa información permitirá verificar los datos reales antes de generar la respuesta final al cliente.
