@@ -6,7 +6,10 @@ Un estudio contable recibe un alto volumen de consultas de sus clientes (vía Wh
 
 No tengo acceso directo a los sistemas internos del estudio contable ni a la AFIP, por lo que no puedo verificar el estado real de tu declaración jurada de IVA de agosto ni confirmar si fue presentada.
 
-------------------------------Parte inventada----------------------------------------
+**Parte inventada**
+
+-------------------------------------------------------------------------------
+
 Lo que sí puedo hacer es orientarte sobre cómo comprobarlo rápidamente:
 
 Consulta en AFIP: Ingresá con tu CUIT y clave fiscal en el portal de AFIP. En el servicio “Mis Declaraciones Juradas” podés ver si la presentación de IVA de agosto figura como enviada y aceptada.
@@ -16,6 +19,7 @@ Verificación de pagos: Revisá en “Cuenta Corriente de Monotributistas y Aut�
 Contacto con el estudio: Es recomendable que te comuniques directamente con tu contador o el estudio para confirmar si ellos ya hicieron la presentación y si hubo algún inconveniente.
 
 Si querés, puedo ayudarte a redactar un correo breve y formal para el estudio solicitando confirmación del estado de tu declaración jurada de IVA de agosto. ¿Querés que lo arme?
+
 -----------------------------------------------------------------------------------
 
 **• Qué parte inventó (marcarla). ¿Con qué nivel de confianza la presentó?**
