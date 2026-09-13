@@ -4,37 +4,25 @@ Un estudio contable recibe un alto volumen de consultas de sus clientes (vía Wh
 ## A.2)
 **La respuesta del modelo, completa.**
 
-Sistema de Respuesta Automática - Estudio Contable
+No tengo acceso directo a los sistemas internos del estudio contable ni a la AFIP, por lo que no puedo verificar el estado real de tu declaración jurada de IVA de agosto ni confirmar si fue presentada.
 
-Para un contribuyente soltero y empleado en relación de dependencia, los conceptos que habitualmente pueden resultar deducibles o computables a efectos fiscales incluyen, según la normativa aplicable en cada jurisdicción:
+------------------------------Parte inventada----------------------------------------
+Lo que sí puedo hacer es orientarte sobre cómo comprobarlo rápidamente:
 
------------- Parte inventada --------------------------
+Consulta en AFIP: Ingresá con tu CUIT y clave fiscal en el portal de AFIP. En el servicio “Mis Declaraciones Juradas” podés ver si la presentación de IVA de agosto figura como enviada y aceptada.
 
-Aportes obligatorios a sistemas de seguridad social y jubilación.
-Aportes a obras sociales o seguros médicos.
-Cuotas de medicina prepaga o cobertura de salud privada.
-Primas de seguros de vida y/o seguros de retiro.
-Gastos médicos y sanitarios no reintegrados.
-Gastos educativos o de capacitación vinculados a la actividad laboral, cuando la normativa lo permita.
-Intereses de préstamos destinados a vivienda habitual.
-Alquiler de vivienda, sujeto a los requisitos establecidos por la legislación vigente.
-Donaciones a entidades autorizadas.
-Gastos de sepelio, en los casos previstos por la normativa.
-Gastos por herramientas, equipamiento o indumentaria necesarios para el desempeño de la actividad laboral, cuando sean admitidos fiscalmente.
-Contribuciones a planes de ahorro previsional complementario.
+Verificación de pagos: Revisá en “Cuenta Corriente de Monotributistas y Autónomos” o “CCMA” si el saldo de IVA de agosto está registrado y si se generó el VEP correspondiente.
 
---------------------------------------------------------------
+Contacto con el estudio: Es recomendable que te comuniques directamente con tu contador o el estudio para confirmar si ellos ya hicieron la presentación y si hubo algún inconveniente.
 
-Importante: Las deducciones admitidas, los límites aplicables y la documentación requerida varían según la legislación de cada país y período fiscal. Para determinar con precisión las deducciones que le corresponden, recomendamos realizar una revisión personalizada de su situación tributaria.
-
-Estudio Contable - Sistema de Atención Automática.
-
+Si querés, puedo ayudarte a redactar un correo breve y formal para el estudio solicitando confirmación del estado de tu declaración jurada de IVA de agosto. ¿Querés que lo arme?
+-----------------------------------------------------------------------------------
 
 **• Qué parte inventó (marcarla). ¿Con qué nivel de confianza la presentó?**
-La confianza de la informacion es baja ya que identifica que no sabe sobre que la legislación del país ya que el mismo no fue indicado.
+La confianza de la informacion es baja ya que identifica que no tiene acceso a la informacion dada por lo tanto no puede responder de manera fehaciente.
 
 **• Qué le faltó al modelo para responder bien.**
-como pusimos arriba el modelo identifica que no sabe sobre que la legislación del país ya que el mismo no fue indicado.
+como pusimos arriba el modelo identifica que no tiene informacion del estudio contable ni de la afip para poder verificar el estado de la consulta.
 
 ## A.3)
 
@@ -74,17 +62,15 @@ Se envia las consultas tecnicas al estudio y se espera por la respuesta la misma
 
 ## B.4)
 
-### Interfaz de entrada e interpretación (Subsistema Probabilístico / LLM)
-
-**Tipo:** Probabilístico.
-
-**Justificación:** Se utiliza un modelo de lenguaje porque la entrada proviene de canales como WhatsApp o correo electrónico con lenguaje natural desestructurado, modismos y errores tipográficos. El LLM actúa como un "traductor semántico" capaz de extraer la intención del contribuyente y normalizarla en un esquema estructurado como un JSON, algo imposible de resolver de forma rígida con código tradicional.
-
-### Lógica de negocio y consultas (Subsistema Determinista / Backend y SQL)
-
-**Tipo:** Determinista.
-
-**Justificación:** Las consultas a la base de datos, la validación de normativas fiscales y los cálculos de deducciones exigen un comportamiento 100% confiable y sin margen de error. Siguiendo la regla de oro del arquitecto, el backend tradicional y SQL ejecutan las reglas duras de forma exacta.
+| Componente | Tipo | Por qué |
+|Interpretar mensaje libre|LLM / probabilístico|Necesita comprender lenguaje natural, errores y distintas formas de preguntar|
+|Detectar intención|LLM / probabilístico|La misma necesidad puede expresarse de muchas maneras|
+|Extraer CUIT, impuesto, período|LLM + validación determinista|El LLM extrae candidatos; Pydantic valida formato|
+|Validar CUIT|Determinista|Tiene reglas exactas y no debe quedar sujeto al modelo|
+|Consultar estado del trámite|SQL / determinista|La BD es la fuente de verdad|
+|Consultar vencimiento|SQL/API / determinista|Debe devolver información real y verificable|
+|Autorizar una modificación|Backend / determinista|Tiene impacto sobre datos del cliente|
+|Redactar respuesta final|LLM / probabilístico|Convierte el resultado estructurado en lenguaje natural|
 
 ## B.5)
 
