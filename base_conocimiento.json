@@ -1,0 +1,178 @@
+[
+  {
+    "id": "DOC-001",
+    "descripcion_semantica": "El IVA es un impuesto mensual. El responsable inscripto presenta la declaración jurada del período y paga el saldo en el mismo mes siguiente al que liquida. La fecha exacta depende de la terminación del CUIT: las terminaciones más bajas vencen primero y las más altas cierran el escalonamiento unos días después. Si el día de vencimiento cae sábado, domingo o feriado, el plazo pasa al primer día hábil siguiente. Presentar la declaración jurada y pagar el saldo son dos actos distintos: se puede presentar en término y pagar fuera de término, y en ese caso corren intereses resarcitorios sobre el saldo. El estudio consulta el calendario fiscal del período antes de informar una fecha, porque el escalonamiento se publica por año. Los clientes preguntan esto de muchas formas: cuando vence el IVA, hasta cuando tengo tiempo de pagar el IVA, que dia me toca por terminacion de CUIT, cuando se presenta la DDJJ de IVA, ya se me paso el vencimiento del IVA.",
+    "metadatos": {
+      "categoria": "vencimientos",
+      "activo": true,
+      "jurisdiccion": "nacional",
+      "tipo_contribuyente": "responsable_inscripto",
+      "tags_regionales": ["iva", "ddjj", "declaracion jurada", "vencimiento", "terminacion de cuit", "calendario fiscal", "arca", "afip"]
+    }
+  },
+  {
+    "id": "DOC-002",
+    "descripcion_semantica": "Para dar de alta a una persona en el Monotributo, el estudio pide: DNI del titular (frente y dorso), constancia de CUIT o número de CUIL, clave fiscal con nivel de seguridad suficiente para operar, domicilio fiscal con un comprobante que lo respalde (factura de un servicio a nombre del titular o contrato de alquiler), y una estimación de los ingresos brutos anuales de la actividad. También hace falta definir la actividad económica que se va a declarar, porque de eso depende el código de actividad, y si la actividad es venta de cosas muebles o prestación de servicios, porque los topes de cada categoría difieren. Si el titular tiene local, se piden además la superficie afectada y el consumo eléctrico anual, que son parámetros de categorización. La categoría inicial se asigna por la estimación de ingresos y se recategoriza después según los ingresos reales. Los clientes lo preguntan así: que papeles necesito para anotarme como pequeño contribuyente, que necesito para hacerme monotributista, quiero darme de alta en monotributo que llevo, como me inscribo para facturar.",
+    "metadatos": {
+      "categoria": "documentacion",
+      "activo": true,
+      "jurisdiccion": "nacional",
+      "tipo_contribuyente": "monotributo",
+      "tags_regionales": ["monotributo", "alta", "papeles", "inscripcion", "pequeño contribuyente", "clave fiscal", "categoria", "cuit"]
+    }
+  },
+  {
+    "id": "DOC-003",
+    "descripcion_semantica": "Una declaración jurada de IVA presentada por el estudio pasa por estados internos definidos: pendiente cuando el cliente todavía no entregó la documentación completa; en preparación cuando el estudio está liquidando; presentada cuando la declaración jurada ya se envió y existe acuse de recibo; observada cuando el organismo devolvió una inconsistencia que hay que subsanar; y finalizada cuando la declaración jurada está presentada y el saldo pagado o compensado. Para responder por el estado de un trámite hace falta identificar el CUIT del contribuyente y el período fiscal exacto, porque un mismo cliente tiene un trámite por mes y los estados no coinciden entre períodos. El acuse de recibo es la prueba de la presentación y lleva un número de transacción. Los clientes preguntan: ya presentaron mi IVA, en que quedo la declaracion de marzo, me mandaron el acuse, esta presentado lo mio, como viene mi tramite.",
+    "metadatos": {
+      "categoria": "tramites",
+      "activo": true,
+      "jurisdiccion": "nacional",
+      "tipo_contribuyente": "responsable_inscripto",
+      "tags_regionales": ["iva", "estado", "declaracion jurada", "ddjj", "acuse", "presentacion", "tramite"]
+    }
+  },
+  {
+    "id": "DOC-004",
+    "descripcion_semantica": "El monotributista paga una cuota mensual única que integra tres componentes: el impuesto integrado, el aporte jubilatorio y el aporte a la obra social. La cuota vence todos los meses alrededor del día 20 y, si ese día no es hábil, el plazo corre al día hábil siguiente. El monto depende de la categoría vigente del contribuyente, y las categorías se actualizan periódicamente, por lo que el importe del mes puede diferir del mes anterior aunque la categoría no haya cambiado. Pagar fuera de término genera intereses y, acumulando deuda, puede derivar en la baja automática del régimen. Dos veces al año corresponde la recategorización, que revisa ingresos, superficie y energía consumida de los últimos doce meses. La recategorización es un trámite distinto del pago de la cuota y tiene su propia fecha. Los clientes preguntan: cuando vence el monotributo, cuanto tengo que pagar este mes, hasta cuando puedo pagar la cuota, me atrase con el monotributo que pasa, cuando es la recategorizacion.",
+    "metadatos": {
+      "categoria": "vencimientos",
+      "activo": true,
+      "jurisdiccion": "nacional",
+      "tipo_contribuyente": "monotributo",
+      "tags_regionales": ["monotributo", "cuota", "vencimiento", "recategorizacion", "obra social", "jubilacion", "impuesto integrado"]
+    }
+  },
+  {
+    "id": "DOC-005",
+    "descripcion_semantica": "Para armar la declaración jurada anual del impuesto a las ganancias de una persona humana, el estudio solicita: recibos de sueldo de los doce meses o el certificado de retenciones que emite el empleador; facturas emitidas y comprobantes de ingresos si hay actividad independiente; resúmenes bancarios y extractos de cuentas al 31 de diciembre; escrituras, cédulas o títulos de los bienes registrables que integran el patrimonio; comprobantes de compra y venta de bienes ocurridas durante el año; y los comprobantes de las deducciones que se piensan computar, que incluyen aportes a obra social y medicina prepaga, intereses de créditos hipotecarios, donaciones, alquileres y gastos de sepelio. La declaración jurada de ganancias se presenta junto con la declaración informativa de bienes personales cuando el contribuyente supera el mínimo no imponible del patrimonio. El período fiscal es el año calendario y la presentación ocurre a mediados del año siguiente. Los clientes preguntan: que necesitas para hacerme ganancias, que papeles llevo para la declaracion anual, que puedo deducir, tengo que presentar bienes personales.",
+    "metadatos": {
+      "categoria": "documentacion",
+      "activo": true,
+      "jurisdiccion": "nacional",
+      "tipo_contribuyente": "persona_humana",
+      "tags_regionales": ["ganancias", "documentacion", "ddjj", "bienes personales", "deducciones", "declaracion anual", "patrimonio"]
+    }
+  },
+  {
+    "id": "DOC-006",
+    "descripcion_semantica": "El alta y la modificación de datos fiscales de un contribuyente se gestionan con clave fiscal y quedan registradas en el sistema registral. Los datos que el estudio modifica con más frecuencia son el domicilio fiscal, el domicilio de las actividades, las actividades económicas declaradas, el correo electrónico y el teléfono de contacto, y la incorporación o baja de impuestos del padrón. Cambiar el domicilio fiscal exige respaldo documental del nuevo domicilio y, hasta que la modificación se acepta, las notificaciones siguen llegando al domicilio anterior, que es el riesgo concreto de demorar el trámite. Los estados internos del seguimiento son: pendiente, procesado y observado. Un trámite observado suele deberse a documentación de respaldo insuficiente o a un domicilio que el organismo no puede validar. Toda modificación es una operación de escritura sobre el padrón y por eso requiere identificar y validar al contribuyente antes de ejecutarla. Los clientes preguntan: cambie de casa como actualizo el domicilio, quiero agregar una actividad, necesito dar de baja un impuesto, me rebotaron el tramite de domicilio.",
+    "metadatos": {
+      "categoria": "tramites",
+      "activo": true,
+      "jurisdiccion": "nacional",
+      "tipo_contribuyente": "general",
+      "tags_regionales": ["alta", "modificacion", "estado", "domicilio fiscal", "padron", "sistema registral", "clave fiscal"]
+    }
+  },
+  {
+    "id": "DOC-007",
+    "descripcion_semantica": "Para liquidar el IVA de un mes, el estudio necesita del cliente: las facturas de venta emitidas en el período, las facturas de compra recibidas, las notas de crédito y de débito tanto emitidas como recibidas, los comprobantes de retenciones y percepciones sufridas, y los tickets de controlador fiscal si el cliente factura por ese medio. Cada comprobante aporta crédito fiscal o débito fiscal según sea compra o venta, y el saldo del período es la diferencia entre ambos. Un comprobante que llega tarde no se puede computar en el período ya presentado y arrastra a una rectificativa. Las facturas de compra solo generan crédito fiscal si están a nombre del CUIT del cliente y corresponden a la actividad gravada. Los comprobantes tipo B y C emitidos a consumidor final no discriminan IVA y por eso no generan crédito fiscal computable. Los clientes preguntan: que facturas te mando para el IVA, tengo que pasarte las notas de credito, me sirve esta factura B, cargaste las percepciones.",
+    "metadatos": {
+      "categoria": "documentacion",
+      "activo": true,
+      "jurisdiccion": "nacional",
+      "tipo_contribuyente": "responsable_inscripto",
+      "tags_regionales": ["iva", "facturas", "comprobantes", "credito fiscal", "debito fiscal", "notas de credito", "percepciones", "retenciones"]
+    }
+  },
+  {
+    "id": "DOC-008",
+    "descripcion_semantica": "El empleador presenta mensualmente la declaración jurada de cargas sociales, que informa la nómina del período y liquida aportes y contribuciones. Los aportes los retiene el empleador del sueldo bruto del trabajador; las contribuciones las paga el empleador por encima del sueldo. El vencimiento de la presentación y del pago cae en la segunda semana del mes siguiente al período liquidado y también se escalona por terminación de CUIT. La declaración jurada exige tener la nómina actualizada: altas y bajas de empleados deben registrarse antes de liquidar, porque un alta no registrada convierte la relación en trabajo no registrado. El pago fuera de término genera intereses y bloquea la obtención del certificado de libre deuda previsional que piden muchas licitaciones. Los clientes preguntan: hasta cuando tengo tiempo de pagar las cargas sociales, cuando vencen los aportes, tengo que dar de alta a un empleado nuevo, cuanto me sale tener un empleado en blanco, necesito el libre deuda.",
+    "metadatos": {
+      "categoria": "normativa",
+      "activo": true,
+      "jurisdiccion": "nacional",
+      "tipo_contribuyente": "empleador",
+      "tags_regionales": ["empleador", "cargas sociales", "sueldos", "aportes", "contribuciones", "nomina", "libre deuda", "f931"]
+    }
+  },
+  {
+    "id": "DOC-009",
+    "descripcion_semantica": "El contribuyente con deuda fiscal puede regularizarla en un plan de pagos que fracciona el saldo en cuotas mensuales con interés de financiación. Para adherir hacen falta: la deuda identificada por impuesto, período y concepto; una CBU en la que se debitan las cuotas; y, según el plan, el pago de un anticipo. La cuota se debita automáticamente y la falta de pago de dos cuotas consecutivas puede hacer caer el plan, momento en el que la deuda original revive completa con sus intereses. Un plan caído no se puede reactivar: hay que adherir a uno nuevo si existe un régimen vigente que lo admita. Los estados internos del seguimiento son: solicitado, vigente, caído y cancelado. Antes de informar un estado hay que identificar CUIT, impuesto y período, porque un cliente puede tener varios planes simultáneos. Los clientes preguntan: puedo pagar la deuda en cuotas, quiero hacer un plan de pagos, se me cayo el plan que hago, cuantas cuotas me quedan, hay moratoria vigente.",
+    "metadatos": {
+      "categoria": "tramites",
+      "activo": true,
+      "jurisdiccion": "nacional",
+      "tipo_contribuyente": "general",
+      "tags_regionales": ["moratoria", "plan de pagos", "estado", "cuotas", "deuda", "cbu", "regularizacion"]
+    }
+  },
+  {
+    "id": "DOC-010",
+    "descripcion_semantica": "Ingresos Brutos en la Ciudad Autónoma de Buenos Aires es un impuesto provincial que administra la Administración Gubernamental de Ingresos Públicos, AGIP. El contribuyente local de CABA presenta una declaración jurada mensual y un resumen anual, y paga sobre los ingresos facturados atribuibles a la jurisdicción. La alícuota varía según la actividad declarada y existen actividades con alícuotas diferenciales y exenciones para determinados rubros. El vencimiento mensual cae en la segunda quincena y se escalona por terminación de CUIT. El contribuyente sufre retenciones y percepciones de los agentes de recaudación de la Ciudad, que se computan como pago a cuenta y suelen generar saldo a favor acumulado. Quien tiene actividad en más de una jurisdicción no tributa como contribuyente local sino por Convenio Multilateral, con coeficiente unificado. Los clientes preguntan: cuanto pago de ingresos brutos en capital, cuando vence IIBB de CABA, que alicuota me corresponde, tengo saldo a favor en AGIP, me retuvieron ingresos brutos.",
+    "metadatos": {
+      "categoria": "normativa",
+      "activo": true,
+      "jurisdiccion": "caba",
+      "tipo_contribuyente": "general",
+      "tags_regionales": ["iibb", "agip", "caba", "ingresos brutos", "capital", "alicuota", "convenio multilateral", "rentas"]
+    }
+  },
+  {
+    "id": "DOC-011",
+    "descripcion_semantica": "Ingresos Brutos en la Provincia de Buenos Aires es un impuesto provincial que administra la Agencia de Recaudación de la Provincia de Buenos Aires, ARBA. El contribuyente local de PBA presenta una declaración jurada mensual y paga sobre los ingresos atribuibles a la Provincia, con alícuotas que dependen de la actividad y del monto de ingresos del año anterior. El vencimiento mensual y el escalonamiento por terminación de CUIT son propios de ARBA y no coinciden con los de la Ciudad. ARBA publica padrones de regímenes de retención y percepción que se actualizan mensualmente, y la alícuota aplicable a cada contribuyente se consulta en ese padrón antes de facturar. El saldo a favor por retenciones y percepciones es frecuente y se puede solicitar la reducción de alícuota cuando el saldo acumulado supera cierto umbral. Quien opera en varias jurisdicciones tributa por Convenio Multilateral. Los clientes preguntan: cuanto pago de ingresos brutos en provincia, cuando vence IIBB de PBA, en que padron de ARBA estoy, me retienen mucho de ingresos brutos, como pido la reduccion de alicuota.",
+    "metadatos": {
+      "categoria": "normativa",
+      "activo": true,
+      "jurisdiccion": "pba",
+      "tipo_contribuyente": "general",
+      "tags_regionales": ["iibb", "arba", "provincia", "ingresos brutos", "padron", "alicuota", "convenio multilateral", "rentas"]
+    }
+  },
+  {
+    "id": "DOC-012",
+    "descripcion_semantica": "El estudio entrega al cliente el comprobante de cada presentación y de cada pago que gestiona en su nombre. El comprobante de presentación es el acuse de recibo, que lleva número de transacción, fecha y hora. El comprobante de pago es el ticket del volante electrónico de pago o el extracto del débito, según el medio utilizado. Para recuperar el archivo correcto hay que identificar tres datos: el CUIT del contribuyente, el impuesto y el período fiscal. Sin los tres, la búsqueda es ambigua, porque un mismo cliente tiene un comprobante por impuesto y por mes. Los comprobantes son documentación privada del cliente y solo se entregan al titular o a quien el titular autorizó formalmente. El estudio conserva copia de cada comprobante entregado. Los clientes preguntan: mandame el comprobante de lo que pagaste, necesito el acuse de la presentacion, me pasas el ticket del pago de abril, perdi el comprobante me lo reenvias.",
+    "metadatos": {
+      "categoria": "comprobantes",
+      "activo": true,
+      "jurisdiccion": "nacional",
+      "tipo_contribuyente": "general",
+      "tags_regionales": ["comprobante", "pago", "presentacion", "acuse", "vep", "ticket", "constancia de pago"]
+    }
+  },
+  {
+    "id": "DOC-013",
+    "descripcion_semantica": "Una intimación o un requerimiento fiscal es una notificación formal en la que el organismo reclama una presentación faltante, un pago adeudado o documentación de respaldo. La notificación llega al domicilio fiscal electrónico y corre un plazo de respuesta desde que se considera notificada, aunque el contribuyente no la haya leído. Dejar vencer el plazo agrava la situación: habilita multas, la determinación de oficio y, en casos de deuda firme, el juicio de ejecución fiscal. Estas consultas no se responden con información general. Requieren leer la notificación concreta, identificar impuesto, período y monto reclamado, revisar si la obligación efectivamente está incumplida y definir si corresponde presentar el descargo, allanarse o rectificar. Por eso se clasifican como casos de mayor complejidad y se derivan al profesional responsable con el detalle del caso. El asistente no evalúa la procedencia del reclamo ni sugiere una estrategia de respuesta. Los clientes preguntan: me llego una intimacion, tengo un requerimiento de AFIP, me cayo una inspeccion, me quieren embargar, me llego una multa.",
+    "metadatos": {
+      "categoria": "casos_complejos",
+      "activo": true,
+      "jurisdiccion": "nacional",
+      "tipo_contribuyente": "general",
+      "tags_regionales": ["intimacion", "inspeccion", "requerimiento", "multa", "descargo", "ejecucion fiscal", "domicilio fiscal electronico"]
+    }
+  },
+  {
+    "id": "DOC-014",
+    "descripcion_semantica": "La actualización de datos fiscales de un cliente modifica el padrón y por lo tanto es una operación de escritura, no de consulta. Los datos actualizables son el domicilio fiscal, el domicilio de las actividades, el correo electrónico, el teléfono, las actividades económicas y la nómina de impuestos en los que el contribuyente está inscripto. Antes de ejecutar cualquier modificación hace falta validar la identidad del solicitante contra el CUIT titular, porque un cambio de domicilio o de correo electrónico redirige las notificaciones oficiales y es un vector de fraude conocido. El asistente automatizado no ejecuta escrituras sobre el padrón: registra el pedido, lo identifica y lo deriva para que una persona del estudio lo valide y lo ejecute. El pedido queda con estado pendiente hasta esa validación. Los clientes preguntan: quiero cambiar mi mail, actualizame el telefono, me mude cambiame el domicilio, quiero agregarme un impuesto, dame de baja de ganancias.",
+    "metadatos": {
+      "categoria": "datos_fiscales",
+      "activo": true,
+      "jurisdiccion": "nacional",
+      "tipo_contribuyente": "general",
+      "tags_regionales": ["actualizacion", "datos", "cuit", "domicilio", "padron", "escritura", "validacion de identidad"]
+    }
+  },
+  {
+    "id": "DOC-015",
+    "descripcion_semantica": "El estudio emite y gestiona constancias y certificados para sus clientes. La constancia de inscripción acredita en qué impuestos está inscripto el contribuyente y se descarga del padrón con el CUIT, es pública y no requiere clave fiscal. El certificado de no retención evita que los agentes de recaudación retengan cuando el contribuyente acumula saldo a favor, se tramita con clave fiscal y tiene vigencia acotada. El certificado de libre deuda previsional acredita que no hay deuda de cargas sociales y lo piden licitaciones y organismos públicos. La constancia de CUIL y la constancia de opción de Monotributo son otros pedidos frecuentes. La diferencia operativa importa: la constancia de inscripción es información pública que se entrega de inmediato, mientras que un certificado con vigencia y requisitos exige verificar la situación fiscal del cliente antes de tramitarlo. Los clientes preguntan: necesito la constancia de inscripcion, me pasas mi constancia de CUIT, como saco el certificado de no retencion, me piden libre deuda para una licitacion.",
+    "metadatos": {
+      "categoria": "documentacion",
+      "activo": true,
+      "jurisdiccion": "nacional",
+      "tipo_contribuyente": "general",
+      "tags_regionales": ["certificado", "constancia", "documentacion", "constancia de inscripcion", "no retencion", "libre deuda", "cuil"]
+    }
+  },
+  {
+    "id": "DOC-016",
+    "descripcion_semantica": "Régimen de regularización de deuda fiscal cerrado, cuyo plazo de adhesión venció y que ya no admite nuevas solicitudes. Mientras estuvo vigente permitía fraccionar la deuda en cuotas mensuales con interés de financiación, condonaba una parte de los intereses resarcitorios y de las multas para quien adhería dentro del plazo, y exigía una CBU para el débito automático de las cuotas. El contribuyente que adhirió en su momento conserva el plan con las condiciones originales y sigue pagando las cuotas pactadas, pero nadie puede adherir hoy. Quien tiene deuda y consulta por este régimen debe ser dirigido al plan de pagos vigente, cuyas condiciones de anticipo, cantidad de cuotas y tasa son distintas. Este documento se conserva en la base para responder consultas históricas sobre planes ya adheridos y queda marcado como no vigente. Los clientes preguntan: puedo entrar a la moratoria, quiero adherir al plan de regularizacion, todavia estoy a tiempo de la moratoria, me conviene la moratoria para la deuda.",
+    "metadatos": {
+      "categoria": "tramites",
+      "activo": false,
+      "jurisdiccion": "nacional",
+      "tipo_contribuyente": "general",
+      "tags_regionales": ["moratoria", "plan de pagos", "regularizacion", "deuda", "cuotas", "derogado", "vencido"]
+    }
+  }
+]
