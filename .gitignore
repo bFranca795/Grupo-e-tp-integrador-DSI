@@ -3,3 +3,6 @@ __pycache__/
 *.pyc
 .venv/
 venv/
+*.index
+chroma_db/
+base_conocimiento_limpia.json
