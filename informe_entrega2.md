@@ -8,6 +8,75 @@ Este informe continúa el proyecto de la Entrega 1 (asistente de un estudio cont
 
 ---
 
+## A.2 — Similitud coseno a mano
+
+El dominio se reduce a dos ejes: **X = carga de vencimiento** (cuándo hay que pagar o presentar) e **Y = carga de documentación y trámite** (qué papeles se necesitan y en qué estado está). Son los dos ejes sobre los que ya está construida la base — `vencimientos` cae sobre X, `documentacion` y `comprobantes` sobre Y, `tramites` mezcla los dos — y las dos preguntas que el estudio recibe todos los días.
+
+| Vector | Documento de la base | `[X, Y]` |
+|---|---|---|
+| DOC 1 | `DOC-001` — Vencimientos de IVA | `[0.9, 0.2]` |
+| DOC 2 | `DOC-002` — Alta de Monotributo | `[0.2, 0.9]` |
+| DOC 3 | `DOC-003` — Estado de la DDJJ de IVA | `[0.5, 0.7]` |
+| Consulta | "¿Cuándo vence el IVA?" | `[1.0, 0.1]` |
+
+### Los tres cálculos
+
+`Similitud = (A · B) / (‖A‖ × ‖B‖)`, con `‖B‖ = √(1.0² + 0.1²) = √1.01 ≈ 1.004988` en los tres.
+
+**DOC 1 — Vencimiento IVA**, `A = [0.9, 0.2]`:
+
+```
+A · B = 0.9 × 1.0 + 0.2 × 0.1 = 0.92
+‖A‖   = √(0.81 + 0.04) = √0.85 ≈ 0.921954
+cos   = 0.92 / (0.921954 × 1.004988) ≈ 0.993
+```
+
+**DOC 3 — Estado de un trámite**, `A = [0.5, 0.7]`:
+
+```
+A · B = 0.5 × 1.0 + 0.7 × 0.1 = 0.57
+‖A‖   = √(0.25 + 0.49) = √0.74 ≈ 0.860233
+cos   = 0.57 / (0.860233 × 1.004988) ≈ 0.659
+```
+
+**DOC 2 — Documentación Monotributo**, `A = [0.2, 0.9]`:
+
+```
+A · B = 0.2 × 1.0 + 0.9 × 0.1 = 0.29
+‖A‖   = √(0.04 + 0.81) = √0.85 ≈ 0.921954
+cos   = 0.29 / (0.921954 × 1.004988) ≈ 0.313
+```
+
+Ranking: DOC 1 (0.993) > DOC 3 (0.659) > DOC 2 (0.313). La consulta pregunta por un vencimiento y gana el documento de vencimientos.
+
+### Validación con NumPy
+
+`similitud_coseno.py` calcula las tres similitudes dos veces, a mano y con NumPy, y compara los resultados:
+
+```python
+import numpy as np
+
+def similitud_coseno(a, b):
+    return np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))
+```
+
+Salida de `uv run similitud_coseno.py`:
+
+```text
+Documento                             manual     numpy
+DOC 1 — Vencimiento IVA             0.992928  0.992928
+DOC 2 — Documentacion Monotributo   0.312988  0.312988
+DOC 3 — Estado de un tramite        0.659323  0.659323
+
+Manual y NumPy coinciden (np.allclose, atol=1e-12).
+```
+
+### El umbral de aceptación
+
+Un resultado se acepta a partir de **0.80 de similitud**, que en ChromaDB equivale a **distancia ≤ 0.20**. El valor cae dentro del hueco de 0.334 que separa al documento correcto (0.993) del mejor distractor (0.659), con margen de los dos lados, y es un umbral inicial que habrá que recalibrar contra los embeddings reales. Si ningún documento lo supera, el sistema no devuelve el más cercano: responde que no dispone de información suficiente.
+
+---
+
 ## A.3 — `base_conocimiento.json`
 
 La base de conocimiento es la fuente de verdad del sistema: el índice FAISS y la colección de ChromaDB se reconstruyen enteros desde este archivo.
