@@ -8,6 +8,18 @@ Este informe continúa el proyecto de la Entrega 1 (asistente de un estudio cont
 
 ---
 
+## A.1 — Autopsia del contexto estático
+
+| Problema | Aplicado a su dominio |
+|---|---|
+| Desangre de tokens | La base tiene 16 documentos que suman 3.488 tokens (medidos con el tokenizador de `gpt-4o`, promedio de 218 por documento). Una consulta típica mide 26 tokens, así que pasar la base entera en cada mensaje es enviar unas 134 veces más texto que la pregunta, y para "¿cuándo vence el monotributo?" solo hace falta `DOC-004`: los otros 15 documentos son 3.269 tokens (94%) pagados de más. Con un supuesto de 1.000 consultas diarias son 3.488.000 tokens por día, y como el costo crece lineal con la base, un estudio con 200 documentos pagaría unos 43,6 millones de tokens por día. |
+| Lost in the Middle | En el prompt estático los documentos quedan en el orden del archivo, y `DOC-008` (cargas sociales del empleador) cae en la posición 8 de 16, al centro exacto. Con 16 documentos el efecto es mínimo, pero con la base real de un estudio la regla que el cliente pregunta queda enterrada entre cientos de párrafos ajenos, en la zona donde el modelo presta menos atención, y puede pasarla por alto aunque esté en el prompt. |
+| Inconsistencia de estado concurrente | `DOC-004` (cuota mensual de Monotributo, que vence alrededor del día 20) pasa a `activo: false` cuando el estudio lo reemplaza. Un System Prompt armado antes de ese cambio sigue informando el vencimiento y el monto viejos durante toda la conversación, y lo mismo pasa entre `DOC-009` (planes de pago vigentes) y `DOC-016` (régimen cerrado): el prompt estático entrega los dos y el modelo no sabe cuál rige. |
+
+Un `SELECT ... WHERE descripcion LIKE '%...%'` busca coincidencias de texto, no significado: la consulta "¿Qué papeles les tengo que mandar para anotarme en el monotributo?" no aparece literal en ningún documento, y `LIKE '%monotributo%'` devuelve `DOC-002`, `DOC-004` y `DOC-015` sin criterio para ordenarlos ni para saber que el correcto es el de documentación requerida para el alta. La búsqueda vectorial permite recuperar documentos por similitud semántica y no solamente por coincidencia literal.
+
+---
+
 ## A.3 — `base_conocimiento.json`
 
 La base de conocimiento es la fuente de verdad del sistema: el índice FAISS y la colección de ChromaDB se reconstruyen enteros desde este archivo.
