@@ -6,3 +6,4 @@ venv/
 *.index
 chroma_db/
 base_conocimiento_limpia.json
+estudio_contable_ids.json
