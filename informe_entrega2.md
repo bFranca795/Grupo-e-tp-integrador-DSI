@@ -87,3 +87,32 @@ Tres pares están puestos a propósito para que la búsqueda tenga con qué fall
 
 Cada `descripcion_semantica` contiene qué se paga o se presenta, cuándo vence, con qué comprobantes, y cierra con la jerga real con la que el cliente pregunta ("hasta cuándo tengo tiempo de pagar las cargas sociales", "qué papeles necesito para anotarme como pequeño contribuyente"). Esa jerga dentro del párrafo es lo que acerca el vector de la pregunta al vector del documento.
 
+---
+
+## A.4 — `pipeline_vectorial.py`: embeddings e índice FAISS persistido
+
+El script vectoriza las `descripcion_semantica` de los 16 documentos, construye el índice FAISS y lo persiste. Se ejecuta con `uv run pipeline_vectorial.py`.
+
+**1. Credenciales.** La clave se lee del entorno con `python-dotenv` (`load_dotenv()` y `os.getenv("GEMINI_API_KEY")`); si falta, el script corta antes de trabajar. `.env` está en `.gitignore` y nunca estuvo trackeado.
+
+**2. Embeddings.** Modelo `gemini-embedding-001`, la misma clave que usa `app.py`. `output_dimensionality=768` se fija explícitamente porque el índice se crea con esa dimensión y la recarga tiene que coincidir. `task_type` es asimétrico: `RETRIEVAL_DOCUMENT` al indexar y `RETRIEVAL_QUERY` al consultar, que es lo que acerca una pregunta corta y coloquial a un párrafo expositivo con el que no comparte vocabulario.
+
+**3. Índice.** `faiss.IndexFlatIP` sobre vectores pasados por `faiss.normalize_L2`. Con norma 1 el producto interno **es** la similitud coseno, porque el denominador de `cos(a, b) = (a · b) / (||a|| · ||b||)` vale 1. Normalizar no es opcional acá: `gemini-embedding-001` es un modelo Matryoshka y truncar el vector de 3072 a 768 rompe la norma unitaria. Se elige coseno y no L2 para que los scores sean comparables con los de ChromaDB en la Parte B, que usa `hnsw:space: "cosine"` sobre los mismos documentos.
+
+**4. Persistencia.** `faiss.write_index()` deja `estudio_contable.index` (49.197 bytes: 16 × 768 × 4 bytes de `float32` más encabezado) y, al lado, `estudio_contable_ids.json` con los identificadores en orden de inserción — hace falta porque `IndexFlatIP` guarda vectores y `search()` devuelve posiciones, que sin ese mapeo no significan nada al recargar. Si los dos archivos existen, `faiss.read_index()` los recupera y **no se regeneran los embeddings de los documentos**; si falta cualquiera, el índice se reconstruye entero. Ninguno se versiona: son artefactos derivados, se regeneran corriendo el script y están en `.gitignore`.
+
+**5. Búsqueda semántica.** Las tres consultas están escritas sin compartir vocabulario literal con el documento que deberían recuperar.
+
+| Consulta | # | Documento | `categoria` | Score |
+|---|---|---|---|---|
+| ¿Qué papeles necesitan para darme de alta en monotributo? | 1 | DOC-002 | `documentacion` | **0,8201** |
+| | 2 | DOC-015 | `documentacion` | 0,6755 |
+| | 3 | DOC-005 | `documentacion` | 0,6732 |
+| ¿Cómo está mi declaración jurada de IVA? | 1 | DOC-003 | `tramites` | **0,7882** |
+| | 2 | DOC-001 | `vencimientos` | 0,7287 |
+| | 3 | DOC-007 | `documentacion` | 0,6912 |
+| Me llegó una intimación fiscal, ¿qué hago? | 1 | DOC-013 | `casos_complejos` | **0,8275** |
+| | 2 | DOC-015 | `documentacion` | 0,6827 |
+| | 3 | DOC-005 | `documentacion` | 0,6731 |
+
+Las tres recuperan el documento correcto en primer lugar. Contra el umbral de 0,80 fijado en A.2, dos lo superan y la segunda queda en 0,7882 pese a haber acertado el documento: se reporta el número como salió y no se mueve el umbral para acomodarlo.
