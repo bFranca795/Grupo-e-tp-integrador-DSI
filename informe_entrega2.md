@@ -311,6 +311,9 @@ Verificación de un documento puntual con `coleccion.get(ids=["DOC-001"])`:
 
 Se usa `upsert` porque crea el documento si no existe y lo reemplaza si ya existe, haciendo la operación idempotente. El `add` crea el Id pero falla si el Id ya existe y `update` modifica el Id existente pero falla al crear uno nuevo.
 
+---
+## B-4 - ETL y purga semantica
 
+`SELECT DISTINCT` compara igualdad exacta de columnas. Estos registros cambian el texto, el vocabulario y el ID, aunque expresen el mismo concepto; por eso no son filas idénticas. La similitud coseno compara el significado capturado por los embeddings y permite detectar la paráfrasis.
 
 

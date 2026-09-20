@@ -9,7 +9,7 @@ from google.genai import types
 
 load_dotenv()
 
-ARCHIVO_DATOS = "base_conocimiento.json"
+ARCHIVO_DATOS = "base_conocimiento_limpia.json"
 MODELO_EMBEDDING = "gemini-embedding-001"
 DIMENSION = 768
 
@@ -48,6 +48,41 @@ coleccion = client.get_or_create_collection(
     embedding_function=GeminiEmbeddingFunction(task_type="RETRIEVAL_DOCUMENT"),
 )
 
+
+def buscar_contable(
+    query_semantica: str,
+    filtro_categoria: str | None = None,
+    solo_activos: bool = True,
+    n_resultados: int = 3,
+) -> dict:
+    """Busca documentos por significado y aplica los filtros dentro de ChromaDB."""
+    if not query_semantica.strip():
+        raise ValueError("query_semantica no puede estar vacío")
+    if n_resultados < 1:
+        raise ValueError("n_resultados debe ser mayor que cero")
+
+    condiciones = []
+    if filtro_categoria is not None:
+        condiciones.append({"categoria": {"$eq": filtro_categoria}})
+    if solo_activos:
+        condiciones.append({"activo": {"$eq": True}})
+
+    where = None
+    if len(condiciones) == 1:
+        where = condiciones[0]
+    elif condiciones:
+        where = {"$and": condiciones}
+
+    parametros = {
+        "query_texts": [query_semantica],
+        "n_results": n_resultados,
+    }
+    if where is not None:
+        parametros["where"] = where
+
+    return coleccion.query(**parametros)
+
+
 def aplanarTagsRegionales(metadatos: list[dict]) -> None:
     """Aplana los tags regionales en los metadatos de cada documento.
 
@@ -60,6 +95,11 @@ def aplanarTagsRegionales(metadatos: list[dict]) -> None:
             metadato["tags_regionales"] = ", ".join(metadato["tags_regionales"])
 
 def cargar_documentos() -> list[dict]:
+    if not os.path.exists(ARCHIVO_DATOS):
+        raise FileNotFoundError(
+            f"No existe {ARCHIVO_DATOS}. Ejecutá primero: "
+            "python etl_purga.py"
+        )
     with open(ARCHIVO_DATOS, encoding="utf-8") as archivo:
         return json.load(archivo)
 
@@ -103,6 +143,6 @@ if __name__ == "__main__":
     insertar_documentos(documentos)
     simular_cambio_estado()
     print(f"Colección '{coleccion.name}' lista: {coleccion.count()} documentos.")
-    print(f"Get Colección '{coleccion.get(ids=["DOC-001"])}'")
+    print(f"Get Colección '{coleccion.get(ids=['DOC-001'])}'")
     print(f"Cambio verificado: {coleccion.get(ids=['DOC-00X'])}")
 
