@@ -296,6 +296,16 @@ Verificación de un documento puntual con `coleccion.get(ids=["DOC-001"])`:
 }
 ```
 
+---
+
+## B.2 — Los tres límites de FAISS que ChromaDB resuelve
+
+| Límite de FAISS | Cómo se manifiesta en el dominio | Cómo lo resuelve ChromaDB |
+|---|---|---|
+| Sin persistencia transaccional / atomicidad | `write_index()` escribe el `.index` entero de una sola vez, sin noción de commit parcial. Si el proceso se cae a mitad de una actualización (por ejemplo regenerando los 16 embeddings después de dar de baja `DOC-016`) y nunca llega a llamar `write_index()`, se pierde todo lo trabajado en esa corrida y hay que rehacerla completa (mismo problema demostrado a mano en A.5). Además `IndexFlatIP` no tiene "update" ni "delete": para cambiar un solo vector hay que reconstruir el índice entero. | ChromaDB persiste sobre un motor propio (SQLite + segmentos HNSW) donde cada `upsert`/`delete` se confirma por documento. Si el proceso se cae a mitad de un `upsert` de 16 documentos, los que ya se comprometieron quedan guardados en disco y la colección no queda corrupta ni a medio escribir. |
+| Sin filtrado híbrido nativo | `IndexFlatIP.search()` solo entiende vectores, no sabe qué es `jurisdiccion` o `activo`. Para separar `DOC-010` (IIBB CABA) de `DOC-011` (IIBB PBA) (semánticamente casi idénticos) no queda otra que buscar top-K y filtrar el resultado con un `if` en Python | `coleccion.query(query_texts=[...], where={"jurisdiccion": {"$eq": "caba"}})` aplica el filtro **dentro** del motor, en la misma llamada que la búsqueda semántica: la similitud coseno se calcula únicamente sobre el subconjunto que ya cumple el filtro, nunca sobre los documentos que se van a descartar. |
+| CRUD ineficiente / sin concurrencia | Actualizar la cuota mensual de `DOC-004` cuando cambia el monto exige regenerar embeddings de los 16 documentos y volver a llamar `write_index()`, aunque los otros 15 no cambiaron (no hay operación de "tocar un solo documento"). Tampoco hay locking: dos procesos escribiendo el mismo `.index` al mismo tiempo pueden pisarse el archivo. | `coleccion.upsert(ids=["DOC-004"], documents=[...], metadatas=[...])` actualiza un único documento sin tocar los otros 15, con el motor de Chroma manejando el acceso concurrente por dentro. Es literalmente el escenario que se prueba en B.3 (evento de negocio en caliente). |
+
 
 
 
