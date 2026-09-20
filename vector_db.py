@@ -12,6 +12,7 @@ load_dotenv()
 ARCHIVO_DATOS = "base_conocimiento_limpia.json"
 MODELO_EMBEDDING = "gemini-embedding-001"
 DIMENSION = 768
+DISTANCIA_MAXIMA_BUSQUEDA = None
 
 if not os.getenv("GEMINI_API_KEY"):
     raise ValueError("GEMINI_API_KEY no está configurada en las variables de entorno.")
@@ -54,14 +55,20 @@ def buscar_contable(
     filtro_categoria: str | None = None,
     solo_activos: bool = True,
     n_resultados: int = 3,
+    filtros: dict[str, str | bool] | None = None,
+    distancia_maxima: float | None = DISTANCIA_MAXIMA_BUSQUEDA,
 ) -> dict:
-    """Busca documentos por significado y aplica los filtros dentro de ChromaDB."""
+    """Busca por significado y filtros exactos, sin umbral por defecto."""
     if not query_semantica.strip():
         raise ValueError("query_semantica no puede estar vacío")
     if n_resultados < 1:
         raise ValueError("n_resultados debe ser mayor que cero")
 
     condiciones = []
+    if filtros:
+        condiciones.extend(
+            {campo: {"$eq": valor}} for campo, valor in filtros.items()
+        )
     if filtro_categoria is not None:
         condiciones.append({"categoria": {"$eq": filtro_categoria}})
     if solo_activos:
@@ -80,7 +87,27 @@ def buscar_contable(
     if where is not None:
         parametros["where"] = where
 
-    return coleccion.query(**parametros)
+    resultados = coleccion.query(**parametros)
+    if distancia_maxima is None or not resultados.get("distances"):
+        return resultados
+
+    ids_filtrados = []
+    documentos_filtrados = []
+    metadatos_filtrados = []
+    distancias_filtradas = []
+    for indice, distancia in enumerate(resultados["distances"][0]):
+        if distancia <= distancia_maxima:
+            ids_filtrados.append(resultados["ids"][0][indice])
+            documentos_filtrados.append(resultados["documents"][0][indice])
+            metadatos_filtrados.append(resultados["metadatas"][0][indice])
+            distancias_filtradas.append(distancia)
+    return {
+        **resultados,
+        "ids": [ids_filtrados],
+        "documents": [documentos_filtrados],
+        "metadatas": [metadatos_filtrados],
+        "distances": [distancias_filtradas],
+    }
 
 
 def aplanarTagsRegionales(metadatos: list[dict]) -> None:
