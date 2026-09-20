@@ -81,9 +81,28 @@ def insertar_documentos(documentos: list[dict]) -> None:
     coleccion.upsert(ids=ids, documents=documents, metadatas=metadatas)
 
 
+def simular_cambio_estado() -> None:
+    """Simula la actualización del estado de un documento existente."""
+    coleccion.upsert(
+        ids=["DOC-00X"],
+        documents=["La declaración jurada de IVA fue presentada y está finalizada."],
+        metadatas=[
+            {
+                "categoria": "tramites",
+                "activo": True,
+                "jurisdiccion": "nacional",
+                "tipo_contribuyente": "responsable_inscripto",
+                "tags_regionales": "iva, estado, presentada, finalizada",
+            }
+        ],
+    )
+
+
 if __name__ == "__main__":
     documentos = cargar_documentos()
     insertar_documentos(documentos)
+    simular_cambio_estado()
     print(f"Colección '{coleccion.name}' lista: {coleccion.count()} documentos.")
     print(f"Get Colección '{coleccion.get(ids=["DOC-001"])}'")
+    print(f"Cambio verificado: {coleccion.get(ids=['DOC-00X'])}")
 

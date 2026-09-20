@@ -306,6 +306,11 @@ Verificación de un documento puntual con `coleccion.get(ids=["DOC-001"])`:
 | Sin filtrado híbrido nativo | `IndexFlatIP.search()` solo entiende vectores, no sabe qué es `jurisdiccion` o `activo`. Para separar `DOC-010` (IIBB CABA) de `DOC-011` (IIBB PBA) (semánticamente casi idénticos) no queda otra que buscar top-K y filtrar el resultado con un `if` en Python | `coleccion.query(query_texts=[...], where={"jurisdiccion": {"$eq": "caba"}})` aplica el filtro **dentro** del motor, en la misma llamada que la búsqueda semántica: la similitud coseno se calcula únicamente sobre el subconjunto que ya cumple el filtro, nunca sobre los documentos que se van a descartar. |
 | CRUD ineficiente / sin concurrencia | Actualizar la cuota mensual de `DOC-004` cuando cambia el monto exige regenerar embeddings de los 16 documentos y volver a llamar `write_index()`, aunque los otros 15 no cambiaron (no hay operación de "tocar un solo documento"). Tampoco hay locking: dos procesos escribiendo el mismo `.index` al mismo tiempo pueden pisarse el archivo. | `coleccion.upsert(ids=["DOC-004"], documents=[...], metadatas=[...])` actualiza un único documento sin tocar los otros 15, con el motor de Chroma manejando el acceso concurrente por dentro. Es literalmente el escenario que se prueba en B.3 (evento de negocio en caliente). |
 
+---
+## B.3 - Simulación de cambio de estado
+
+Se usa `upsert` porque crea el documento si no existe y lo reemplaza si ya existe, haciendo la operación idempotente. El `add` crea el Id pero falla si el Id ya existe y `update` modifica el Id existente pero falla al crear uno nuevo.
+
 
 
 
