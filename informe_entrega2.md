@@ -197,3 +197,105 @@ El script vectoriza las `descripcion_semantica` de los 16 documentos, construye 
 | | 3 | DOC-005 | `documentacion` | 0,6731 |
 
 Las tres recuperan el documento correcto en primer lugar. Contra el umbral de 0,80 fijado en A.2, dos lo superan y la segunda queda en 0,7882 pese a haber acertado el documento: se reporta el número como salió y no se mueve el umbral para acomodarlo.
+
+---
+
+## A.5 — Prueba destructiva: volatilidad de la RAM
+
+`faiss.IndexFlatIP` vive en la memoria del proceso que lo crea. Para demostrar que `write_index()`/`read_index()` es lo único que separa "persiste" de "se pierde", se armaron dos escenarios sobre los mismos 16 documentos y se corrió cada uno dos veces **en procesos de Python separados** — un proceso nuevo no puede ver la RAM del anterior, que es exactamente lo que pasa cuando un servidor se reinicia.
+
+### Escenario 1 — sin `write_index()`
+
+Un script temporal (`_tmp_sin_persistencia.py`, descartado después de la prueba) construye el índice en memoria y nunca lo guarda en disco:
+
+```text
+=== EJECUCIÓN 1 (proceso nuevo, simula el primer arranque) ===
+Generando embeddings (SIN persistencia: no se llama a write_index)...
+  -> 16 embeddings generados en 1.64s (llamada real a la API).
+Índice en RAM: 16 vectores. NO se guarda en disco.
+
+=== EJECUCIÓN 2 (otro proceso nuevo, simula un restart) ===
+Generando embeddings (SIN persistencia: no se llama a write_index)...
+  -> 16 embeddings generados en 0.97s (llamada real a la API).
+Índice en RAM: 16 vectores. NO se guarda en disco.
+```
+
+Antes y después de las dos corridas, `ls *.index` no encuentra ningún archivo. Las dos ejecuciones imprimen "Generando embeddings" y hacen una llamada real a la API de `gemini-embedding-001`: el índice se pierde al terminar el proceso y el segundo "arranque" vuelve a pagar los tokens de los 16 documentos, exactamente igual que el primero.
+
+### Escenario 2 — con `write_index()` / `read_index()`
+
+Mismo experimento sobre `pipeline_vectorial.py`, partiendo de un estado limpio (sin `estudio_contable.index` en disco):
+
+```text
+=== EJECUCIÓN 1 (primer arranque, no existe el .index) ===
+Generando embeddings...
+Índice listo: 16 vectores de dimensión 768.
+[... resultados de las 3 consultas de A.4 ...]
+
+$ ls -la estudio_contable.index estudio_contable_ids.json
+-rw-r--r-- 1 Martin 197609 49197 estudio_contable.index
+-rw-r--r-- 1 Martin 197609   227 estudio_contable_ids.json
+
+=== EJECUCIÓN 2 (simula un restart: el .index ya existe en disco) ===
+Cargando índice FAISS desde disco...
+Índice listo: 16 vectores de dimensión 768.
+[... mismos resultados, sin llamar a la API ...]
+```
+
+La primera ejecución imprime "Generando embeddings..." y deja `estudio_contable.index` (49.197 bytes) y `estudio_contable_ids.json` en disco. La segunda ejecución — un proceso nuevo, sin memoria compartida con el anterior — imprime "Cargando índice FAISS desde disco..." en su lugar: entra directo a `faiss.read_index()`, no vuelve a llamar a `generar_embeddings()` y devuelve los mismos scores sin gastar un solo token.
+
+### Reflexión
+
+Si el servidor de producción se reinicia y el índice solo vive en RAM (Escenario 1), se pierde entero y hay que rehacer todos los embeddings antes de poder responder la primera consulta — downtime y costo de tokens en cada deploy o crash. Con `write_index()` en un volumen persistente (Escenario 2) el proceso nuevo recarga en milisegundos; con dos servidores el problema se traslada a la sincronización, ya que cada instancia con su propio disco local reconstruiría el índice por separado (inconsistente y `n` veces más caro), por lo que hace falta un almacenamiento compartido — o directamente una base vectorial con servidor propio, que es el problema que resuelve ChromaDB en la Parte B.
+
+---
+
+# Parte B — ChromaDB, filtrado híbrido y ETL
+
+## B.1 — Migración a ChromaDB
+
+`vector_db.py` carga los mismos 16 documentos de `base_conocimiento.json` en una colección de ChromaDB persistente. Tres decisiones de diseño:
+
+**1. `PersistentClient`, no `Client()`.** `chromadb.PersistentClient(path="chroma_db")` escribe la colección en disco, en la carpeta `chroma_db/` (ignorada por `.gitignore`, igual que `*.index`). Un `Client()` sin ruta vive solo en RAM y se pierde al terminar el proceso — el mismo problema que se demostró a mano en A.5, pero acá lo resuelve la librería en vez de un `write_index()` manual.
+
+**2. Espacio de similitud coseno explícito.** La colección se crea con `metadata={"hnsw:space": "cosine"}` para que sea comparable con los scores de FAISS de A.4, que también usa coseno (`IndexFlatIP` sobre vectores normalizados).
+
+**3. Misma función de embeddings que FAISS.** Por default, ChromaDB vectoriza con un modelo local (`all-MiniLM-L6-v2`) si no se le indica lo contrario. Para que la Parte B sea coherente con la Parte A y los scores no salgan de dos espacios vectoriales distintos, se escribió `GeminiEmbeddingFunction`, una clase que envuelve `gemini-embedding-001` (el mismo modelo de `pipeline_vectorial.py`) y se la pasa a la colección con `embedding_function=GeminiEmbeddingFunction(task_type="RETRIEVAL_DOCUMENT")`.
+
+**Un ajuste que exigió la migración**: ChromaDB solo acepta `str`, `int`, `float` o `bool` como valor de metadato — no listas. `tags_regionales` en `base_conocimiento.json` es una lista (p. ej. `["iva", "ddjj", ...]`), así que `aplanarTagsRegionales()` la convierte a un único string separado por comas (`"iva, ddjj, declaracion jurada, ..."`) antes de insertar. El campo sigue siendo texto libre para filtrar por contención (`$contains`), no se perdió información, solo cambió el tipo de contenedor.
+
+**Ingesta con `upsert`, no `add`.** `coleccion.upsert(ids=ids, documents=documents, metadatas=metadatas)` permite re-ejecutar `vector_db.py` sin duplicar: `add()` fallaría o duplicaría IDs en una segunda corrida, `upsert()` inserta si el ID es nuevo y actualiza si ya existe.
+
+### Evidencia: carga y verificación
+
+```text
+$ uv run vector_db.py
+Colección 'estudio_contable' lista: 16 documentos.
+
+$ uv run vector_db.py   # segunda corrida, mismos datos
+Colección 'estudio_contable' lista: 16 documentos.
+```
+
+El conteo se mantiene en 16 en la segunda corrida — evidencia de que `upsert` no duplicó nada.
+
+Verificación de un documento puntual con `coleccion.get(ids=["DOC-001"])`:
+
+```text
+{
+  'ids': ['DOC-001'],
+  'documents': ['El IVA es un impuesto mensual. El responsable inscripto presenta la declaración
+                 jurada del período y paga el saldo en el mismo mes siguiente al que liquida. ...'],
+  'metadatas': [{
+    'categoria': 'vencimientos',
+    'activo': True,
+    'jurisdiccion': 'nacional',
+    'tipo_contribuyente': 'responsable_inscripto',
+    'tags_regionales': 'iva, ddjj, declaracion jurada, vencimiento, terminacion de cuit,
+                         calendario fiscal, arca, afip'
+  }]
+}
+```
+
+
+
+
