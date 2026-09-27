@@ -12,7 +12,7 @@ load_dotenv()
 ARCHIVO_DATOS = "base_conocimiento_limpia.json"
 MODELO_EMBEDDING = "gemini-embedding-001"
 DIMENSION = 768
-DISTANCIA_MAXIMA_BUSQUEDA = None
+DISTANCIA_MAXIMA_BUSQUEDA = 0.20
 
 if not os.getenv("GEMINI_API_KEY"):
     raise ValueError("GEMINI_API_KEY no está configurada en las variables de entorno.")
@@ -108,6 +108,21 @@ def buscar_contable(
         "metadatas": [metadatos_filtrados],
         "distances": [distancias_filtradas],
     }
+def obtener_respuesta_busqueda(resultados: dict) -> str:
+    """
+    Devuelve el ID del mejor resultado válido.
+
+    Si ningún documento supera el threshold definido
+    en buscar_contable(), devuelve un mensaje seguro
+    en lugar de forzar una coincidencia.
+    """
+
+    ids = resultados.get("ids", [[]])[0]
+
+    if not ids:
+        return "No tengo información suficiente sobre esa consulta."
+
+    return ids[0]
 
 
 def aplanarTagsRegionales(metadatos: list[dict]) -> None:
@@ -172,4 +187,20 @@ if __name__ == "__main__":
     print(f"Colección '{coleccion.name}' lista: {coleccion.count()} documentos.")
     print(f"Get Colección '{coleccion.get(ids=['DOC-001'])}'")
     print(f"Cambio verificado: {coleccion.get(ids=['DOC-00X'])}")
+    # Prueba del threshold de C.2
+    resultado = buscar_contable(
+        query_semantica=(
+            "¿Cómo tramito un permiso "
+            "para importar maquinaria agrícola?"
+        ),
+        solo_activos=True,
+        n_resultados=1,
+    )
+
+    print("\nPrueba de umbral:")
+    print(
+        obtener_respuesta_busqueda(
+            resultado
+        )
+    )
 
