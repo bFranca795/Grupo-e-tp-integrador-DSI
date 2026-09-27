@@ -9,9 +9,10 @@ from google.genai import types
 
 load_dotenv()
 
-ARCHIVO_DATOS = "base_conocimiento.json"
+ARCHIVO_DATOS = "base_conocimiento_limpia.json"
 MODELO_EMBEDDING = "gemini-embedding-001"
 DIMENSION = 768
+DISTANCIA_MAXIMA_BUSQUEDA = None
 
 if not os.getenv("GEMINI_API_KEY"):
     raise ValueError("GEMINI_API_KEY no está configurada en las variables de entorno.")
@@ -48,6 +49,67 @@ coleccion = client.get_or_create_collection(
     embedding_function=GeminiEmbeddingFunction(task_type="RETRIEVAL_DOCUMENT"),
 )
 
+
+def buscar_contable(
+    query_semantica: str,
+    filtro_categoria: str | None = None,
+    solo_activos: bool = True,
+    n_resultados: int = 3,
+    filtros: dict[str, str | bool] | None = None,
+    distancia_maxima: float | None = DISTANCIA_MAXIMA_BUSQUEDA,
+) -> dict:
+    """Busca por significado y filtros exactos, sin umbral por defecto."""
+    if not query_semantica.strip():
+        raise ValueError("query_semantica no puede estar vacío")
+    if n_resultados < 1:
+        raise ValueError("n_resultados debe ser mayor que cero")
+
+    condiciones = []
+    if filtros:
+        condiciones.extend(
+            {campo: {"$eq": valor}} for campo, valor in filtros.items()
+        )
+    if filtro_categoria is not None:
+        condiciones.append({"categoria": {"$eq": filtro_categoria}})
+    if solo_activos:
+        condiciones.append({"activo": {"$eq": True}})
+
+    where = None
+    if len(condiciones) == 1:
+        where = condiciones[0]
+    elif condiciones:
+        where = {"$and": condiciones}
+
+    parametros = {
+        "query_texts": [query_semantica],
+        "n_results": n_resultados,
+    }
+    if where is not None:
+        parametros["where"] = where
+
+    resultados = coleccion.query(**parametros)
+    if distancia_maxima is None or not resultados.get("distances"):
+        return resultados
+
+    ids_filtrados = []
+    documentos_filtrados = []
+    metadatos_filtrados = []
+    distancias_filtradas = []
+    for indice, distancia in enumerate(resultados["distances"][0]):
+        if distancia <= distancia_maxima:
+            ids_filtrados.append(resultados["ids"][0][indice])
+            documentos_filtrados.append(resultados["documents"][0][indice])
+            metadatos_filtrados.append(resultados["metadatas"][0][indice])
+            distancias_filtradas.append(distancia)
+    return {
+        **resultados,
+        "ids": [ids_filtrados],
+        "documents": [documentos_filtrados],
+        "metadatas": [metadatos_filtrados],
+        "distances": [distancias_filtradas],
+    }
+
+
 def aplanarTagsRegionales(metadatos: list[dict]) -> None:
     """Aplana los tags regionales en los metadatos de cada documento.
 
@@ -60,6 +122,11 @@ def aplanarTagsRegionales(metadatos: list[dict]) -> None:
             metadato["tags_regionales"] = ", ".join(metadato["tags_regionales"])
 
 def cargar_documentos() -> list[dict]:
+    if not os.path.exists(ARCHIVO_DATOS):
+        raise FileNotFoundError(
+            f"No existe {ARCHIVO_DATOS}. Ejecutá primero: "
+            "python etl_purga.py"
+        )
     with open(ARCHIVO_DATOS, encoding="utf-8") as archivo:
         return json.load(archivo)
 
@@ -103,6 +170,6 @@ if __name__ == "__main__":
     insertar_documentos(documentos)
     simular_cambio_estado()
     print(f"Colección '{coleccion.name}' lista: {coleccion.count()} documentos.")
-    print(f"Get Colección '{coleccion.get(ids=["DOC-001"])}'")
+    print(f"Get Colección '{coleccion.get(ids=['DOC-001'])}'")
     print(f"Cambio verificado: {coleccion.get(ids=['DOC-00X'])}")
 

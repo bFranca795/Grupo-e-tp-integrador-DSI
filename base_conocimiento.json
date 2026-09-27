@@ -174,5 +174,49 @@
       "tipo_contribuyente": "general",
       "tags_regionales": ["moratoria", "plan de pagos", "regularizacion", "deuda", "cuotas", "derogado", "vencido"]
     }
+  },
+  {
+    "id": "DOC-017",
+    "descripcion": "El IVA vence una vez por mes. El responsable inscripto presenta la DDJJ y paga el saldo el mes siguiente, según el último número del CUIT. Si cae en finde o feriado, pasa al próximo día hábil. Presentar la declaración y pagar son cosas distintas: se puede presentar a tiempo y pagar tarde, con intereses. Antes de avisar la fecha, el estudio mira el calendario fiscal del año. En criollo, los clientes preguntan cuándo vence el IVA, hasta cuándo pago y qué día me toca por CUIT.",
+    "metadatos": {
+      "categoria": "vencimientos",
+      "activo": true,
+      "jurisdiccion": "nacional",
+      "tipo_contribuyente": "responsable_inscripto",
+      "tags_regionales": ["iva", "ddjj", "vencimiento", "cuit"]
+    }
+  },
+  {
+    "id": "DOC-018",
+    "descripcion_semantica": "Para anotarse en el Monotributo hay que presentar DNI, CUIT o CUIL, clave fiscal, comprobante de domicilio y una estimación de los ingresos anuales. También se informa la actividad y si se venden cosas o se prestan servicios, porque eso define los topes. Si hay local, se agregan superficie y consumo eléctrico. Con esos datos se asigna una categoría inicial y luego se recategoriza con los ingresos reales. El cliente suele decir: qué papeles llevo para hacerme monotributista o para empezar a facturar.",
+    "metadatos": {
+      "categoria": "documentacion",
+      "activo": "true",
+      "jurisdiccion": "nacional",
+      "tipo_contribuyente": "monotributo",
+      "tags_regionales": ["monotributo", "alta", "papeles", "clave fiscal"]
+    }
+  },
+  {
+    "id": "DOC-019",
+    "descripcion_semantica": "La deuda con el fisco se puede meter en un plan de pagos con cuotas mensuales e interés. Para adherir hay que identificar impuesto, período y concepto, informar una CBU y, según el régimen, pagar un anticipo. Las cuotas se debitan solas y dos cuotas seguidas impagas pueden hacer caer el plan; en ese caso vuelve la deuda completa. Si un cliente pregunta si puede financiar lo que debe o cuántas cuotas le quedan, primero se revisa el estado del plan.",
+    "metadatos": {
+      "categoria": "tramites",
+      "activo": true,
+      "jurisdiccion": "nacional",
+      "tipo_contribuyente": "general",
+      "tags_regionales": ["deuda", "cuotas", "moratoria", "cbu", "plan de pagos"]
+    }
+  },
+  {
+    "id": "DOC-002",
+    "descripcion_semantica": "Registro de prueba para provocar una colisión de ID y comprobar que el ETL la resuelve asignando un identificador único.",
+    "metadatos": {
+      "categoria": "documentacion",
+      "activo": true,
+      "jurisdiccion": "nacional",
+      "tipo_contribuyente": "general",
+      "tags_regionales": ["prueba"]
+    }
   }
 ]
