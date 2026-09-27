@@ -324,3 +324,46 @@ Se usa `upsert` porque crea el documento si no existe y lo reemplaza si ya exist
 |#|¿En qué padrón estoy y cuándo vence ingresos brutos?|El metadato salva el día: la semántica cruda traería un desastre, el filtro lo bloquea|DOC-010|Sin filtros DOC-001. Con filtros DOC-010|Sin filtros NO, Con filtros SI|
 |#|¿Cómo tramito un permiso para importar maquinaria agrícola?|Prueba de estrés: consulta fuera del catálogo — debe responder “no tengo eso”|“no tengo eso”|DOC-015|NO|
 
+## C.1 — Cadena de coherencia con la Entrega 1
+
+| Elemento Entrega 1 | Implementación Entrega 2 |
+|---|---|
+| Base de Conocimiento del PEAS | `base_conocimiento.json` + colección ChromaDB |
+| CONSULTA_VENCIMIENTO | documentos con `categoria=vencimientos` |
+| DOCUMENTACION_REQUERIDA | documentos con `categoria=documentacion` |
+| ESTADO_TRAMITE | documentos con `categoria=tramites` |
+| Vigencia | metadato booleano `activo` |
+| Jurisdicción | metadato `jurisdiccion` |
+| Parámetros extraídos por el LLM | se utilizan para construir filtros `where` |
+
+La Entrega 2 materializa la Base de Conocimiento que en la Entrega 1
+existía solamente a nivel conceptual. El contenido narrativo se almacena
+en los documentos vectorizados, mientras que los datos que requieren
+filtros exactos se representan como metadatos.
+
+## C.2 — Umbral de aceptación
+
+Se definió un umbral de similitud coseno mínima de 0.80,
+equivalente aproximadamente a una distancia máxima de 0.20
+en ChromaDB.
+
+Si ningún documento cumple el umbral, el sistema no fuerza el
+resultado más cercano. En ese caso responde:
+
+"No tengo información suficiente sobre esa consulta."
+
+Esta decisión evita utilizar documentos poco relacionados y reduce
+el riesgo de generar respuestas basadas en información irrelevante.
+
+## C.3 — Cierre: dónde se conecta
+
+La búsqueda híbrida devuelve una estructura de Python con los
+documentos recuperados, sus metadatos y sus distancias.
+
+Ese resultado todavía no es una respuesta final para el usuario.
+Falta incorporar un orquestador RAG que tome esos documentos como
+contexto y los envíe al LLM para generar una respuesta en lenguaje
+natural.
+
+En la siguiente unidad ese flujo podrá implementarse con LangChain.
+
