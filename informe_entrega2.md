@@ -309,7 +309,19 @@ Verificación de un documento puntual con `coleccion.get(ids=["DOC-001"])`:
 ---
 ## B.3 - Simulación de cambio de estado
 
-Se usa `upsert` porque crea el documento si no existe y lo reemplaza si ya existe, haciendo la operación idempotente. El `add` crea el Id pero falla si el Id ya existe y `update` modifica el Id existente pero falla al crear uno nuevo.
+Para simular un evento de negocio en caliente se utilizó el documento real DOC-003, correspondiente al seguimiento del estado de una declaración jurada de IVA. Primero se consultó el registro mediante coleccion.get() para verificar su contenido original. Luego se realizó un upsert sobre el mismo ID, cambiando el trámite al estado finalizado, y se volvió a ejecutar get(), comprobando que el documento fue actualizado correctamente sin generar un nuevo registro.
+
+ESTADO ANTES:
+DOC-003
+Estado posible: pendiente / en preparación / presentada / observada / finalizada.
+
+ESTADO DESPUÉS:
+DOC-003
+"La declaración jurada de IVA del cliente fue procesada por el estudio.
+El trámite pasó al estado finalizada..."
+
+Se utiliza upsert porque permite actualizar el documento si ya existe o insertarlo si no existe. En este caso, al trabajar sobre DOC-003, se verifica que el registro existente se actualiza sin crear un documento adicional.
+
 
 ---
 ## B-4 - ETL y purga semantica

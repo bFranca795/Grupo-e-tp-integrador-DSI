@@ -12,7 +12,7 @@ load_dotenv()
 ARCHIVO_DATOS = "base_conocimiento_limpia.json"
 MODELO_EMBEDDING = "gemini-embedding-001"
 DIMENSION = 768
-DISTANCIA_MAXIMA_BUSQUEDA = 0.20
+DISTANCIA_MAXIMA_BUSQUEDA = 0.25
 
 if not os.getenv("GEMINI_API_KEY"):
     raise ValueError("GEMINI_API_KEY no está configurada en las variables de entorno.")
@@ -164,29 +164,48 @@ def insertar_documentos(documentos: list[dict]) -> None:
 
 
 def simular_cambio_estado() -> None:
-    """Simula la actualización del estado de un documento existente."""
+    """Simula un cambio real de estado sobre un documento existente."""
+
+    id_documento = "DOC-003"
+
+    print("\n--- ESTADO ANTES DEL CAMBIO ---")
+    print(coleccion.get(ids=[id_documento]))
+
     coleccion.upsert(
-        ids=["DOC-00X"],
-        documents=["La declaración jurada de IVA fue presentada y está finalizada."],
+        ids=[id_documento],
+        documents=[
+            "La declaración jurada de IVA del cliente fue procesada "
+            "por el estudio. El trámite pasó al estado finalizada, "
+            "ya que la declaración fue presentada correctamente y "
+            "el saldo correspondiente fue pagado o compensado."
+        ],
         metadatas=[
             {
                 "categoria": "tramites",
                 "activo": True,
                 "jurisdiccion": "nacional",
                 "tipo_contribuyente": "responsable_inscripto",
-                "tags_regionales": "iva, estado, presentada, finalizada",
+                "tags_regionales": "iva, estado, declaracion jurada, presentada, finalizada",
             }
         ],
     )
+
+    print("\n--- ESTADO DESPUÉS DEL CAMBIO ---")
+    print(coleccion.get(ids=[id_documento]))
 
 
 if __name__ == "__main__":
     documentos = cargar_documentos()
     insertar_documentos(documentos)
+
+    print(
+        f"Colección '{coleccion.name}' lista: "
+        f"{coleccion.count()} documentos."
+    )
+
+    # B.3 - Simulación de cambio de estado sobre un documento real
     simular_cambio_estado()
-    print(f"Colección '{coleccion.name}' lista: {coleccion.count()} documentos.")
-    print(f"Get Colección '{coleccion.get(ids=['DOC-001'])}'")
-    print(f"Cambio verificado: {coleccion.get(ids=['DOC-00X'])}")
+
     # Prueba del threshold de C.2
     resultado = buscar_contable(
         query_semantica=(
