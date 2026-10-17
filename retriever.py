@@ -17,10 +17,9 @@ DIMENSION = 768
 
 
 class GeminiEmbeddingFunction(EmbeddingFunction[Documents]):
-    """Envuelve gemini-embedding-001 para ChromaDB.
-
-    Usa task_type asimétrico: RETRIEVAL_QUERY para consultas de búsqueda.
-    """
+    #Envuelve gemini-embedding-001 para ChromaDB.
+    #Usa task_type asimétrico: RETRIEVAL_QUERY para consultas de búsqueda.
+    
 
     def __init__(self, task_type: str = "RETRIEVAL_QUERY") -> None:
         api_key = os.getenv("GEMINI_API_KEY")
@@ -50,18 +49,14 @@ PATRON_PREGUNTAS_CLIENTES = re.compile(
 
 
 def limpiar_texto_guardrails(texto: str) -> str:
-    """Elimina fragmentos como 'Los clientes preguntan: ...' para sanitizar los guardrails/contexto."""
+    #Elimina fragmentos como 'Los clientes preguntan: ...' para sanitizar los guardrails/contexto.
     if not texto:
         return ""
     return PATRON_PREGUNTAS_CLIENTES.sub("", texto).strip()
 
 
 class RetrieverContable:
-    """Retriever que consulta la base vectorial ChromaDB construida en la Entrega 2.
-
-    Respeta exactamente la ruta de persistencia ('chroma_db') y el nombre de la
-    colección ('estudio_contable') con la métrica de distancia coseno.
-    """
+    #Consulta la base vectorial ChromaDB construida en la Entrega 2.
 
     def __init__(
         self,
@@ -93,13 +88,11 @@ class RetrieverContable:
         distancia_maxima: float | None = None,
         limpiar_guardrails: bool = True,
     ) -> list[dict[str, Any]]:
-        """Busca y recupera los documentos más relevantes para una query semántica.
 
-        Permite filtros exactos sobre metadatos y filtrado por distancia máxima (umbral).
-        Por defecto elimina fragmentos no normativos ('Los clientes preguntan...') mediante
-        `limpiar_guardrails=True`.
-        Retorna una lista de diccionarios con 'id', 'documento', 'metadatos', 'distancia' y 'similitud'.
-        """
+        #Permite filtros exactos sobre metadatos y filtrado por distancia máxima (umbral).
+        # Por defecto elimina fragmentos no normativos ('Los clientes preguntan...') mediante `limpiar_guardrails=True`.
+        # Retorna una lista de diccionarios con 'id', 'documento', 'metadatos', 'distancia' y 'similitud'.
+        
         if not query.strip():
             raise ValueError("La query no puede estar vacía.")
         if n_resultados < 1:
@@ -162,10 +155,7 @@ class RetrieverContable:
         documentos_recuperados: list[dict[str, Any]],
         limpiar_guardrails: bool = True,
     ) -> str:
-        """Formatea los documentos recuperados como texto estructurado para el prompt de RAG.
-
-        Asegura que fragmentos como 'Los clientes preguntan: ...' sean eliminados del contexto/guardrails.
-        """
+    
         if not documentos_recuperados:
             return "No se encontró información relevante en la base de conocimiento."
 

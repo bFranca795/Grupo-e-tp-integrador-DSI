@@ -1,10 +1,3 @@
-"""Demostración de fundamentación y trazabilidad de fuentes.
-
-Ejecuta al menos 2 consultas demostrando que el sistema expone correctamente los
-documentos utilizados para fundamentar la respuesta, incluyendo el fragmento de
-texto y sus metadatos asociados.
-"""
-
 from retriever import get_retriever
 
 
@@ -21,7 +14,6 @@ CONSULTAS_DEMO = [
 
 
 def imprimir_fundamentacion(documentos: list[dict]) -> None:
-    """Imprime el detalle de cada documento fundamentador con su texto y metadatos."""
     if not documentos:
         print("  [AVISO] No se recuperaron documentos para fundamentar la respuesta.")
         return
