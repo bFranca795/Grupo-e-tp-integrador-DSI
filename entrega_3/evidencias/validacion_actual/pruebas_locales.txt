@@ -1,0 +1,26 @@
+.\.venv\Scripts\python.exe : test_basic_escape_and_filters
+(entrega_3.rag_pipeline.test_pipeline.PipelineTests.test_basic_escape_and_filters) ... ok
+En línea: 2 Carácter: 1
++ .\.venv\Scripts\python.exe -m unittest entrega_3.rag_pipeline.test_pi ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (test_basic_esca...filters) ... ok:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+
+test_empty_selection_and_judge_error
+(entrega_3.rag_pipeline.test_pipeline.PipelineTests.test_empty_selection_and_judge_error) ... ok
+test_judge_rejects_unknown_duplicate_invalid
+(entrega_3.rag_pipeline.test_pipeline.PipelineTests.test_judge_rejects_unknown_duplicate_invalid) ... ok
+test_only_selected_reach_generator_and_sources
+(entrega_3.rag_pipeline.test_pipeline.PipelineTests.test_only_selected_reach_generator_and_sources) ... ok
+test_personal_status_requires_explicit_client_binding
+(entrega_3.rag_pipeline.test_pipeline.PipelineTests.test_personal_status_requires_explicit_client_binding) ... ok
+test_rebuild_no_duplicates_obsolete_and_original_unchanged
+(entrega_3.rag_pipeline.test_pipeline.PipelineTests.test_rebuild_no_duplicates_obsolete_and_original_unchanged) ... ok
+test_settings_limits (entrega_3.rag_pipeline.test_pipeline.PipelineTests.test_settings_limits) ... ok
+test_split_deterministic_metadata_sanitization
+(entrega_3.rag_pipeline.test_pipeline.PipelineTests.test_split_deterministic_metadata_sanitization) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.487s
+
+OK

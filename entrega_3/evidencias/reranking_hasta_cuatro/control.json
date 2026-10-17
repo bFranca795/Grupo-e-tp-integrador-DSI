@@ -1,0 +1,21 @@
+{
+  "executed_at_utc": "2026-10-17T21:44:43.274098+00:00",
+  "collection_hashes_before": {
+    "estudio_contable": "17e4c81bedc0cab07856c72cb3f9810ad5f3a569ce8637abd5b610a50e79e9ae",
+    "estudio_contable_chunks": "2b3f44001e54830b4551b5ca77ee5f70d46361cad4ab3226b62d2cbd9574d885"
+  },
+  "collection_hashes_after": {
+    "estudio_contable": "17e4c81bedc0cab07856c72cb3f9810ad5f3a569ce8637abd5b610a50e79e9ae",
+    "estudio_contable_chunks": "2b3f44001e54830b4551b5ca77ee5f70d46361cad4ab3226b62d2cbd9574d885"
+  },
+  "collections_unchanged": true,
+  "rerank_count": 5,
+  "basic_regression_count": 5,
+  "technical_errors": 0,
+  "selection_limit": 4,
+  "chunk_size": 500,
+  "chunk_overlap": 100,
+  "candidate_k": 8,
+  "rerank_effective_max_distance": null,
+  "basic_effective_max_distance": 0.28
+}

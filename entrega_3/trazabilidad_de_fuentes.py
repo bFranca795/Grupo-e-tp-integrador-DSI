@@ -1,4 +1,4 @@
-from retriever import get_retriever
+from .rag_pipeline.retriever import get_retriever
 
 
 CONSULTAS_DEMO = [

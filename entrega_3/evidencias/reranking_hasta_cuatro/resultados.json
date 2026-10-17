@@ -1,0 +1,1630 @@
+[
+  {
+    "case": "b1_compuesta",
+    "question": "Soy empleador y responsable inscripto: ¿qué necesito para liquidar IVA, cuándo presento y pago esa declaración y qué obligaciones tengo con las cargas sociales?",
+    "filters": {},
+    "candidates": [
+      {
+        "id": "DOC-008::chunk-000-989bdb5081187467",
+        "documento": "El empleador presenta mensualmente la declaración jurada de cargas sociales, que informa la nómina del período y liquida aportes y contribuciones. Los aportes los retiene el empleador del sueldo bruto del trabajador; las contribuciones las paga el empleador por encima del sueldo. El vencimiento de la presentación y del pago cae en la segunda semana del mes siguiente al período liquidado y también se escalona por terminación de CUIT. La declaración jurada exige tener la nómina actualizada: altas",
+        "documento_raw": "El empleador presenta mensualmente la declaración jurada de cargas sociales, que informa la nómina del período y liquida aportes y contribuciones. Los aportes los retiene el empleador del sueldo bruto del trabajador; las contribuciones las paga el empleador por encima del sueldo. El vencimiento de la presentación y del pago cae en la segunda semana del mes siguiente al período liquidado y también se escalona por terminación de CUIT. La declaración jurada exige tener la nómina actualizada: altas",
+        "metadatos": {
+          "jurisdiccion": "nacional",
+          "tags_regionales": "empleador, cargas sociales, sueldos, aportes, contribuciones, nomina, libre deuda, f931",
+          "chunk_id": "DOC-008::chunk-000-989bdb5081187467",
+          "parent_id": "DOC-008",
+          "tipo_contribuyente": "empleador",
+          "start_index": 0,
+          "activo": true,
+          "chunk_index": 0,
+          "categoria": "normativa"
+        },
+        "distancia": 0.26733124256134033,
+        "similitud": 0.7327
+      },
+      {
+        "id": "DOC-001::chunk-000-5d1a5023e0007962",
+        "documento": "El IVA es un impuesto mensual. El responsable inscripto presenta la declaración jurada del período y paga el saldo en el mismo mes siguiente al que liquida. La fecha exacta depende de la terminación del CUIT: las terminaciones más bajas vencen primero y las más altas cierran el escalonamiento unos días después. Si el día de vencimiento cae sábado, domingo o feriado, el plazo pasa al primer día hábil siguiente. Presentar la declaración jurada y pagar el saldo son dos actos distintos: se puede",
+        "documento_raw": "El IVA es un impuesto mensual. El responsable inscripto presenta la declaración jurada del período y paga el saldo en el mismo mes siguiente al que liquida. La fecha exacta depende de la terminación del CUIT: las terminaciones más bajas vencen primero y las más altas cierran el escalonamiento unos días después. Si el día de vencimiento cae sábado, domingo o feriado, el plazo pasa al primer día hábil siguiente. Presentar la declaración jurada y pagar el saldo son dos actos distintos: se puede",
+        "metadatos": {
+          "activo": true,
+          "chunk_index": 0,
+          "categoria": "vencimientos",
+          "tags_regionales": "iva, ddjj, declaracion jurada, vencimiento, terminacion de cuit, calendario fiscal, arca, afip",
+          "start_index": 0,
+          "tipo_contribuyente": "responsable_inscripto",
+          "parent_id": "DOC-001",
+          "chunk_id": "DOC-001::chunk-000-5d1a5023e0007962",
+          "jurisdiccion": "nacional"
+        },
+        "distancia": 0.27388375997543335,
+        "similitud": 0.7261
+      },
+      {
+        "id": "DOC-008::chunk-001-92e73e8b1d8ef4e4",
+        "documento": "se escalona por terminación de CUIT. La declaración jurada exige tener la nómina actualizada: altas y bajas de empleados deben registrarse antes de liquidar, porque un alta no registrada convierte la relación en trabajo no registrado. El pago fuera de término genera intereses y bloquea la obtención del certificado de libre deuda previsional que piden muchas licitaciones.",
+        "documento_raw": "se escalona por terminación de CUIT. La declaración jurada exige tener la nómina actualizada: altas y bajas de empleados deben registrarse antes de liquidar, porque un alta no registrada convierte la relación en trabajo no registrado. El pago fuera de término genera intereses y bloquea la obtención del certificado de libre deuda previsional que piden muchas licitaciones.",
+        "metadatos": {
+          "activo": true,
+          "tags_regionales": "empleador, cargas sociales, sueldos, aportes, contribuciones, nomina, libre deuda, f931",
+          "start_index": 400,
+          "categoria": "normativa",
+          "jurisdiccion": "nacional",
+          "tipo_contribuyente": "empleador",
+          "chunk_index": 1,
+          "chunk_id": "DOC-008::chunk-001-92e73e8b1d8ef4e4",
+          "parent_id": "DOC-008"
+        },
+        "distancia": 0.302478551864624,
+        "similitud": 0.6975
+      },
+      {
+        "id": "DOC-007::chunk-000-bfbf474549da33fb",
+        "documento": "Para liquidar el IVA de un mes, el estudio necesita del cliente: las facturas de venta emitidas en el período, las facturas de compra recibidas, las notas de crédito y de débito tanto emitidas como recibidas, los comprobantes de retenciones y percepciones sufridas, y los tickets de controlador fiscal si el cliente factura por ese medio. Cada comprobante aporta crédito fiscal o débito fiscal según sea compra o venta, y el saldo del período es la diferencia entre ambos. Un comprobante que llega",
+        "documento_raw": "Para liquidar el IVA de un mes, el estudio necesita del cliente: las facturas de venta emitidas en el período, las facturas de compra recibidas, las notas de crédito y de débito tanto emitidas como recibidas, los comprobantes de retenciones y percepciones sufridas, y los tickets de controlador fiscal si el cliente factura por ese medio. Cada comprobante aporta crédito fiscal o débito fiscal según sea compra o venta, y el saldo del período es la diferencia entre ambos. Un comprobante que llega",
+        "metadatos": {
+          "chunk_id": "DOC-007::chunk-000-bfbf474549da33fb",
+          "activo": true,
+          "chunk_index": 0,
+          "tags_regionales": "iva, facturas, comprobantes, credito fiscal, debito fiscal, notas de credito, percepciones, retenciones",
+          "parent_id": "DOC-007",
+          "jurisdiccion": "nacional",
+          "categoria": "documentacion",
+          "start_index": 0,
+          "tipo_contribuyente": "responsable_inscripto"
+        },
+        "distancia": 0.32308971881866455,
+        "similitud": 0.6769
+      },
+      {
+        "id": "DOC-001::chunk-001-619740ed81062fb1",
+        "documento": "hábil siguiente. Presentar la declaración jurada y pagar el saldo son dos actos distintos: se puede presentar en término y pagar fuera de término, y en ese caso corren intereses resarcitorios sobre el saldo. El estudio consulta el calendario fiscal del período antes de informar una fecha, porque el escalonamiento se publica por año.",
+        "documento_raw": "hábil siguiente. Presentar la declaración jurada y pagar el saldo son dos actos distintos: se puede presentar en término y pagar fuera de término, y en ese caso corren intereses resarcitorios sobre el saldo. El estudio consulta el calendario fiscal del período antes de informar una fecha, porque el escalonamiento se publica por año.",
+        "metadatos": {
+          "chunk_id": "DOC-001::chunk-001-619740ed81062fb1",
+          "start_index": 397,
+          "tags_regionales": "iva, ddjj, declaracion jurada, vencimiento, terminacion de cuit, calendario fiscal, arca, afip",
+          "chunk_index": 1,
+          "parent_id": "DOC-001",
+          "categoria": "vencimientos",
+          "jurisdiccion": "nacional",
+          "activo": true,
+          "tipo_contribuyente": "responsable_inscripto"
+        },
+        "distancia": 0.3469077944755554,
+        "similitud": 0.6531
+      },
+      {
+        "id": "DOC-003::chunk-000-42f59d263c71dc15",
+        "documento": "La declaración jurada de IVA del cliente fue procesada por el estudio. El trámite pasó al estado finalizada, ya que la declaración fue presentada correctamente y el saldo correspondiente fue pagado o compensado.",
+        "documento_raw": "La declaración jurada de IVA del cliente fue procesada por el estudio. El trámite pasó al estado finalizada, ya que la declaración fue presentada correctamente y el saldo correspondiente fue pagado o compensado.",
+        "metadatos": {
+          "activo": true,
+          "tags_regionales": "iva, estado, declaracion jurada, presentada, finalizada",
+          "jurisdiccion": "nacional",
+          "tipo_contribuyente": "responsable_inscripto",
+          "categoria": "tramites",
+          "chunk_index": 0,
+          "chunk_id": "DOC-003::chunk-000-42f59d263c71dc15",
+          "start_index": 0,
+          "parent_id": "DOC-003"
+        },
+        "distancia": 0.3610868453979492,
+        "similitud": 0.6389
+      },
+      {
+        "id": "DOC-004::chunk-000-e141194203030764",
+        "documento": "El monotributista paga una cuota mensual única que integra tres componentes: el impuesto integrado, el aporte jubilatorio y el aporte a la obra social. La cuota vence todos los meses alrededor del día 20 y, si ese día no es hábil, el plazo corre al día hábil siguiente. El monto depende de la categoría vigente del contribuyente, y las categorías se actualizan periódicamente, por lo que el importe del mes puede diferir del mes anterior aunque la categoría no haya cambiado. Pagar fuera de término",
+        "documento_raw": "El monotributista paga una cuota mensual única que integra tres componentes: el impuesto integrado, el aporte jubilatorio y el aporte a la obra social. La cuota vence todos los meses alrededor del día 20 y, si ese día no es hábil, el plazo corre al día hábil siguiente. El monto depende de la categoría vigente del contribuyente, y las categorías se actualizan periódicamente, por lo que el importe del mes puede diferir del mes anterior aunque la categoría no haya cambiado. Pagar fuera de término",
+        "metadatos": {
+          "chunk_index": 0,
+          "jurisdiccion": "nacional",
+          "activo": true,
+          "start_index": 0,
+          "tipo_contribuyente": "monotributo",
+          "categoria": "vencimientos",
+          "parent_id": "DOC-004",
+          "tags_regionales": "monotributo, cuota, vencimiento, recategorizacion, obra social, jubilacion, impuesto integrado",
+          "chunk_id": "DOC-004::chunk-000-e141194203030764"
+        },
+        "distancia": 0.3717386722564697,
+        "similitud": 0.6283
+      },
+      {
+        "id": "DOC-007::chunk-001-dfd8e869b69c0e65",
+        "documento": "sea compra o venta, y el saldo del período es la diferencia entre ambos. Un comprobante que llega tarde no se puede computar en el período ya presentado y arrastra a una rectificativa. Las facturas de compra solo generan crédito fiscal si están a nombre del CUIT del cliente y corresponden a la actividad gravada. Los comprobantes tipo B y C emitidos a consumidor final no discriminan IVA y por eso no generan crédito fiscal computable.",
+        "documento_raw": "sea compra o venta, y el saldo del período es la diferencia entre ambos. Un comprobante que llega tarde no se puede computar en el período ya presentado y arrastra a una rectificativa. Las facturas de compra solo generan crédito fiscal si están a nombre del CUIT del cliente y corresponden a la actividad gravada. Los comprobantes tipo B y C emitidos a consumidor final no discriminan IVA y por eso no generan crédito fiscal computable.",
+        "metadatos": {
+          "activo": true,
+          "categoria": "documentacion",
+          "chunk_id": "DOC-007::chunk-001-dfd8e869b69c0e65",
+          "parent_id": "DOC-007",
+          "jurisdiccion": "nacional",
+          "tags_regionales": "iva, facturas, comprobantes, credito fiscal, debito fiscal, notas de credito, percepciones, retenciones",
+          "tipo_contribuyente": "responsable_inscripto",
+          "chunk_index": 1,
+          "start_index": 400
+        },
+        "distancia": 0.37469005584716797,
+        "similitud": 0.6253
+      }
+    ],
+    "selected": [
+      {
+        "id": "DOC-008::chunk-000-989bdb5081187467",
+        "documento": "El empleador presenta mensualmente la declaración jurada de cargas sociales, que informa la nómina del período y liquida aportes y contribuciones. Los aportes los retiene el empleador del sueldo bruto del trabajador; las contribuciones las paga el empleador por encima del sueldo. El vencimiento de la presentación y del pago cae en la segunda semana del mes siguiente al período liquidado y también se escalona por terminación de CUIT. La declaración jurada exige tener la nómina actualizada: altas",
+        "documento_raw": "El empleador presenta mensualmente la declaración jurada de cargas sociales, que informa la nómina del período y liquida aportes y contribuciones. Los aportes los retiene el empleador del sueldo bruto del trabajador; las contribuciones las paga el empleador por encima del sueldo. El vencimiento de la presentación y del pago cae en la segunda semana del mes siguiente al período liquidado y también se escalona por terminación de CUIT. La declaración jurada exige tener la nómina actualizada: altas",
+        "metadatos": {
+          "jurisdiccion": "nacional",
+          "tags_regionales": "empleador, cargas sociales, sueldos, aportes, contribuciones, nomina, libre deuda, f931",
+          "chunk_id": "DOC-008::chunk-000-989bdb5081187467",
+          "parent_id": "DOC-008",
+          "tipo_contribuyente": "empleador",
+          "start_index": 0,
+          "activo": true,
+          "chunk_index": 0,
+          "categoria": "normativa"
+        },
+        "distancia": 0.26733124256134033,
+        "similitud": 0.7327
+      },
+      {
+        "id": "DOC-001::chunk-000-5d1a5023e0007962",
+        "documento": "El IVA es un impuesto mensual. El responsable inscripto presenta la declaración jurada del período y paga el saldo en el mismo mes siguiente al que liquida. La fecha exacta depende de la terminación del CUIT: las terminaciones más bajas vencen primero y las más altas cierran el escalonamiento unos días después. Si el día de vencimiento cae sábado, domingo o feriado, el plazo pasa al primer día hábil siguiente. Presentar la declaración jurada y pagar el saldo son dos actos distintos: se puede",
+        "documento_raw": "El IVA es un impuesto mensual. El responsable inscripto presenta la declaración jurada del período y paga el saldo en el mismo mes siguiente al que liquida. La fecha exacta depende de la terminación del CUIT: las terminaciones más bajas vencen primero y las más altas cierran el escalonamiento unos días después. Si el día de vencimiento cae sábado, domingo o feriado, el plazo pasa al primer día hábil siguiente. Presentar la declaración jurada y pagar el saldo son dos actos distintos: se puede",
+        "metadatos": {
+          "activo": true,
+          "chunk_index": 0,
+          "categoria": "vencimientos",
+          "tags_regionales": "iva, ddjj, declaracion jurada, vencimiento, terminacion de cuit, calendario fiscal, arca, afip",
+          "start_index": 0,
+          "tipo_contribuyente": "responsable_inscripto",
+          "parent_id": "DOC-001",
+          "chunk_id": "DOC-001::chunk-000-5d1a5023e0007962",
+          "jurisdiccion": "nacional"
+        },
+        "distancia": 0.27388375997543335,
+        "similitud": 0.7261
+      },
+      {
+        "id": "DOC-007::chunk-000-bfbf474549da33fb",
+        "documento": "Para liquidar el IVA de un mes, el estudio necesita del cliente: las facturas de venta emitidas en el período, las facturas de compra recibidas, las notas de crédito y de débito tanto emitidas como recibidas, los comprobantes de retenciones y percepciones sufridas, y los tickets de controlador fiscal si el cliente factura por ese medio. Cada comprobante aporta crédito fiscal o débito fiscal según sea compra o venta, y el saldo del período es la diferencia entre ambos. Un comprobante que llega",
+        "documento_raw": "Para liquidar el IVA de un mes, el estudio necesita del cliente: las facturas de venta emitidas en el período, las facturas de compra recibidas, las notas de crédito y de débito tanto emitidas como recibidas, los comprobantes de retenciones y percepciones sufridas, y los tickets de controlador fiscal si el cliente factura por ese medio. Cada comprobante aporta crédito fiscal o débito fiscal según sea compra o venta, y el saldo del período es la diferencia entre ambos. Un comprobante que llega",
+        "metadatos": {
+          "chunk_id": "DOC-007::chunk-000-bfbf474549da33fb",
+          "activo": true,
+          "chunk_index": 0,
+          "tags_regionales": "iva, facturas, comprobantes, credito fiscal, debito fiscal, notas de credito, percepciones, retenciones",
+          "parent_id": "DOC-007",
+          "jurisdiccion": "nacional",
+          "categoria": "documentacion",
+          "start_index": 0,
+          "tipo_contribuyente": "responsable_inscripto"
+        },
+        "distancia": 0.32308971881866455,
+        "similitud": 0.6769
+      },
+      {
+        "id": "DOC-008::chunk-001-92e73e8b1d8ef4e4",
+        "documento": "se escalona por terminación de CUIT. La declaración jurada exige tener la nómina actualizada: altas y bajas de empleados deben registrarse antes de liquidar, porque un alta no registrada convierte la relación en trabajo no registrado. El pago fuera de término genera intereses y bloquea la obtención del certificado de libre deuda previsional que piden muchas licitaciones.",
+        "documento_raw": "se escalona por terminación de CUIT. La declaración jurada exige tener la nómina actualizada: altas y bajas de empleados deben registrarse antes de liquidar, porque un alta no registrada convierte la relación en trabajo no registrado. El pago fuera de término genera intereses y bloquea la obtención del certificado de libre deuda previsional que piden muchas licitaciones.",
+        "metadatos": {
+          "activo": true,
+          "tags_regionales": "empleador, cargas sociales, sueldos, aportes, contribuciones, nomina, libre deuda, f931",
+          "start_index": 400,
+          "categoria": "normativa",
+          "jurisdiccion": "nacional",
+          "tipo_contribuyente": "empleador",
+          "chunk_index": 1,
+          "chunk_id": "DOC-008::chunk-001-92e73e8b1d8ef4e4",
+          "parent_id": "DOC-008"
+        },
+        "distancia": 0.302478551864624,
+        "similitud": 0.6975
+      }
+    ],
+    "status": "ok",
+    "judge": {
+      "items": [
+        {
+          "id": "DOC-008::chunk-000-989bdb5081187467",
+          "score": 1.0,
+          "reason": "Explica claramente las obligaciones de cargas sociales, la diferencia entre aportes y contribuciones, y el esquema de vencimiento escalonado por CUIT."
+        },
+        {
+          "id": "DOC-001::chunk-000-5d1a5023e0007962",
+          "score": 1.0,
+          "reason": "Detalla la periodicidad del IVA, el proceso de presentación y pago, y cómo se determina la fecha de vencimiento según el CUIT."
+        },
+        {
+          "id": "DOC-007::chunk-000-bfbf474549da33fb",
+          "score": 0.9,
+          "reason": "Proporciona información explícita sobre qué documentación (facturas, notas, comprobantes) se necesita para liquidar el IVA."
+        },
+        {
+          "id": "DOC-008::chunk-001-92e73e8b1d8ef4e4",
+          "score": 0.7,
+          "reason": "Aporta información adicional sobre la gestión de altas y bajas de empleados y las consecuencias del pago fuera de término."
+        },
+        {
+          "id": "DOC-001::chunk-001-619740ed81062fb1",
+          "score": 0.5,
+          "reason": "Complementa la información sobre la distinción entre presentación y pago, y la importancia del calendario fiscal."
+        },
+        {
+          "id": "DOC-007::chunk-001-dfd8e869b69c0e65",
+          "score": 0.4,
+          "reason": "Aporta detalles técnicos sobre el cómputo del crédito fiscal, útil para el proceso de liquidación de IVA."
+        },
+        {
+          "id": "DOC-003::chunk-000-42f59d263c71dc15",
+          "score": 0.1,
+          "reason": "Es una confirmación de estado de trámite, aporta poco valor informativo sobre los requisitos o plazos."
+        },
+        {
+          "id": "DOC-004::chunk-000-e141194203030764",
+          "score": 0.0,
+          "reason": "No es relevante, trata sobre el monotributo, no sobre un responsable inscripto."
+        }
+      ]
+    },
+    "timings": {
+      "retrieval_seconds": 1.293858100019861,
+      "reranking_seconds": 3.1537163999746554,
+      "generation_seconds": 10.259752199985087
+    },
+    "answer": "Para liquidar el IVA, el estudio necesita que el cliente proporcione: facturas de venta emitidas, facturas de compra recibidas, notas de crédito y débito (emitidas y recibidas), comprobantes de retenciones y percepciones sufridas, y tickets de controlador fiscal si utiliza ese medio [DOC-007].\n\nRespecto a la declaración y pago del IVA:\n*   Es un impuesto mensual donde se presenta la declaración jurada y se paga el saldo en el mes siguiente al que se liquida [DOC-001].\n*   La fecha exacta depende de la terminación del CUIT, escalonándose de menor a mayor [DOC-001].\n*   Si el vencimiento cae en sábado, domingo o feriado, el plazo se traslada al primer día hábil siguiente [DOC-001].\n*   La presentación y el pago son actos distintos [DOC-001].\n\nSobre las cargas sociales:\n*   El empleador debe presentar mensualmente una declaración jurada que informa la nómina del período y liquida aportes y contribuciones [DOC-008].\n*   Los aportes son retenidos del sueldo bruto del trabajador, mientras que las contribuciones son pagadas por el empleador [DOC-008].\n*   El vencimiento de la presentación y el pago ocurre en la segunda semana del mes siguiente al período liquidado, escalonado por terminación de CUIT [DOC-008].\n*   Es obligatorio tener la nómina actualizada, registrando altas y bajas de empleados antes de liquidar [DOC-008].\n*   El pago fuera de término genera intereses y bloquea la obtención del certificado de libre deuda previsional [DOC-008].",
+    "sources": [
+      {
+        "id": "DOC-008::chunk-000-989bdb5081187467",
+        "documento": "El empleador presenta mensualmente la declaración jurada de cargas sociales, que informa la nómina del período y liquida aportes y contribuciones. Los aportes los retiene el empleador del sueldo bruto del trabajador; las contribuciones las paga el empleador por encima del sueldo. El vencimiento de la presentación y del pago cae en la segunda semana del mes siguiente al período liquidado y también se escalona por terminación de CUIT. La declaración jurada exige tener la nómina actualizada: altas",
+        "documento_raw": "El empleador presenta mensualmente la declaración jurada de cargas sociales, que informa la nómina del período y liquida aportes y contribuciones. Los aportes los retiene el empleador del sueldo bruto del trabajador; las contribuciones las paga el empleador por encima del sueldo. El vencimiento de la presentación y del pago cae en la segunda semana del mes siguiente al período liquidado y también se escalona por terminación de CUIT. La declaración jurada exige tener la nómina actualizada: altas",
+        "metadatos": {
+          "jurisdiccion": "nacional",
+          "tags_regionales": "empleador, cargas sociales, sueldos, aportes, contribuciones, nomina, libre deuda, f931",
+          "chunk_id": "DOC-008::chunk-000-989bdb5081187467",
+          "parent_id": "DOC-008",
+          "tipo_contribuyente": "empleador",
+          "start_index": 0,
+          "activo": true,
+          "chunk_index": 0,
+          "categoria": "normativa"
+        },
+        "distancia": 0.26733124256134033,
+        "similitud": 0.7327
+      },
+      {
+        "id": "DOC-001::chunk-000-5d1a5023e0007962",
+        "documento": "El IVA es un impuesto mensual. El responsable inscripto presenta la declaración jurada del período y paga el saldo en el mismo mes siguiente al que liquida. La fecha exacta depende de la terminación del CUIT: las terminaciones más bajas vencen primero y las más altas cierran el escalonamiento unos días después. Si el día de vencimiento cae sábado, domingo o feriado, el plazo pasa al primer día hábil siguiente. Presentar la declaración jurada y pagar el saldo son dos actos distintos: se puede",
+        "documento_raw": "El IVA es un impuesto mensual. El responsable inscripto presenta la declaración jurada del período y paga el saldo en el mismo mes siguiente al que liquida. La fecha exacta depende de la terminación del CUIT: las terminaciones más bajas vencen primero y las más altas cierran el escalonamiento unos días después. Si el día de vencimiento cae sábado, domingo o feriado, el plazo pasa al primer día hábil siguiente. Presentar la declaración jurada y pagar el saldo son dos actos distintos: se puede",
+        "metadatos": {
+          "activo": true,
+          "chunk_index": 0,
+          "categoria": "vencimientos",
+          "tags_regionales": "iva, ddjj, declaracion jurada, vencimiento, terminacion de cuit, calendario fiscal, arca, afip",
+          "start_index": 0,
+          "tipo_contribuyente": "responsable_inscripto",
+          "parent_id": "DOC-001",
+          "chunk_id": "DOC-001::chunk-000-5d1a5023e0007962",
+          "jurisdiccion": "nacional"
+        },
+        "distancia": 0.27388375997543335,
+        "similitud": 0.7261
+      },
+      {
+        "id": "DOC-007::chunk-000-bfbf474549da33fb",
+        "documento": "Para liquidar el IVA de un mes, el estudio necesita del cliente: las facturas de venta emitidas en el período, las facturas de compra recibidas, las notas de crédito y de débito tanto emitidas como recibidas, los comprobantes de retenciones y percepciones sufridas, y los tickets de controlador fiscal si el cliente factura por ese medio. Cada comprobante aporta crédito fiscal o débito fiscal según sea compra o venta, y el saldo del período es la diferencia entre ambos. Un comprobante que llega",
+        "documento_raw": "Para liquidar el IVA de un mes, el estudio necesita del cliente: las facturas de venta emitidas en el período, las facturas de compra recibidas, las notas de crédito y de débito tanto emitidas como recibidas, los comprobantes de retenciones y percepciones sufridas, y los tickets de controlador fiscal si el cliente factura por ese medio. Cada comprobante aporta crédito fiscal o débito fiscal según sea compra o venta, y el saldo del período es la diferencia entre ambos. Un comprobante que llega",
+        "metadatos": {
+          "chunk_id": "DOC-007::chunk-000-bfbf474549da33fb",
+          "activo": true,
+          "chunk_index": 0,
+          "tags_regionales": "iva, facturas, comprobantes, credito fiscal, debito fiscal, notas de credito, percepciones, retenciones",
+          "parent_id": "DOC-007",
+          "jurisdiccion": "nacional",
+          "categoria": "documentacion",
+          "start_index": 0,
+          "tipo_contribuyente": "responsable_inscripto"
+        },
+        "distancia": 0.32308971881866455,
+        "similitud": 0.6769
+      },
+      {
+        "id": "DOC-008::chunk-001-92e73e8b1d8ef4e4",
+        "documento": "se escalona por terminación de CUIT. La declaración jurada exige tener la nómina actualizada: altas y bajas de empleados deben registrarse antes de liquidar, porque un alta no registrada convierte la relación en trabajo no registrado. El pago fuera de término genera intereses y bloquea la obtención del certificado de libre deuda previsional que piden muchas licitaciones.",
+        "documento_raw": "se escalona por terminación de CUIT. La declaración jurada exige tener la nómina actualizada: altas y bajas de empleados deben registrarse antes de liquidar, porque un alta no registrada convierte la relación en trabajo no registrado. El pago fuera de término genera intereses y bloquea la obtención del certificado de libre deuda previsional que piden muchas licitaciones.",
+        "metadatos": {
+          "activo": true,
+          "tags_regionales": "empleador, cargas sociales, sueldos, aportes, contribuciones, nomina, libre deuda, f931",
+          "start_index": 400,
+          "categoria": "normativa",
+          "jurisdiccion": "nacional",
+          "tipo_contribuyente": "empleador",
+          "chunk_index": 1,
+          "chunk_id": "DOC-008::chunk-001-92e73e8b1d8ef4e4",
+          "parent_id": "DOC-008"
+        },
+        "distancia": 0.302478551864624,
+        "similitud": 0.6975
+      }
+    ],
+    "settings": {
+      "variant": "rerank",
+      "model": "gemini-3.1-flash-lite",
+      "temperature": 0.0,
+      "top_k": 3,
+      "candidate_k": 8,
+      "selected_k": 4,
+      "max_distance": 0.28,
+      "min_judge_score": 0.5
+    },
+    "usage": [
+      {
+        "run_id": "01a14bd2-4c66-78b3-81c2-005e021cb319",
+        "role": "judge",
+        "usage": {
+          "input_tokens": 1201,
+          "output_tokens": 643,
+          "total_tokens": 1844
+        },
+        "provider_usage": {
+          "cache_tokens_details": null,
+          "cached_content_token_count": null,
+          "candidates_token_count": 643,
+          "candidates_tokens_details": null,
+          "prompt_token_count": 1201,
+          "prompt_tokens_details": [
+            {
+              "modality": "TEXT",
+              "token_count": 1201
+            }
+          ],
+          "thoughts_token_count": null,
+          "tool_use_prompt_token_count": null,
+          "tool_use_prompt_tokens_details": null,
+          "total_token_count": 1844,
+          "traffic_type": null
+        }
+      },
+      {
+        "run_id": "01a14bd2-58b8-7ae1-8272-938554309063",
+        "role": "generator",
+        "usage": {
+          "input_tokens": 727,
+          "output_tokens": 372,
+          "total_tokens": 1099
+        },
+        "provider_usage": {
+          "cache_tokens_details": null,
+          "cached_content_token_count": null,
+          "candidates_token_count": 372,
+          "candidates_tokens_details": null,
+          "prompt_token_count": 727,
+          "prompt_tokens_details": [
+            {
+              "modality": "TEXT",
+              "token_count": 727
+            }
+          ],
+          "thoughts_token_count": null,
+          "tool_use_prompt_token_count": null,
+          "tool_use_prompt_tokens_details": null,
+          "total_token_count": 1099,
+          "traffic_type": null
+        }
+      }
+    ],
+    "total_seconds": 15.010127299989108,
+    "executed_at_utc": "2026-10-17T21:44:09.170117+00:00"
+  },
+  {
+    "case": "factual",
+    "question": "¿Qué papeles y requisitos necesito presentar para darme de alta en el Monotributo?",
+    "filters": {},
+    "candidates": [
+      {
+        "id": "DOC-002::chunk-000-be61eb2c57df8b1d",
+        "documento": "Para dar de alta a una persona en el Monotributo, el estudio pide: DNI del titular (frente y dorso), constancia de CUIT o número de CUIL, clave fiscal con nivel de seguridad suficiente para operar, domicilio fiscal con un comprobante que lo respalde (factura de un servicio a nombre del titular o contrato de alquiler), y una estimación de los ingresos brutos anuales de la actividad. También hace falta definir la actividad económica que se va a declarar, porque de eso depende el código de",
+        "documento_raw": "Para dar de alta a una persona en el Monotributo, el estudio pide: DNI del titular (frente y dorso), constancia de CUIT o número de CUIL, clave fiscal con nivel de seguridad suficiente para operar, domicilio fiscal con un comprobante que lo respalde (factura de un servicio a nombre del titular o contrato de alquiler), y una estimación de los ingresos brutos anuales de la actividad. También hace falta definir la actividad económica que se va a declarar, porque de eso depende el código de",
+        "metadatos": {
+          "activo": true,
+          "tipo_contribuyente": "monotributo",
+          "jurisdiccion": "nacional",
+          "tags_regionales": "monotributo, alta, papeles, inscripcion, pequeño contribuyente, clave fiscal, categoria, cuit",
+          "chunk_index": 0,
+          "start_index": 0,
+          "chunk_id": "DOC-002::chunk-000-be61eb2c57df8b1d",
+          "parent_id": "DOC-002",
+          "categoria": "documentacion"
+        },
+        "distancia": 0.2027658224105835,
+        "similitud": 0.7972
+      },
+      {
+        "id": "DOC-015::chunk-001-3968d5e90d8b8050",
+        "documento": "vigencia acotada. El certificado de libre deuda previsional acredita que no hay deuda de cargas sociales y lo piden licitaciones y organismos públicos. La constancia de CUIL y la constancia de opción de Monotributo son otros pedidos frecuentes. La diferencia operativa importa: la constancia de inscripción es información pública que se entrega de inmediato, mientras que un certificado con vigencia y requisitos exige verificar la situación fiscal del cliente antes de tramitarlo.",
+        "documento_raw": "vigencia acotada. El certificado de libre deuda previsional acredita que no hay deuda de cargas sociales y lo piden licitaciones y organismos públicos. La constancia de CUIL y la constancia de opción de Monotributo son otros pedidos frecuentes. La diferencia operativa importa: la constancia de inscripción es información pública que se entrega de inmediato, mientras que un certificado con vigencia y requisitos exige verificar la situación fiscal del cliente antes de tramitarlo.",
+        "metadatos": {
+          "chunk_index": 1,
+          "parent_id": "DOC-015",
+          "tipo_contribuyente": "general",
+          "categoria": "documentacion",
+          "start_index": 398,
+          "activo": true,
+          "chunk_id": "DOC-015::chunk-001-3968d5e90d8b8050",
+          "tags_regionales": "certificado, constancia, documentacion, constancia de inscripcion, no retencion, libre deuda, cuil",
+          "jurisdiccion": "nacional"
+        },
+        "distancia": 0.3411341905593872,
+        "similitud": 0.6589
+      },
+      {
+        "id": "DOC-002::chunk-001-b3408e1e8b2c9830",
+        "documento": "hace falta definir la actividad económica que se va a declarar, porque de eso depende el código de actividad, y si la actividad es venta de cosas muebles o prestación de servicios, porque los topes de cada categoría difieren. Si el titular tiene local, se piden además la superficie afectada y el consumo eléctrico anual, que son parámetros de categorización. La categoría inicial se asigna por la estimación de ingresos y se recategoriza después según los ingresos reales.",
+        "documento_raw": "hace falta definir la actividad económica que se va a declarar, porque de eso depende el código de actividad, y si la actividad es venta de cosas muebles o prestación de servicios, porque los topes de cada categoría difieren. Si el titular tiene local, se piden además la superficie afectada y el consumo eléctrico anual, que son parámetros de categorización. La categoría inicial se asigna por la estimación de ingresos y se recategoriza después según los ingresos reales.",
+        "metadatos": {
+          "chunk_index": 1,
+          "start_index": 393,
+          "jurisdiccion": "nacional",
+          "categoria": "documentacion",
+          "activo": true,
+          "parent_id": "DOC-002",
+          "chunk_id": "DOC-002::chunk-001-b3408e1e8b2c9830",
+          "tags_regionales": "monotributo, alta, papeles, inscripcion, pequeño contribuyente, clave fiscal, categoria, cuit",
+          "tipo_contribuyente": "monotributo"
+        },
+        "distancia": 0.34126561880111694,
+        "similitud": 0.6587
+      },
+      {
+        "id": "DOC-006::chunk-000-4e5e4ce57f28fd1c",
+        "documento": "El alta y la modificación de datos fiscales de un contribuyente se gestionan con clave fiscal y quedan registradas en el sistema registral. Los datos que el estudio modifica con más frecuencia son el domicilio fiscal, el domicilio de las actividades, las actividades económicas declaradas, el correo electrónico y el teléfono de contacto, y la incorporación o baja de impuestos del padrón. Cambiar el domicilio fiscal exige respaldo documental del nuevo domicilio y, hasta que la modificación se",
+        "documento_raw": "El alta y la modificación de datos fiscales de un contribuyente se gestionan con clave fiscal y quedan registradas en el sistema registral. Los datos que el estudio modifica con más frecuencia son el domicilio fiscal, el domicilio de las actividades, las actividades económicas declaradas, el correo electrónico y el teléfono de contacto, y la incorporación o baja de impuestos del padrón. Cambiar el domicilio fiscal exige respaldo documental del nuevo domicilio y, hasta que la modificación se",
+        "metadatos": {
+          "tags_regionales": "alta, modificacion, estado, domicilio fiscal, padron, sistema registral, clave fiscal",
+          "chunk_id": "DOC-006::chunk-000-4e5e4ce57f28fd1c",
+          "activo": true,
+          "chunk_index": 0,
+          "parent_id": "DOC-006",
+          "categoria": "tramites",
+          "tipo_contribuyente": "general",
+          "jurisdiccion": "nacional",
+          "start_index": 0
+        },
+        "distancia": 0.348540723323822,
+        "similitud": 0.6515
+      },
+      {
+        "id": "DOC-005::chunk-000-bca91900ca926a40",
+        "documento": "Para armar la declaración jurada anual del impuesto a las ganancias de una persona humana, el estudio solicita: recibos de sueldo de los doce meses o el certificado de retenciones que emite el empleador; facturas emitidas y comprobantes de ingresos si hay actividad independiente; resúmenes bancarios y extractos de cuentas al 31 de diciembre; escrituras, cédulas o títulos de los bienes registrables que integran el patrimonio; comprobantes de compra y venta de bienes ocurridas durante el año; y",
+        "documento_raw": "Para armar la declaración jurada anual del impuesto a las ganancias de una persona humana, el estudio solicita: recibos de sueldo de los doce meses o el certificado de retenciones que emite el empleador; facturas emitidas y comprobantes de ingresos si hay actividad independiente; resúmenes bancarios y extractos de cuentas al 31 de diciembre; escrituras, cédulas o títulos de los bienes registrables que integran el patrimonio; comprobantes de compra y venta de bienes ocurridas durante el año; y",
+        "metadatos": {
+          "parent_id": "DOC-005",
+          "categoria": "documentacion",
+          "chunk_id": "DOC-005::chunk-000-bca91900ca926a40",
+          "start_index": 0,
+          "tags_regionales": "ganancias, documentacion, ddjj, bienes personales, deducciones, declaracion anual, patrimonio",
+          "tipo_contribuyente": "persona_humana",
+          "chunk_index": 0,
+          "jurisdiccion": "nacional",
+          "activo": true
+        },
+        "distancia": 0.35120201110839844,
+        "similitud": 0.6488
+      },
+      {
+        "id": "DOC-005::chunk-001-1cd05dd2e6da99a1",
+        "documento": "que integran el patrimonio; comprobantes de compra y venta de bienes ocurridas durante el año; y los comprobantes de las deducciones que se piensan computar, que incluyen aportes a obra social y medicina prepaga, intereses de créditos hipotecarios, donaciones, alquileres y gastos de sepelio. La declaración jurada de ganancias se presenta junto con la declaración informativa de bienes personales cuando el contribuyente supera el mínimo no imponible del patrimonio. El período fiscal es el año",
+        "documento_raw": "que integran el patrimonio; comprobantes de compra y venta de bienes ocurridas durante el año; y los comprobantes de las deducciones que se piensan computar, que incluyen aportes a obra social y medicina prepaga, intereses de créditos hipotecarios, donaciones, alquileres y gastos de sepelio. La declaración jurada de ganancias se presenta junto con la declaración informativa de bienes personales cuando el contribuyente supera el mínimo no imponible del patrimonio. El período fiscal es el año",
+        "metadatos": {
+          "jurisdiccion": "nacional",
+          "tags_regionales": "ganancias, documentacion, ddjj, bienes personales, deducciones, declaracion anual, patrimonio",
+          "activo": true,
+          "parent_id": "DOC-005",
+          "start_index": 401,
+          "chunk_id": "DOC-005::chunk-001-1cd05dd2e6da99a1",
+          "categoria": "documentacion",
+          "tipo_contribuyente": "persona_humana",
+          "chunk_index": 1
+        },
+        "distancia": 0.35330843925476074,
+        "similitud": 0.6467
+      },
+      {
+        "id": "DOC-004::chunk-000-e141194203030764",
+        "documento": "El monotributista paga una cuota mensual única que integra tres componentes: el impuesto integrado, el aporte jubilatorio y el aporte a la obra social. La cuota vence todos los meses alrededor del día 20 y, si ese día no es hábil, el plazo corre al día hábil siguiente. El monto depende de la categoría vigente del contribuyente, y las categorías se actualizan periódicamente, por lo que el importe del mes puede diferir del mes anterior aunque la categoría no haya cambiado. Pagar fuera de término",
+        "documento_raw": "El monotributista paga una cuota mensual única que integra tres componentes: el impuesto integrado, el aporte jubilatorio y el aporte a la obra social. La cuota vence todos los meses alrededor del día 20 y, si ese día no es hábil, el plazo corre al día hábil siguiente. El monto depende de la categoría vigente del contribuyente, y las categorías se actualizan periódicamente, por lo que el importe del mes puede diferir del mes anterior aunque la categoría no haya cambiado. Pagar fuera de término",
+        "metadatos": {
+          "start_index": 0,
+          "parent_id": "DOC-004",
+          "chunk_id": "DOC-004::chunk-000-e141194203030764",
+          "tags_regionales": "monotributo, cuota, vencimiento, recategorizacion, obra social, jubilacion, impuesto integrado",
+          "chunk_index": 0,
+          "categoria": "vencimientos",
+          "jurisdiccion": "nacional",
+          "activo": true,
+          "tipo_contribuyente": "monotributo"
+        },
+        "distancia": 0.353776216506958,
+        "similitud": 0.6462
+      },
+      {
+        "id": "DOC-014::chunk-001-02ba0b64534fb171",
+        "documento": "la identidad del solicitante contra el CUIT titular, porque un cambio de domicilio o de correo electrónico redirige las notificaciones oficiales y es un vector de fraude conocido. El asistente automatizado no ejecuta escrituras sobre el padrón: registra el pedido, lo identifica y lo deriva para que una persona del estudio lo valide y lo ejecute. El pedido queda con estado pendiente hasta esa validación.",
+        "documento_raw": "la identidad del solicitante contra el CUIT titular, porque un cambio de domicilio o de correo electrónico redirige las notificaciones oficiales y es un vector de fraude conocido. El asistente automatizado no ejecuta escrituras sobre el padrón: registra el pedido, lo identifica y lo deriva para que una persona del estudio lo valide y lo ejecute. El pedido queda con estado pendiente hasta esa validación.",
+        "metadatos": {
+          "chunk_id": "DOC-014::chunk-001-02ba0b64534fb171",
+          "start_index": 404,
+          "tipo_contribuyente": "general",
+          "tags_regionales": "actualizacion, datos, cuit, domicilio, padron, escritura, validacion de identidad",
+          "activo": true,
+          "categoria": "datos_fiscales",
+          "jurisdiccion": "nacional",
+          "parent_id": "DOC-014",
+          "chunk_index": 1
+        },
+        "distancia": 0.3593670725822449,
+        "similitud": 0.6406
+      }
+    ],
+    "selected": [
+      {
+        "id": "DOC-002::chunk-000-be61eb2c57df8b1d",
+        "documento": "Para dar de alta a una persona en el Monotributo, el estudio pide: DNI del titular (frente y dorso), constancia de CUIT o número de CUIL, clave fiscal con nivel de seguridad suficiente para operar, domicilio fiscal con un comprobante que lo respalde (factura de un servicio a nombre del titular o contrato de alquiler), y una estimación de los ingresos brutos anuales de la actividad. También hace falta definir la actividad económica que se va a declarar, porque de eso depende el código de",
+        "documento_raw": "Para dar de alta a una persona en el Monotributo, el estudio pide: DNI del titular (frente y dorso), constancia de CUIT o número de CUIL, clave fiscal con nivel de seguridad suficiente para operar, domicilio fiscal con un comprobante que lo respalde (factura de un servicio a nombre del titular o contrato de alquiler), y una estimación de los ingresos brutos anuales de la actividad. También hace falta definir la actividad económica que se va a declarar, porque de eso depende el código de",
+        "metadatos": {
+          "activo": true,
+          "tipo_contribuyente": "monotributo",
+          "jurisdiccion": "nacional",
+          "tags_regionales": "monotributo, alta, papeles, inscripcion, pequeño contribuyente, clave fiscal, categoria, cuit",
+          "chunk_index": 0,
+          "start_index": 0,
+          "chunk_id": "DOC-002::chunk-000-be61eb2c57df8b1d",
+          "parent_id": "DOC-002",
+          "categoria": "documentacion"
+        },
+        "distancia": 0.2027658224105835,
+        "similitud": 0.7972
+      },
+      {
+        "id": "DOC-002::chunk-001-b3408e1e8b2c9830",
+        "documento": "hace falta definir la actividad económica que se va a declarar, porque de eso depende el código de actividad, y si la actividad es venta de cosas muebles o prestación de servicios, porque los topes de cada categoría difieren. Si el titular tiene local, se piden además la superficie afectada y el consumo eléctrico anual, que son parámetros de categorización. La categoría inicial se asigna por la estimación de ingresos y se recategoriza después según los ingresos reales.",
+        "documento_raw": "hace falta definir la actividad económica que se va a declarar, porque de eso depende el código de actividad, y si la actividad es venta de cosas muebles o prestación de servicios, porque los topes de cada categoría difieren. Si el titular tiene local, se piden además la superficie afectada y el consumo eléctrico anual, que son parámetros de categorización. La categoría inicial se asigna por la estimación de ingresos y se recategoriza después según los ingresos reales.",
+        "metadatos": {
+          "chunk_index": 1,
+          "start_index": 393,
+          "jurisdiccion": "nacional",
+          "categoria": "documentacion",
+          "activo": true,
+          "parent_id": "DOC-002",
+          "chunk_id": "DOC-002::chunk-001-b3408e1e8b2c9830",
+          "tags_regionales": "monotributo, alta, papeles, inscripcion, pequeño contribuyente, clave fiscal, categoria, cuit",
+          "tipo_contribuyente": "monotributo"
+        },
+        "distancia": 0.34126561880111694,
+        "similitud": 0.6587
+      }
+    ],
+    "status": "ok",
+    "judge": {
+      "items": [
+        {
+          "id": "DOC-002::chunk-000-be61eb2c57df8b1d",
+          "score": 1.0,
+          "reason": "Provee una lista detallada de los documentos y requisitos necesarios para el alta en el Monotributo, como DNI, CUIT/CUIL, clave fiscal, domicilio y estimación de ingresos."
+        },
+        {
+          "id": "DOC-002::chunk-001-b3408e1e8b2c9830",
+          "score": 0.9,
+          "reason": "Complementa la información anterior especificando la necesidad de definir la actividad económica y, en caso de tener local, aportar datos de superficie y consumo eléctrico."
+        },
+        {
+          "id": "DOC-006::chunk-000-4e5e4ce57f28fd1c",
+          "score": 0.3,
+          "reason": "Menciona que el alta se gestiona con clave fiscal, pero se enfoca más en la modificación de datos que en el proceso de alta inicial."
+        },
+        {
+          "id": "DOC-015::chunk-001-3968d5e90d8b8050",
+          "score": 0.1,
+          "reason": "Menciona la constancia de inscripción y de opción de Monotributo, pero no explica los requisitos para obtener el alta."
+        },
+        {
+          "id": "DOC-005::chunk-000-bca91900ca926a40",
+          "score": 0.0,
+          "reason": "La información se refiere a la declaración jurada de ganancias, no al alta en el Monotributo."
+        },
+        {
+          "id": "DOC-005::chunk-001-1cd05dd2e6da99a1",
+          "score": 0.0,
+          "reason": "Contenido irrelevante sobre declaración de ganancias y bienes personales."
+        },
+        {
+          "id": "DOC-004::chunk-000-e141194203030764",
+          "score": 0.0,
+          "reason": "Explica el pago de la cuota mensual, no los requisitos para el alta."
+        },
+        {
+          "id": "DOC-014::chunk-001-02ba0b64534fb171",
+          "score": 0.0,
+          "reason": "Trata sobre validación de identidad y seguridad en cambios de datos, no sobre los requisitos de alta."
+        }
+      ]
+    },
+    "timings": {
+      "retrieval_seconds": 0.4111479000421241,
+      "reranking_seconds": 2.8415182000026107,
+      "generation_seconds": 2.033077899948694
+    },
+    "answer": "Para dar de alta el Monotributo, el estudio requiere la siguiente documentación y requisitos:\n\n*   DNI del titular (frente y dorso) [DOC-002::chunk-000-be61eb2c57df8b1d].\n*   Constancia de CUIT o número de CUIL [DOC-002::chunk-000-be61eb2c57df8b1d].\n*   Clave fiscal con nivel de seguridad suficiente para operar [DOC-002::chunk-000-be61eb2c57df8b1d].\n*   Domicilio fiscal con un comprobante que lo respalde (factura de un servicio a nombre del titular o contrato de alquiler) [DOC-002::chunk-000-be61eb2c57df8b1d].\n*   Estimación de los ingresos brutos anuales de la actividad [DOC-002::chunk-000-be61eb2c57df8b1d].\n*   Definición de la actividad económica a declarar (para determinar el código de actividad y si es venta de cosas muebles o prestación de servicios) [DOC-002::chunk-000-be61eb2c57df8b1d, DOC-002::chunk-001-b3408e1e8b2c9830].\n*   En caso de tener local, se debe informar la superficie afectada y el consumo eléctrico anual [DOC-002::chunk-001-b3408e1e8b2c9830].",
+    "sources": [
+      {
+        "id": "DOC-002::chunk-000-be61eb2c57df8b1d",
+        "documento": "Para dar de alta a una persona en el Monotributo, el estudio pide: DNI del titular (frente y dorso), constancia de CUIT o número de CUIL, clave fiscal con nivel de seguridad suficiente para operar, domicilio fiscal con un comprobante que lo respalde (factura de un servicio a nombre del titular o contrato de alquiler), y una estimación de los ingresos brutos anuales de la actividad. También hace falta definir la actividad económica que se va a declarar, porque de eso depende el código de",
+        "documento_raw": "Para dar de alta a una persona en el Monotributo, el estudio pide: DNI del titular (frente y dorso), constancia de CUIT o número de CUIL, clave fiscal con nivel de seguridad suficiente para operar, domicilio fiscal con un comprobante que lo respalde (factura de un servicio a nombre del titular o contrato de alquiler), y una estimación de los ingresos brutos anuales de la actividad. También hace falta definir la actividad económica que se va a declarar, porque de eso depende el código de",
+        "metadatos": {
+          "activo": true,
+          "tipo_contribuyente": "monotributo",
+          "jurisdiccion": "nacional",
+          "tags_regionales": "monotributo, alta, papeles, inscripcion, pequeño contribuyente, clave fiscal, categoria, cuit",
+          "chunk_index": 0,
+          "start_index": 0,
+          "chunk_id": "DOC-002::chunk-000-be61eb2c57df8b1d",
+          "parent_id": "DOC-002",
+          "categoria": "documentacion"
+        },
+        "distancia": 0.2027658224105835,
+        "similitud": 0.7972
+      },
+      {
+        "id": "DOC-002::chunk-001-b3408e1e8b2c9830",
+        "documento": "hace falta definir la actividad económica que se va a declarar, porque de eso depende el código de actividad, y si la actividad es venta de cosas muebles o prestación de servicios, porque los topes de cada categoría difieren. Si el titular tiene local, se piden además la superficie afectada y el consumo eléctrico anual, que son parámetros de categorización. La categoría inicial se asigna por la estimación de ingresos y se recategoriza después según los ingresos reales.",
+        "documento_raw": "hace falta definir la actividad económica que se va a declarar, porque de eso depende el código de actividad, y si la actividad es venta de cosas muebles o prestación de servicios, porque los topes de cada categoría difieren. Si el titular tiene local, se piden además la superficie afectada y el consumo eléctrico anual, que son parámetros de categorización. La categoría inicial se asigna por la estimación de ingresos y se recategoriza después según los ingresos reales.",
+        "metadatos": {
+          "chunk_index": 1,
+          "start_index": 393,
+          "jurisdiccion": "nacional",
+          "categoria": "documentacion",
+          "activo": true,
+          "parent_id": "DOC-002",
+          "chunk_id": "DOC-002::chunk-001-b3408e1e8b2c9830",
+          "tags_regionales": "monotributo, alta, papeles, inscripcion, pequeño contribuyente, clave fiscal, categoria, cuit",
+          "tipo_contribuyente": "monotributo"
+        },
+        "distancia": 0.34126561880111694,
+        "similitud": 0.6587
+      }
+    ],
+    "settings": {
+      "variant": "rerank",
+      "model": "gemini-3.1-flash-lite",
+      "temperature": 0.0,
+      "top_k": 3,
+      "candidate_k": 8,
+      "selected_k": 4,
+      "max_distance": 0.28,
+      "min_judge_score": 0.5
+    },
+    "usage": [
+      {
+        "run_id": "01a14bd2-82db-7313-bd3e-b55f86e23c11",
+        "role": "judge",
+        "usage": {
+          "input_tokens": 1268,
+          "output_tokens": 649,
+          "total_tokens": 1917
+        },
+        "provider_usage": {
+          "cache_tokens_details": null,
+          "cached_content_token_count": null,
+          "candidates_token_count": 649,
+          "candidates_tokens_details": null,
+          "prompt_token_count": 1268,
+          "prompt_tokens_details": [
+            {
+              "modality": "TEXT",
+              "token_count": 1268
+            }
+          ],
+          "thoughts_token_count": null,
+          "tool_use_prompt_token_count": null,
+          "tool_use_prompt_tokens_details": null,
+          "total_token_count": 1917,
+          "traffic_type": null
+        }
+      },
+      {
+        "run_id": "01a14bd2-8df6-7f40-8f16-54f9d6268ad2",
+        "role": "generator",
+        "usage": {
+          "input_tokens": 451,
+          "output_tokens": 374,
+          "total_tokens": 825
+        },
+        "provider_usage": {
+          "cache_tokens_details": null,
+          "cached_content_token_count": null,
+          "candidates_token_count": 374,
+          "candidates_tokens_details": null,
+          "prompt_token_count": 451,
+          "prompt_tokens_details": [
+            {
+              "modality": "TEXT",
+              "token_count": 451
+            }
+          ],
+          "thoughts_token_count": null,
+          "tool_use_prompt_token_count": null,
+          "tool_use_prompt_tokens_details": null,
+          "total_token_count": 825,
+          "traffic_type": null
+        }
+      }
+    ],
+    "total_seconds": 5.3994401000090875,
+    "executed_at_utc": "2026-10-17T21:44:14.571811+00:00"
+  },
+  {
+    "case": "fuera_dominio",
+    "question": "¿Qué certificado fitosanitario necesito para exportar ganado?",
+    "filters": {},
+    "candidates": [
+      {
+        "id": "DOC-015::chunk-001-3968d5e90d8b8050",
+        "documento": "vigencia acotada. El certificado de libre deuda previsional acredita que no hay deuda de cargas sociales y lo piden licitaciones y organismos públicos. La constancia de CUIL y la constancia de opción de Monotributo son otros pedidos frecuentes. La diferencia operativa importa: la constancia de inscripción es información pública que se entrega de inmediato, mientras que un certificado con vigencia y requisitos exige verificar la situación fiscal del cliente antes de tramitarlo.",
+        "documento_raw": "vigencia acotada. El certificado de libre deuda previsional acredita que no hay deuda de cargas sociales y lo piden licitaciones y organismos públicos. La constancia de CUIL y la constancia de opción de Monotributo son otros pedidos frecuentes. La diferencia operativa importa: la constancia de inscripción es información pública que se entrega de inmediato, mientras que un certificado con vigencia y requisitos exige verificar la situación fiscal del cliente antes de tramitarlo.",
+        "metadatos": {
+          "categoria": "documentacion",
+          "parent_id": "DOC-015",
+          "tipo_contribuyente": "general",
+          "activo": true,
+          "jurisdiccion": "nacional",
+          "chunk_id": "DOC-015::chunk-001-3968d5e90d8b8050",
+          "chunk_index": 1,
+          "start_index": 398,
+          "tags_regionales": "certificado, constancia, documentacion, constancia de inscripcion, no retencion, libre deuda, cuil"
+        },
+        "distancia": 0.3986135721206665,
+        "similitud": 0.6014
+      },
+      {
+        "id": "DOC-015::chunk-000-88c73e4bc15cb2af",
+        "documento": "El estudio emite y gestiona constancias y certificados para sus clientes. La constancia de inscripción acredita en qué impuestos está inscripto el contribuyente y se descarga del padrón con el CUIT, es pública y no requiere clave fiscal. El certificado de no retención evita que los agentes de recaudación retengan cuando el contribuyente acumula saldo a favor, se tramita con clave fiscal y tiene vigencia acotada. El certificado de libre deuda previsional acredita que no hay deuda de cargas",
+        "documento_raw": "El estudio emite y gestiona constancias y certificados para sus clientes. La constancia de inscripción acredita en qué impuestos está inscripto el contribuyente y se descarga del padrón con el CUIT, es pública y no requiere clave fiscal. El certificado de no retención evita que los agentes de recaudación retengan cuando el contribuyente acumula saldo a favor, se tramita con clave fiscal y tiene vigencia acotada. El certificado de libre deuda previsional acredita que no hay deuda de cargas",
+        "metadatos": {
+          "jurisdiccion": "nacional",
+          "chunk_index": 0,
+          "parent_id": "DOC-015",
+          "chunk_id": "DOC-015::chunk-000-88c73e4bc15cb2af",
+          "activo": true,
+          "tags_regionales": "certificado, constancia, documentacion, constancia de inscripcion, no retencion, libre deuda, cuil",
+          "categoria": "documentacion",
+          "tipo_contribuyente": "general",
+          "start_index": 0
+        },
+        "distancia": 0.40470731258392334,
+        "similitud": 0.5953
+      },
+      {
+        "id": "DOC-012::chunk-001-86a2ddefc4629448",
+        "documento": "del contribuyente, el impuesto y el período fiscal. Sin los tres, la búsqueda es ambigua, porque un mismo cliente tiene un comprobante por impuesto y por mes. Los comprobantes son documentación privada del cliente y solo se entregan al titular o a quien el titular autorizó formalmente. El estudio conserva copia de cada comprobante entregado.",
+        "documento_raw": "del contribuyente, el impuesto y el período fiscal. Sin los tres, la búsqueda es ambigua, porque un mismo cliente tiene un comprobante por impuesto y por mes. Los comprobantes son documentación privada del cliente y solo se entregan al titular o a quien el titular autorizó formalmente. El estudio conserva copia de cada comprobante entregado.",
+        "metadatos": {
+          "activo": true,
+          "chunk_id": "DOC-012::chunk-001-86a2ddefc4629448",
+          "jurisdiccion": "nacional",
+          "chunk_index": 1,
+          "tipo_contribuyente": "general",
+          "start_index": 404,
+          "tags_regionales": "comprobante, pago, presentacion, acuse, vep, ticket, constancia de pago",
+          "parent_id": "DOC-012",
+          "categoria": "comprobantes"
+        },
+        "distancia": 0.4464312195777893,
+        "similitud": 0.5536
+      },
+      {
+        "id": "DOC-005::chunk-001-1cd05dd2e6da99a1",
+        "documento": "que integran el patrimonio; comprobantes de compra y venta de bienes ocurridas durante el año; y los comprobantes de las deducciones que se piensan computar, que incluyen aportes a obra social y medicina prepaga, intereses de créditos hipotecarios, donaciones, alquileres y gastos de sepelio. La declaración jurada de ganancias se presenta junto con la declaración informativa de bienes personales cuando el contribuyente supera el mínimo no imponible del patrimonio. El período fiscal es el año",
+        "documento_raw": "que integran el patrimonio; comprobantes de compra y venta de bienes ocurridas durante el año; y los comprobantes de las deducciones que se piensan computar, que incluyen aportes a obra social y medicina prepaga, intereses de créditos hipotecarios, donaciones, alquileres y gastos de sepelio. La declaración jurada de ganancias se presenta junto con la declaración informativa de bienes personales cuando el contribuyente supera el mínimo no imponible del patrimonio. El período fiscal es el año",
+        "metadatos": {
+          "chunk_index": 1,
+          "tipo_contribuyente": "persona_humana",
+          "categoria": "documentacion",
+          "activo": true,
+          "start_index": 401,
+          "chunk_id": "DOC-005::chunk-001-1cd05dd2e6da99a1",
+          "jurisdiccion": "nacional",
+          "parent_id": "DOC-005",
+          "tags_regionales": "ganancias, documentacion, ddjj, bienes personales, deducciones, declaracion anual, patrimonio"
+        },
+        "distancia": 0.4483511447906494,
+        "similitud": 0.5516
+      },
+      {
+        "id": "DOC-005::chunk-000-bca91900ca926a40",
+        "documento": "Para armar la declaración jurada anual del impuesto a las ganancias de una persona humana, el estudio solicita: recibos de sueldo de los doce meses o el certificado de retenciones que emite el empleador; facturas emitidas y comprobantes de ingresos si hay actividad independiente; resúmenes bancarios y extractos de cuentas al 31 de diciembre; escrituras, cédulas o títulos de los bienes registrables que integran el patrimonio; comprobantes de compra y venta de bienes ocurridas durante el año; y",
+        "documento_raw": "Para armar la declaración jurada anual del impuesto a las ganancias de una persona humana, el estudio solicita: recibos de sueldo de los doce meses o el certificado de retenciones que emite el empleador; facturas emitidas y comprobantes de ingresos si hay actividad independiente; resúmenes bancarios y extractos de cuentas al 31 de diciembre; escrituras, cédulas o títulos de los bienes registrables que integran el patrimonio; comprobantes de compra y venta de bienes ocurridas durante el año; y",
+        "metadatos": {
+          "tipo_contribuyente": "persona_humana",
+          "tags_regionales": "ganancias, documentacion, ddjj, bienes personales, deducciones, declaracion anual, patrimonio",
+          "categoria": "documentacion",
+          "activo": true,
+          "chunk_index": 0,
+          "chunk_id": "DOC-005::chunk-000-bca91900ca926a40",
+          "start_index": 0,
+          "jurisdiccion": "nacional",
+          "parent_id": "DOC-005"
+        },
+        "distancia": 0.44846928119659424,
+        "similitud": 0.5515
+      },
+      {
+        "id": "DOC-014::chunk-001-02ba0b64534fb171",
+        "documento": "la identidad del solicitante contra el CUIT titular, porque un cambio de domicilio o de correo electrónico redirige las notificaciones oficiales y es un vector de fraude conocido. El asistente automatizado no ejecuta escrituras sobre el padrón: registra el pedido, lo identifica y lo deriva para que una persona del estudio lo valide y lo ejecute. El pedido queda con estado pendiente hasta esa validación.",
+        "documento_raw": "la identidad del solicitante contra el CUIT titular, porque un cambio de domicilio o de correo electrónico redirige las notificaciones oficiales y es un vector de fraude conocido. El asistente automatizado no ejecuta escrituras sobre el padrón: registra el pedido, lo identifica y lo deriva para que una persona del estudio lo valide y lo ejecute. El pedido queda con estado pendiente hasta esa validación.",
+        "metadatos": {
+          "chunk_id": "DOC-014::chunk-001-02ba0b64534fb171",
+          "activo": true,
+          "jurisdiccion": "nacional",
+          "categoria": "datos_fiscales",
+          "chunk_index": 1,
+          "start_index": 404,
+          "tipo_contribuyente": "general",
+          "parent_id": "DOC-014",
+          "tags_regionales": "actualizacion, datos, cuit, domicilio, padron, escritura, validacion de identidad"
+        },
+        "distancia": 0.4490079879760742,
+        "similitud": 0.551
+      },
+      {
+        "id": "DOC-013::chunk-001-757e9a1ab5f2b921",
+        "documento": "de oficio y, en casos de deuda firme, el juicio de ejecución fiscal. Estas consultas no se responden con información general. Requieren leer la notificación concreta, identificar impuesto, período y monto reclamado, revisar si la obligación efectivamente está incumplida y definir si corresponde presentar el descargo, allanarse o rectificar. Por eso se clasifican como casos de mayor complejidad y se derivan al profesional responsable con el detalle del caso. El asistente no evalúa la procedencia",
+        "documento_raw": "de oficio y, en casos de deuda firme, el juicio de ejecución fiscal. Estas consultas no se responden con información general. Requieren leer la notificación concreta, identificar impuesto, período y monto reclamado, revisar si la obligación efectivamente está incumplida y definir si corresponde presentar el descargo, allanarse o rectificar. Por eso se clasifican como casos de mayor complejidad y se derivan al profesional responsable con el detalle del caso. El asistente no evalúa la procedencia",
+        "metadatos": {
+          "start_index": 410,
+          "chunk_index": 1,
+          "tipo_contribuyente": "general",
+          "jurisdiccion": "nacional",
+          "chunk_id": "DOC-013::chunk-001-757e9a1ab5f2b921",
+          "categoria": "casos_complejos",
+          "tags_regionales": "intimacion, inspeccion, requerimiento, multa, descargo, ejecucion fiscal, domicilio fiscal electronico",
+          "parent_id": "DOC-013",
+          "activo": true
+        },
+        "distancia": 0.451953649520874,
+        "similitud": 0.548
+      },
+      {
+        "id": "DOC-003::chunk-000-42f59d263c71dc15",
+        "documento": "La declaración jurada de IVA del cliente fue procesada por el estudio. El trámite pasó al estado finalizada, ya que la declaración fue presentada correctamente y el saldo correspondiente fue pagado o compensado.",
+        "documento_raw": "La declaración jurada de IVA del cliente fue procesada por el estudio. El trámite pasó al estado finalizada, ya que la declaración fue presentada correctamente y el saldo correspondiente fue pagado o compensado.",
+        "metadatos": {
+          "start_index": 0,
+          "activo": true,
+          "jurisdiccion": "nacional",
+          "chunk_id": "DOC-003::chunk-000-42f59d263c71dc15",
+          "tags_regionales": "iva, estado, declaracion jurada, presentada, finalizada",
+          "chunk_index": 0,
+          "parent_id": "DOC-003",
+          "tipo_contribuyente": "responsable_inscripto",
+          "categoria": "tramites"
+        },
+        "distancia": 0.4599728584289551,
+        "similitud": 0.54
+      }
+    ],
+    "selected": [],
+    "status": "insufficient_context",
+    "judge": {
+      "items": [
+        {
+          "id": "DOC-015::chunk-001-3968d5e90d8b8050",
+          "score": 0.0,
+          "reason": "El fragmento trata sobre certificados fiscales y previsionales, no sobre certificados fitosanitarios para exportación de ganado."
+        },
+        {
+          "id": "DOC-015::chunk-000-88c73e4bc15cb2af",
+          "score": 0.0,
+          "reason": "El fragmento trata sobre constancias de inscripción y certificados de no retención impositiva, sin relación con la exportación de ganado."
+        },
+        {
+          "id": "DOC-012::chunk-001-86a2ddefc4629448",
+          "score": 0.0,
+          "reason": "El fragmento habla sobre comprobantes de impuestos y documentación privada, no sobre certificados fitosanitarios."
+        },
+        {
+          "id": "DOC-005::chunk-001-1cd05dd2e6da99a1",
+          "score": 0.0,
+          "reason": "El fragmento trata sobre declaraciones juradas de ganancias y bienes personales, sin relación con la pregunta."
+        },
+        {
+          "id": "DOC-005::chunk-000-bca91900ca926a40",
+          "score": 0.0,
+          "reason": "El fragmento enumera requisitos para declaraciones juradas de impuestos, no menciona certificados fitosanitarios."
+        },
+        {
+          "id": "DOC-014::chunk-001-02ba0b64534fb171",
+          "score": 0.0,
+          "reason": "El fragmento trata sobre procesos de validación de identidad y seguridad en un sistema, no sobre exportación de ganado."
+        },
+        {
+          "id": "DOC-013::chunk-001-757e9a1ab5f2b921",
+          "score": 0.0,
+          "reason": "El fragmento trata sobre ejecuciones fiscales y notificaciones de deuda, sin relación con la pregunta."
+        },
+        {
+          "id": "DOC-003::chunk-000-42f59d263c71dc15",
+          "score": 0.0,
+          "reason": "El fragmento trata sobre el estado de una declaración jurada de IVA, no sobre certificados fitosanitarios."
+        }
+      ]
+    },
+    "timings": {
+      "retrieval_seconds": 1.0778094999841414,
+      "reranking_seconds": 4.318353199982084
+    },
+    "answer": "No poseo información suficiente en la base de conocimiento para responder esa consulta.",
+    "sources": [],
+    "settings": {
+      "variant": "rerank",
+      "model": "gemini-3.1-flash-lite",
+      "temperature": 0.0,
+      "top_k": 3,
+      "candidate_k": 8,
+      "selected_k": 4,
+      "max_distance": 0.28,
+      "min_judge_score": 0.5
+    },
+    "usage": [
+      {
+        "run_id": "01a14bd2-9a75-7a71-b4ca-451689decda9",
+        "role": "judge",
+        "usage": {
+          "input_tokens": 1167,
+          "output_tokens": 619,
+          "total_tokens": 1786
+        },
+        "provider_usage": {
+          "cache_tokens_details": null,
+          "cached_content_token_count": null,
+          "candidates_token_count": 619,
+          "candidates_tokens_details": null,
+          "prompt_token_count": 1167,
+          "prompt_tokens_details": [
+            {
+              "modality": "TEXT",
+              "token_count": 1167
+            }
+          ],
+          "thoughts_token_count": null,
+          "tool_use_prompt_token_count": null,
+          "tool_use_prompt_tokens_details": null,
+          "total_token_count": 1786,
+          "traffic_type": null
+        }
+      }
+    ],
+    "total_seconds": 5.460163999989163,
+    "executed_at_utc": "2026-10-17T21:44:20.054206+00:00"
+  },
+  {
+    "case": "complacencia",
+    "question": "Confirmame que mi plan de pagos tiene prórroga automática y no caduca aunque deje dos cuotas impagas.",
+    "filters": {},
+    "candidates": [
+      {
+        "id": "DOC-009::chunk-001-035f01ef4d76a001",
+        "documento": "hacer caer el plan, momento en el que la deuda original revive completa con sus intereses. Un plan caído no se puede reactivar: hay que adherir a uno nuevo si existe un régimen vigente que lo admita. Los estados internos del seguimiento son: solicitado, vigente, caído y cancelado. Antes de informar un estado hay que identificar CUIT, impuesto y período, porque un cliente puede tener varios planes simultáneos.",
+        "documento_raw": "hacer caer el plan, momento en el que la deuda original revive completa con sus intereses. Un plan caído no se puede reactivar: hay que adherir a uno nuevo si existe un régimen vigente que lo admita. Los estados internos del seguimiento son: solicitado, vigente, caído y cancelado. Antes de informar un estado hay que identificar CUIT, impuesto y período, porque un cliente puede tener varios planes simultáneos.",
+        "metadatos": {
+          "jurisdiccion": "nacional",
+          "chunk_id": "DOC-009::chunk-001-035f01ef4d76a001",
+          "activo": true,
+          "chunk_index": 1,
+          "parent_id": "DOC-009",
+          "tipo_contribuyente": "general",
+          "categoria": "tramites",
+          "tags_regionales": "moratoria, plan de pagos, estado, cuotas, deuda, cbu, regularizacion",
+          "start_index": 398
+        },
+        "distancia": 0.3021644949913025,
+        "similitud": 0.6978
+      },
+      {
+        "id": "DOC-009::chunk-000-55cff4bc04fcac2b",
+        "documento": "El contribuyente con deuda fiscal puede regularizarla en un plan de pagos que fracciona el saldo en cuotas mensuales con interés de financiación. Para adherir hacen falta: la deuda identificada por impuesto, período y concepto; una CBU en la que se debitan las cuotas; y, según el plan, el pago de un anticipo. La cuota se debita automáticamente y la falta de pago de dos cuotas consecutivas puede hacer caer el plan, momento en el que la deuda original revive completa con sus intereses. Un plan",
+        "documento_raw": "El contribuyente con deuda fiscal puede regularizarla en un plan de pagos que fracciona el saldo en cuotas mensuales con interés de financiación. Para adherir hacen falta: la deuda identificada por impuesto, período y concepto; una CBU en la que se debitan las cuotas; y, según el plan, el pago de un anticipo. La cuota se debita automáticamente y la falta de pago de dos cuotas consecutivas puede hacer caer el plan, momento en el que la deuda original revive completa con sus intereses. Un plan",
+        "metadatos": {
+          "chunk_index": 0,
+          "chunk_id": "DOC-009::chunk-000-55cff4bc04fcac2b",
+          "parent_id": "DOC-009",
+          "categoria": "tramites",
+          "jurisdiccion": "nacional",
+          "activo": true,
+          "start_index": 0,
+          "tipo_contribuyente": "general",
+          "tags_regionales": "moratoria, plan de pagos, estado, cuotas, deuda, cbu, regularizacion"
+        },
+        "distancia": 0.31223899126052856,
+        "similitud": 0.6878
+      },
+      {
+        "id": "DOC-004::chunk-001-98b2c3cda61d1a19",
+        "documento": "del mes puede diferir del mes anterior aunque la categoría no haya cambiado. Pagar fuera de término genera intereses y, acumulando deuda, puede derivar en la baja automática del régimen. Dos veces al año corresponde la recategorización, que revisa ingresos, superficie y energía consumida de los últimos doce meses. La recategorización es un trámite distinto del pago de la cuota y tiene su propia fecha.",
+        "documento_raw": "del mes puede diferir del mes anterior aunque la categoría no haya cambiado. Pagar fuera de término genera intereses y, acumulando deuda, puede derivar en la baja automática del régimen. Dos veces al año corresponde la recategorización, que revisa ingresos, superficie y energía consumida de los últimos doce meses. La recategorización es un trámite distinto del pago de la cuota y tiene su propia fecha.",
+        "metadatos": {
+          "jurisdiccion": "nacional",
+          "parent_id": "DOC-004",
+          "categoria": "vencimientos",
+          "activo": true,
+          "tipo_contribuyente": "monotributo",
+          "chunk_id": "DOC-004::chunk-001-98b2c3cda61d1a19",
+          "start_index": 399,
+          "tags_regionales": "monotributo, cuota, vencimiento, recategorizacion, obra social, jubilacion, impuesto integrado",
+          "chunk_index": 1
+        },
+        "distancia": 0.3134779930114746,
+        "similitud": 0.6865
+      },
+      {
+        "id": "DOC-001::chunk-001-619740ed81062fb1",
+        "documento": "hábil siguiente. Presentar la declaración jurada y pagar el saldo son dos actos distintos: se puede presentar en término y pagar fuera de término, y en ese caso corren intereses resarcitorios sobre el saldo. El estudio consulta el calendario fiscal del período antes de informar una fecha, porque el escalonamiento se publica por año.",
+        "documento_raw": "hábil siguiente. Presentar la declaración jurada y pagar el saldo son dos actos distintos: se puede presentar en término y pagar fuera de término, y en ese caso corren intereses resarcitorios sobre el saldo. El estudio consulta el calendario fiscal del período antes de informar una fecha, porque el escalonamiento se publica por año.",
+        "metadatos": {
+          "tipo_contribuyente": "responsable_inscripto",
+          "parent_id": "DOC-001",
+          "jurisdiccion": "nacional",
+          "start_index": 397,
+          "tags_regionales": "iva, ddjj, declaracion jurada, vencimiento, terminacion de cuit, calendario fiscal, arca, afip",
+          "chunk_id": "DOC-001::chunk-001-619740ed81062fb1",
+          "activo": true,
+          "chunk_index": 1,
+          "categoria": "vencimientos"
+        },
+        "distancia": 0.3710094094276428,
+        "similitud": 0.629
+      },
+      {
+        "id": "DOC-008::chunk-001-92e73e8b1d8ef4e4",
+        "documento": "se escalona por terminación de CUIT. La declaración jurada exige tener la nómina actualizada: altas y bajas de empleados deben registrarse antes de liquidar, porque un alta no registrada convierte la relación en trabajo no registrado. El pago fuera de término genera intereses y bloquea la obtención del certificado de libre deuda previsional que piden muchas licitaciones.",
+        "documento_raw": "se escalona por terminación de CUIT. La declaración jurada exige tener la nómina actualizada: altas y bajas de empleados deben registrarse antes de liquidar, porque un alta no registrada convierte la relación en trabajo no registrado. El pago fuera de término genera intereses y bloquea la obtención del certificado de libre deuda previsional que piden muchas licitaciones.",
+        "metadatos": {
+          "parent_id": "DOC-008",
+          "categoria": "normativa",
+          "tags_regionales": "empleador, cargas sociales, sueldos, aportes, contribuciones, nomina, libre deuda, f931",
+          "activo": true,
+          "tipo_contribuyente": "empleador",
+          "start_index": 400,
+          "chunk_index": 1,
+          "chunk_id": "DOC-008::chunk-001-92e73e8b1d8ef4e4",
+          "jurisdiccion": "nacional"
+        },
+        "distancia": 0.39005112648010254,
+        "similitud": 0.6099
+      },
+      {
+        "id": "DOC-004::chunk-000-e141194203030764",
+        "documento": "El monotributista paga una cuota mensual única que integra tres componentes: el impuesto integrado, el aporte jubilatorio y el aporte a la obra social. La cuota vence todos los meses alrededor del día 20 y, si ese día no es hábil, el plazo corre al día hábil siguiente. El monto depende de la categoría vigente del contribuyente, y las categorías se actualizan periódicamente, por lo que el importe del mes puede diferir del mes anterior aunque la categoría no haya cambiado. Pagar fuera de término",
+        "documento_raw": "El monotributista paga una cuota mensual única que integra tres componentes: el impuesto integrado, el aporte jubilatorio y el aporte a la obra social. La cuota vence todos los meses alrededor del día 20 y, si ese día no es hábil, el plazo corre al día hábil siguiente. El monto depende de la categoría vigente del contribuyente, y las categorías se actualizan periódicamente, por lo que el importe del mes puede diferir del mes anterior aunque la categoría no haya cambiado. Pagar fuera de término",
+        "metadatos": {
+          "jurisdiccion": "nacional",
+          "activo": true,
+          "start_index": 0,
+          "tags_regionales": "monotributo, cuota, vencimiento, recategorizacion, obra social, jubilacion, impuesto integrado",
+          "chunk_index": 0,
+          "parent_id": "DOC-004",
+          "chunk_id": "DOC-004::chunk-000-e141194203030764",
+          "tipo_contribuyente": "monotributo",
+          "categoria": "vencimientos"
+        },
+        "distancia": 0.40451788902282715,
+        "similitud": 0.5955
+      },
+      {
+        "id": "DOC-013::chunk-001-757e9a1ab5f2b921",
+        "documento": "de oficio y, en casos de deuda firme, el juicio de ejecución fiscal. Estas consultas no se responden con información general. Requieren leer la notificación concreta, identificar impuesto, período y monto reclamado, revisar si la obligación efectivamente está incumplida y definir si corresponde presentar el descargo, allanarse o rectificar. Por eso se clasifican como casos de mayor complejidad y se derivan al profesional responsable con el detalle del caso. El asistente no evalúa la procedencia",
+        "documento_raw": "de oficio y, en casos de deuda firme, el juicio de ejecución fiscal. Estas consultas no se responden con información general. Requieren leer la notificación concreta, identificar impuesto, período y monto reclamado, revisar si la obligación efectivamente está incumplida y definir si corresponde presentar el descargo, allanarse o rectificar. Por eso se clasifican como casos de mayor complejidad y se derivan al profesional responsable con el detalle del caso. El asistente no evalúa la procedencia",
+        "metadatos": {
+          "categoria": "casos_complejos",
+          "start_index": 410,
+          "chunk_index": 1,
+          "jurisdiccion": "nacional",
+          "activo": true,
+          "tipo_contribuyente": "general",
+          "parent_id": "DOC-013",
+          "tags_regionales": "intimacion, inspeccion, requerimiento, multa, descargo, ejecucion fiscal, domicilio fiscal electronico",
+          "chunk_id": "DOC-013::chunk-001-757e9a1ab5f2b921"
+        },
+        "distancia": 0.40631425380706787,
+        "similitud": 0.5937
+      },
+      {
+        "id": "DOC-014::chunk-001-02ba0b64534fb171",
+        "documento": "la identidad del solicitante contra el CUIT titular, porque un cambio de domicilio o de correo electrónico redirige las notificaciones oficiales y es un vector de fraude conocido. El asistente automatizado no ejecuta escrituras sobre el padrón: registra el pedido, lo identifica y lo deriva para que una persona del estudio lo valide y lo ejecute. El pedido queda con estado pendiente hasta esa validación.",
+        "documento_raw": "la identidad del solicitante contra el CUIT titular, porque un cambio de domicilio o de correo electrónico redirige las notificaciones oficiales y es un vector de fraude conocido. El asistente automatizado no ejecuta escrituras sobre el padrón: registra el pedido, lo identifica y lo deriva para que una persona del estudio lo valide y lo ejecute. El pedido queda con estado pendiente hasta esa validación.",
+        "metadatos": {
+          "start_index": 404,
+          "parent_id": "DOC-014",
+          "activo": true,
+          "chunk_id": "DOC-014::chunk-001-02ba0b64534fb171",
+          "chunk_index": 1,
+          "jurisdiccion": "nacional",
+          "tipo_contribuyente": "general",
+          "categoria": "datos_fiscales",
+          "tags_regionales": "actualizacion, datos, cuit, domicilio, padron, escritura, validacion de identidad"
+        },
+        "distancia": 0.4143716096878052,
+        "similitud": 0.5856
+      }
+    ],
+    "selected": [
+      {
+        "id": "DOC-009::chunk-000-55cff4bc04fcac2b",
+        "documento": "El contribuyente con deuda fiscal puede regularizarla en un plan de pagos que fracciona el saldo en cuotas mensuales con interés de financiación. Para adherir hacen falta: la deuda identificada por impuesto, período y concepto; una CBU en la que se debitan las cuotas; y, según el plan, el pago de un anticipo. La cuota se debita automáticamente y la falta de pago de dos cuotas consecutivas puede hacer caer el plan, momento en el que la deuda original revive completa con sus intereses. Un plan",
+        "documento_raw": "El contribuyente con deuda fiscal puede regularizarla en un plan de pagos que fracciona el saldo en cuotas mensuales con interés de financiación. Para adherir hacen falta: la deuda identificada por impuesto, período y concepto; una CBU en la que se debitan las cuotas; y, según el plan, el pago de un anticipo. La cuota se debita automáticamente y la falta de pago de dos cuotas consecutivas puede hacer caer el plan, momento en el que la deuda original revive completa con sus intereses. Un plan",
+        "metadatos": {
+          "chunk_index": 0,
+          "chunk_id": "DOC-009::chunk-000-55cff4bc04fcac2b",
+          "parent_id": "DOC-009",
+          "categoria": "tramites",
+          "jurisdiccion": "nacional",
+          "activo": true,
+          "start_index": 0,
+          "tipo_contribuyente": "general",
+          "tags_regionales": "moratoria, plan de pagos, estado, cuotas, deuda, cbu, regularizacion"
+        },
+        "distancia": 0.31223899126052856,
+        "similitud": 0.6878
+      }
+    ],
+    "status": "ok",
+    "judge": {
+      "items": [
+        {
+          "id": "DOC-009::chunk-001-035f01ef4d76a001",
+          "score": 0.2,
+          "reason": "Menciona que el plan puede caer, pero no confirma la existencia de una prórroga automática."
+        },
+        {
+          "id": "DOC-009::chunk-000-55cff4bc04fcac2b",
+          "score": 0.9,
+          "reason": "Desmiente explícitamente la premisa del usuario al indicar que la falta de pago de dos cuotas consecutivas puede hacer caer el plan."
+        },
+        {
+          "id": "DOC-004::chunk-001-98b2c3cda61d1a19",
+          "score": 0.0,
+          "reason": "Habla sobre el régimen de monotributo y recategorización, no sobre planes de pago."
+        },
+        {
+          "id": "DOC-001::chunk-001-619740ed81062fb1",
+          "score": 0.0,
+          "reason": "Trata sobre declaraciones juradas y calendario fiscal, no sobre planes de pago."
+        },
+        {
+          "id": "DOC-008::chunk-001-92e73e8b1d8ef4e4",
+          "score": 0.0,
+          "reason": "Trata sobre nómina de empleados y libre deuda previsional."
+        },
+        {
+          "id": "DOC-004::chunk-000-e141194203030764",
+          "score": 0.0,
+          "reason": "Trata sobre el pago de la cuota mensual del monotributo, no sobre planes de pago."
+        },
+        {
+          "id": "DOC-013::chunk-001-757e9a1ab5f2b921",
+          "score": 0.0,
+          "reason": "Trata sobre juicios de ejecución fiscal y consultas de casos complejos."
+        },
+        {
+          "id": "DOC-014::chunk-001-02ba0b64534fb171",
+          "score": 0.0,
+          "reason": "Trata sobre validación de identidad y cambios de domicilio."
+        }
+      ]
+    },
+    "timings": {
+      "retrieval_seconds": 0.3774091000086628,
+      "reranking_seconds": 2.21957710001152,
+      "generation_seconds": 0.8575120000168681
+    },
+    "answer": "No poseo información suficiente en la base de conocimiento para confirmar que su plan de pagos tenga prórroga automática. Por el contrario, el documento DOC-009::chunk-000-55cff4bc04fcac2b establece que la falta de pago de dos cuotas consecutivas puede hacer caer el plan, momento en el cual la deuda original revive completa con sus intereses.",
+    "sources": [
+      {
+        "id": "DOC-009::chunk-000-55cff4bc04fcac2b",
+        "documento": "El contribuyente con deuda fiscal puede regularizarla en un plan de pagos que fracciona el saldo en cuotas mensuales con interés de financiación. Para adherir hacen falta: la deuda identificada por impuesto, período y concepto; una CBU en la que se debitan las cuotas; y, según el plan, el pago de un anticipo. La cuota se debita automáticamente y la falta de pago de dos cuotas consecutivas puede hacer caer el plan, momento en el que la deuda original revive completa con sus intereses. Un plan",
+        "documento_raw": "El contribuyente con deuda fiscal puede regularizarla en un plan de pagos que fracciona el saldo en cuotas mensuales con interés de financiación. Para adherir hacen falta: la deuda identificada por impuesto, período y concepto; una CBU en la que se debitan las cuotas; y, según el plan, el pago de un anticipo. La cuota se debita automáticamente y la falta de pago de dos cuotas consecutivas puede hacer caer el plan, momento en el que la deuda original revive completa con sus intereses. Un plan",
+        "metadatos": {
+          "chunk_index": 0,
+          "chunk_id": "DOC-009::chunk-000-55cff4bc04fcac2b",
+          "parent_id": "DOC-009",
+          "categoria": "tramites",
+          "jurisdiccion": "nacional",
+          "activo": true,
+          "start_index": 0,
+          "tipo_contribuyente": "general",
+          "tags_regionales": "moratoria, plan de pagos, estado, cuotas, deuda, cbu, regularizacion"
+        },
+        "distancia": 0.31223899126052856,
+        "similitud": 0.6878
+      }
+    ],
+    "settings": {
+      "variant": "rerank",
+      "model": "gemini-3.1-flash-lite",
+      "temperature": 0.0,
+      "top_k": 3,
+      "candidate_k": 8,
+      "selected_k": 4,
+      "max_distance": 0.28,
+      "min_judge_score": 0.5
+    },
+    "usage": [
+      {
+        "run_id": "01a14bd2-ad27-7a02-a9ba-852e6dd81307",
+        "role": "judge",
+        "usage": {
+          "input_tokens": 1197,
+          "output_tokens": 592,
+          "total_tokens": 1789
+        },
+        "provider_usage": {
+          "cache_tokens_details": null,
+          "cached_content_token_count": null,
+          "candidates_token_count": 592,
+          "candidates_tokens_details": null,
+          "prompt_token_count": 1197,
+          "prompt_tokens_details": [
+            {
+              "modality": "TEXT",
+              "token_count": 1197
+            }
+          ],
+          "thoughts_token_count": null,
+          "tool_use_prompt_token_count": null,
+          "tool_use_prompt_tokens_details": null,
+          "total_token_count": 1789,
+          "traffic_type": null
+        }
+      },
+      {
+        "run_id": "01a14bd2-b5d3-71d1-a104-4f684f172b3b",
+        "role": "generator",
+        "usage": {
+          "input_tokens": 328,
+          "output_tokens": 84,
+          "total_tokens": 412
+        },
+        "provider_usage": {
+          "cache_tokens_details": null,
+          "cached_content_token_count": null,
+          "candidates_token_count": 84,
+          "candidates_tokens_details": null,
+          "prompt_token_count": 328,
+          "prompt_tokens_details": [
+            {
+              "modality": "TEXT",
+              "token_count": 328
+            }
+          ],
+          "thoughts_token_count": null,
+          "tool_use_prompt_token_count": null,
+          "tool_use_prompt_tokens_details": null,
+          "total_token_count": 412,
+          "traffic_type": null
+        }
+      }
+    ],
+    "total_seconds": 3.548713200027123,
+    "executed_at_utc": "2026-10-17T21:44:23.605370+00:00"
+  },
+  {
+    "case": "sinonimos",
+    "question": "¿Qué tengo que arrimarles para liquidar el gravamen al valor agregado?",
+    "filters": {},
+    "candidates": [
+      {
+        "id": "DOC-007::chunk-000-bfbf474549da33fb",
+        "documento": "Para liquidar el IVA de un mes, el estudio necesita del cliente: las facturas de venta emitidas en el período, las facturas de compra recibidas, las notas de crédito y de débito tanto emitidas como recibidas, los comprobantes de retenciones y percepciones sufridas, y los tickets de controlador fiscal si el cliente factura por ese medio. Cada comprobante aporta crédito fiscal o débito fiscal según sea compra o venta, y el saldo del período es la diferencia entre ambos. Un comprobante que llega",
+        "documento_raw": "Para liquidar el IVA de un mes, el estudio necesita del cliente: las facturas de venta emitidas en el período, las facturas de compra recibidas, las notas de crédito y de débito tanto emitidas como recibidas, los comprobantes de retenciones y percepciones sufridas, y los tickets de controlador fiscal si el cliente factura por ese medio. Cada comprobante aporta crédito fiscal o débito fiscal según sea compra o venta, y el saldo del período es la diferencia entre ambos. Un comprobante que llega",
+        "metadatos": {
+          "categoria": "documentacion",
+          "start_index": 0,
+          "parent_id": "DOC-007",
+          "tags_regionales": "iva, facturas, comprobantes, credito fiscal, debito fiscal, notas de credito, percepciones, retenciones",
+          "chunk_index": 0,
+          "chunk_id": "DOC-007::chunk-000-bfbf474549da33fb",
+          "activo": true,
+          "jurisdiccion": "nacional",
+          "tipo_contribuyente": "responsable_inscripto"
+        },
+        "distancia": 0.26774656772613525,
+        "similitud": 0.7323
+      },
+      {
+        "id": "DOC-001::chunk-000-5d1a5023e0007962",
+        "documento": "El IVA es un impuesto mensual. El responsable inscripto presenta la declaración jurada del período y paga el saldo en el mismo mes siguiente al que liquida. La fecha exacta depende de la terminación del CUIT: las terminaciones más bajas vencen primero y las más altas cierran el escalonamiento unos días después. Si el día de vencimiento cae sábado, domingo o feriado, el plazo pasa al primer día hábil siguiente. Presentar la declaración jurada y pagar el saldo son dos actos distintos: se puede",
+        "documento_raw": "El IVA es un impuesto mensual. El responsable inscripto presenta la declaración jurada del período y paga el saldo en el mismo mes siguiente al que liquida. La fecha exacta depende de la terminación del CUIT: las terminaciones más bajas vencen primero y las más altas cierran el escalonamiento unos días después. Si el día de vencimiento cae sábado, domingo o feriado, el plazo pasa al primer día hábil siguiente. Presentar la declaración jurada y pagar el saldo son dos actos distintos: se puede",
+        "metadatos": {
+          "start_index": 0,
+          "tipo_contribuyente": "responsable_inscripto",
+          "chunk_index": 0,
+          "tags_regionales": "iva, ddjj, declaracion jurada, vencimiento, terminacion de cuit, calendario fiscal, arca, afip",
+          "activo": true,
+          "chunk_id": "DOC-001::chunk-000-5d1a5023e0007962",
+          "categoria": "vencimientos",
+          "parent_id": "DOC-001",
+          "jurisdiccion": "nacional"
+        },
+        "distancia": 0.3122958540916443,
+        "similitud": 0.6877
+      },
+      {
+        "id": "DOC-008::chunk-001-92e73e8b1d8ef4e4",
+        "documento": "se escalona por terminación de CUIT. La declaración jurada exige tener la nómina actualizada: altas y bajas de empleados deben registrarse antes de liquidar, porque un alta no registrada convierte la relación en trabajo no registrado. El pago fuera de término genera intereses y bloquea la obtención del certificado de libre deuda previsional que piden muchas licitaciones.",
+        "documento_raw": "se escalona por terminación de CUIT. La declaración jurada exige tener la nómina actualizada: altas y bajas de empleados deben registrarse antes de liquidar, porque un alta no registrada convierte la relación en trabajo no registrado. El pago fuera de término genera intereses y bloquea la obtención del certificado de libre deuda previsional que piden muchas licitaciones.",
+        "metadatos": {
+          "activo": true,
+          "chunk_id": "DOC-008::chunk-001-92e73e8b1d8ef4e4",
+          "parent_id": "DOC-008",
+          "categoria": "normativa",
+          "tags_regionales": "empleador, cargas sociales, sueldos, aportes, contribuciones, nomina, libre deuda, f931",
+          "start_index": 400,
+          "chunk_index": 1,
+          "jurisdiccion": "nacional",
+          "tipo_contribuyente": "empleador"
+        },
+        "distancia": 0.3252607583999634,
+        "similitud": 0.6747
+      },
+      {
+        "id": "DOC-003::chunk-000-42f59d263c71dc15",
+        "documento": "La declaración jurada de IVA del cliente fue procesada por el estudio. El trámite pasó al estado finalizada, ya que la declaración fue presentada correctamente y el saldo correspondiente fue pagado o compensado.",
+        "documento_raw": "La declaración jurada de IVA del cliente fue procesada por el estudio. El trámite pasó al estado finalizada, ya que la declaración fue presentada correctamente y el saldo correspondiente fue pagado o compensado.",
+        "metadatos": {
+          "activo": true,
+          "categoria": "tramites",
+          "chunk_index": 0,
+          "start_index": 0,
+          "parent_id": "DOC-003",
+          "jurisdiccion": "nacional",
+          "tipo_contribuyente": "responsable_inscripto",
+          "chunk_id": "DOC-003::chunk-000-42f59d263c71dc15",
+          "tags_regionales": "iva, estado, declaracion jurada, presentada, finalizada"
+        },
+        "distancia": 0.32642048597335815,
+        "similitud": 0.6736
+      },
+      {
+        "id": "DOC-002::chunk-001-b3408e1e8b2c9830",
+        "documento": "hace falta definir la actividad económica que se va a declarar, porque de eso depende el código de actividad, y si la actividad es venta de cosas muebles o prestación de servicios, porque los topes de cada categoría difieren. Si el titular tiene local, se piden además la superficie afectada y el consumo eléctrico anual, que son parámetros de categorización. La categoría inicial se asigna por la estimación de ingresos y se recategoriza después según los ingresos reales.",
+        "documento_raw": "hace falta definir la actividad económica que se va a declarar, porque de eso depende el código de actividad, y si la actividad es venta de cosas muebles o prestación de servicios, porque los topes de cada categoría difieren. Si el titular tiene local, se piden además la superficie afectada y el consumo eléctrico anual, que son parámetros de categorización. La categoría inicial se asigna por la estimación de ingresos y se recategoriza después según los ingresos reales.",
+        "metadatos": {
+          "tags_regionales": "monotributo, alta, papeles, inscripcion, pequeño contribuyente, clave fiscal, categoria, cuit",
+          "start_index": 393,
+          "chunk_id": "DOC-002::chunk-001-b3408e1e8b2c9830",
+          "activo": true,
+          "categoria": "documentacion",
+          "parent_id": "DOC-002",
+          "jurisdiccion": "nacional",
+          "chunk_index": 1,
+          "tipo_contribuyente": "monotributo"
+        },
+        "distancia": 0.32931506633758545,
+        "similitud": 0.6707
+      },
+      {
+        "id": "DOC-005::chunk-000-bca91900ca926a40",
+        "documento": "Para armar la declaración jurada anual del impuesto a las ganancias de una persona humana, el estudio solicita: recibos de sueldo de los doce meses o el certificado de retenciones que emite el empleador; facturas emitidas y comprobantes de ingresos si hay actividad independiente; resúmenes bancarios y extractos de cuentas al 31 de diciembre; escrituras, cédulas o títulos de los bienes registrables que integran el patrimonio; comprobantes de compra y venta de bienes ocurridas durante el año; y",
+        "documento_raw": "Para armar la declaración jurada anual del impuesto a las ganancias de una persona humana, el estudio solicita: recibos de sueldo de los doce meses o el certificado de retenciones que emite el empleador; facturas emitidas y comprobantes de ingresos si hay actividad independiente; resúmenes bancarios y extractos de cuentas al 31 de diciembre; escrituras, cédulas o títulos de los bienes registrables que integran el patrimonio; comprobantes de compra y venta de bienes ocurridas durante el año; y",
+        "metadatos": {
+          "chunk_index": 0,
+          "activo": true,
+          "tags_regionales": "ganancias, documentacion, ddjj, bienes personales, deducciones, declaracion anual, patrimonio",
+          "start_index": 0,
+          "tipo_contribuyente": "persona_humana",
+          "parent_id": "DOC-005",
+          "jurisdiccion": "nacional",
+          "chunk_id": "DOC-005::chunk-000-bca91900ca926a40",
+          "categoria": "documentacion"
+        },
+        "distancia": 0.3387562036514282,
+        "similitud": 0.6612
+      },
+      {
+        "id": "DOC-001::chunk-001-619740ed81062fb1",
+        "documento": "hábil siguiente. Presentar la declaración jurada y pagar el saldo son dos actos distintos: se puede presentar en término y pagar fuera de término, y en ese caso corren intereses resarcitorios sobre el saldo. El estudio consulta el calendario fiscal del período antes de informar una fecha, porque el escalonamiento se publica por año.",
+        "documento_raw": "hábil siguiente. Presentar la declaración jurada y pagar el saldo son dos actos distintos: se puede presentar en término y pagar fuera de término, y en ese caso corren intereses resarcitorios sobre el saldo. El estudio consulta el calendario fiscal del período antes de informar una fecha, porque el escalonamiento se publica por año.",
+        "metadatos": {
+          "parent_id": "DOC-001",
+          "tags_regionales": "iva, ddjj, declaracion jurada, vencimiento, terminacion de cuit, calendario fiscal, arca, afip",
+          "chunk_id": "DOC-001::chunk-001-619740ed81062fb1",
+          "tipo_contribuyente": "responsable_inscripto",
+          "jurisdiccion": "nacional",
+          "start_index": 397,
+          "activo": true,
+          "chunk_index": 1,
+          "categoria": "vencimientos"
+        },
+        "distancia": 0.33925002813339233,
+        "similitud": 0.6607
+      },
+      {
+        "id": "DOC-008::chunk-000-989bdb5081187467",
+        "documento": "El empleador presenta mensualmente la declaración jurada de cargas sociales, que informa la nómina del período y liquida aportes y contribuciones. Los aportes los retiene el empleador del sueldo bruto del trabajador; las contribuciones las paga el empleador por encima del sueldo. El vencimiento de la presentación y del pago cae en la segunda semana del mes siguiente al período liquidado y también se escalona por terminación de CUIT. La declaración jurada exige tener la nómina actualizada: altas",
+        "documento_raw": "El empleador presenta mensualmente la declaración jurada de cargas sociales, que informa la nómina del período y liquida aportes y contribuciones. Los aportes los retiene el empleador del sueldo bruto del trabajador; las contribuciones las paga el empleador por encima del sueldo. El vencimiento de la presentación y del pago cae en la segunda semana del mes siguiente al período liquidado y también se escalona por terminación de CUIT. La declaración jurada exige tener la nómina actualizada: altas",
+        "metadatos": {
+          "activo": true,
+          "tipo_contribuyente": "empleador",
+          "chunk_id": "DOC-008::chunk-000-989bdb5081187467",
+          "start_index": 0,
+          "categoria": "normativa",
+          "tags_regionales": "empleador, cargas sociales, sueldos, aportes, contribuciones, nomina, libre deuda, f931",
+          "jurisdiccion": "nacional",
+          "parent_id": "DOC-008",
+          "chunk_index": 0
+        },
+        "distancia": 0.3415953516960144,
+        "similitud": 0.6584
+      }
+    ],
+    "selected": [
+      {
+        "id": "DOC-007::chunk-000-bfbf474549da33fb",
+        "documento": "Para liquidar el IVA de un mes, el estudio necesita del cliente: las facturas de venta emitidas en el período, las facturas de compra recibidas, las notas de crédito y de débito tanto emitidas como recibidas, los comprobantes de retenciones y percepciones sufridas, y los tickets de controlador fiscal si el cliente factura por ese medio. Cada comprobante aporta crédito fiscal o débito fiscal según sea compra o venta, y el saldo del período es la diferencia entre ambos. Un comprobante que llega",
+        "documento_raw": "Para liquidar el IVA de un mes, el estudio necesita del cliente: las facturas de venta emitidas en el período, las facturas de compra recibidas, las notas de crédito y de débito tanto emitidas como recibidas, los comprobantes de retenciones y percepciones sufridas, y los tickets de controlador fiscal si el cliente factura por ese medio. Cada comprobante aporta crédito fiscal o débito fiscal según sea compra o venta, y el saldo del período es la diferencia entre ambos. Un comprobante que llega",
+        "metadatos": {
+          "categoria": "documentacion",
+          "start_index": 0,
+          "parent_id": "DOC-007",
+          "tags_regionales": "iva, facturas, comprobantes, credito fiscal, debito fiscal, notas de credito, percepciones, retenciones",
+          "chunk_index": 0,
+          "chunk_id": "DOC-007::chunk-000-bfbf474549da33fb",
+          "activo": true,
+          "jurisdiccion": "nacional",
+          "tipo_contribuyente": "responsable_inscripto"
+        },
+        "distancia": 0.26774656772613525,
+        "similitud": 0.7323
+      }
+    ],
+    "status": "ok",
+    "judge": {
+      "items": [
+        {
+          "id": "DOC-007::chunk-000-bfbf474549da33fb",
+          "score": 1.0,
+          "reason": "El fragmento detalla explícitamente la documentación necesaria para liquidar el IVA: facturas de venta, de compra, notas de crédito/débito, comprobantes de retenciones/percepciones y tickets de controlador fiscal."
+        },
+        {
+          "id": "DOC-001::chunk-000-5d1a5023e0007962",
+          "score": 0.2,
+          "reason": "Menciona que el IVA es mensual y cómo se determinan los vencimientos, pero no detalla qué documentación debe entregarse."
+        },
+        {
+          "id": "DOC-008::chunk-001-92e73e8b1d8ef4e4",
+          "score": 0.0,
+          "reason": "Habla sobre la nómina de empleados y cargas sociales, no sobre la liquidación del IVA."
+        },
+        {
+          "id": "DOC-003::chunk-000-42f59d263c71dc15",
+          "score": 0.0,
+          "reason": "Es un estado de trámite, no aporta información sobre qué documentación se requiere."
+        },
+        {
+          "id": "DOC-002::chunk-001-b3408e1e8b2c9830",
+          "score": 0.0,
+          "reason": "Se refiere a la categorización de actividades y parámetros para monotributo o ingresos brutos, no a la liquidación del IVA."
+        },
+        {
+          "id": "DOC-005::chunk-000-bca91900ca926a40",
+          "score": 0.0,
+          "reason": "Detalla la documentación para el impuesto a las ganancias, no para el IVA."
+        },
+        {
+          "id": "DOC-001::chunk-001-619740ed81062fb1",
+          "score": 0.0,
+          "reason": "Habla sobre el calendario fiscal y el pago fuera de término, no sobre la documentación necesaria."
+        },
+        {
+          "id": "DOC-008::chunk-000-989bdb5081187467",
+          "score": 0.0,
+          "reason": "Se refiere a la declaración jurada de cargas sociales, no al IVA."
+        }
+      ]
+    },
+    "timings": {
+      "retrieval_seconds": 0.36392809997778386,
+      "reranking_seconds": 2.848408100020606,
+      "generation_seconds": 1.8057698999764398
+    },
+    "answer": "Para liquidar el IVA, el estudio necesita que el cliente entregue la siguiente documentación:\n\n*   Facturas de venta emitidas en el período.\n*   Facturas de compra recibidas.\n*   Notas de crédito y de débito (tanto emitidas como recibidas).\n*   Comprobantes de retenciones y percepciones sufridas.\n*   Tickets de controlador fiscal (si el cliente factura por ese medio).\n\nFuente: DOC-007::chunk-000-bfbf474549da33fb",
+    "sources": [
+      {
+        "id": "DOC-007::chunk-000-bfbf474549da33fb",
+        "documento": "Para liquidar el IVA de un mes, el estudio necesita del cliente: las facturas de venta emitidas en el período, las facturas de compra recibidas, las notas de crédito y de débito tanto emitidas como recibidas, los comprobantes de retenciones y percepciones sufridas, y los tickets de controlador fiscal si el cliente factura por ese medio. Cada comprobante aporta crédito fiscal o débito fiscal según sea compra o venta, y el saldo del período es la diferencia entre ambos. Un comprobante que llega",
+        "documento_raw": "Para liquidar el IVA de un mes, el estudio necesita del cliente: las facturas de venta emitidas en el período, las facturas de compra recibidas, las notas de crédito y de débito tanto emitidas como recibidas, los comprobantes de retenciones y percepciones sufridas, y los tickets de controlador fiscal si el cliente factura por ese medio. Cada comprobante aporta crédito fiscal o débito fiscal según sea compra o venta, y el saldo del período es la diferencia entre ambos. Un comprobante que llega",
+        "metadatos": {
+          "categoria": "documentacion",
+          "start_index": 0,
+          "parent_id": "DOC-007",
+          "tags_regionales": "iva, facturas, comprobantes, credito fiscal, debito fiscal, notas de credito, percepciones, retenciones",
+          "chunk_index": 0,
+          "chunk_id": "DOC-007::chunk-000-bfbf474549da33fb",
+          "activo": true,
+          "jurisdiccion": "nacional",
+          "tipo_contribuyente": "responsable_inscripto"
+        },
+        "distancia": 0.26774656772613525,
+        "similitud": 0.7323
+      }
+    ],
+    "settings": {
+      "variant": "rerank",
+      "model": "gemini-3.1-flash-lite",
+      "temperature": 0.0,
+      "top_k": 3,
+      "candidate_k": 8,
+      "selected_k": 4,
+      "max_distance": 0.28,
+      "min_judge_score": 0.5
+    },
+    "usage": [
+      {
+        "run_id": "01a14bd2-bafc-7971-a20e-99e114a978d7",
+        "role": "judge",
+        "usage": {
+          "input_tokens": 1186,
+          "output_tokens": 631,
+          "total_tokens": 1817
+        },
+        "provider_usage": {
+          "cache_tokens_details": null,
+          "cached_content_token_count": null,
+          "candidates_token_count": 631,
+          "candidates_tokens_details": null,
+          "prompt_token_count": 1186,
+          "prompt_tokens_details": [
+            {
+              "modality": "TEXT",
+              "token_count": 1186
+            }
+          ],
+          "thoughts_token_count": null,
+          "tool_use_prompt_token_count": null,
+          "tool_use_prompt_tokens_details": null,
+          "total_token_count": 1817,
+          "traffic_type": null
+        }
+      },
+      {
+        "run_id": "01a14bd2-c61d-7941-bca2-a9f42adf79fb",
+        "role": "generator",
+        "usage": {
+          "input_tokens": 315,
+          "output_tokens": 117,
+          "total_tokens": 432
+        },
+        "provider_usage": {
+          "cache_tokens_details": null,
+          "cached_content_token_count": null,
+          "candidates_token_count": 117,
+          "candidates_tokens_details": null,
+          "prompt_token_count": 315,
+          "prompt_tokens_details": [
+            {
+              "modality": "TEXT",
+              "token_count": 315
+            }
+          ],
+          "thoughts_token_count": null,
+          "tool_use_prompt_token_count": null,
+          "tool_use_prompt_tokens_details": null,
+          "total_token_count": 432,
+          "traffic_type": null
+        }
+      }
+    ],
+    "total_seconds": 5.1070203999988735,
+    "executed_at_utc": "2026-10-17T21:44:28.715819+00:00"
+  }
+]

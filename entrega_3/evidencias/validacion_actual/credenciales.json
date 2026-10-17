@@ -1,0 +1,8 @@
+{
+  "GEMINI_API_KEY": true,
+  "LANGSMITH_API_KEY": false,
+  "LANGSMITH_PROJECT": false,
+  "LANGSMITH_ENDPOINT": false,
+  "LANGSMITH_TRACING_configured": false,
+  "LANGSMITH_TRACING_enabled": false
+}

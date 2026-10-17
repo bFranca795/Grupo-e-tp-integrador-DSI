@@ -1,0 +1,17 @@
+{
+  "command_used": "python -m entrega_3.rag_pipeline ask --variant rerank --question <consulta compuesta> --output entrega_3/evidencias/reranking_default_cuatro/resultado_cli.json",
+  "selected_flag_supplied": false,
+  "resolved_selected_k": 4,
+  "candidates": 8,
+  "selected": 4,
+  "answer_identical_to_validated_four_chunk_run": true,
+  "source_ids_identical": true,
+  "local_tests_passed": 11,
+  "langsmith": {
+    "LANGSMITH_API_KEY": false,
+    "LANGSMITH_TRACING": false,
+    "LANGSMITH_PROJECT": false,
+    "LANGSMITH_ENDPOINT": false,
+    "LANGSMITH_WORKSPACE_ID": false
+  }
+}

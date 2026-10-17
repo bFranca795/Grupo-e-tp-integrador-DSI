@@ -1,0 +1,13 @@
+{
+  "original_documents": 17,
+  "chunks": 35,
+  "chunk_size": 500,
+  "chunk_overlap": 100,
+  "length_unit": "characters",
+  "original_sha256_before": "17e4c81bedc0cab07856c72cb3f9810ad5f3a569ce8637abd5b610a50e79e9ae",
+  "original_sha256_after": "17e4c81bedc0cab07856c72cb3f9810ad5f3a569ce8637abd5b610a50e79e9ae",
+  "differences_with_clean_json": [
+    "DOC-003"
+  ],
+  "collection": "estudio_contable_chunks"
+}

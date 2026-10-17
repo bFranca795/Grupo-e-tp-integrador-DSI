@@ -1,0 +1,15 @@
+{
+  "entrega_3\\rag_pipeline\\__init__.py": "76fb676872b019889b04c7b6f343487b0ef5c3dca4e31250d71541047377a4fc",
+  "entrega_3\\rag_pipeline\\__main__.py": "f83a5a39660b1d0289b20a8ae13c37253485ebe3995445ded50339e55adeca46",
+  "entrega_3\\rag_pipeline\\config.py": "c1b9a7c68ff6199a2a67e9d94a475c31a994b6212cf0808f7f6c1173f1db71e4",
+  "entrega_3\\rag_pipeline\\indexing.py": "8cae62264e2a6b4c456f69bbea74f75fc1cda39f1b1b3297aa6ab077ad4384b6",
+  "entrega_3\\rag_pipeline\\model.py": "29f2b9adf1a79006d8d8f2993f924c4da1d6b8937ab960d297036d1b343efb9f",
+  "entrega_3\\rag_pipeline\\pipeline.py": "784f5809b3d0a99e7423b756a9cffb90afa16d126722ac0e0c147e9aa6eb7784",
+  "entrega_3\\rag_pipeline\\reranking.py": "5dd033d08dbbdb3d70342a08e86c22f8432708ca957f27e89d3177aae6d115a6",
+  "entrega_3\\rag_pipeline\\retriever.py": "ac520f917e18c683968f45510910a8b0533b895be936ac3ec8af040cab0a5aeb",
+  "entrega_3\\rag_pipeline\\test_pipeline.py": "54ca89d850f2c9fcbb26080d8da91ed7fbbbe54a39922c17b28d243f2e628053",
+  "pyproject.toml": "484e84da4e65c9910bc8dae305569d25198a25cd0a4a5691be0f5e84dbed1db0",
+  "uv.lock": "1e7c245fc3f07c829c8f0a38a483fe3b45231a6f5826f070c64bc929b4a14af4",
+  "requirements.txt": "2b49d1a051cf84b479c4174e1a0d68960e703f1ab82d6ef6d7d5d2dd1d7a8515",
+  ".env.example": "2747c103f2cd35f10208e691c769b13ec1ef161aa100bb24a519a66807515a57"
+}

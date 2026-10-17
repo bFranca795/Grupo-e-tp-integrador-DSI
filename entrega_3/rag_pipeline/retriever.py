@@ -3,14 +3,13 @@ import re
 from typing import Any
 import chromadb
 from chromadb import Documents, EmbeddingFunction, Embeddings
-from dotenv import load_dotenv
 from google import genai
 from google.genai import types
 
-load_dotenv()
+from .config import PERSIST_PATH
 
 # Constantes fijadas de la Entrega 2
-RUTA_PERSISTENCIA = "chroma_db"
+RUTA_PERSISTENCIA = str(PERSIST_PATH)
 NOMBRE_COLECCION = "estudio_contable"
 MODELO_EMBEDDING = "gemini-embedding-001"
 DIMENSION = 768

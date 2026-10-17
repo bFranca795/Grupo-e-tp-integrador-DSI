@@ -70,3 +70,21 @@ pipeline_vectorial.py  →  vector_db.py  →  búsqueda híbrida
 
 Los binarios que generan estos scripts (`*.index`, `chroma_db/`) están
 ignorados: se reconstruyen corriendo el pipeline desde `base_conocimiento.json`.
+
+
+## Entrega 3 — RAG básico LCEL y RAG avanzado
+
+**Estado de la entrega:** B.1–B.3 están implementados y validados en los casos
+documentados. Esto no constituye una mejora general ni una evaluación RAGAS.
+**B.4 queda pendiente de ejecución y verificación con las credenciales del
+compañero**: todavía no hay una captura ni enlace de traza real verificada.
+
+Código y comandos: [`entrega_3/README.md`](entrega_3/README.md).
+Informe consolidado, con evidencia histórica y resultados nuevos separados:
+[`entrega_3/informe.md`](entrega_3/informe.md).
+
+Los antiguos `retriever.py`, `Trazabilidad_de_fuentes.py` e
+`informe_entrega3.md` se trasladaron a esa carpeta. Las entregas 1 y 2
+permanecen en la raíz.
+
+Para continuar B.4 desde otra máquina: [guía y comandos exactos](entrega_3/CONTINUAR_B4.md).
