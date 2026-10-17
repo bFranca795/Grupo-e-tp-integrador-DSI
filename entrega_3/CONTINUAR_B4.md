@@ -59,9 +59,9 @@ no vienen en el repositorio. Se requieren ambas para reconstrucción y generaci�
 ## 3. Reconstruir bases locales en el clon nuevo
 
 ```powershell
-python -m uv run --locked python pipeline_vectorial.py
-python -m uv run --locked python vector_db.py
-python -m uv run --locked python -m entrega_3.rag_pipeline index --output entrega_3/evidencias/b4_companero/indexacion.json
+uv run --locked python pipeline_vectorial.py
+uv run --locked python vector_db.py
+uv run --locked python -m entrega_3.rag_pipeline index --output entrega_3/evidencias/b4_companero/indexacion.json
 ```
 
 Estos comandos llaman a Gemini y consumen cuota. No ejecutar las primeras dos
@@ -81,7 +81,7 @@ lo que realmente ocurra sin forzar IDs ni copiar resultados históricos.
 Desde la raíz, después de guardar `.env`:
 
 ```powershell
-python -m uv run --locked python -m entrega_3.rag_pipeline ask --variant rerank --question "Soy empleador y responsable inscripto: ¿qué necesito para liquidar IVA, cuándo presento y pago esa declaración y qué obligaciones tengo con las cargas sociales?" --output entrega_3/evidencias/b4_companero/resultado_langsmith.json
+uv run --locked python -m entrega_3.rag_pipeline ask --variant rerank --question "Soy empleador y responsable inscripto: ¿qué necesito para liquidar IVA, cuándo presento y pago esa declaración y qué obligaciones tengo con las cargas sociales?" --output entrega_3/evidencias/b4_companero/resultado_langsmith.json
 ```
 
 Se omite `--selected`: debe resolverse en 4. Configuración final:
