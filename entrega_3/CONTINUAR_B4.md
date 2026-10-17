@@ -1,8 +1,9 @@
-﻿# Continuar B.4 desde b-rag-avanzado
+# Continuar B.4 desde b-rag-avanzado
 
 B.1–B.3 están implementados y validados en los casos documentados en el informe.
-B.4 está instrumentado pero **pendiente de ejecución y verificación con las
-credenciales del compañero**. No hay una traza remota real verificada en esta entrega.
+**B.4 ya está cumplido:** ejecución existente contrastada por API y capturas
+complementarias incorporadas. Esta guía se conserva para reproducción, no como
+tarea pendiente; no es necesario repetir la ejecución para el cierre actual.
 No hay resultados RAGAS ni una afirmación de mejora general.
 
 ## 1. Descargar e instalar (PowerShell, clon nuevo)

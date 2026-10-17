@@ -2,10 +2,12 @@
 
 **Estado de la entrega:** B.1–B.3 están implementados y validados en los casos
 documentados. Esto no constituye una mejora general ni una evaluación RAGAS.
-**B.4 queda pendiente de ejecución y verificación con las credenciales del
-compañero**: todavía no hay una captura ni enlace de traza real verificada.
+**B.4 cumplido:** la traza existente está contrastada por API y las capturas
+complementarias completan la evidencia visual. B.1–B.4 quedan cumplidos en el
+alcance de la consigna y los casos documentados; no hay pendientes obligatorios.
+El chunking 500/100 se acredita con el manifiesto local, no con metadata remota.
 
-Para completar B.4 en otra máquina, seguir [CONTINUAR_B4.md](CONTINUAR_B4.md). La ejecución y verificación de la traza son tareas pendientes; configurar variables por sí solo no las completa.
+La guía [CONTINUAR_B4.md](CONTINUAR_B4.md) se conserva para reproducción; no es necesario repetir la ejecución para este cierre. Las secciones previas registran el historial y el checklist final siguiente establece el estado vigente.
 
 ## Base de trabajo y alcance
 
@@ -462,3 +464,310 @@ El avanzado ahora resuelve por defecto hasta cuatro seleccionados, configurable 
 Se ejecutó la consulta compuesta por CLI sin `--selected`: el resultado confirma `settings.selected_k=4`, ocho candidatos y cuatro fuentes. Respuesta y fuentes idénticas a la tanda validada con cuatro explícitos; conserva todos los puntos de cobertura pedidos. Once pruebas locales aprobadas. No se repitieron los otros cuatro casos ni se cambió otra lógica.
 
 Evidencia nueva: [reranking_default_cuatro/resultado_para_revision.md](evidencias/reranking_default_cuatro/resultado_para_revision.md), JSON completo y verificación de argumentos. B.4 permanece pendiente hasta configurar LangSmith y verificar una traza real; las instrucciones de clave y `.env` figuran en README.
+
+
+---
+
+## Auditoría B.4 preliminar, antes de disponer de lectura API
+
+**B.4 permanece pendiente de verificación completa; no se marca toda la Parte B
+como completa.** La rama de trabajo es `b-rag-avanzado` sobre `d016c52`. Se conservaron
+los cambios existentes y las capturas originales. Esta auditoría no modifica el
+pipeline, no ejecuta Parte C y no declara métricas RAGAS.
+
+El examen completo, matriz de requisitos y pantallas faltantes se conserva en
+[auditoria_b4.md](evidencias/langsmith/auditoria_b4.md); las comprobaciones
+estructurales y hashes están en [verificacion_b4.json](evidencias/langsmith/verificacion_b4.json).
+
+### Identidad y enlace de ejecución
+
+La clave LangSmith local es un marcador de ejemplo; no permite consultar la API.
+No se envió ese marcador como credencial ni se exploraron otras credenciales.
+Por ello no se conocen los permisos de lectura ni se verificó una respuesta API.
+Las capturas no muestran proyecto, ID raíz, fecha completa con zona ni URL.
+`grupo-e-entrega-3-b4` es el proyecto indicado en la guía, no un valor observado.
+
+**Enlace real de la traza: pendiente de aportar o recuperar mediante lectura API.**
+No se inventó una URL a partir de IDs hijos. El enlace debe considerarse privado
+con acceso al workspace salvo verificación expresa de publicación; no se afirma
+que sea público.
+
+El registro local `evidencias/b4_companero/resultado_langsmith.json` declara
+finalización `2026-10-17T22:33:38.088354+00:00` (19:33:38.088354 en Buenos Aires).
+La interfaz muestra «10:33 PM», sin fecha/zona. IDs de llamadas hijas registrados
+localmente: juez `01a14bff-96b9-7103-85e6-4455a3e303e8`, generador
+`01a14bff-b92b-7e12-afdc-a795bf901eca`. No son IDs raíz confirmados por API.
+
+### Configuración y corpus
+
+El JSON local declara `variant=rerank`, `candidate_k=8`, `selected_k=4`,
+`min_judge_score=0.5`, modelo `gemini-3.1-flash-lite`, temperatura 0.0.
+El manifiesto local declara splitter 500/100 caracteres, 18 documentos y 36 chunks;
+DOC-003 y DOC-00X difieren del JSON limpio. Las pruebas anteriores usaban 17/35,
+por lo que no se presume que el corpus sea idéntico.
+
+La recuperación visible cuenta ocho candidatos; la entrada visible del juez
+incluye DOC-008/001, cuya distancia local es 0.3024785519. El registro local
+muestra evaluación de candidatos por encima de 0.28, compatible con ausencia de
+corte previo. Sin embargo, esos valores/configuración no se certifican como
+metadata remota por el solo valor actual del código. `max_distance=0.28` en
+settings es un campo compartido y no prueba su aplicación al reranking.
+Falta el vínculo remoto con la indexación 500/100 y los parámetros de esta corrida.
+
+### Etapas y relación entre candidatos, seleccionados y fuentes
+
+Las capturas muestran `rag_rerank`, `recuperacion`, `reranking`,
+`juez_relevancia`, `generacion` y `respuesta_y_fuentes`. En recuperación e Input
+de reranking se ve `selected [8 items]` y `judge=null`: es el estado previo al
+juez, no la cantidad final seleccionada. Output de reranking no está desplegado.
+
+Comprobación local: ocho candidatos únicos; cuatro seleccionados pertenecientes
+a ellos, con igual texto/metadatos; scores y orden consistentes con mínimo 0.5 y
+límite 4; `sources` idéntico a `selected`, incluyendo orden y contenido. Fuentes:
+
+| Orden | Chunk | Padre | Score local |
+|---|---|---|---:|
+| 1 | DOC-008::chunk-000-989bdb5081187467 | DOC-008 | 1.0 |
+| 2 | DOC-001::chunk-000-5d1a5023e0007962 | DOC-001 | 1.0 |
+| 3 | DOC-007::chunk-000-bfbf474549da33fb | DOC-007 | 1.0 |
+| 4 | DOC-008::chunk-001-92e73e8b1d8ef4e4 | DOC-008 | 0.8 |
+
+La captura principal muestra el comienzo del contexto generador con los primeros
+tres IDs; el cuarto queda fuera del encuadre. La respuesta local cubre los seis
+puntos validados de IVA/cargas sociales, pero ninguna captura abre su salida final
+completa. La consistencia local pasa; el contraste remoto completo sigue pendiente.
+
+### Tiempos y tokens, con origen explícito
+
+| Medida | Capturas LangSmith | Registro local |
+|---|---:|---:|
+| Total | 14.70 s, redondeado | 14.882544 s del ejecutor |
+| Recuperación | 0.43 s | 0.4248662 s |
+| Reranking | 8.82 s | 8.8156950 s |
+| Cadena juez, hija de reranking | 8.81 s | No medido por separado |
+| Generación | 5.37 s | 5.3688674 s |
+| Tokens juez | 1.732K | 1122 entrada + 610 salida = 1732 |
+| Tokens generador | 1.099K | 727 entrada + 372 salida = 1099 |
+
+El total raíz de LangSmith y el total del ejecutor tienen límites de medición
+distintos. No se suman reranking y su juez hijo. Los desgloses exactos input/output
+son del JSON local, no de campos visibles ni de una consulta API. Solo se suman
+las dos llamadas Gemini distintas: 2831 tokens locales, sin agregar consumos de
+padres o copias de `provider_usage`. No se dispone de tokens de embeddings.
+
+### Capturas y faltantes concretos
+
+Principal: [langsmith_trace.png](langsmith_trace.png), copia byte idéntica de
+Generacion.png. Complementarias: [recuperación](evidencias/langsmith/recuperacion.png),
+[reranking](evidencias/langsmith/reranking.png),
+[juez](evidencias/langsmith/juez_relevancia.png). Los originales se mantienen.
+Son legibles, pero no muestran todos los campos necesarios.
+
+Para cerrar B.4, aportar o consultar por API: proyecto/ID raíz/fecha/enlace privado;
+Output de recuperación con ocho candidatos expandidos; Output de reranking con
+`selected` y `judge.items` completos; Input generador con cuatro IDs/textos;
+Output final con respuesta/fuentes; uso input/output de cada llamada Gemini;
+configuración y procedencia de indexación vinculadas a esta ejecución.
+No basta con la captura actual de Input de reranking ni con el código presente.
+La matriz detallada Cumple/Pendiente está en la auditoría enlazada arriba.
+
+
+---
+
+## B.4 — verificación posterior mediante API de LangSmith
+
+La nueva clave permitió lectura. Se consultó la ejecución existente, sin generar
+una nueva traza. Se verificaron proyecto, raíz, fechas, árbol completo, inputs,
+outputs y tokens; los IDs hijos coinciden con el JSON del compañero. La auditoría
+preliminar anterior se conserva como histórica y sus faltantes remotos se
+actualizan aquí. La [auditoría detallada actualizada](evidencias/langsmith/auditoria_b4.md)
+y la [exportación API](evidencias/langsmith/traza_api.json) contienen el respaldo;
+[contraste_api.json](evidencias/langsmith/contraste_api.json) registra los controles.
+
+- Proyecto: `grupo-e-entrega-3-b4`, ID `ad56b0c4-866e-47a2-9145-0f218035ad61`.
+- Raíz: `01a14bff-94b8-7c73-a84d-da89091ad81a`.
+- Inicio/fin UTC: `2026-10-17T22:33:23.385031Z` a `2026-10-17T22:33:38.084356Z`.
+- Buenos Aires: 17/10/2026, 19:33:23.385031 a 19:33:38.084356.
+- Revisión registrada: `e6c90f5`.
+- [Enlace real de LangSmith](https://smith.langchain.com/o/4e1308b3-31f5-4580-ac80-b762ab74e4dc/projects/p/ad56b0c4-866e-47a2-9145-0f218035ad61/r/01a14bff-94b8-7c73-a84d-da89091ad81a?poll=true).
+  Es un enlace del workspace autenticado; no se verificó acceso público ni se
+  publicó la traza.
+
+Los settings remotos confirman variante rerank, modelo gemini-3.1-flash-lite,
+temperatura 0, ocho candidatos, mínimo 0.5 y máximo cuatro. El input real del juez
+contiene los ocho candidatos, incluyendo seis por encima de distancia 0.28:
+se confirma que ese corte no los eliminó antes del juez en esta corrida.
+`max_distance=0.28` aparece como campo compartido, no como prueba de aplicación.
+
+Los cuatro seleccionados remotos son DOC-008/000 (1.0), DOC-001/000 (1.0),
+DOC-007/000 (1.0) y DOC-008/001 (0.8), en ese orden. Pertenecen a los candidatos;
+sus textos y orden son exactamente el contexto enviado a la llamada Gemini del
+generador. El juicio bruto coincide con reranking; respuesta del modelo, salida
+raíz, fuentes y registro local coinciden. Todos los nodos pertenecen a la misma
+traza y ninguno registra error.
+
+| Medida API | Valor |
+|---|---:|
+| Duración raíz | 14.699325 s |
+| Recuperación | 0.425542 s |
+| Reranking | 8.816276 s |
+| Llamada juez, incluida en reranking | 8.812468 s |
+| Cadena de generación | 5.368333 s |
+| Llamada generador, incluida en generación | 5.365554 s |
+| Tokens juez | 1122 entrada + 610 salida = 1732 |
+| Tokens generador | 727 entrada + 372 salida = 1099 |
+| Total de las dos llamadas distintas | 1849 entrada + 982 salida = 2831 |
+
+El agregado API de la raíz coincide con ese total; no se agrega una segunda vez.
+Las duraciones y totales son compatibles con las capturas. El total local de
+14.882544 s tiene otro intervalo de medición; no reemplaza al tiempo raíz remoto.
+No hay tokens de embeddings registrados.
+
+**Criterios de auditoría ampliada planteados inicialmente (revisados en el cierre según consigna que sigue):**
+
+1. El manifiesto local declara 500/100 y 18 documentos/36 chunks, pero la traza no
+   contiene esos parámetros ni hash de indexación. Vincular esa indexación con el
+   corpus/colección usado por esta ejecución; no se confirma solo por código actual.
+2. Completar la evidencia visual con **esta traza → reranking → Output**, expandiendo
+   `selected [4 items]` y `judge.items` para ver IDs, puntuaciones y orden, acompañada
+   del conteo de ocho candidatos. La API ya confirmó esa relación; las capturas
+   actuales muestran Input previo al juez o payloads recortados.
+
+La captura principal `langsmith_trace.png` y complementarias en
+`evidencias/langsmith/` siguen intactas. La API resolvió los restantes faltantes
+remotos de la auditoría inicial. **No se marca toda la Parte B como completa**
+mientras subsistan esos dos requisitos. No hay Parte C ni RAGAS ni
+commit/push/merge/PR en este paso.
+
+
+---
+
+## Cierre documental B.1–B.4 según la consigna original
+
+La vinculación por hash de indexación era una mejora opcional de auditoría,
+**no un requisito obligatorio de la consigna**. Se elimina como bloqueo. No se
+creó otra ejecución ni se modificó recuperación, reranking o generación.
+
+### Evidencia y configuración final
+
+El manifiesto [indexacion.json](evidencias/b4_companero/indexacion.json) declara
+500 caracteres de tamaño, 100 de solapamiento, 18 documentos originales y 36
+chunks en estudio_contable_chunks. Esa es **evidencia local**: chunk_size y
+chunk_overlap no están registrados en la traza de LangSmith. No se presentan como
+valores remotos ni se deducen solo del código actual. La consigna no exige un
+hash de indexación vinculado a la traza.
+
+La configuración final conserva hasta ocho candidatos, sin corte previo 0.28
+antes del juez, score mínimo 0.5 y hasta cuatro seleccionados. La API confirma
+settings y el envío al juez de los ocho candidatos completos, incluyendo seis
+por encima de distancia 0.28. El generador recibe exactamente los cuatro
+seleccionados, con los mismos textos y orden, y las fuentes finales coinciden.
+
+### Traza existente y métricas verificadas
+
+Proyecto real: **grupo-e-entrega-3-b4**. Raíz:
+`01a14bff-94b8-7c73-a84d-da89091ad81a`. Fecha: 17/10/2026,
+19:33:23.385031 a 19:33:38.084356, Buenos Aires.
+
+[Enlace de la ejecución existente](https://smith.langchain.com/o/4e1308b3-31f5-4580-ac80-b762ab74e4dc/projects/p/ad56b0c4-866e-47a2-9145-0f218035ad61/r/01a14bff-94b8-7c73-a84d-da89091ad81a?poll=true).
+**Requiere acceso al workspace**; no se presenta como enlace público.
+
+| Medida verificada por API | Valor |
+|---|---:|
+| Total raíz | 14.699325 s |
+| Recuperación | 0.425542 s |
+| Reranking | 8.816276 s |
+| Generación, cadena | 5.368333 s |
+| Tokens juez | 1122 entrada + 610 salida = 1732 |
+| Tokens generador | 727 entrada + 372 salida = 1099 |
+| Total de las dos llamadas distintas | 1849 entrada + 982 salida = 2831 |
+
+No se suman otra vez los agregados de raíz o cadenas padre. Las llamadas al juez
+y al generador ya están incluidas en las duraciones de sus respectivas etapas.
+La salida API, el JSON local y las capturas son consistentes. No hay uso de
+embeddings registrado en esta traza.
+
+Seleccionados remotos en orden: DOC-008/000 (1.0), DOC-001/000 (1.0),
+DOC-007/000 (1.0), DOC-008/001 (0.8). Se verificó por API su pertenencia a los ocho
+candidatos, textos, orden, contexto efectivo y correspondencia respuesta/fuentes.
+
+### Evidencia visual y único pendiente
+
+- Principal conservada: [langsmith_trace.png](langsmith_trace.png).
+- Complementarias: [recuperación](evidencias/langsmith/recuperacion.png),
+  [juez](evidencias/langsmith/juez_relevancia.png) y
+  [reranking existente](evidencias/langsmith/reranking.png).
+- Contraste completo: [auditoría](evidencias/langsmith/auditoria_b4.md),
+  [datos API](evidencias/langsmith/traza_api.json) y
+  [controles](evidencias/langsmith/contraste_api.json).
+
+Las imágenes iniciales son legibles y byte idénticas a los originales; muestran
+tiempos, tokens y candidates [8 items]. La captura inicial de reranking estaba
+en Input. Ese faltante visual quedó resuelto posteriormente con juez1.png,
+juez2.png y select.png: ver el cierre final y sus enlaces más abajo. No se
+fabricó ninguna vista ni se generó otra ejecución.
+
+### Checklist final
+
+| Punto | Estado según evidencia disponible |
+|---|---|
+| B.1: falla real y causa técnica | Implementado y validado en los casos documentados; DOC-007 era descartado por el filtro previo |
+| B.2: chunking con solapamiento | Implementado y validado; 500/100 documentado localmente; comparaciones y límites conservados |
+| B.3: reranking y comparación | Implementado y validado; ocho candidatos, mínimo 0.5 y hasta cuatro; no se declara mejora general |
+| B.4: traza real, API, métricas y fuentes | Cumplido; capturas complementarias incorporadas y contrastadas con la API |
+
+Opcionales y no bloqueantes: registrar chunking y hash de indexación como
+metadata en futuras trazas. No son condiciones añadidas de la consigna y no se
+implementaron. Las capturas solicitadas ya están incorporadas y la Parte B queda
+cerrada en el alcance documentado. En esa etapa no se implementó C ni se hizo
+commit, push, merge o PR.
+
+
+---
+
+## Checklist final vigente de la Parte B — B.4 cumplido
+
+Se incorporaron las capturas de la misma ejecución, sin modificarlas:
+[juez1.png](evidencias/langsmith/juez1.png),
+[juez2.png](evidencias/langsmith/juez2.png) y
+[select.png](evidencias/langsmith/select.png).
+Las dos primeras muestran los elementos 0–5 del juicio y sus puntuaciones; la
+tercera muestra los elementos 6–7 y selected con cuatro entradas, índices 0–3.
+IDs y puntuaciones coinciden con la exportación API previamente contrastada.
+Son legibles a resolución original; no se ejecutó una prueba ni traza nueva.
+
+Los cuatro objetos de selected aparecen colapsados internamente, con seis
+campos por objeto. Esa vista acredita el conteo de cuatro, mientras que los IDs,
+contenidos y orden final se acreditan por API. No se presenta `{6 items}` como
+seis seleccionados ni se confunde el orden de judge.items con el orden final:
+DOC-008/000 (1.0), DOC-001/000 (1.0), DOC-007/000 (1.0), DOC-008/001 (0.8).
+Algunos motivos se abrevian visualmente; el JSON remoto conserva los completos.
+
+La principal [langsmith_trace.png](langsmith_trace.png) sigue mostrando tiempos
+y tokens. La [recuperación](evidencias/langsmith/recuperacion.png) muestra ocho
+candidatos, y el conjunto nuevo de juicio/selected completa el contraste visual
+8→4. La [auditoría actualizada](evidencias/langsmith/auditoria_b4.md) y la
+[revisión visual con hashes](evidencias/langsmith/revision_capturas_finales.json)
+documentan esta incorporación. Los originales y evidencias anteriores se conservan.
+
+Proyecto: **grupo-e-entrega-3-b4**.
+[Enlace de la traza existente](https://smith.langchain.com/o/4e1308b3-31f5-4580-ac80-b762ab74e4dc/projects/p/ad56b0c4-866e-47a2-9145-0f218035ad61/r/01a14bff-94b8-7c73-a84d-da89091ad81a?poll=true),
+que **requiere acceso al workspace**. Duración raíz API: 14.699325 s;
+recuperación 0.425542 s, reranking 8.816276 s, generación 5.368333 s.
+Tokens: juez 1122 entrada + 610 salida = 1732; generador 727 + 372 = 1099;
+total de dos llamadas distintas 2831, sin duplicar agregados de padres.
+Chunking 500/100 acreditado por el manifiesto local; esos parámetros no están
+registrados en la traza. Un hash enlazado a la indexación es una mejora opcional,
+no un requisito adicional de cierre.
+
+| Punto | Estado final | Evidencia |
+|---|---|---|
+| B.1 | Cumplido | Falla real, respuesta esperada, recuperación, filtro y causa técnica documentados |
+| B.2 | Cumplido | Chunking 500/100, colección adicional, metadatos, integridad y comparación real |
+| B.3 | Cumplido | Ocho candidatos sin corte previo; juez validado; mínimo 0.5; hasta cuatro; casos documentados |
+| B.4 | Cumplido | Traza existente leída por API; métricas, entradas/salidas, fuentes y capturas complementarias contrastadas |
+
+**Parte B completa según la consigna, en el alcance documentado. Pendientes
+obligatorios: ninguno.** Esto no implica mejora general ni resultados RAGAS.
+No se ejecutaron nuevas pruebas ni nuevas llamadas LLM/API en esta incorporación.
+No se implementó Parte C y no se hizo commit, push, merge ni PR.

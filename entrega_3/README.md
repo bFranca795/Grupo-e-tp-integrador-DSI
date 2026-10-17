@@ -2,8 +2,9 @@
 
 **Estado de la entrega:** B.1–B.3 están implementados y validados en los casos
 documentados. Esto no constituye una mejora general ni una evaluación RAGAS.
-**B.4 queda pendiente de ejecución y verificación con las credenciales del
-compañero**: todavía no hay una captura ni enlace de traza real verificada.
+**B.4 cumplido:** traza real contrastada por API y capturas complementarias
+incorporadas. B.1–B.4 completos según la consigna y los casos documentados;
+pendientes obligatorios: ninguno. Ver el checklist final del informe.
 
 Continuación en otra máquina: [CONTINUAR_B4.md](CONTINUAR_B4.md).
 
@@ -122,7 +123,7 @@ separado. Los campos ausentes quedan en null; no se estiman tokens.
 
 Guardar una captura real como `entrega_3/langsmith_trace.png` o agregar al informe
 un enlace accesible para el revisor. Revisar que la captura o el enlace no
-expongan secretos antes de compartirlos. **B.4 sigue pendiente sin esa evidencia**;
+expongan secretos antes de compartirlos. **B.4 ya está cumplido con las evidencias enlazadas en el informe**;
 no se genera una captura ficticia ni se habilitan trazas remotas sin credenciales.
 
 ## Archivos y revisión

@@ -1,0 +1,97 @@
+{
+  "source": "Inspección visual de capturas aportadas y comparación con exportación API ya guardada; sin nuevas ejecuciones ni pruebas",
+  "trace_root_id": "01a14bff-94b8-7c73-a84d-da89091ad81a",
+  "trace_url": "https://smith.langchain.com/o/4e1308b3-31f5-4580-ac80-b762ab74e4dc/projects/p/ad56b0c4-866e-47a2-9145-0f218035ad61/r/01a14bff-94b8-7c73-a84d-da89091ad81a?poll=true",
+  "images": [
+    {
+      "file": "juez1.png",
+      "sha256": "34db917374a049adf178a7aafee538ca229afe76b214d76a9c30fd669f0a20d8",
+      "width": 880,
+      "height": 732,
+      "readable_at_native_resolution": true,
+      "modified": false
+    },
+    {
+      "file": "juez2.png",
+      "sha256": "1f969fb377e84bfd7e7987e335d6ffde72cd93e723f1823672e04d2f2bc2fe6c",
+      "width": 857,
+      "height": 625,
+      "readable_at_native_resolution": true,
+      "modified": false
+    },
+    {
+      "file": "select.png",
+      "sha256": "8028d8761786265f069a6dd824c74ecae9ea382f7883e6e3acb86771dc7373d4",
+      "width": 848,
+      "height": 663,
+      "readable_at_native_resolution": true,
+      "modified": false
+    }
+  ],
+  "judge_items_visible": [
+    {
+      "index": 0,
+      "id": "DOC-008::chunk-000-989bdb5081187467",
+      "score": 1.0,
+      "image": "juez1.png"
+    },
+    {
+      "index": 1,
+      "id": "DOC-001::chunk-000-5d1a5023e0007962",
+      "score": 1.0,
+      "image": "juez1.png"
+    },
+    {
+      "index": 2,
+      "id": "DOC-008::chunk-001-92e73e8b1d8ef4e4",
+      "score": 0.8,
+      "image": "juez1.png"
+    },
+    {
+      "index": 3,
+      "id": "DOC-007::chunk-000-bfbf474549da33fb",
+      "score": 1.0,
+      "image": "juez2.png"
+    },
+    {
+      "index": 4,
+      "id": "DOC-001::chunk-001-619740ed81062fb1",
+      "score": 0.5,
+      "image": "juez2.png"
+    },
+    {
+      "index": 5,
+      "id": "DOC-00X::chunk-000-56a9a072654fa42c",
+      "score": 0.0,
+      "image": "juez2.png"
+    },
+    {
+      "index": 6,
+      "id": "DOC-003::chunk-000-42f59d263c71dc15",
+      "score": 0.0,
+      "image": "select.png"
+    },
+    {
+      "index": 7,
+      "id": "DOC-004::chunk-000-e141194203030764",
+      "score": 0.0,
+      "image": "select.png"
+    }
+  ],
+  "selected_visible": {
+    "image": "select.png",
+    "indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "count": 4,
+    "inner_objects_expanded": false,
+    "note": "{6 items} es el número de campos de cada objeto, no seis chunks seleccionados"
+  },
+  "visual_data_correspond_to_saved_api": true,
+  "evidence_scope": "Las capturas acreditan IDs/scores del juicio y conteo de seleccionados; IDs/textos/orden final y envío efectivo al generador se acreditan mediante la API",
+  "b4_complete_according_to_assignment": true,
+  "mandatory_pending": []
+}

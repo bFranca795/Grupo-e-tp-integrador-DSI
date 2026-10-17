@@ -76,8 +76,9 @@ ignorados: se reconstruyen corriendo el pipeline desde `base_conocimiento.json`.
 
 **Estado de la entrega:** B.1–B.3 están implementados y validados en los casos
 documentados. Esto no constituye una mejora general ni una evaluación RAGAS.
-**B.4 queda pendiente de ejecución y verificación con las credenciales del
-compañero**: todavía no hay una captura ni enlace de traza real verificada.
+**B.4 cumplido:** traza real contrastada por API y capturas complementarias
+incorporadas. B.1–B.4 completos según la consigna y los casos documentados;
+pendientes obligatorios: ninguno. Ver el checklist final del informe.
 
 Código y comandos: [`entrega_3/README.md`](entrega_3/README.md).
 Informe consolidado, con evidencia histórica y resultados nuevos separados:
