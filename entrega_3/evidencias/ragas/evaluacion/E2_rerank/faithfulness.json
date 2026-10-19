@@ -1,0 +1,18 @@
+{
+  "started_at": "2026-10-18T23:56:28.876030+00:00",
+  "metric": "faithfulness",
+  "input": {
+    "user_input": "¿Cuánto cobra exactamente el estudio por tramitar mi alta en Monotributo?",
+    "retrieved_contexts": [],
+    "reference_contexts": null,
+    "response": "No poseo información suficiente en la base de conocimiento para responder esa consulta.",
+    "multi_responses": null,
+    "reference": "No poseo información suficiente en la base de conocimiento para responder esa consulta.",
+    "rubrics": null
+  },
+  "value": 1.0,
+  "raw_value": 1.0,
+  "status": "ok",
+  "seconds": 68.665402300001,
+  "continuation_batch": "continuacion_01"
+}

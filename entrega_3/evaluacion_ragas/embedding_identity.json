@@ -1,0 +1,70 @@
+{
+  "provenance": "First vector hash capture from unchanged local approved corpus; no historic vector fingerprint existed. Model provenance remains declared by indexing code, not inferred from vector values.",
+  "algorithm": "SHA256 of little-endian float32 vectors by logical ID",
+  "collections": {
+    "estudio_contable": {
+      "count": 17,
+      "dimension": 768,
+      "vector_sha256_by_logical_id": {
+        "DOC-001": "4aa0693dfdfb339f9b2c0761503f81920f5d7067e814036da33ead2e8ab6e9f8",
+        "DOC-002": "097fcd4ae046b4b2f4d71062179ebdf78074588a8785117a0c3c1c9a7fde14c2",
+        "DOC-002-dup-1": "3c8b7a60d549023ec8c4e298cc19e4f607543e5461e8a495abb19e44a1099465",
+        "DOC-003": "ec308c1c52e5acb0167496308b8b93430e61a13f61c420326862d088d2722071",
+        "DOC-004": "968299bb8e0a34af8b2d7ab6ed15ee2bbffcfa8cfa1126e114a476cb6bcda736",
+        "DOC-005": "7283a856d61e4e1ff212b053c73d3312cfd0ef814796188f13eb1b98ed92c71f",
+        "DOC-006": "f6a23b00acc60d175b379c02c5e2e48c867e743c539f7c4fe73ced133481ad52",
+        "DOC-007": "79f519e20706006668d3722823f24c71492e0398e2c4914c757c7c503d9b9acc",
+        "DOC-008": "09a30043e4b1cde32a78857a2ded2aebb96e5f52e6bd53015cf0ba16656f4617",
+        "DOC-009": "79e84c1c89c135be7c1c4d9a24f57b867c09b1f1bbd2bfd5bf82057cceb75e14",
+        "DOC-010": "5b7d814c8fad779864747a21e3cecdc2fa64ad06b1580c14834ca0bb4a2b7b87",
+        "DOC-011": "6d2bbe869f39030bed46dcd6853ed40a649470aa1cacdf28590d64923ebc3143",
+        "DOC-012": "ce4d694c204a286e13133921605b15f79b1c52287cad2a97a1085bbe0d5a334a",
+        "DOC-013": "871e009bea74eb5fd23f18d51ae5a7304522ac0dc02ea28c2d4f99277c5ea45a",
+        "DOC-014": "1cc904e09132ad3d80416b9ff50227bf69bba9f52c3df282097d098f95cba195",
+        "DOC-015": "24586a50fdede7fd7a7b4ffe3b4c1c75a6a4eec61adc2ccca505d038a6c3aec8",
+        "DOC-016": "9bc208843188a20fd2547cc5e517b45d2cf85d006ec5e9695b4c9c2ec823cbea"
+      }
+    },
+    "estudio_contable_chunks": {
+      "count": 35,
+      "dimension": 768,
+      "vector_sha256_by_logical_id": {
+        "DOC-001::chunk-000-5d1a5023e0007962": "6b75dd13c9348dbb19d7e246fbbad819ad7a43ea74a3563e4d29364f19eac3a7",
+        "DOC-001::chunk-001-619740ed81062fb1": "fd2590da89f505d7d50204e7406a7526740f8286f6b5bc8be568f91194c1f8fa",
+        "DOC-002-dup-1::chunk-000-ecbe254ea1f4606b": "3c8b7a60d549023ec8c4e298cc19e4f607543e5461e8a495abb19e44a1099465",
+        "DOC-002::chunk-000-be61eb2c57df8b1d": "2e534a29a69606d2091508fa214c2b7ee76446374ab49ce771b87958c3af1bb5",
+        "DOC-002::chunk-001-b3408e1e8b2c9830": "cf46ef0ac8577de99162b4b29f0a8c60b317292caaa7ad5796772fb36e279e53",
+        "DOC-003::chunk-000-42f59d263c71dc15": "ec308c1c52e5acb0167496308b8b93430e61a13f61c420326862d088d2722071",
+        "DOC-004::chunk-000-e141194203030764": "ca99a36fe832850e561f68f5c66ecf457cf33827e621a38b5891aecf651596e5",
+        "DOC-004::chunk-001-98b2c3cda61d1a19": "93f1e17818c72f113c10314f7517140d6c5afd742f74f53770fa19c98fbbc819",
+        "DOC-005::chunk-000-bca91900ca926a40": "dbc473f0a64b8b815de90240e62abf05bc7725c2cf9d762a79a67d31c02c1e04",
+        "DOC-005::chunk-001-1cd05dd2e6da99a1": "ebbc851cf2fe44e302d162cab7494dacac3d59e5e3f94801f2da308c473de856",
+        "DOC-005::chunk-002-5b00262e64ecd9e4": "cdae704445dad9e334a2ba81d273a24d1c2d91eee56558218a0a92e97987f867",
+        "DOC-006::chunk-000-4e5e4ce57f28fd1c": "400e164477564fe465b402b647cce4b3adc25a745501db5f10257e85d3041d8f",
+        "DOC-006::chunk-001-90d9ac8d7a943aff": "8a390fade1a265cd1bb0c00ae910e19bc4ecd22713b4d46905d19c21aafbb462",
+        "DOC-006::chunk-002-6db523585a6d010d": "bb9dde19e70f13576eb871d7a1c863ee66a06368ee3c0ebb5d9eb7df9c4427ce",
+        "DOC-007::chunk-000-bfbf474549da33fb": "40a00889817afba380df254443a015ceb7b9bb204111e1cf2207feab8f2447a1",
+        "DOC-007::chunk-001-dfd8e869b69c0e65": "dd1f8efa7b2cb4b4ffef71285a774e8a7202ce6254f45496b91dfb669e1ed4aa",
+        "DOC-008::chunk-000-989bdb5081187467": "a1ea2e2378f027485f01a4674c4626e4b808c77eac5ad3beb697036d90a63c6a",
+        "DOC-008::chunk-001-92e73e8b1d8ef4e4": "b9a9d8585892e9c1cb3cef389c3ed8ca6516a5536257888ac2caae90cd5fd2c3",
+        "DOC-009::chunk-000-55cff4bc04fcac2b": "e099df13e3cbda8efcd7f6c332e5930485b64181a9649aa2456d891b4468211a",
+        "DOC-009::chunk-001-035f01ef4d76a001": "30b27e550d0b4dfbc0c9f75b34990f2d0dc51979afb74884d673814c428314ff",
+        "DOC-010::chunk-000-c0431097960fbec4": "8994cec80f3374b6444bc88d059b450552a08735ba275e86f609bce4ce9d74aa",
+        "DOC-010::chunk-001-01056046b7cf009c": "6e6c5afeb01b867aede2abc868d2ed9a596a9b8deabbd9dc799ea2f02827d7a2",
+        "DOC-011::chunk-000-7345273c5fa84a67": "82196211332bcceea432c13b555d698d7b7d1a571a57ee51b483b8856a76ecd4",
+        "DOC-011::chunk-001-dffc157246d4aead": "c200fcb8dfc46f4aad46b2f313489fe3d804d202ab30b33d284a81e5e7ca3bd2",
+        "DOC-012::chunk-000-aab8e60566e4bda5": "ecba7c60131ac8caa84b167ef3a0aa013f37bf48b1e64efbdd827cf73899a1de",
+        "DOC-012::chunk-001-86a2ddefc4629448": "76b14a06d22c451032a8d4e2dc3207d91e472993635ea5951f05ae31e56227b6",
+        "DOC-013::chunk-000-7d57d8f61c472874": "2d75fd628843c526bb9ed31509cae4b1bfa7a36d71c7821b9f5d9e72fed2f72c",
+        "DOC-013::chunk-001-757e9a1ab5f2b921": "07e5d2bc480bc68e1e6bb448ad7eedb7793592d59ead3fdf0f539f33a2cda7e6",
+        "DOC-013::chunk-002-a4d52daeb269c8b4": "3723a517e0789e0dd7c71727ea5cb3eba356daf6223edd476a0936ae160012da",
+        "DOC-014::chunk-000-dfa5ac5555786ca8": "3ee40a31e09f47c91adc64b436e33d9a68c22661d3260dd68ebe83bfeb860f63",
+        "DOC-014::chunk-001-02ba0b64534fb171": "3322e0c81fcd6c6dd39bc1f7f8b9dd7a11509c13d86e207e34460b7a3b0459ca",
+        "DOC-015::chunk-000-88c73e4bc15cb2af": "6c40a9411dfc41095a4f128e05865ec63c038ca88e68364b132ece34ff533c75",
+        "DOC-015::chunk-001-3968d5e90d8b8050": "7141152414bc1d4c74afea040c4c99aa6ee9b53aa02e7e0d6fbd8928a5e6f2ad",
+        "DOC-016::chunk-000-426420e29a1d380e": "af18002a34f28073f716c8b25ff079da1e6274a9aaa8c22a353b0935c15d41a0",
+        "DOC-016::chunk-001-2c1f3eeb0c53a99a": "11a29ab2dee723efa1fb7fbef2213ec54d04cb36c745db2ffd2046de99f0fa4d"
+      }
+    }
+  }
+}

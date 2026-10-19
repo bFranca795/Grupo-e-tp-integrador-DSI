@@ -1,0 +1,692 @@
+{
+  "status": "PASS",
+  "automatic_checks": 154,
+  "errors": [],
+  "checks": [
+    {
+      "check": "Diez IDs únicos previstos",
+      "passed": true
+    },
+    {
+      "check": "Distribución 3/3/2/2",
+      "passed": true
+    },
+    {
+      "check": "Hash del dataset aprobado para este manifiesto",
+      "passed": true
+    },
+    {
+      "check": "JSON limpio sin cambios",
+      "passed": true
+    },
+    {
+      "check": "estudio_contable: logical identity, parsed configuration and content hash (storage UUID excluded)",
+      "passed": true
+    },
+    {
+      "check": "estudio_contable_chunks: logical identity, parsed configuration and content hash (storage UUID excluded)",
+      "passed": true
+    },
+    {
+      "check": "Deterministic 500/100 chunk texts, IDs, positions and metadata",
+      "passed": true
+    },
+    {
+      "check": "Embedding dimensions, finite values and vector hashes by logical ID",
+      "passed": true
+    },
+    {
+      "check": "DOC-001::chunk-000-5d1a5023e0007962: padre, posición, contenido e ID",
+      "passed": true
+    },
+    {
+      "check": "DOC-001::chunk-000-5d1a5023e0007962: metadatos heredados",
+      "passed": true
+    },
+    {
+      "check": "DOC-001::chunk-001-619740ed81062fb1: padre, posición, contenido e ID",
+      "passed": true
+    },
+    {
+      "check": "DOC-001::chunk-001-619740ed81062fb1: metadatos heredados",
+      "passed": true
+    },
+    {
+      "check": "DOC-002-dup-1::chunk-000-ecbe254ea1f4606b: padre, posición, contenido e ID",
+      "passed": true
+    },
+    {
+      "check": "DOC-002-dup-1::chunk-000-ecbe254ea1f4606b: metadatos heredados",
+      "passed": true
+    },
+    {
+      "check": "DOC-002::chunk-000-be61eb2c57df8b1d: padre, posición, contenido e ID",
+      "passed": true
+    },
+    {
+      "check": "DOC-002::chunk-000-be61eb2c57df8b1d: metadatos heredados",
+      "passed": true
+    },
+    {
+      "check": "DOC-002::chunk-001-b3408e1e8b2c9830: padre, posición, contenido e ID",
+      "passed": true
+    },
+    {
+      "check": "DOC-002::chunk-001-b3408e1e8b2c9830: metadatos heredados",
+      "passed": true
+    },
+    {
+      "check": "DOC-003::chunk-000-42f59d263c71dc15: padre, posición, contenido e ID",
+      "passed": true
+    },
+    {
+      "check": "DOC-003::chunk-000-42f59d263c71dc15: metadatos heredados",
+      "passed": true
+    },
+    {
+      "check": "DOC-004::chunk-000-e141194203030764: padre, posición, contenido e ID",
+      "passed": true
+    },
+    {
+      "check": "DOC-004::chunk-000-e141194203030764: metadatos heredados",
+      "passed": true
+    },
+    {
+      "check": "DOC-004::chunk-001-98b2c3cda61d1a19: padre, posición, contenido e ID",
+      "passed": true
+    },
+    {
+      "check": "DOC-004::chunk-001-98b2c3cda61d1a19: metadatos heredados",
+      "passed": true
+    },
+    {
+      "check": "DOC-005::chunk-000-bca91900ca926a40: padre, posición, contenido e ID",
+      "passed": true
+    },
+    {
+      "check": "DOC-005::chunk-000-bca91900ca926a40: metadatos heredados",
+      "passed": true
+    },
+    {
+      "check": "DOC-005::chunk-001-1cd05dd2e6da99a1: padre, posición, contenido e ID",
+      "passed": true
+    },
+    {
+      "check": "DOC-005::chunk-001-1cd05dd2e6da99a1: metadatos heredados",
+      "passed": true
+    },
+    {
+      "check": "DOC-005::chunk-002-5b00262e64ecd9e4: padre, posición, contenido e ID",
+      "passed": true
+    },
+    {
+      "check": "DOC-005::chunk-002-5b00262e64ecd9e4: metadatos heredados",
+      "passed": true
+    },
+    {
+      "check": "DOC-006::chunk-000-4e5e4ce57f28fd1c: padre, posición, contenido e ID",
+      "passed": true
+    },
+    {
+      "check": "DOC-006::chunk-000-4e5e4ce57f28fd1c: metadatos heredados",
+      "passed": true
+    },
+    {
+      "check": "DOC-006::chunk-001-90d9ac8d7a943aff: padre, posición, contenido e ID",
+      "passed": true
+    },
+    {
+      "check": "DOC-006::chunk-001-90d9ac8d7a943aff: metadatos heredados",
+      "passed": true
+    },
+    {
+      "check": "DOC-006::chunk-002-6db523585a6d010d: padre, posición, contenido e ID",
+      "passed": true
+    },
+    {
+      "check": "DOC-006::chunk-002-6db523585a6d010d: metadatos heredados",
+      "passed": true
+    },
+    {
+      "check": "DOC-007::chunk-000-bfbf474549da33fb: padre, posición, contenido e ID",
+      "passed": true
+    },
+    {
+      "check": "DOC-007::chunk-000-bfbf474549da33fb: metadatos heredados",
+      "passed": true
+    },
+    {
+      "check": "DOC-007::chunk-001-dfd8e869b69c0e65: padre, posición, contenido e ID",
+      "passed": true
+    },
+    {
+      "check": "DOC-007::chunk-001-dfd8e869b69c0e65: metadatos heredados",
+      "passed": true
+    },
+    {
+      "check": "DOC-008::chunk-000-989bdb5081187467: padre, posición, contenido e ID",
+      "passed": true
+    },
+    {
+      "check": "DOC-008::chunk-000-989bdb5081187467: metadatos heredados",
+      "passed": true
+    },
+    {
+      "check": "DOC-008::chunk-001-92e73e8b1d8ef4e4: padre, posición, contenido e ID",
+      "passed": true
+    },
+    {
+      "check": "DOC-008::chunk-001-92e73e8b1d8ef4e4: metadatos heredados",
+      "passed": true
+    },
+    {
+      "check": "DOC-009::chunk-000-55cff4bc04fcac2b: padre, posición, contenido e ID",
+      "passed": true
+    },
+    {
+      "check": "DOC-009::chunk-000-55cff4bc04fcac2b: metadatos heredados",
+      "passed": true
+    },
+    {
+      "check": "DOC-009::chunk-001-035f01ef4d76a001: padre, posición, contenido e ID",
+      "passed": true
+    },
+    {
+      "check": "DOC-009::chunk-001-035f01ef4d76a001: metadatos heredados",
+      "passed": true
+    },
+    {
+      "check": "DOC-010::chunk-000-c0431097960fbec4: padre, posición, contenido e ID",
+      "passed": true
+    },
+    {
+      "check": "DOC-010::chunk-000-c0431097960fbec4: metadatos heredados",
+      "passed": true
+    },
+    {
+      "check": "DOC-010::chunk-001-01056046b7cf009c: padre, posición, contenido e ID",
+      "passed": true
+    },
+    {
+      "check": "DOC-010::chunk-001-01056046b7cf009c: metadatos heredados",
+      "passed": true
+    },
+    {
+      "check": "DOC-011::chunk-000-7345273c5fa84a67: padre, posición, contenido e ID",
+      "passed": true
+    },
+    {
+      "check": "DOC-011::chunk-000-7345273c5fa84a67: metadatos heredados",
+      "passed": true
+    },
+    {
+      "check": "DOC-011::chunk-001-dffc157246d4aead: padre, posición, contenido e ID",
+      "passed": true
+    },
+    {
+      "check": "DOC-011::chunk-001-dffc157246d4aead: metadatos heredados",
+      "passed": true
+    },
+    {
+      "check": "DOC-012::chunk-000-aab8e60566e4bda5: padre, posición, contenido e ID",
+      "passed": true
+    },
+    {
+      "check": "DOC-012::chunk-000-aab8e60566e4bda5: metadatos heredados",
+      "passed": true
+    },
+    {
+      "check": "DOC-012::chunk-001-86a2ddefc4629448: padre, posición, contenido e ID",
+      "passed": true
+    },
+    {
+      "check": "DOC-012::chunk-001-86a2ddefc4629448: metadatos heredados",
+      "passed": true
+    },
+    {
+      "check": "DOC-013::chunk-000-7d57d8f61c472874: padre, posición, contenido e ID",
+      "passed": true
+    },
+    {
+      "check": "DOC-013::chunk-000-7d57d8f61c472874: metadatos heredados",
+      "passed": true
+    },
+    {
+      "check": "DOC-013::chunk-001-757e9a1ab5f2b921: padre, posición, contenido e ID",
+      "passed": true
+    },
+    {
+      "check": "DOC-013::chunk-001-757e9a1ab5f2b921: metadatos heredados",
+      "passed": true
+    },
+    {
+      "check": "DOC-013::chunk-002-a4d52daeb269c8b4: padre, posición, contenido e ID",
+      "passed": true
+    },
+    {
+      "check": "DOC-013::chunk-002-a4d52daeb269c8b4: metadatos heredados",
+      "passed": true
+    },
+    {
+      "check": "DOC-014::chunk-000-dfa5ac5555786ca8: padre, posición, contenido e ID",
+      "passed": true
+    },
+    {
+      "check": "DOC-014::chunk-000-dfa5ac5555786ca8: metadatos heredados",
+      "passed": true
+    },
+    {
+      "check": "DOC-014::chunk-001-02ba0b64534fb171: padre, posición, contenido e ID",
+      "passed": true
+    },
+    {
+      "check": "DOC-014::chunk-001-02ba0b64534fb171: metadatos heredados",
+      "passed": true
+    },
+    {
+      "check": "DOC-015::chunk-000-88c73e4bc15cb2af: padre, posición, contenido e ID",
+      "passed": true
+    },
+    {
+      "check": "DOC-015::chunk-000-88c73e4bc15cb2af: metadatos heredados",
+      "passed": true
+    },
+    {
+      "check": "DOC-015::chunk-001-3968d5e90d8b8050: padre, posición, contenido e ID",
+      "passed": true
+    },
+    {
+      "check": "DOC-015::chunk-001-3968d5e90d8b8050: metadatos heredados",
+      "passed": true
+    },
+    {
+      "check": "DOC-016::chunk-000-426420e29a1d380e: padre, posición, contenido e ID",
+      "passed": true
+    },
+    {
+      "check": "DOC-016::chunk-000-426420e29a1d380e: metadatos heredados",
+      "passed": true
+    },
+    {
+      "check": "DOC-016::chunk-001-2c1f3eeb0c53a99a: padre, posición, contenido e ID",
+      "passed": true
+    },
+    {
+      "check": "DOC-016::chunk-001-2c1f3eeb0c53a99a: metadatos heredados",
+      "passed": true
+    },
+    {
+      "check": "Todos los documentos tienen chunks y no hay huérfanos",
+      "passed": true
+    },
+    {
+      "check": "S1: campos completos",
+      "passed": true
+    },
+    {
+      "check": "S1: categoría y escape coherentes",
+      "passed": true
+    },
+    {
+      "check": "S1: hechos no vacíos",
+      "passed": true
+    },
+    {
+      "check": "S1: listas coinciden con respaldo de hechos",
+      "passed": true
+    },
+    {
+      "check": "S1: hecho 1, fuente y cita literal",
+      "passed": true
+    },
+    {
+      "check": "S1: hecho 2, fuente y cita literal",
+      "passed": true
+    },
+    {
+      "check": "S1: todos los respaldos caben en un único chunk real",
+      "passed": true
+    },
+    {
+      "check": "S2: campos completos",
+      "passed": true
+    },
+    {
+      "check": "S2: categoría y escape coherentes",
+      "passed": true
+    },
+    {
+      "check": "S2: hechos no vacíos",
+      "passed": true
+    },
+    {
+      "check": "S2: listas coinciden con respaldo de hechos",
+      "passed": true
+    },
+    {
+      "check": "S2: hecho 1, fuente y cita literal",
+      "passed": true
+    },
+    {
+      "check": "S2: todos los respaldos caben en un único chunk real",
+      "passed": true
+    },
+    {
+      "check": "S3: campos completos",
+      "passed": true
+    },
+    {
+      "check": "S3: categoría y escape coherentes",
+      "passed": true
+    },
+    {
+      "check": "S3: hechos no vacíos",
+      "passed": true
+    },
+    {
+      "check": "S3: listas coinciden con respaldo de hechos",
+      "passed": true
+    },
+    {
+      "check": "S3: hecho 1, fuente y cita literal",
+      "passed": true
+    },
+    {
+      "check": "S3: hecho 2, fuente y cita literal",
+      "passed": true
+    },
+    {
+      "check": "S3: todos los respaldos caben en un único chunk real",
+      "passed": true
+    },
+    {
+      "check": "C1: campos completos",
+      "passed": true
+    },
+    {
+      "check": "C1: categoría y escape coherentes",
+      "passed": true
+    },
+    {
+      "check": "C1: hechos no vacíos",
+      "passed": true
+    },
+    {
+      "check": "C1: listas coinciden con respaldo de hechos",
+      "passed": true
+    },
+    {
+      "check": "C1: hecho 1, fuente y cita literal",
+      "passed": true
+    },
+    {
+      "check": "C1: hecho 2, fuente y cita literal",
+      "passed": true
+    },
+    {
+      "check": "C1: hecho 3, fuente y cita literal",
+      "passed": true
+    },
+    {
+      "check": "C1: hecho 4, fuente y cita literal",
+      "passed": true
+    },
+    {
+      "check": "C1: hecho 5, fuente y cita literal",
+      "passed": true
+    },
+    {
+      "check": "C1: hecho 6, fuente y cita literal",
+      "passed": true
+    },
+    {
+      "check": "C1: hecho 7, fuente y cita literal",
+      "passed": true
+    },
+    {
+      "check": "C1: hecho 8, fuente y cita literal",
+      "passed": true
+    },
+    {
+      "check": "C1: respaldos distribuidos, ningún chunk contiene todos",
+      "passed": true
+    },
+    {
+      "check": "C2: campos completos",
+      "passed": true
+    },
+    {
+      "check": "C2: categoría y escape coherentes",
+      "passed": true
+    },
+    {
+      "check": "C2: hechos no vacíos",
+      "passed": true
+    },
+    {
+      "check": "C2: listas coinciden con respaldo de hechos",
+      "passed": true
+    },
+    {
+      "check": "C2: hecho 1, fuente y cita literal",
+      "passed": true
+    },
+    {
+      "check": "C2: hecho 2, fuente y cita literal",
+      "passed": true
+    },
+    {
+      "check": "C2: hecho 3, fuente y cita literal",
+      "passed": true
+    },
+    {
+      "check": "C2: hecho 4, fuente y cita literal",
+      "passed": true
+    },
+    {
+      "check": "C2: respaldos distribuidos, ningún chunk contiene todos",
+      "passed": true
+    },
+    {
+      "check": "C3: campos completos",
+      "passed": true
+    },
+    {
+      "check": "C3: categoría y escape coherentes",
+      "passed": true
+    },
+    {
+      "check": "C3: hechos no vacíos",
+      "passed": true
+    },
+    {
+      "check": "C3: listas coinciden con respaldo de hechos",
+      "passed": true
+    },
+    {
+      "check": "C3: hecho 1, fuente y cita literal",
+      "passed": true
+    },
+    {
+      "check": "C3: hecho 2, fuente y cita literal",
+      "passed": true
+    },
+    {
+      "check": "C3: hecho 3, fuente y cita literal",
+      "passed": true
+    },
+    {
+      "check": "C3: hecho 4, fuente y cita literal",
+      "passed": true
+    },
+    {
+      "check": "C3: hecho 5, fuente y cita literal",
+      "passed": true
+    },
+    {
+      "check": "C3: hecho 6, fuente y cita literal",
+      "passed": true
+    },
+    {
+      "check": "C3: respaldos distribuidos, ningún chunk contiene todos",
+      "passed": true
+    },
+    {
+      "check": "E1: campos completos",
+      "passed": true
+    },
+    {
+      "check": "E1: categoría y escape coherentes",
+      "passed": true
+    },
+    {
+      "check": "E1: hechos no vacíos",
+      "passed": true
+    },
+    {
+      "check": "E1: escape sin fuentes inventadas",
+      "passed": true
+    },
+    {
+      "check": "E2: campos completos",
+      "passed": true
+    },
+    {
+      "check": "E2: categoría y escape coherentes",
+      "passed": true
+    },
+    {
+      "check": "E2: hechos no vacíos",
+      "passed": true
+    },
+    {
+      "check": "E2: escape sin fuentes inventadas",
+      "passed": true
+    },
+    {
+      "check": "I1: campos completos",
+      "passed": true
+    },
+    {
+      "check": "I1: categoría y escape coherentes",
+      "passed": true
+    },
+    {
+      "check": "I1: hechos no vacíos",
+      "passed": true
+    },
+    {
+      "check": "I1: listas coinciden con respaldo de hechos",
+      "passed": true
+    },
+    {
+      "check": "I1: hecho 1, fuente y cita literal",
+      "passed": true
+    },
+    {
+      "check": "I1: hecho 2, fuente y cita literal",
+      "passed": true
+    },
+    {
+      "check": "I2: campos completos",
+      "passed": true
+    },
+    {
+      "check": "I2: categoría y escape coherentes",
+      "passed": true
+    },
+    {
+      "check": "I2: hechos no vacíos",
+      "passed": true
+    },
+    {
+      "check": "I2: listas coinciden con respaldo de hechos",
+      "passed": true
+    },
+    {
+      "check": "I2: hecho 1, fuente y cita literal",
+      "passed": true
+    },
+    {
+      "check": "I2: hecho 2, fuente y cita literal",
+      "passed": true
+    },
+    {
+      "check": "I2: hecho 3, fuente y cita literal",
+      "passed": true
+    },
+    {
+      "check": "I2: hecho 4, fuente y cita literal",
+      "passed": true
+    }
+  ],
+  "semantic_review": [
+    {
+      "id": "S1",
+      "chunk_count": 1,
+      "single_chunk_covering": [
+        "DOC-007::chunk-000-bfbf474549da33fb"
+      ],
+      "semantico": "Revisar que cada cita implique el hecho y que los hechos cubran la pregunta. La distribución de citas no demuestra necesidad semántica."
+    },
+    {
+      "id": "S2",
+      "chunk_count": 1,
+      "single_chunk_covering": [
+        "DOC-004::chunk-000-e141194203030764"
+      ],
+      "semantico": "Revisar que cada cita implique el hecho y que los hechos cubran la pregunta. La distribución de citas no demuestra necesidad semántica."
+    },
+    {
+      "id": "S3",
+      "chunk_count": 1,
+      "single_chunk_covering": [
+        "DOC-012::chunk-000-aab8e60566e4bda5"
+      ],
+      "semantico": "Revisar que cada cita implique el hecho y que los hechos cubran la pregunta. La distribución de citas no demuestra necesidad semántica."
+    },
+    {
+      "id": "C1",
+      "chunk_count": 5,
+      "single_chunk_covering": [],
+      "semantico": "Revisar que cada cita implique el hecho y que los hechos cubran la pregunta. La distribución de citas no demuestra necesidad semántica."
+    },
+    {
+      "id": "C2",
+      "chunk_count": 3,
+      "single_chunk_covering": [],
+      "semantico": "Revisar que cada cita implique el hecho y que los hechos cubran la pregunta. La distribución de citas no demuestra necesidad semántica."
+    },
+    {
+      "id": "C3",
+      "chunk_count": 4,
+      "single_chunk_covering": [],
+      "semantico": "Revisar que cada cita implique el hecho y que los hechos cubran la pregunta. La distribución de citas no demuestra necesidad semántica."
+    },
+    {
+      "id": "E1",
+      "automatico": "Ausencia de referencias y coherencia de escape comprobadas.",
+      "semantico": "Revisar ausencia de respuesta en los 17 documentos; no se demuestra con búsquedas léxicas."
+    },
+    {
+      "id": "E2",
+      "automatico": "Ausencia de referencias y coherencia de escape comprobadas.",
+      "semantico": "Revisar ausencia de respuesta en los 17 documentos; no se demuestra con búsquedas léxicas."
+    },
+    {
+      "id": "I1",
+      "chunk_count": 1,
+      "single_chunk_covering": [
+        "DOC-007::chunk-000-bfbf474549da33fb"
+      ],
+      "semantico": "Revisar que cada cita implique el hecho y que los hechos cubran la pregunta. La distribución de citas no demuestra necesidad semántica."
+    },
+    {
+      "id": "I2",
+      "chunk_count": 3,
+      "single_chunk_covering": [],
+      "semantico": "Revisar que cada cita implique el hecho y que los hechos cubran la pregunta. La distribución de citas no demuestra necesidad semántica."
+    }
+  ],
+  "scope": "Sin llamadas generativas, pipelines, RAGAS, upserts, deletes ni regeneración de embeddings; lectura local de vectores con cliente Chroma. PASS estructural no equivale a aprobación semántica."
+}

@@ -1,0 +1,9 @@
+# Preserve approved artifact bytes: manifests and audit hashes include line endings.
+/entrega_3/evaluacion_ragas/** -text whitespace=cr-at-eol,-blank-at-eof
+/entrega_3/evidencias/ragas/** -text whitespace=cr-at-eol,-blank-at-eof
+/uv.lock -text
+# Reproduce the exact line endings of evaluated B sources on checkout.
+/entrega_3/rag_pipeline/*.py text eol=crlf
+/entrega_3/rag_pipeline/config.py text eol=lf
+/entrega_3/rag_pipeline/indexing.py text eol=lf
+/entrega_3/rag_pipeline/__init__.py text eol=lf

@@ -1,0 +1,114 @@
+{
+  "id": "S2",
+  "variant": "basic",
+  "started_at": "2026-10-18T23:09:06.209071+00:00",
+  "total_seconds": 3.716392199996335,
+  "question": "¿Qué componentes integra la cuota mensual del Monotributo?",
+  "candidates": [
+    {
+      "id": "DOC-004",
+      "documento": "El monotributista paga una cuota mensual única que integra tres componentes: el impuesto integrado, el aporte jubilatorio y el aporte a la obra social. La cuota vence todos los meses alrededor del día 20 y, si ese día no es hábil, el plazo corre al día hábil siguiente. El monto depende de la categoría vigente del contribuyente, y las categorías se actualizan periódicamente, por lo que el importe del mes puede diferir del mes anterior aunque la categoría no haya cambiado. Pagar fuera de término genera intereses y, acumulando deuda, puede derivar en la baja automática del régimen. Dos veces al año corresponde la recategorización, que revisa ingresos, superficie y energía consumida de los últimos doce meses. La recategorización es un trámite distinto del pago de la cuota y tiene su propia fecha.",
+      "documento_raw": "El monotributista paga una cuota mensual única que integra tres componentes: el impuesto integrado, el aporte jubilatorio y el aporte a la obra social. La cuota vence todos los meses alrededor del día 20 y, si ese día no es hábil, el plazo corre al día hábil siguiente. El monto depende de la categoría vigente del contribuyente, y las categorías se actualizan periódicamente, por lo que el importe del mes puede diferir del mes anterior aunque la categoría no haya cambiado. Pagar fuera de término genera intereses y, acumulando deuda, puede derivar en la baja automática del régimen. Dos veces al año corresponde la recategorización, que revisa ingresos, superficie y energía consumida de los últimos doce meses. La recategorización es un trámite distinto del pago de la cuota y tiene su propia fecha. Los clientes preguntan: cuando vence el monotributo, cuanto tengo que pagar este mes, hasta cuando puedo pagar la cuota, me atrase con el monotributo que pasa, cuando es la recategorizacion.",
+      "metadatos": {
+        "jurisdiccion": "nacional",
+        "activo": true,
+        "tags_regionales": "monotributo, cuota, vencimiento, recategorizacion, obra social, jubilacion, impuesto integrado",
+        "categoria": "vencimientos",
+        "tipo_contribuyente": "monotributo"
+      },
+      "distancia": 0.22496044635772705,
+      "similitud": 0.775
+    }
+  ],
+  "selected": [
+    {
+      "id": "DOC-004",
+      "documento": "El monotributista paga una cuota mensual única que integra tres componentes: el impuesto integrado, el aporte jubilatorio y el aporte a la obra social. La cuota vence todos los meses alrededor del día 20 y, si ese día no es hábil, el plazo corre al día hábil siguiente. El monto depende de la categoría vigente del contribuyente, y las categorías se actualizan periódicamente, por lo que el importe del mes puede diferir del mes anterior aunque la categoría no haya cambiado. Pagar fuera de término genera intereses y, acumulando deuda, puede derivar en la baja automática del régimen. Dos veces al año corresponde la recategorización, que revisa ingresos, superficie y energía consumida de los últimos doce meses. La recategorización es un trámite distinto del pago de la cuota y tiene su propia fecha.",
+      "documento_raw": "El monotributista paga una cuota mensual única que integra tres componentes: el impuesto integrado, el aporte jubilatorio y el aporte a la obra social. La cuota vence todos los meses alrededor del día 20 y, si ese día no es hábil, el plazo corre al día hábil siguiente. El monto depende de la categoría vigente del contribuyente, y las categorías se actualizan periódicamente, por lo que el importe del mes puede diferir del mes anterior aunque la categoría no haya cambiado. Pagar fuera de término genera intereses y, acumulando deuda, puede derivar en la baja automática del régimen. Dos veces al año corresponde la recategorización, que revisa ingresos, superficie y energía consumida de los últimos doce meses. La recategorización es un trámite distinto del pago de la cuota y tiene su propia fecha. Los clientes preguntan: cuando vence el monotributo, cuanto tengo que pagar este mes, hasta cuando puedo pagar la cuota, me atrase con el monotributo que pasa, cuando es la recategorizacion.",
+      "metadatos": {
+        "jurisdiccion": "nacional",
+        "activo": true,
+        "tags_regionales": "monotributo, cuota, vencimiento, recategorizacion, obra social, jubilacion, impuesto integrado",
+        "categoria": "vencimientos",
+        "tipo_contribuyente": "monotributo"
+      },
+      "distancia": 0.22496044635772705,
+      "similitud": 0.775
+    }
+  ],
+  "status": "ok",
+  "judge": null,
+  "timings": {
+    "retrieval_seconds": 0.35356640000100015,
+    "generation_seconds": 3.320462800002133
+  },
+  "answer": "La cuota mensual del Monotributo integra tres componentes: el impuesto integrado, el aporte jubilatorio y el aporte a la obra social (DOC-004).",
+  "sources": [
+    {
+      "id": "DOC-004",
+      "documento": "El monotributista paga una cuota mensual única que integra tres componentes: el impuesto integrado, el aporte jubilatorio y el aporte a la obra social. La cuota vence todos los meses alrededor del día 20 y, si ese día no es hábil, el plazo corre al día hábil siguiente. El monto depende de la categoría vigente del contribuyente, y las categorías se actualizan periódicamente, por lo que el importe del mes puede diferir del mes anterior aunque la categoría no haya cambiado. Pagar fuera de término genera intereses y, acumulando deuda, puede derivar en la baja automática del régimen. Dos veces al año corresponde la recategorización, que revisa ingresos, superficie y energía consumida de los últimos doce meses. La recategorización es un trámite distinto del pago de la cuota y tiene su propia fecha.",
+      "documento_raw": "El monotributista paga una cuota mensual única que integra tres componentes: el impuesto integrado, el aporte jubilatorio y el aporte a la obra social. La cuota vence todos los meses alrededor del día 20 y, si ese día no es hábil, el plazo corre al día hábil siguiente. El monto depende de la categoría vigente del contribuyente, y las categorías se actualizan periódicamente, por lo que el importe del mes puede diferir del mes anterior aunque la categoría no haya cambiado. Pagar fuera de término genera intereses y, acumulando deuda, puede derivar en la baja automática del régimen. Dos veces al año corresponde la recategorización, que revisa ingresos, superficie y energía consumida de los últimos doce meses. La recategorización es un trámite distinto del pago de la cuota y tiene su propia fecha. Los clientes preguntan: cuando vence el monotributo, cuanto tengo que pagar este mes, hasta cuando puedo pagar la cuota, me atrase con el monotributo que pasa, cuando es la recategorizacion.",
+      "metadatos": {
+        "jurisdiccion": "nacional",
+        "activo": true,
+        "tags_regionales": "monotributo, cuota, vencimiento, recategorizacion, obra social, jubilacion, impuesto integrado",
+        "categoria": "vencimientos",
+        "tipo_contribuyente": "monotributo"
+      },
+      "distancia": 0.22496044635772705,
+      "similitud": 0.775
+    }
+  ],
+  "settings": {
+    "variant": "basic",
+    "model": "gemini-3.1-flash-lite",
+    "temperature": 0.0,
+    "top_k": 3,
+    "candidate_k": 8,
+    "selected_k": 3,
+    "max_distance": 0.28,
+    "min_judge_score": 0.5
+  },
+  "usage": [
+    {
+      "run_id": "01a15146-a4ab-79b0-b096-c30b74991c60",
+      "role": "generator",
+      "usage": {
+        "input_tokens": 358,
+        "output_tokens": 35,
+        "total_tokens": 393
+      },
+      "provider_usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 35,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 358,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 358
+          }
+        ],
+        "thoughts_token_count": null,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 393,
+        "traffic_type": null
+      }
+    }
+  ],
+  "attempts": [],
+  "generator_contexts": [
+    "El monotributista paga una cuota mensual única que integra tres componentes: el impuesto integrado, el aporte jubilatorio y el aporte a la obra social. La cuota vence todos los meses alrededor del día 20 y, si ese día no es hábil, el plazo corre al día hábil siguiente. El monto depende de la categoría vigente del contribuyente, y las categorías se actualizan periódicamente, por lo que el importe del mes puede diferir del mes anterior aunque la categoría no haya cambiado. Pagar fuera de término genera intereses y, acumulando deuda, puede derivar en la baja automática del régimen. Dos veces al año corresponde la recategorización, que revisa ingresos, superficie y energía consumida de los últimos doce meses. La recategorización es un trámite distinto del pago de la cuota y tiene su propia fecha."
+  ],
+  "generator_payload": {
+    "pregunta": "¿Qué componentes integra la cuota mensual del Monotributo?",
+    "contexto": [
+      {
+        "id": "DOC-004",
+        "contenido": "El monotributista paga una cuota mensual única que integra tres componentes: el impuesto integrado, el aporte jubilatorio y el aporte a la obra social. La cuota vence todos los meses alrededor del día 20 y, si ese día no es hábil, el plazo corre al día hábil siguiente. El monto depende de la categoría vigente del contribuyente, y las categorías se actualizan periódicamente, por lo que el importe del mes puede diferir del mes anterior aunque la categoría no haya cambiado. Pagar fuera de término genera intereses y, acumulando deuda, puede derivar en la baja automática del régimen. Dos veces al año corresponde la recategorización, que revisa ingresos, superficie y energía consumida de los últimos doce meses. La recategorización es un trámite distinto del pago de la cuota y tiene su propia fecha."
+      }
+    ]
+  }
+}

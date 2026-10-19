@@ -6,7 +6,7 @@
 
 ## Requisitos
 
-- Python 3.14 o superior (probado en 3.14.7, Linux)
+- Python 3.14 o superior; la evaluación de Entrega 3 se probó con **CPython 3.14.8 en Windows 11 AMD64**. El registro previo de 3.14.7/Linux corresponde a etapas anteriores, no a la verificación del entorno RAGAS actual.
 - Una API key de Google Gemini
 
 ## Instalación
@@ -22,7 +22,7 @@ pip install -r requirements.txt
 Con `uv` (el entorno con el que se desarrolló):
 
 ```bash
-uv sync
+uv sync --locked
 ```
 
 ## Variables de entorno
@@ -70,3 +70,20 @@ pipeline_vectorial.py  →  vector_db.py  →  búsqueda híbrida
 
 Los binarios que generan estos scripts (`*.index`, `chroma_db/`) están
 ignorados: se reconstruyen corriendo el pipeline desde `base_conocimiento.json`.
+
+
+## Entrega 3 — RAG básico LCEL y RAG avanzado
+
+**Estado vigente:** A y B conservadas, B.1–B.4 completos y Parte C aprobada para la corrida documentada. Hay veinte respuestas, 72 puntuaciones RAGAS válidas, ocho no aplicables y cero errores pendientes. Los deltas pareados y las limitaciones del evaluador se detallan en C.3/C.4; no se afirma mejora general ni significancia estadística.
+
+La instalación limpia de C se verificó con uv 0.13.1 en `.venv-repro`, conservando el entorno anterior. Para reproducirla, usar el lockfile y los comandos específicos de `entrega_3/README.md`; la instalación genérica con pip de esta guía no congela todas las dependencias transitivas.
+
+Código y comandos: [`entrega_3/README.md`](entrega_3/README.md).
+Informe consolidado, con evidencia histórica y resultados nuevos separados:
+[`entrega_3/informe.md`](entrega_3/informe.md).
+
+Los antiguos `retriever.py`, `Trazabilidad_de_fuentes.py` e
+`informe_entrega3.md` se trasladaron a esa carpeta. Las entregas 1 y 2
+permanecen en la raíz.
+
+Guía histórica de reproducción de B.4: [comandos y trazabilidad](entrega_3/CONTINUAR_B4.md). B.4 ya está cumplido; ese archivo no declara un pendiente vigente.

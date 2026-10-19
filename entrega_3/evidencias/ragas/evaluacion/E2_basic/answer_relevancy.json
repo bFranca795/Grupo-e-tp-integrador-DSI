@@ -1,0 +1,19 @@
+{
+  "started_at": "2026-10-18T23:24:34.119507+00:00",
+  "metric": "answer_relevancy",
+  "input": {
+    "user_input": "¿Cuánto cobra exactamente el estudio por tramitar mi alta en Monotributo?",
+    "retrieved_contexts": [
+      "Para dar de alta a una persona en el Monotributo, el estudio pide: DNI del titular (frente y dorso), constancia de CUIT o número de CUIL, clave fiscal con nivel de seguridad suficiente para operar, domicilio fiscal con un comprobante que lo respalde (factura de un servicio a nombre del titular o contrato de alquiler), y una estimación de los ingresos brutos anuales de la actividad. También hace falta definir la actividad económica que se va a declarar, porque de eso depende el código de actividad, y si la actividad es venta de cosas muebles o prestación de servicios, porque los topes de cada categoría difieren. Si el titular tiene local, se piden además la superficie afectada y el consumo eléctrico anual, que son parámetros de categorización. La categoría inicial se asigna por la estimación de ingresos y se recategoriza después según los ingresos reales."
+    ],
+    "reference_contexts": null,
+    "response": "No poseo información suficiente en la base de conocimiento para responder esa consulta (DOC-002).",
+    "multi_responses": null,
+    "reference": "No poseo información suficiente en la base de conocimiento para responder esa consulta.",
+    "rubrics": null
+  },
+  "value": 0.0,
+  "raw_value": 0.0,
+  "status": "ok",
+  "seconds": 22.81547120000323
+}

@@ -1,0 +1,19 @@
+{
+  "started_at": "2026-10-18T23:12:13.789967+00:00",
+  "metric": "faithfulness",
+  "input": {
+    "user_input": "¿Qué comprobantes tengo que entregar para liquidar el IVA del mes?",
+    "retrieved_contexts": [
+      "Para liquidar el IVA de un mes, el estudio necesita del cliente: las facturas de venta emitidas en el período, las facturas de compra recibidas, las notas de crédito y de débito tanto emitidas como recibidas, los comprobantes de retenciones y percepciones sufridas, y los tickets de controlador fiscal si el cliente factura por ese medio. Cada comprobante aporta crédito fiscal o débito fiscal según sea compra o venta, y el saldo del período es la diferencia entre ambos. Un comprobante que llega tarde no se puede computar en el período ya presentado y arrastra a una rectificativa. Las facturas de compra solo generan crédito fiscal si están a nombre del CUIT del cliente y corresponden a la actividad gravada. Los comprobantes tipo B y C emitidos a consumidor final no discriminan IVA y por eso no generan crédito fiscal computable."
+    ],
+    "reference_contexts": null,
+    "response": "Para liquidar el IVA del mes, debe entregar los siguientes comprobantes:\n\n*   Facturas de venta emitidas en el período (DOC-007).\n*   Facturas de compra recibidas (DOC-007).\n*   Notas de crédito y de débito, tanto emitidas como recibidas (DOC-007).\n*   Comprobantes de retenciones y percepciones sufridas (DOC-007).\n*   Tickets de controlador fiscal, en caso de que facture por ese medio (DOC-007).",
+    "multi_responses": null,
+    "reference": "Entregá las facturas de venta del período y las facturas de compra recibidas. Incluí las notas de crédito y débito emitidas y recibidas, los comprobantes de retenciones y percepciones sufridas y, si facturás por ese medio, los tickets de controlador fiscal.",
+    "rubrics": null
+  },
+  "value": 1.0,
+  "raw_value": 1.0,
+  "status": "ok",
+  "seconds": 66.7172350999972
+}

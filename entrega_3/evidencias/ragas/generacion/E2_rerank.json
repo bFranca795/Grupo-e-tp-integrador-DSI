@@ -1,0 +1,247 @@
+{
+  "id": "E2",
+  "variant": "rerank",
+  "started_at": "2026-10-18T23:10:55.174661+00:00",
+  "total_seconds": 24.619218400002865,
+  "question": "¿Cuánto cobra exactamente el estudio por tramitar mi alta en Monotributo?",
+  "candidates": [
+    {
+      "id": "DOC-002::chunk-000-be61eb2c57df8b1d",
+      "documento": "Para dar de alta a una persona en el Monotributo, el estudio pide: DNI del titular (frente y dorso), constancia de CUIT o número de CUIL, clave fiscal con nivel de seguridad suficiente para operar, domicilio fiscal con un comprobante que lo respalde (factura de un servicio a nombre del titular o contrato de alquiler), y una estimación de los ingresos brutos anuales de la actividad. También hace falta definir la actividad económica que se va a declarar, porque de eso depende el código de",
+      "documento_raw": "Para dar de alta a una persona en el Monotributo, el estudio pide: DNI del titular (frente y dorso), constancia de CUIT o número de CUIL, clave fiscal con nivel de seguridad suficiente para operar, domicilio fiscal con un comprobante que lo respalde (factura de un servicio a nombre del titular o contrato de alquiler), y una estimación de los ingresos brutos anuales de la actividad. También hace falta definir la actividad económica que se va a declarar, porque de eso depende el código de",
+      "metadatos": {
+        "start_index": 0,
+        "tags_regionales": "monotributo, alta, papeles, inscripcion, pequeño contribuyente, clave fiscal, categoria, cuit",
+        "chunk_index": 0,
+        "tipo_contribuyente": "monotributo",
+        "activo": true,
+        "chunk_id": "DOC-002::chunk-000-be61eb2c57df8b1d",
+        "parent_id": "DOC-002",
+        "categoria": "documentacion",
+        "jurisdiccion": "nacional"
+      },
+      "distancia": 0.26190733909606934,
+      "similitud": 0.7381
+    },
+    {
+      "id": "DOC-015::chunk-000-88c73e4bc15cb2af",
+      "documento": "El estudio emite y gestiona constancias y certificados para sus clientes. La constancia de inscripción acredita en qué impuestos está inscripto el contribuyente y se descarga del padrón con el CUIT, es pública y no requiere clave fiscal. El certificado de no retención evita que los agentes de recaudación retengan cuando el contribuyente acumula saldo a favor, se tramita con clave fiscal y tiene vigencia acotada. El certificado de libre deuda previsional acredita que no hay deuda de cargas",
+      "documento_raw": "El estudio emite y gestiona constancias y certificados para sus clientes. La constancia de inscripción acredita en qué impuestos está inscripto el contribuyente y se descarga del padrón con el CUIT, es pública y no requiere clave fiscal. El certificado de no retención evita que los agentes de recaudación retengan cuando el contribuyente acumula saldo a favor, se tramita con clave fiscal y tiene vigencia acotada. El certificado de libre deuda previsional acredita que no hay deuda de cargas",
+      "metadatos": {
+        "categoria": "documentacion",
+        "chunk_id": "DOC-015::chunk-000-88c73e4bc15cb2af",
+        "tipo_contribuyente": "general",
+        "start_index": 0,
+        "parent_id": "DOC-015",
+        "chunk_index": 0,
+        "tags_regionales": "certificado, constancia, documentacion, constancia de inscripcion, no retencion, libre deuda, cuil",
+        "activo": true,
+        "jurisdiccion": "nacional"
+      },
+      "distancia": 0.334617018699646,
+      "similitud": 0.6654
+    },
+    {
+      "id": "DOC-004::chunk-000-e141194203030764",
+      "documento": "El monotributista paga una cuota mensual única que integra tres componentes: el impuesto integrado, el aporte jubilatorio y el aporte a la obra social. La cuota vence todos los meses alrededor del día 20 y, si ese día no es hábil, el plazo corre al día hábil siguiente. El monto depende de la categoría vigente del contribuyente, y las categorías se actualizan periódicamente, por lo que el importe del mes puede diferir del mes anterior aunque la categoría no haya cambiado. Pagar fuera de término",
+      "documento_raw": "El monotributista paga una cuota mensual única que integra tres componentes: el impuesto integrado, el aporte jubilatorio y el aporte a la obra social. La cuota vence todos los meses alrededor del día 20 y, si ese día no es hábil, el plazo corre al día hábil siguiente. El monto depende de la categoría vigente del contribuyente, y las categorías se actualizan periódicamente, por lo que el importe del mes puede diferir del mes anterior aunque la categoría no haya cambiado. Pagar fuera de término",
+      "metadatos": {
+        "categoria": "vencimientos",
+        "parent_id": "DOC-004",
+        "chunk_index": 0,
+        "start_index": 0,
+        "jurisdiccion": "nacional",
+        "tipo_contribuyente": "monotributo",
+        "activo": true,
+        "tags_regionales": "monotributo, cuota, vencimiento, recategorizacion, obra social, jubilacion, impuesto integrado",
+        "chunk_id": "DOC-004::chunk-000-e141194203030764"
+      },
+      "distancia": 0.33726680278778076,
+      "similitud": 0.6627
+    },
+    {
+      "id": "DOC-014::chunk-001-02ba0b64534fb171",
+      "documento": "la identidad del solicitante contra el CUIT titular, porque un cambio de domicilio o de correo electrónico redirige las notificaciones oficiales y es un vector de fraude conocido. El asistente automatizado no ejecuta escrituras sobre el padrón: registra el pedido, lo identifica y lo deriva para que una persona del estudio lo valide y lo ejecute. El pedido queda con estado pendiente hasta esa validación.",
+      "documento_raw": "la identidad del solicitante contra el CUIT titular, porque un cambio de domicilio o de correo electrónico redirige las notificaciones oficiales y es un vector de fraude conocido. El asistente automatizado no ejecuta escrituras sobre el padrón: registra el pedido, lo identifica y lo deriva para que una persona del estudio lo valide y lo ejecute. El pedido queda con estado pendiente hasta esa validación.",
+      "metadatos": {
+        "chunk_index": 1,
+        "chunk_id": "DOC-014::chunk-001-02ba0b64534fb171",
+        "categoria": "datos_fiscales",
+        "tipo_contribuyente": "general",
+        "parent_id": "DOC-014",
+        "activo": true,
+        "tags_regionales": "actualizacion, datos, cuit, domicilio, padron, escritura, validacion de identidad",
+        "jurisdiccion": "nacional",
+        "start_index": 404
+      },
+      "distancia": 0.3551892638206482,
+      "similitud": 0.6448
+    },
+    {
+      "id": "DOC-006::chunk-000-4e5e4ce57f28fd1c",
+      "documento": "El alta y la modificación de datos fiscales de un contribuyente se gestionan con clave fiscal y quedan registradas en el sistema registral. Los datos que el estudio modifica con más frecuencia son el domicilio fiscal, el domicilio de las actividades, las actividades económicas declaradas, el correo electrónico y el teléfono de contacto, y la incorporación o baja de impuestos del padrón. Cambiar el domicilio fiscal exige respaldo documental del nuevo domicilio y, hasta que la modificación se",
+      "documento_raw": "El alta y la modificación de datos fiscales de un contribuyente se gestionan con clave fiscal y quedan registradas en el sistema registral. Los datos que el estudio modifica con más frecuencia son el domicilio fiscal, el domicilio de las actividades, las actividades económicas declaradas, el correo electrónico y el teléfono de contacto, y la incorporación o baja de impuestos del padrón. Cambiar el domicilio fiscal exige respaldo documental del nuevo domicilio y, hasta que la modificación se",
+      "metadatos": {
+        "tags_regionales": "alta, modificacion, estado, domicilio fiscal, padron, sistema registral, clave fiscal",
+        "activo": true,
+        "parent_id": "DOC-006",
+        "chunk_index": 0,
+        "tipo_contribuyente": "general",
+        "categoria": "tramites",
+        "chunk_id": "DOC-006::chunk-000-4e5e4ce57f28fd1c",
+        "jurisdiccion": "nacional",
+        "start_index": 0
+      },
+      "distancia": 0.3687518239021301,
+      "similitud": 0.6312
+    },
+    {
+      "id": "DOC-012::chunk-000-aab8e60566e4bda5",
+      "documento": "El estudio entrega al cliente el comprobante de cada presentación y de cada pago que gestiona en su nombre. El comprobante de presentación es el acuse de recibo, que lleva número de transacción, fecha y hora. El comprobante de pago es el ticket del volante electrónico de pago o el extracto del débito, según el medio utilizado. Para recuperar el archivo correcto hay que identificar tres datos: el CUIT del contribuyente, el impuesto y el período fiscal. Sin los tres, la búsqueda es ambigua, porque",
+      "documento_raw": "El estudio entrega al cliente el comprobante de cada presentación y de cada pago que gestiona en su nombre. El comprobante de presentación es el acuse de recibo, que lleva número de transacción, fecha y hora. El comprobante de pago es el ticket del volante electrónico de pago o el extracto del débito, según el medio utilizado. Para recuperar el archivo correcto hay que identificar tres datos: el CUIT del contribuyente, el impuesto y el período fiscal. Sin los tres, la búsqueda es ambigua, porque",
+      "metadatos": {
+        "categoria": "comprobantes",
+        "parent_id": "DOC-012",
+        "activo": true,
+        "chunk_id": "DOC-012::chunk-000-aab8e60566e4bda5",
+        "start_index": 0,
+        "jurisdiccion": "nacional",
+        "tags_regionales": "comprobante, pago, presentacion, acuse, vep, ticket, constancia de pago",
+        "tipo_contribuyente": "general",
+        "chunk_index": 0
+      },
+      "distancia": 0.3777674436569214,
+      "similitud": 0.6222
+    },
+    {
+      "id": "DOC-001::chunk-001-619740ed81062fb1",
+      "documento": "hábil siguiente. Presentar la declaración jurada y pagar el saldo son dos actos distintos: se puede presentar en término y pagar fuera de término, y en ese caso corren intereses resarcitorios sobre el saldo. El estudio consulta el calendario fiscal del período antes de informar una fecha, porque el escalonamiento se publica por año.",
+      "documento_raw": "hábil siguiente. Presentar la declaración jurada y pagar el saldo son dos actos distintos: se puede presentar en término y pagar fuera de término, y en ese caso corren intereses resarcitorios sobre el saldo. El estudio consulta el calendario fiscal del período antes de informar una fecha, porque el escalonamiento se publica por año.",
+      "metadatos": {
+        "jurisdiccion": "nacional",
+        "start_index": 397,
+        "chunk_index": 1,
+        "tipo_contribuyente": "responsable_inscripto",
+        "chunk_id": "DOC-001::chunk-001-619740ed81062fb1",
+        "parent_id": "DOC-001",
+        "tags_regionales": "iva, ddjj, declaracion jurada, vencimiento, terminacion de cuit, calendario fiscal, arca, afip",
+        "categoria": "vencimientos",
+        "activo": true
+      },
+      "distancia": 0.3795626759529114,
+      "similitud": 0.6204
+    },
+    {
+      "id": "DOC-003::chunk-000-42f59d263c71dc15",
+      "documento": "La declaración jurada de IVA del cliente fue procesada por el estudio. El trámite pasó al estado finalizada, ya que la declaración fue presentada correctamente y el saldo correspondiente fue pagado o compensado.",
+      "documento_raw": "La declaración jurada de IVA del cliente fue procesada por el estudio. El trámite pasó al estado finalizada, ya que la declaración fue presentada correctamente y el saldo correspondiente fue pagado o compensado.",
+      "metadatos": {
+        "tipo_contribuyente": "responsable_inscripto",
+        "tags_regionales": "iva, estado, declaracion jurada, presentada, finalizada",
+        "activo": true,
+        "chunk_id": "DOC-003::chunk-000-42f59d263c71dc15",
+        "start_index": 0,
+        "chunk_index": 0,
+        "jurisdiccion": "nacional",
+        "categoria": "tramites",
+        "parent_id": "DOC-003"
+      },
+      "distancia": 0.3872896432876587,
+      "similitud": 0.6127
+    }
+  ],
+  "selected": [],
+  "status": "insufficient_context",
+  "judge": {
+    "items": [
+      {
+        "id": "DOC-002::chunk-000-be61eb2c57df8b1d",
+        "score": 0.0,
+        "reason": "El fragmento detalla los requisitos necesarios para el alta, pero no menciona el costo del servicio."
+      },
+      {
+        "id": "DOC-015::chunk-000-88c73e4bc15cb2af",
+        "score": 0.0,
+        "reason": "Habla sobre la gestión de constancias y certificados, pero no menciona costos de servicios."
+      },
+      {
+        "id": "DOC-004::chunk-000-e141194203030764",
+        "score": 0.0,
+        "reason": "Explica los componentes de la cuota mensual del Monotributo, no el costo del servicio del estudio."
+      },
+      {
+        "id": "DOC-014::chunk-001-02ba0b64534fb171",
+        "score": 0.0,
+        "reason": "Describe el proceso de validación de pedidos, sin mencionar costos."
+      },
+      {
+        "id": "DOC-006::chunk-000-4e5e4ce57f28fd1c",
+        "score": 0.0,
+        "reason": "Describe cómo se gestionan las modificaciones de datos fiscales, sin mencionar costos."
+      },
+      {
+        "id": "DOC-012::chunk-000-aab8e60566e4bda5",
+        "score": 0.0,
+        "reason": "Trata sobre la entrega de comprobantes, sin mencionar costos."
+      },
+      {
+        "id": "DOC-001::chunk-001-619740ed81062fb1",
+        "score": 0.0,
+        "reason": "Habla sobre declaraciones juradas y calendario fiscal, sin mencionar costos."
+      },
+      {
+        "id": "DOC-003::chunk-000-42f59d263c71dc15",
+        "score": 0.0,
+        "reason": "Trata sobre el estado de una declaración jurada de IVA, sin mencionar costos."
+      }
+    ]
+  },
+  "timings": {
+    "retrieval_seconds": 0.3864557000051718,
+    "reranking_seconds": 24.190076300001238
+  },
+  "answer": "No poseo información suficiente en la base de conocimiento para responder esa consulta.",
+  "sources": [],
+  "settings": {
+    "variant": "rerank",
+    "model": "gemini-3.1-flash-lite",
+    "temperature": 0.0,
+    "top_k": 3,
+    "candidate_k": 8,
+    "selected_k": 4,
+    "max_distance": 0.28,
+    "min_judge_score": 0.5
+  },
+  "usage": [
+    {
+      "run_id": "01a15148-4e72-7531-8b50-8a943574939e",
+      "role": "judge",
+      "usage": {
+        "input_tokens": 1188,
+        "output_tokens": 570,
+        "total_tokens": 1758
+      },
+      "provider_usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 570,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 1188,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 1188
+          }
+        ],
+        "thoughts_token_count": null,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 1758,
+        "traffic_type": null
+      }
+    }
+  ],
+  "attempts": [],
+  "generator_contexts": [],
+  "generator_payload": null
+}

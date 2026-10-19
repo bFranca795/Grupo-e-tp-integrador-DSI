@@ -1,0 +1,35 @@
+{
+  "scope": "Local checks only. No clean install, provider calls or retry archiving executed.",
+  "python": "3.14.8",
+  "system": "Windows-11-10.0.26200-SP0",
+  "architecture": "AMD64",
+  "bits": 64,
+  "uv": "0.13.1 (62faed335)",
+  "versions": {
+    "ragas": "0.2.15",
+    "google-genai": "2.24.0",
+    "langchain-core": "1.6.12",
+    "langchain-community": "0.3.31",
+    "langchain-openai": "1.7.2",
+    "pydantic": "2.13.5",
+    "numpy": "2.5.3",
+    "chromadb": "1.5.9",
+    "nest-asyncio": "1.6.0"
+  },
+  "project_python": ">=3.14",
+  "ragas_python": ">=3.9",
+  "checks": {
+    "direct_dependencies_agree": true,
+    "imports": "PASS",
+    "uv_pip_check": "PASS",
+    "uv_lock_check_offline": "PASS",
+    "dataset_checks_passed": 152,
+    "failed_only_filter_dry_run_count": 18,
+    "powershell_syntax_errors": 0
+  },
+  "clean_install_tested": false,
+  "api_calls": 0,
+  "corpus_rebuilt": false,
+  "retry_archive_executed": false,
+  "installation_error_provenance": "Fragments available in session tool outputs; original complete terminal log not saved in repository."
+}

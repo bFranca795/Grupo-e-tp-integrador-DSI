@@ -1,0 +1,30 @@
+{
+  "id": "E1",
+  "variant": "basic",
+  "started_at": "2026-10-18T23:10:35.498169+00:00",
+  "total_seconds": 0.4259338999981992,
+  "question": "¿Qué certificado fitosanitario necesito para exportar ganado?",
+  "candidates": [],
+  "selected": [],
+  "status": "insufficient_context",
+  "judge": null,
+  "timings": {
+    "retrieval_seconds": 0.38537750000250526
+  },
+  "answer": "No poseo información suficiente en la base de conocimiento para responder esa consulta.",
+  "sources": [],
+  "settings": {
+    "variant": "basic",
+    "model": "gemini-3.1-flash-lite",
+    "temperature": 0.0,
+    "top_k": 3,
+    "candidate_k": 8,
+    "selected_k": 3,
+    "max_distance": 0.28,
+    "min_judge_score": 0.5
+  },
+  "usage": [],
+  "attempts": [],
+  "generator_contexts": [],
+  "generator_payload": null
+}

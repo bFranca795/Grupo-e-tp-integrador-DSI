@@ -1,0 +1,26 @@
+{
+  "pipeline_unit_tests": {
+    "passed": 11,
+    "failed": 0
+  },
+  "evaluation_unit_tests": {
+    "passed": 4,
+    "failed": 0
+  },
+  "continuation_identity_tests": {
+    "passed": 5,
+    "failed": 0
+  },
+  "dataset_checks": {
+    "passed": 154,
+    "failed": 0
+  },
+  "evidence_checks": {
+    "passed": 353,
+    "failed": 0
+  },
+  "clean_lock_install": ".venv-repro PASS",
+  "dependency_graph": "PASS",
+  "lockfile": "PASS",
+  "scope": "Contract/integrity checks do not guarantee semantic correctness of LLM judgments."
+}

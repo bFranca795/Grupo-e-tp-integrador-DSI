@@ -1,0 +1,114 @@
+{
+  "id": "S1",
+  "variant": "basic",
+  "started_at": "2026-10-18T23:07:40.174508+00:00",
+  "total_seconds": 72.7452215999947,
+  "question": "¿Qué comprobantes tengo que entregar para liquidar el IVA del mes?",
+  "candidates": [
+    {
+      "id": "DOC-007",
+      "documento": "Para liquidar el IVA de un mes, el estudio necesita del cliente: las facturas de venta emitidas en el período, las facturas de compra recibidas, las notas de crédito y de débito tanto emitidas como recibidas, los comprobantes de retenciones y percepciones sufridas, y los tickets de controlador fiscal si el cliente factura por ese medio. Cada comprobante aporta crédito fiscal o débito fiscal según sea compra o venta, y el saldo del período es la diferencia entre ambos. Un comprobante que llega tarde no se puede computar en el período ya presentado y arrastra a una rectificativa. Las facturas de compra solo generan crédito fiscal si están a nombre del CUIT del cliente y corresponden a la actividad gravada. Los comprobantes tipo B y C emitidos a consumidor final no discriminan IVA y por eso no generan crédito fiscal computable.",
+      "documento_raw": "Para liquidar el IVA de un mes, el estudio necesita del cliente: las facturas de venta emitidas en el período, las facturas de compra recibidas, las notas de crédito y de débito tanto emitidas como recibidas, los comprobantes de retenciones y percepciones sufridas, y los tickets de controlador fiscal si el cliente factura por ese medio. Cada comprobante aporta crédito fiscal o débito fiscal según sea compra o venta, y el saldo del período es la diferencia entre ambos. Un comprobante que llega tarde no se puede computar en el período ya presentado y arrastra a una rectificativa. Las facturas de compra solo generan crédito fiscal si están a nombre del CUIT del cliente y corresponden a la actividad gravada. Los comprobantes tipo B y C emitidos a consumidor final no discriminan IVA y por eso no generan crédito fiscal computable. Los clientes preguntan: que facturas te mando para el IVA, tengo que pasarte las notas de credito, me sirve esta factura B, cargaste las percepciones.",
+      "metadatos": {
+        "activo": true,
+        "categoria": "documentacion",
+        "tipo_contribuyente": "responsable_inscripto",
+        "jurisdiccion": "nacional",
+        "tags_regionales": "iva, facturas, comprobantes, credito fiscal, debito fiscal, notas de credito, percepciones, retenciones"
+      },
+      "distancia": 0.21953344345092773,
+      "similitud": 0.7805
+    }
+  ],
+  "selected": [
+    {
+      "id": "DOC-007",
+      "documento": "Para liquidar el IVA de un mes, el estudio necesita del cliente: las facturas de venta emitidas en el período, las facturas de compra recibidas, las notas de crédito y de débito tanto emitidas como recibidas, los comprobantes de retenciones y percepciones sufridas, y los tickets de controlador fiscal si el cliente factura por ese medio. Cada comprobante aporta crédito fiscal o débito fiscal según sea compra o venta, y el saldo del período es la diferencia entre ambos. Un comprobante que llega tarde no se puede computar en el período ya presentado y arrastra a una rectificativa. Las facturas de compra solo generan crédito fiscal si están a nombre del CUIT del cliente y corresponden a la actividad gravada. Los comprobantes tipo B y C emitidos a consumidor final no discriminan IVA y por eso no generan crédito fiscal computable.",
+      "documento_raw": "Para liquidar el IVA de un mes, el estudio necesita del cliente: las facturas de venta emitidas en el período, las facturas de compra recibidas, las notas de crédito y de débito tanto emitidas como recibidas, los comprobantes de retenciones y percepciones sufridas, y los tickets de controlador fiscal si el cliente factura por ese medio. Cada comprobante aporta crédito fiscal o débito fiscal según sea compra o venta, y el saldo del período es la diferencia entre ambos. Un comprobante que llega tarde no se puede computar en el período ya presentado y arrastra a una rectificativa. Las facturas de compra solo generan crédito fiscal si están a nombre del CUIT del cliente y corresponden a la actividad gravada. Los comprobantes tipo B y C emitidos a consumidor final no discriminan IVA y por eso no generan crédito fiscal computable. Los clientes preguntan: que facturas te mando para el IVA, tengo que pasarte las notas de credito, me sirve esta factura B, cargaste las percepciones.",
+      "metadatos": {
+        "activo": true,
+        "categoria": "documentacion",
+        "tipo_contribuyente": "responsable_inscripto",
+        "jurisdiccion": "nacional",
+        "tags_regionales": "iva, facturas, comprobantes, credito fiscal, debito fiscal, notas de credito, percepciones, retenciones"
+      },
+      "distancia": 0.21953344345092773,
+      "similitud": 0.7805
+    }
+  ],
+  "status": "ok",
+  "judge": null,
+  "timings": {
+    "retrieval_seconds": 0.4418184000023757,
+    "generation_seconds": 72.09326989999681
+  },
+  "answer": "Para liquidar el IVA del mes, debe entregar los siguientes comprobantes:\n\n*   Facturas de venta emitidas en el período (DOC-007).\n*   Facturas de compra recibidas (DOC-007).\n*   Notas de crédito y de débito, tanto emitidas como recibidas (DOC-007).\n*   Comprobantes de retenciones y percepciones sufridas (DOC-007).\n*   Tickets de controlador fiscal, en caso de que facture por ese medio (DOC-007).",
+  "sources": [
+    {
+      "id": "DOC-007",
+      "documento": "Para liquidar el IVA de un mes, el estudio necesita del cliente: las facturas de venta emitidas en el período, las facturas de compra recibidas, las notas de crédito y de débito tanto emitidas como recibidas, los comprobantes de retenciones y percepciones sufridas, y los tickets de controlador fiscal si el cliente factura por ese medio. Cada comprobante aporta crédito fiscal o débito fiscal según sea compra o venta, y el saldo del período es la diferencia entre ambos. Un comprobante que llega tarde no se puede computar en el período ya presentado y arrastra a una rectificativa. Las facturas de compra solo generan crédito fiscal si están a nombre del CUIT del cliente y corresponden a la actividad gravada. Los comprobantes tipo B y C emitidos a consumidor final no discriminan IVA y por eso no generan crédito fiscal computable.",
+      "documento_raw": "Para liquidar el IVA de un mes, el estudio necesita del cliente: las facturas de venta emitidas en el período, las facturas de compra recibidas, las notas de crédito y de débito tanto emitidas como recibidas, los comprobantes de retenciones y percepciones sufridas, y los tickets de controlador fiscal si el cliente factura por ese medio. Cada comprobante aporta crédito fiscal o débito fiscal según sea compra o venta, y el saldo del período es la diferencia entre ambos. Un comprobante que llega tarde no se puede computar en el período ya presentado y arrastra a una rectificativa. Las facturas de compra solo generan crédito fiscal si están a nombre del CUIT del cliente y corresponden a la actividad gravada. Los comprobantes tipo B y C emitidos a consumidor final no discriminan IVA y por eso no generan crédito fiscal computable. Los clientes preguntan: que facturas te mando para el IVA, tengo que pasarte las notas de credito, me sirve esta factura B, cargaste las percepciones.",
+      "metadatos": {
+        "activo": true,
+        "categoria": "documentacion",
+        "tipo_contribuyente": "responsable_inscripto",
+        "jurisdiccion": "nacional",
+        "tags_regionales": "iva, facturas, comprobantes, credito fiscal, debito fiscal, notas de credito, percepciones, retenciones"
+      },
+      "distancia": 0.21953344345092773,
+      "similitud": 0.7805
+    }
+  ],
+  "settings": {
+    "variant": "basic",
+    "model": "gemini-3.1-flash-lite",
+    "temperature": 0.0,
+    "top_k": 3,
+    "candidate_k": 8,
+    "selected_k": 3,
+    "max_distance": 0.28,
+    "min_judge_score": 0.5
+  },
+  "usage": [
+    {
+      "run_id": "01a15145-5599-79b3-9364-833d215944a0",
+      "role": "generator",
+      "usage": {
+        "input_tokens": 364,
+        "output_tokens": 118,
+        "total_tokens": 482
+      },
+      "provider_usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 118,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 364,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 364
+          }
+        ],
+        "thoughts_token_count": null,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 482,
+        "traffic_type": null
+      }
+    }
+  ],
+  "attempts": [],
+  "generator_contexts": [
+    "Para liquidar el IVA de un mes, el estudio necesita del cliente: las facturas de venta emitidas en el período, las facturas de compra recibidas, las notas de crédito y de débito tanto emitidas como recibidas, los comprobantes de retenciones y percepciones sufridas, y los tickets de controlador fiscal si el cliente factura por ese medio. Cada comprobante aporta crédito fiscal o débito fiscal según sea compra o venta, y el saldo del período es la diferencia entre ambos. Un comprobante que llega tarde no se puede computar en el período ya presentado y arrastra a una rectificativa. Las facturas de compra solo generan crédito fiscal si están a nombre del CUIT del cliente y corresponden a la actividad gravada. Los comprobantes tipo B y C emitidos a consumidor final no discriminan IVA y por eso no generan crédito fiscal computable."
+  ],
+  "generator_payload": {
+    "pregunta": "¿Qué comprobantes tengo que entregar para liquidar el IVA del mes?",
+    "contexto": [
+      {
+        "id": "DOC-007",
+        "contenido": "Para liquidar el IVA de un mes, el estudio necesita del cliente: las facturas de venta emitidas en el período, las facturas de compra recibidas, las notas de crédito y de débito tanto emitidas como recibidas, los comprobantes de retenciones y percepciones sufridas, y los tickets de controlador fiscal si el cliente factura por ese medio. Cada comprobante aporta crédito fiscal o débito fiscal según sea compra o venta, y el saldo del período es la diferencia entre ambos. Un comprobante que llega tarde no se puede computar en el período ya presentado y arrastra a una rectificativa. Las facturas de compra solo generan crédito fiscal si están a nombre del CUIT del cliente y corresponden a la actividad gravada. Los comprobantes tipo B y C emitidos a consumidor final no discriminan IVA y por eso no generan crédito fiscal computable."
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "composite_coverage_manual_review": {
+    "comprobantes_iva": true,
+    "presentacion_y_pago_iva": true,
+    "aportes_y_contribuciones": true,
+    "altas_y_bajas_antes_de_liquidar": true,
+    "intereses_por_pago_tardio": true,
+    "bloqueo_certificado_por_pago_tardio": true
+  },
+  "basic_answers_identical": true,
+  "basic_sources_identical": true,
+  "other_rerank_answers_identical": {
+    "factual": true,
+    "fuera_dominio": true,
+    "complacencia": true,
+    "sinonimos": true
+  },
+  "local_tests_passed": 10,
+  "default_selected_k_unchanged": 3,
+  "explicit_selected_k_for_this_run": 4
+}

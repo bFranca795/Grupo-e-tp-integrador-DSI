@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "artifacts_verified": 95,
+  "mismatches": [],
+  "method": "git checkout-index to isolated temporary tree; approved file hashes compared byte-for-byte"
+}

@@ -1,0 +1,22 @@
+{
+  "started_at": "2026-10-18T23:05:07.413413+00:00",
+  "metric": "answer_relevancy",
+  "input": {
+    "user_input": "¿Qué integra la cuota mensual del Monotributo?",
+    "retrieved_contexts": [
+      "La cuota del Monotributo integra el impuesto integrado, el aporte jubilatorio y el aporte a la obra social."
+    ],
+    "reference_contexts": null,
+    "response": "Integra impuesto integrado, aporte jubilatorio y aporte a obra social.",
+    "multi_responses": null,
+    "reference": "La cuota integra impuesto integrado, aporte jubilatorio y aporte a obra social.",
+    "rubrics": null
+  },
+  "value": null,
+  "status": "evaluation_error",
+  "error": {
+    "type": "RuntimeError",
+    "code": null
+  },
+  "seconds": 0.000338400001055561
+}

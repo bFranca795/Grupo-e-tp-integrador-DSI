@@ -1,0 +1,163 @@
+{
+  "audit_scope": "Capturas originales, JSON local y lectura autorizada de la traza existente por API",
+  "api_access": {
+    "attempted": true,
+    "read_permission_confirmed": true,
+    "verified_at_utc": "2026-10-17T22:57:16.261227+00:00"
+  },
+  "remote_identity": {
+    "project": {
+      "id": "ad56b0c4-866e-47a2-9145-0f218035ad61",
+      "name": "grupo-e-entrega-3-b4"
+    },
+    "root_id": "01a14bff-94b8-7c73-a84d-da89091ad81a",
+    "trace_url": "https://smith.langchain.com/o/4e1308b3-31f5-4580-ac80-b762ab74e4dc/projects/p/ad56b0c4-866e-47a2-9145-0f218035ad61/r/01a14bff-94b8-7c73-a84d-da89091ad81a?poll=true",
+    "start_time_utc": "2026-10-17T22:33:23.385031Z",
+    "end_time_utc": "2026-10-17T22:33:38.084356Z"
+  },
+  "local_execution": {
+    "executed_at_utc": "2026-10-17T22:33:38.088354+00:00",
+    "executed_at_buenos_aires": "2026-10-17T19:33:38.088354-03:00",
+    "status": "ok",
+    "settings": {
+      "variant": "rerank",
+      "model": "gemini-3.1-flash-lite",
+      "temperature": 0.0,
+      "top_k": 3,
+      "candidate_k": 8,
+      "selected_k": 4,
+      "max_distance": 0.28,
+      "min_judge_score": 0.5
+    },
+    "total_seconds": 14.882544000000053,
+    "timings": {
+      "retrieval_seconds": 0.42486619999908726,
+      "reranking_seconds": 8.815695000001142,
+      "generation_seconds": 5.368867400000454
+    },
+    "model_calls": {
+      "judge": {
+        "run_id_local": "01a14bff-96b9-7103-85e6-4455a3e303e8",
+        "tokens_reported_in_local_json": {
+          "input_tokens": 1122,
+          "output_tokens": 610,
+          "total_tokens": 1732
+        }
+      },
+      "generator": {
+        "run_id_local": "01a14bff-b92b-7e12-afdc-a795bf901eca",
+        "tokens_reported_in_local_json": {
+          "input_tokens": 727,
+          "output_tokens": 372,
+          "total_tokens": 1099
+        }
+      }
+    }
+  },
+  "screenshots_observed": {
+    "root_name": "rag_rerank",
+    "clock_text": "10:33 PM, sin fecha ni zona visibles",
+    "root_duration_seconds_rounded": 14.7,
+    "retrieval_seconds_rounded": 0.43,
+    "reranking_seconds_rounded": 8.82,
+    "judge_chain_seconds_rounded": 8.81,
+    "generation_seconds_rounded": 5.37,
+    "judge_tokens_display": "1.732K",
+    "generator_tokens_display": "1.099K",
+    "candidates_count_visible": 8,
+    "post_rerank_selected_count_visible": false,
+    "full_judge_scores_visible": false,
+    "full_final_answer_visible": false
+  },
+  "local_consistency_checks": {
+    "candidate_count": 8,
+    "selected_count": 4,
+    "candidate_ids_unique": true,
+    "selected_ids_unique": true,
+    "selected_belong_to_candidates": true,
+    "selected_content_metadata_equal_candidates": true,
+    "sources_equal_selected_including_order_and_content": true,
+    "selected_order_matches_judgment_and_settings": true,
+    "judged_ids_equal_candidates": true,
+    "all_scores_valid": true,
+    "above_point28_retrieved_and_judged": [
+      "DOC-008::chunk-001-92e73e8b1d8ef4e4",
+      "DOC-007::chunk-000-bfbf474549da33fb",
+      "DOC-00X::chunk-000-56a9a072654fa42c",
+      "DOC-001::chunk-001-619740ed81062fb1",
+      "DOC-003::chunk-000-42f59d263c71dc15",
+      "DOC-004::chunk-000-e141194203030764"
+    ]
+  },
+  "local_index_manifest": {
+    "original_documents": 18,
+    "chunks": 36,
+    "chunk_size": 500,
+    "chunk_overlap": 100,
+    "length_unit": "characters",
+    "original_sha256_before": "4cd3433613e0edf103a05ee8973bc4de1c0f6fe33cfe639f96c6e079a2a0c84a",
+    "original_sha256_after": "4cd3433613e0edf103a05ee8973bc4de1c0f6fe33cfe639f96c6e079a2a0c84a",
+    "differences_with_clean_json": [
+      "DOC-003",
+      "DOC-00X"
+    ],
+    "collection": "estudio_contable_chunks"
+  },
+  "provenance_warning": "El corpus del compañero es 18 documentos / 36 chunks e incluye DOC-00X; no confundirlo con el corpus anterior de 17/35",
+  "images": [
+    {
+      "original": "entrega_3/Generacion.png",
+      "copy": "entrega_3/langsmith_trace.png",
+      "byte_identical": true,
+      "sha256": "668e5b3ef7d15275b4fbf83cf24cee3c97976102278d4630f99be04c0c3b0fba"
+    },
+    {
+      "original": "entrega_3/Juez_relevancia.png",
+      "copy": "entrega_3/evidencias/langsmith/juez_relevancia.png",
+      "byte_identical": true,
+      "sha256": "26bfc45f945a63e71d81f12c17504111ce105b527e5be20208e80319e3013c51"
+    },
+    {
+      "original": "entrega_3/Recuperacion.png",
+      "copy": "entrega_3/evidencias/langsmith/recuperacion.png",
+      "byte_identical": true,
+      "sha256": "27f9ca9ff0c5f7135e3327543f58fb65c892acfb54a6fc0f0232c13c5dd004b2"
+    },
+    {
+      "original": "entrega_3/Reranking.png",
+      "copy": "entrega_3/evidencias/langsmith/reranking.png",
+      "byte_identical": true,
+      "sha256": "f0656d672c79e1827c5e0af2fb8a0afe3ead14857574e175a8108602eba4ad09"
+    }
+  ],
+  "missing_evidence": [],
+  "b4_complete": true,
+  "remote_checks": {
+    "all_nodes_same_trace": true,
+    "all_remote_outputs_equal_local": true,
+    "retrieval_candidates_equal_local": true,
+    "all_eight_candidates_sent_to_judge": true,
+    "selected_equal_local": true,
+    "selected_subset_candidates": true,
+    "judge_response_equal_rerank_verdict": true,
+    "generator_context_exact_selected_order_and_content": true,
+    "generator_answer_equal_final_and_local": true,
+    "final_sources_equal_selected": true,
+    "two_model_calls_only": true,
+    "leaf_tokens_sum_equals_root": true,
+    "no_run_errors": true
+  },
+  "remote_api_export": "traza_api.json",
+  "remote_comparison": "contraste_api.json",
+  "history": "verificacion_previa_sin_api.json conserva el estado previo a disponer de lectura API",
+  "chunking_evidence_accepted": "Manifiesto local b4_companero/indexacion.json: 500/100 caracteres; esos parámetros no están registrados en la traza",
+  "optional_audit_improvements": [
+    "Hash de indexación y parámetros en metadata de futuras trazas; no obligatorio ni bloqueante"
+  ],
+  "final_visual_review": "revision_capturas_finales.json",
+  "final_visual_evidence": [
+    "juez1.png",
+    "juez2.png",
+    "select.png"
+  ]
+}

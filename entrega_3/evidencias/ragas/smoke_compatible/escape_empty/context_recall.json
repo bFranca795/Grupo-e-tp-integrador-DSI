@@ -1,0 +1,17 @@
+{
+  "started_at": "2026-10-18T23:07:06.625713+00:00",
+  "metric": "context_recall",
+  "input": {
+    "user_input": "¿Qué certificado fitosanitario necesito para exportar ganado?",
+    "retrieved_contexts": [],
+    "reference_contexts": null,
+    "response": "No poseo información suficiente en la base de conocimiento para responder esa consulta.",
+    "multi_responses": null,
+    "reference": "No poseo información suficiente en la base de conocimiento para responder esa consulta.",
+    "rubrics": null
+  },
+  "value": 1.0,
+  "raw_value": 1.0,
+  "status": "ok",
+  "seconds": 17.271374300005846
+}

@@ -1,0 +1,117 @@
+{
+  "completed": [
+    {
+      "case_variant": "C1_rerank",
+      "metric": "context_precision",
+      "status": "ok",
+      "value": 0.0
+    },
+    {
+      "case_variant": "C3_basic",
+      "metric": "answer_relevancy",
+      "status": "ok",
+      "value": 0.9810908647525118
+    },
+    {
+      "case_variant": "C3_basic",
+      "metric": "context_precision",
+      "status": "ok",
+      "value": 0.0
+    },
+    {
+      "case_variant": "C3_basic",
+      "metric": "context_recall",
+      "status": "ok",
+      "value": 1.0
+    },
+    {
+      "case_variant": "C3_basic",
+      "metric": "faithfulness",
+      "status": "ok",
+      "value": 1.0
+    },
+    {
+      "case_variant": "C3_rerank",
+      "metric": "answer_relevancy",
+      "status": "ok",
+      "value": 0.9858514193326982
+    },
+    {
+      "case_variant": "C3_rerank",
+      "metric": "context_precision",
+      "status": "ok",
+      "value": 0.0
+    },
+    {
+      "case_variant": "C3_rerank",
+      "metric": "faithfulness",
+      "status": "ok",
+      "value": 1.0
+    },
+    {
+      "case_variant": "E2_rerank",
+      "metric": "answer_relevancy",
+      "status": "ok",
+      "value": 0.0
+    },
+    {
+      "case_variant": "E2_rerank",
+      "metric": "faithfulness",
+      "status": "ok",
+      "value": 1.0
+    },
+    {
+      "case_variant": "I1_basic",
+      "metric": "faithfulness",
+      "status": "ok",
+      "value": 1.0
+    },
+    {
+      "case_variant": "I2_basic",
+      "metric": "context_precision",
+      "status": "ok",
+      "value": 0.9999999999
+    },
+    {
+      "case_variant": "I2_basic",
+      "metric": "context_recall",
+      "status": "ok",
+      "value": 1.0
+    },
+    {
+      "case_variant": "I2_rerank",
+      "metric": "answer_relevancy",
+      "status": "ok",
+      "value": 0.9056716085821096
+    },
+    {
+      "case_variant": "I2_rerank",
+      "metric": "context_precision",
+      "status": "ok",
+      "value": 0.99999999995
+    },
+    {
+      "case_variant": "I2_rerank",
+      "metric": "context_recall",
+      "status": "ok",
+      "value": 1.0
+    },
+    {
+      "case_variant": "I2_rerank",
+      "metric": "faithfulness",
+      "status": "ok",
+      "value": 1.0
+    },
+    {
+      "case_variant": "S1_rerank",
+      "metric": "faithfulness",
+      "status": "ok",
+      "value": 1.0
+    }
+  ],
+  "blocked": null,
+  "protected_unchanged": true,
+  "attempted": 18,
+  "recovered": 18,
+  "remaining_errors": 0
+}

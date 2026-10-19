@@ -7,3 +7,13 @@ venv/
 chroma_db/
 base_conocimiento_limpia.json
 estudio_contable_ids.json
+
+# Variantes locales con credenciales; se versiona solo la plantilla.
+.env.*
+!.env.example
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.uv-cache/
+.tools/
+.venv-repro/

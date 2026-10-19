@@ -1,0 +1,42 @@
+{
+  "C1": {
+    "status": "complete",
+    "evidence": "Approved ten-case dataset, references and corpus validation"
+  },
+  "C2": {
+    "status": "complete",
+    "pipeline_responses": 20,
+    "valid_scores": 72,
+    "not_applicable": 8,
+    "remaining_errors": 0,
+    "original_valid_scores_untouched": true
+  },
+  "C3": {
+    "status": "complete",
+    "paired_counts": {
+      "faithfulness": 10,
+      "answer_relevancy": 10,
+      "context_precision": 8,
+      "context_recall": 8
+    },
+    "metrics_with_substantive_positive_delta": [
+      "faithfulness",
+      "answer_relevancy",
+      "context_recall"
+    ]
+  },
+  "C4": {
+    "status": "complete",
+    "worst_advanced_metric": [
+      "context_precision"
+    ],
+    "diagnostic": "C2 partial-usefulness judgments and S2 source-ID artifact retained; future proposals not implemented"
+  },
+  "limitations": [
+    "ten questions",
+    "simulated corpus",
+    "B development questions reused",
+    "LLM evaluator anomalies",
+    "original and recovered scores from different times"
+  ]
+}

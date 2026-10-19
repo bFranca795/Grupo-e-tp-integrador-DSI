@@ -1,0 +1,15 @@
+{
+  "files": {
+    "adaptadores.py": "9da517920ce546adf389ad697043940553ae3cf96d7d02f79295d9b35de56b97",
+    "auditar_llamadas.py": "563435c82cd2900fea8290d6ccc46a757a7787b3b89fba01779f952160a943b7",
+    "corpus.py": "00095f24b8d42a23dabf42adfb38185f2d17d50044892a3622e3772e9b71bbbd",
+    "ejecutar.py": "b2b898d7c9ee9578a9ac6aef73e9bd7a7ead2b7a4766fac5c14587347e0e6933",
+    "extraer_juicios.py": "a324c58e25bdcf941590fdb6b4fcfdad3504277c331570041a72e518fdd7d255",
+    "preparar.py": "c015b8ba907a3c7bda26a6018d393d0fb683011a88de809aa2785f37625d4d67",
+    "resumir.py": "68084df70e487f8bb2288301a6525db706d70cebf023d30d993574496922ae3e",
+    "test_evaluacion.py": "0c8a634bf1c83dfddcb05a17db4c5de8ff4765f0288d0ae0e628008174a827d6",
+    "validar.py": "c10ef5195098c4de74ef6c070eaefe00b1d854a5af450b1d338c83750ab9dd7d",
+    "verificar_resultados.py": "bad9d4894a4bbf6a346cdffcf5368e27f2d9684eecfd69731d073efb030a9740"
+  },
+  "notes": "Executed snapshots match starting hashes. Current code adds redacted error messages and UTF-8 BOM tolerance only; no change to models, metrics, inputs or formulas."
+}

@@ -1,0 +1,97 @@
+{
+  "call_id": "5dea2cce74b047b2bc9dbc06c6c06b5c",
+  "kind": "evaluator_llm",
+  "attempt": 1,
+  "started_at": "2026-10-18T23:23:26.097022+00:00",
+  "input": {
+    "model": "gemini-3.1-flash-lite",
+    "prompt": "Generate a question for the given answer and Identify if answer is noncommittal. Give noncommittal as 1 if the answer is noncommittal and 0 if the answer is committal. A noncommittal answer is one that is evasive, vague, or ambiguous. For example, \"I don't know\" or \"I'm not sure\" are noncommittal answers\nPlease return the output in a JSON format that complies with the following schema as specified in JSON Schema:\n{\"properties\": {\"question\": {\"title\": \"Question\", \"type\": \"string\"}, \"noncommittal\": {\"title\": \"Noncommittal\", \"type\": \"integer\"}}, \"required\": [\"question\", \"noncommittal\"], \"title\": \"ResponseRelevanceOutput\", \"type\": \"object\"}Do not use single quotes in your response but double quotes,properly escaped with a backslash.\n\n--------EXAMPLES-----------\nExample 1\nInput: {\n    \"response\": \"Albert Einstein was born in Germany.\"\n}\nOutput: {\n    \"question\": \"Where was Albert Einstein born?\",\n    \"noncommittal\": 0\n}\n\nExample 2\nInput: {\n    \"response\": \"I don't know about the  groundbreaking feature of the smartphone invented in 2023 as am unaware of information beyond 2022. \"\n}\nOutput: {\n    \"question\": \"What was the groundbreaking feature of the smartphone invented in 2023?\",\n    \"noncommittal\": 1\n}\n-----------------------------\n\nNow perform the same with the following input\ninput: {\n    \"response\": \"Para dar de alta el Monotributo, el estudio requiere la siguiente documentación:\\n\\n*   DNI del titular (frente y dorso) [DOC-002].\\n*   Constancia de CUIT o número de CUIL [DOC-002].\\n*   Clave fiscal con nivel de seguridad suficiente para operar [DOC-002].\\n*   Domicilio fiscal con un comprobante que lo respalde (factura de un servicio a nombre del titular o contrato de alquiler) [DOC-002].\\n*   Estimación de los ingresos brutos anuales de la actividad [DOC-002].\\n*   Definición de la actividad económica a declarar (código de actividad) y si se trata de venta de cosas muebles o prestación de servicios [DOC-002].\\n*   En caso de tener local, se requiere la superficie afectada y el consumo eléctrico anual [DOC-002].\\n\\nRespecto a la cuota mensual, esta integra tres componentes: el impuesto integrado, el aporte jubilatorio y el aporte a la obra social [DOC-004].\"\n}\nOutput: ",
+    "temperature": 0.0,
+    "max_output_tokens": 8192,
+    "response_mime_type": "application/json",
+    "stop": null
+  },
+  "status": "ok",
+  "response": {
+    "sdk_http_response": {
+      "headers": {
+        "x-gemini-service-tier": "standard",
+        "content-type": "application/json; charset=UTF-8",
+        "vary": "Origin, X-Origin, Referer",
+        "content-encoding": "gzip",
+        "date": "Sun, 18 Oct 2026 23:23:26 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "x-xss-protection": "0",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "server-timing": "gfet4t7; dur=885",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "transfer-encoding": "chunked"
+      },
+      "body": null
+    },
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "media_resolution": null,
+              "code_execution_result": null,
+              "executable_code": null,
+              "file_data": null,
+              "function_call": null,
+              "function_response": null,
+              "inline_data": null,
+              "text": "{\n  \"question\": \"¿Qué documentación se necesita para dar de alta el Monotributo y qué componentes integran la cuota mensual?\",\n  \"noncommittal\": 0\n}",
+              "thought": null,
+              "thought_signature": "EnMKcQFpFH0T40JkEVkFpy4s9zsBmKjWAZU22H5NH4lWQiA5y3Oi5TQEyrBzzzmpmh4Fn0inRjkF6S77HvIM1obbTfEhZlMs3H3gsNT3zJcoo-Tm_mtF-MO-wJJ_Fq-sSdDOi7xekQNnvyHN1l4uWoTzvjH1",
+              "video_metadata": null,
+              "tool_call": null,
+              "tool_response": null,
+              "part_metadata": null,
+              "audio_transcription": null,
+              "media_processing": null
+            }
+          ],
+          "role": "model"
+        },
+        "citation_metadata": null,
+        "finish_message": null,
+        "token_count": null,
+        "finish_reason": "STOP",
+        "grounding_metadata": null,
+        "avg_logprobs": null,
+        "index": 0,
+        "logprobs_result": null,
+        "safety_ratings": null,
+        "url_context_metadata": null
+      }
+    ],
+    "create_time": null,
+    "model_version": "gemini-3.1-flash-lite",
+    "prompt_feedback": null,
+    "response_id": "7lTVauvvD6KKqtsPteKVWA",
+    "usage_metadata": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 41,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 602,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 602
+        }
+      ],
+      "thoughts_token_count": null,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 643,
+      "traffic_type": null
+    },
+    "model_status": null,
+    "automatic_function_calling_history": null,
+    "parsed": null
+  },
+  "seconds": 1.0036076999967918
+}

@@ -1,0 +1,108 @@
+{
+  "api_verified": true,
+  "project": {
+    "id": "ad56b0c4-866e-47a2-9145-0f218035ad61",
+    "name": "grupo-e-entrega-3-b4"
+  },
+  "trace_url": "https://smith.langchain.com/o/4e1308b3-31f5-4580-ac80-b762ab74e4dc/projects/p/ad56b0c4-866e-47a2-9145-0f218035ad61/r/01a14bff-94b8-7c73-a84d-da89091ad81a?poll=true",
+  "access": "Enlace de workspace autenticado; no verificado como público, no se publicó la traza",
+  "root_id": "01a14bff-94b8-7c73-a84d-da89091ad81a",
+  "start_time_utc": "2026-10-17T22:33:23.385031Z",
+  "end_time_utc": "2026-10-17T22:33:38.084356Z",
+  "revision_recorded": "e6c90f5",
+  "settings_remote": {
+    "variant": "rerank",
+    "model": "gemini-3.1-flash-lite",
+    "temperature": 0.0,
+    "top_k": 3,
+    "candidate_k": 8,
+    "selected_k": 4,
+    "max_distance": 0.28,
+    "min_judge_score": 0.5
+  },
+  "checks": {
+    "all_nodes_same_trace": true,
+    "all_remote_outputs_equal_local": true,
+    "retrieval_candidates_equal_local": true,
+    "all_eight_candidates_sent_to_judge": true,
+    "selected_equal_local": true,
+    "selected_subset_candidates": true,
+    "judge_response_equal_rerank_verdict": true,
+    "generator_context_exact_selected_order_and_content": true,
+    "generator_answer_equal_final_and_local": true,
+    "final_sources_equal_selected": true,
+    "two_model_calls_only": true,
+    "leaf_tokens_sum_equals_root": true,
+    "no_run_errors": true
+  },
+  "durations_seconds_api": {
+    "root": 14.699325,
+    "retrieval": 0.425542,
+    "reranking": 8.816276,
+    "judge_model": 8.812468,
+    "generation_chain": 5.368333,
+    "generator_model": 5.365554
+  },
+  "tokens_api_leaf_calls": [
+    {
+      "role": "judge",
+      "id": "01a14bff-96b9-7103-85e6-4455a3e303e8",
+      "input": 1122,
+      "output": 610,
+      "total": 1732
+    },
+    {
+      "role": "generator",
+      "id": "01a14bff-b92b-7e12-afdc-a795bf901eca",
+      "input": 727,
+      "output": 372,
+      "total": 1099
+    }
+  ],
+  "root_aggregate_tokens_api": {
+    "input": 1849,
+    "output": 982,
+    "total": 2831
+  },
+  "selected_remote": [
+    {
+      "id": "DOC-008::chunk-000-989bdb5081187467",
+      "parent_id": "DOC-008",
+      "score": 1.0
+    },
+    {
+      "id": "DOC-001::chunk-000-5d1a5023e0007962",
+      "parent_id": "DOC-001",
+      "score": 1.0
+    },
+    {
+      "id": "DOC-007::chunk-000-bfbf474549da33fb",
+      "parent_id": "DOC-007",
+      "score": 1.0
+    },
+    {
+      "id": "DOC-008::chunk-001-92e73e8b1d8ef4e4",
+      "parent_id": "DOC-008",
+      "score": 0.8
+    }
+  ],
+  "above_028_actually_sent_to_judge": [
+    "DOC-008::chunk-001-92e73e8b1d8ef4e4",
+    "DOC-007::chunk-000-bfbf474549da33fb",
+    "DOC-00X::chunk-000-56a9a072654fa42c",
+    "DOC-001::chunk-001-619740ed81062fb1",
+    "DOC-003::chunk-000-42f59d263c71dc15",
+    "DOC-004::chunk-000-e141194203030764"
+  ],
+  "chunking_parameters_in_trace": false,
+  "chunking_evidence": "Manifiesto local declara 500/100; la traza no registra esos campos ni hash de indexación",
+  "visual_gap": null,
+  "b4_complete_under_requested_audit": true,
+  "remaining": [],
+  "chunking_local_manifest_accepted_for_assignment": true,
+  "optional_audit_improvements": [
+    "Registrar chunking y hash de indexación en futuras trazas; no exigido por la consigna ni bloqueante"
+  ],
+  "visual_evidence": "juez1.png, juez2.png y select.png muestran ocho elementos del juicio y selected con índices 0–3; contexto y orden final contrastados por API",
+  "final_visual_review": "revision_capturas_finales.json"
+}

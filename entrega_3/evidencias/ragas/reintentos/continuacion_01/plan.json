@@ -1,0 +1,200 @@
+{
+  "targets": [
+    {
+      "case_variant": "C1_rerank",
+      "metric": "context_precision",
+      "original_sha256": "6de2d4265629153c103ac6b83d3eba3a25d820554984f3e39eb57b843b013a6e",
+      "relative": "C1_rerank\\context_precision.json"
+    },
+    {
+      "case_variant": "C3_basic",
+      "metric": "answer_relevancy",
+      "original_sha256": "fab2d47a0b51e3c95d9de43f9cf99fb9c8d644ccceb64165c4e16519283ca360",
+      "relative": "C3_basic\\answer_relevancy.json"
+    },
+    {
+      "case_variant": "C3_basic",
+      "metric": "context_precision",
+      "original_sha256": "86cd2df5409bda79552f18d4a54fedea5ff10442740f94382fd95c2f5dee25b4",
+      "relative": "C3_basic\\context_precision.json"
+    },
+    {
+      "case_variant": "C3_basic",
+      "metric": "context_recall",
+      "original_sha256": "e2d9b3b51531cf6749f3d9c13b4d65e27d45d7fc52c538dea43639c613a09fad",
+      "relative": "C3_basic\\context_recall.json"
+    },
+    {
+      "case_variant": "C3_basic",
+      "metric": "faithfulness",
+      "original_sha256": "4815079761c10ad42628d63279566f0f8837f3960a69e199d6a4f9b60073f830",
+      "relative": "C3_basic\\faithfulness.json"
+    },
+    {
+      "case_variant": "C3_rerank",
+      "metric": "answer_relevancy",
+      "original_sha256": "9b0ba5f7b342e1b42453d8228428c1789de88098ae6c06d63549ece72f6937f9",
+      "relative": "C3_rerank\\answer_relevancy.json"
+    },
+    {
+      "case_variant": "C3_rerank",
+      "metric": "context_precision",
+      "original_sha256": "bf9ecccf29c0e683cda6b77a45df4e9847a80483cfb12c56d476121a4891f07e",
+      "relative": "C3_rerank\\context_precision.json"
+    },
+    {
+      "case_variant": "C3_rerank",
+      "metric": "faithfulness",
+      "original_sha256": "bbd0fd31b28ea5d51883f58adce5e1af15c3fedb1b28e70f327d168a29431012",
+      "relative": "C3_rerank\\faithfulness.json"
+    },
+    {
+      "case_variant": "E2_rerank",
+      "metric": "answer_relevancy",
+      "original_sha256": "d5cc5750a2cdb995ba4550ba5af0c3ab0f31a9ceca5b559dead01131c170f8c8",
+      "relative": "E2_rerank\\answer_relevancy.json"
+    },
+    {
+      "case_variant": "E2_rerank",
+      "metric": "faithfulness",
+      "original_sha256": "37dddd55840417d308f0fe2390895c815561591a327a6ad569b45eb39607192a",
+      "relative": "E2_rerank\\faithfulness.json"
+    },
+    {
+      "case_variant": "I1_basic",
+      "metric": "faithfulness",
+      "original_sha256": "751181555827f34a50f805894004d70d1025e574f19b21afd3f9a8b9c6f9ff90",
+      "relative": "I1_basic\\faithfulness.json"
+    },
+    {
+      "case_variant": "I2_basic",
+      "metric": "context_precision",
+      "original_sha256": "0b8d0c1abbba23b6448ca373231c1b9997427abc5bd4afa9eab7f60b6ba27b26",
+      "relative": "I2_basic\\context_precision.json"
+    },
+    {
+      "case_variant": "I2_basic",
+      "metric": "context_recall",
+      "original_sha256": "cdeff946f5c3809ba0cd71fe01b40ced61602e85361202120e7a6495085aac80",
+      "relative": "I2_basic\\context_recall.json"
+    },
+    {
+      "case_variant": "I2_rerank",
+      "metric": "answer_relevancy",
+      "original_sha256": "0cac66a0389e1d958f2a2bb5b1e585197c484bca901c9bae9f64c32c034e93ef",
+      "relative": "I2_rerank\\answer_relevancy.json"
+    },
+    {
+      "case_variant": "I2_rerank",
+      "metric": "context_precision",
+      "original_sha256": "69c91fc183727d4d11f51f829f60797991781257671b3c23e83e1918a4a79348",
+      "relative": "I2_rerank\\context_precision.json"
+    },
+    {
+      "case_variant": "I2_rerank",
+      "metric": "context_recall",
+      "original_sha256": "6989ef9fb86051b53a96ffb9f8841c1b663ed160211637d4059683c2af0dc69c",
+      "relative": "I2_rerank\\context_recall.json"
+    },
+    {
+      "case_variant": "I2_rerank",
+      "metric": "faithfulness",
+      "original_sha256": "89192c0af591883bd882d00034892d6b3189980b980ab5d95be8370609e27264",
+      "relative": "I2_rerank\\faithfulness.json"
+    },
+    {
+      "case_variant": "S1_rerank",
+      "metric": "faithfulness",
+      "original_sha256": "bbb70648098f6bb85864c0ead56a9b42342e4733c5c206a2269c97ea2bc7cc59",
+      "relative": "S1_rerank\\faithfulness.json"
+    }
+  ],
+  "protected": {
+    "entrega_3\\evidencias\\ragas\\generacion\\C1_basic.json": "7be6d4158b90103293e978205e6e199613807d062cdbd8f0527f79f9f26744d2",
+    "entrega_3\\evidencias\\ragas\\generacion\\C1_rerank.json": "2b49538033d5a8539bc2eac33168fabc2cba9ff15abfef94640a22b3c61f7a44",
+    "entrega_3\\evidencias\\ragas\\generacion\\C2_basic.json": "e2a1f61250b5757b8398ca7e7c4ecc18c054b368a21a04793a94fdd0a177ac75",
+    "entrega_3\\evidencias\\ragas\\generacion\\C2_rerank.json": "391ba708af6585d36299d03f385f7c902645ff033a91cf829278959b38072557",
+    "entrega_3\\evidencias\\ragas\\generacion\\C3_basic.json": "c2f28475788342200c7f4d43a0972435779bd437cb2620717013da2dab624126",
+    "entrega_3\\evidencias\\ragas\\generacion\\C3_rerank.json": "d046f9707b0529f99fbf2d172ae9acf4f5a7d5dc17e7f8526c4b870decdfd1a1",
+    "entrega_3\\evidencias\\ragas\\generacion\\E1_basic.json": "0afcd98460d20277b2cf128459248b4677e434cbefc790b047ac61fcea9e7509",
+    "entrega_3\\evidencias\\ragas\\generacion\\E1_rerank.json": "13fd0b4ff3240b1774bf74268e78817724e91e66d1e1b781e667386b06cfb165",
+    "entrega_3\\evidencias\\ragas\\generacion\\E2_basic.json": "06936321a10a0f69a38df9cdae79fdc0449dc7ee547195d711170db3bca187ab",
+    "entrega_3\\evidencias\\ragas\\generacion\\E2_rerank.json": "40a9e761259d8cdd482a2e83131e0b45cd533bf47beb56bd3ccb8d97bd43fe21",
+    "entrega_3\\evidencias\\ragas\\generacion\\I1_basic.json": "b57b00860fcf4a5d13fab3d83c3dda263895b8a593e0eea19a2b89bd36f03d85",
+    "entrega_3\\evidencias\\ragas\\generacion\\I1_rerank.json": "db6b5ae3963ec6cff2eb9de96cb0e3f8f0e50201d6d915013353481b3d62aa87",
+    "entrega_3\\evidencias\\ragas\\generacion\\I2_basic.json": "e09696b3f3d7c770ff62db3d24248e9e637eaa25b143f2a6ddb266cc93511871",
+    "entrega_3\\evidencias\\ragas\\generacion\\I2_rerank.json": "8741c34fc0cab1775395124b6da9373c98c70d33282be1da67c8edb0ef32beaa",
+    "entrega_3\\evidencias\\ragas\\generacion\\S1_basic.json": "e4801c5016391d2c96fcf8ab2c53440910cdf3f7833673205a69000f54f248f3",
+    "entrega_3\\evidencias\\ragas\\generacion\\S1_rerank.json": "a14fc33c772a2122b940659d2fbc9558adc65341feef4c49ad4a50c7e57e5959",
+    "entrega_3\\evidencias\\ragas\\generacion\\S2_basic.json": "b3cbb8f26b9e27f48772cc3cdbfa4ed9882dc10fa826cab2488d54f338b0f8b1",
+    "entrega_3\\evidencias\\ragas\\generacion\\S2_rerank.json": "4d2db946f4992a26e4376f6bda6acf448230f0391310edc3dae56bc42db0077c",
+    "entrega_3\\evidencias\\ragas\\generacion\\S3_basic.json": "955426bc8dbb630899339bf75d76a53d568d1570ba849bf9a0690cb7afae4d2d",
+    "entrega_3\\evidencias\\ragas\\generacion\\S3_rerank.json": "7cd352d38848567593074371358bb9ef17992b56762d36366bf3b5af2d73a7bd",
+    "entrega_3\\evaluacion_ragas\\golden_dataset.json": "90c31be3cb6aa63cc1727371a644d136eb41f296b51ed5cdfe498e8cc879d085",
+    "entrega_3\\evaluacion_ragas\\corpus_manifest.json": "1d2f0800b1991bd1d18caec971743fe6efb04fff8bb3d27de9d20e7b236241a2",
+    "entrega_3\\evaluacion_ragas\\PROTOCOLO.md": "871847305471daa9094e96912d625e129533155c7e864931342ce70d17f5fca8",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\C1_basic\\answer_relevancy.json": "7c39079c729ea75a6230b3f2f05caec9f656451ddb98fec5d8a393535a61fbbe",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\C1_basic\\context_precision.json": "c02148aca8879415bd19a7b6e241e1a39b76dab492a4d91043ab827d5d9c26b1",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\C1_basic\\context_recall.json": "867ca6b3ff1857c32dc32acac2b0dc11cde70ebf8cbe0c708cd13e510dd71771",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\C1_basic\\faithfulness.json": "b9c1d4d8be77b86afb0e691ee12a9e38fad7fb14026b4ea942961536180bce03",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\C1_rerank\\answer_relevancy.json": "c3384f87832ac4490a9e30b8ca5bd742df48f1fed909af12db1da8176734a0e2",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\C1_rerank\\context_recall.json": "6f52e5b46a9ad3228ca6b8c3d2c16442117d9759348110813b867c73e9a2fcae",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\C1_rerank\\faithfulness.json": "05f687a28c21c5bd74f8b0b211661aa715ac5d37a41e2bf61a224985b214c7c9",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\C2_basic\\answer_relevancy.json": "aee479d5cee908dcf674ba2ff7372e6ac33b45b64409ccb8018509e77880f390",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\C2_basic\\context_precision.json": "d59d522d2d2f3058b6f052ca5fa569db7cc91f1e064cbf74cd033bc697e4e1c2",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\C2_basic\\context_recall.json": "2009ecf6db108159c73694f869d107c1138b316ae571b6e70463b28e3d95dacc",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\C2_basic\\faithfulness.json": "34756aca7d5dd301396c35886fcf69457c16384f6435289f7af267500179e9bb",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\C2_rerank\\answer_relevancy.json": "193a0e13d51a2621c3f43d9d54dbb558fe7e523c5fe0cc24155fd4d5fbc7d915",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\C2_rerank\\context_precision.json": "36152da8c252804928d365e2d7c0b34bd6840b42b9165ab73f36eb8e0c9924fa",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\C2_rerank\\context_recall.json": "b44554e431ad052d3981d4526aff757edd470cccff8498a67b84ddec6d79ec2c",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\C2_rerank\\faithfulness.json": "a2957462f4d0c0f4e13d892dbef9784ddc2f0b4faaed0997941deb39004faff3",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\C3_rerank\\context_recall.json": "02ba868b6b560078c38c176c3a7c26d74176bacad6996f3c87c2076e6e180a43",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\E1_basic\\answer_relevancy.json": "79762f2aa21dea2b0b7f6b956f029649092cc3a93bdbcbdf19388956f966c79e",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\E1_basic\\context_precision.json": "33afd5349a197cce2775ca40df9d3e2528d630c7075383c967c2b7b4aa272f72",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\E1_basic\\context_recall.json": "33afd5349a197cce2775ca40df9d3e2528d630c7075383c967c2b7b4aa272f72",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\E1_basic\\faithfulness.json": "5e5f0bb39c90ab267454738ee4b55262f3850ecc073a38577e70f0a8ad902e8e",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\E1_rerank\\answer_relevancy.json": "e592133fee840dac70c3d1a492c2f0aa26aeeae0222815afb7c8629741f3e009",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\E1_rerank\\context_precision.json": "33afd5349a197cce2775ca40df9d3e2528d630c7075383c967c2b7b4aa272f72",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\E1_rerank\\context_recall.json": "33afd5349a197cce2775ca40df9d3e2528d630c7075383c967c2b7b4aa272f72",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\E1_rerank\\faithfulness.json": "8f740ee875d44db6c705b5ee913c2cfdd8f8b22fffc28dc4fc56682e9c33269c",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\E2_basic\\answer_relevancy.json": "72dc1ff1ed2f5992462b1aba6ee25e3e5e0786e59058e35df5797053120057dc",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\E2_basic\\context_precision.json": "33afd5349a197cce2775ca40df9d3e2528d630c7075383c967c2b7b4aa272f72",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\E2_basic\\context_recall.json": "33afd5349a197cce2775ca40df9d3e2528d630c7075383c967c2b7b4aa272f72",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\E2_basic\\faithfulness.json": "2097b3ed1d9d528ac0a33a3fdd4cb31c038c6d81d58e7529f9fc836b720c42e7",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\E2_rerank\\context_precision.json": "33afd5349a197cce2775ca40df9d3e2528d630c7075383c967c2b7b4aa272f72",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\E2_rerank\\context_recall.json": "33afd5349a197cce2775ca40df9d3e2528d630c7075383c967c2b7b4aa272f72",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\I1_basic\\answer_relevancy.json": "90e9b9ca4af72fb20b4c89bd178aeba641a1550c5b67460c300b731254bbc72d",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\I1_basic\\context_precision.json": "9ad3f8462ebbe419f40fe7e6478dc663854e639c5064aaece0ad3d4ba19b8a84",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\I1_basic\\context_recall.json": "cb30a71f0a7f92ea8ddff2bec7c090364533861c49e590e52fb68d627a23660a",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\I1_rerank\\answer_relevancy.json": "17b0bdecfa72b883a43a0a6b7e51c3217ebd2e59a648624dc60d55b6488df5b9",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\I1_rerank\\context_precision.json": "e7757901b4dadfc27b51e4bf7ac77899fe4394e8885525882225625fe9c52266",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\I1_rerank\\context_recall.json": "929b8ffa5e996911a9c373252b64367bd7796023e75afe64eb778da36b724999",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\I1_rerank\\faithfulness.json": "cab3238aea291bc415f0b700e29b703c97cd934d13c5fd71dadb84b79f399d50",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\I2_basic\\answer_relevancy.json": "ab9fb458350ef4c9ce152b622d854d41c31f2ce1fef8ff8bf1bb0afb52dc9210",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\I2_basic\\faithfulness.json": "2f2da37fb5638bbd078324a63fe285ba993843e74c325c56b2b7120dd5a7153f",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\S1_basic\\answer_relevancy.json": "314a126bdb941b3016182a0b2152e92731c9504b51850a8566688bbe175890b0",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\S1_basic\\context_precision.json": "8b9a3bc48b2a1316f378b07838b78dfb3bf07d6bdce014d575c1353b2c09a343",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\S1_basic\\context_recall.json": "f65d8de939fbe6e878193355b72a2cc49f9e64824ec4c93c59d724205d2c173b",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\S1_basic\\faithfulness.json": "6152a748dcd371d77811dfcd6f2457e9a60c5b56132675d25ce0668d797706be",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\S1_rerank\\answer_relevancy.json": "c98e5dbe9035d5f080932dee1e35dd2c824e5227aa032ae48d68f3a3289bf640",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\S1_rerank\\context_precision.json": "113cbfa17801dd298dd1a648efc70f4682684d4a271af5080b35104bd82053c8",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\S1_rerank\\context_recall.json": "fa25b9ee3223d2459918034d57f583066c9b883e30850fc34c8627f311e10874",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\S2_basic\\answer_relevancy.json": "c0fc1707274287cf2d5159dee2aedc3108ce295fb19e17f83488bab553484ec2",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\S2_basic\\context_precision.json": "8170a77b2fc97a0263fb4b3c6a1f9c8001210ae84e839dd7309c71ba7f391e2e",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\S2_basic\\context_recall.json": "30e6a6cb72110a19904d043fbfb06a83607eaeed6f826891e0d948120f3529c5",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\S2_basic\\faithfulness.json": "a5d3cb431a1fea1c3136465dd4026515bc7248954e7edd64f8dc434209aff331",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\S2_rerank\\answer_relevancy.json": "47d94cc9d99ed53cbf9d036d1a87a44c467757a536daadf48806bf2b36951a1e",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\S2_rerank\\context_precision.json": "5d0aa000254c777f25640aee284ffc92769ad183c75d1e5eda5c77e18f58eef3",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\S2_rerank\\context_recall.json": "91a679d66b00d606a8833dc450e6547b10c575a4b58a3aa4f3c0794b6f9f5751",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\S2_rerank\\faithfulness.json": "a253d28b528137308533448cce0c983caca36b3c400b2d76283eff7cc1f02e64",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\S3_basic\\answer_relevancy.json": "951229a3b4b2603794d26194ab7bd1a7f5f8ad66c37c3997cfc8c76a256de1f2",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\S3_basic\\context_precision.json": "442f5eef8313dc85fb8f83e8bb98cd4990d54304a423b7bce64ced0604783545",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\S3_basic\\context_recall.json": "c3c2deb7691918d56f49cfe1c0108171d1b83c64901fd65b2ebb805540eb7337",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\S3_basic\\faithfulness.json": "57e159c9639a5f4b6529e0a7e4d9114d30d40bfdf5413bd151b4512adc7751c9",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\S3_rerank\\answer_relevancy.json": "78691f78f2e9496ef352693e470f8d61164b6e6a938c8cf62e4a80d8f4609034",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\S3_rerank\\context_precision.json": "a54f55d2170ebe96163be248e7049df1ab2441274f27113ee4626deb5fce3caf",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\S3_rerank\\context_recall.json": "7a6c6ec921d934be4adce339f5217ba36342e12515b1d27b113242832419c789",
+    "entrega_3\\evidencias\\ragas\\evaluacion\\S3_rerank\\faithfulness.json": "f8ab1df990a2c17dc24ee15c0e00efc3128fd1a169b2fd1bb452e24f39dfd5ca"
+  },
+  "parameters": "Same RAGAS, models, prompts, metric timeouts and parameters; transport sequential, pause 12s, max three transient attempts."
+}

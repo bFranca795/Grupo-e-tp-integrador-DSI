@@ -1,0 +1,1347 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "Pipeline intacto: config.py",
+      "passed": true
+    },
+    {
+      "check": "Pipeline intacto: indexing.py",
+      "passed": true
+    },
+    {
+      "check": "Pipeline intacto: model.py",
+      "passed": true
+    },
+    {
+      "check": "Pipeline intacto: pipeline.py",
+      "passed": true
+    },
+    {
+      "check": "Pipeline intacto: reranking.py",
+      "passed": true
+    },
+    {
+      "check": "Pipeline intacto: retriever.py",
+      "passed": true
+    },
+    {
+      "check": "Pipeline intacto: test_pipeline.py",
+      "passed": true
+    },
+    {
+      "check": "Pipeline intacto: __init__.py",
+      "passed": true
+    },
+    {
+      "check": "Pipeline intacto: __main__.py",
+      "passed": true
+    },
+    {
+      "check": "S1/basic: configuración vigente",
+      "passed": true
+    },
+    {
+      "check": "S1/basic: pregunta aprobada",
+      "passed": true
+    },
+    {
+      "check": "S1/basic: contextos efectivamente suministrados",
+      "passed": true
+    },
+    {
+      "check": "S1/basic/DOC-007: fuente efectiva sanitizada",
+      "passed": true
+    },
+    {
+      "check": "S1/basic: ejecución sin error técnico",
+      "passed": true
+    },
+    {
+      "check": "S1/basic/faithfulness: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "S1/basic/faithfulness: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "S1/basic/faithfulness: score finito",
+      "passed": true
+    },
+    {
+      "check": "S1/basic/answer_relevancy: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "S1/basic/answer_relevancy: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "S1/basic/answer_relevancy: score finito",
+      "passed": true
+    },
+    {
+      "check": "S1/basic/context_precision: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "S1/basic/context_precision: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "S1/basic/context_precision: score finito",
+      "passed": true
+    },
+    {
+      "check": "S1/basic/context_recall: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "S1/basic/context_recall: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "S1/basic/context_recall: score finito",
+      "passed": true
+    },
+    {
+      "check": "S1/rerank: configuración vigente",
+      "passed": true
+    },
+    {
+      "check": "S1/rerank: pregunta aprobada",
+      "passed": true
+    },
+    {
+      "check": "S1/rerank: contextos efectivamente suministrados",
+      "passed": true
+    },
+    {
+      "check": "S1/rerank/DOC-007::chunk-000-bfbf474549da33fb: fuente efectiva sanitizada",
+      "passed": true
+    },
+    {
+      "check": "S1/rerank/DOC-007::chunk-001-dfd8e869b69c0e65: fuente efectiva sanitizada",
+      "passed": true
+    },
+    {
+      "check": "S1/rerank: límites",
+      "passed": true
+    },
+    {
+      "check": "S1/rerank: ejecución sin error técnico",
+      "passed": true
+    },
+    {
+      "check": "S1/rerank/faithfulness: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "S1/rerank/faithfulness: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "S1/rerank/answer_relevancy: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "S1/rerank/answer_relevancy: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "S1/rerank/answer_relevancy: score finito",
+      "passed": true
+    },
+    {
+      "check": "S1/rerank/context_precision: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "S1/rerank/context_precision: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "S1/rerank/context_precision: score finito",
+      "passed": true
+    },
+    {
+      "check": "S1/rerank/context_recall: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "S1/rerank/context_recall: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "S1/rerank/context_recall: score finito",
+      "passed": true
+    },
+    {
+      "check": "S2/basic: configuración vigente",
+      "passed": true
+    },
+    {
+      "check": "S2/basic: pregunta aprobada",
+      "passed": true
+    },
+    {
+      "check": "S2/basic: contextos efectivamente suministrados",
+      "passed": true
+    },
+    {
+      "check": "S2/basic/DOC-004: fuente efectiva sanitizada",
+      "passed": true
+    },
+    {
+      "check": "S2/basic: ejecución sin error técnico",
+      "passed": true
+    },
+    {
+      "check": "S2/basic/faithfulness: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "S2/basic/faithfulness: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "S2/basic/faithfulness: score finito",
+      "passed": true
+    },
+    {
+      "check": "S2/basic/answer_relevancy: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "S2/basic/answer_relevancy: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "S2/basic/answer_relevancy: score finito",
+      "passed": true
+    },
+    {
+      "check": "S2/basic/context_precision: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "S2/basic/context_precision: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "S2/basic/context_precision: score finito",
+      "passed": true
+    },
+    {
+      "check": "S2/basic/context_recall: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "S2/basic/context_recall: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "S2/basic/context_recall: score finito",
+      "passed": true
+    },
+    {
+      "check": "S2/rerank: configuración vigente",
+      "passed": true
+    },
+    {
+      "check": "S2/rerank: pregunta aprobada",
+      "passed": true
+    },
+    {
+      "check": "S2/rerank: contextos efectivamente suministrados",
+      "passed": true
+    },
+    {
+      "check": "S2/rerank/DOC-004::chunk-000-e141194203030764: fuente efectiva sanitizada",
+      "passed": true
+    },
+    {
+      "check": "S2/rerank: límites",
+      "passed": true
+    },
+    {
+      "check": "S2/rerank: ejecución sin error técnico",
+      "passed": true
+    },
+    {
+      "check": "S2/rerank/faithfulness: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "S2/rerank/faithfulness: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "S2/rerank/faithfulness: score finito",
+      "passed": true
+    },
+    {
+      "check": "S2/rerank/answer_relevancy: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "S2/rerank/answer_relevancy: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "S2/rerank/answer_relevancy: score finito",
+      "passed": true
+    },
+    {
+      "check": "S2/rerank/context_precision: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "S2/rerank/context_precision: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "S2/rerank/context_precision: score finito",
+      "passed": true
+    },
+    {
+      "check": "S2/rerank/context_recall: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "S2/rerank/context_recall: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "S2/rerank/context_recall: score finito",
+      "passed": true
+    },
+    {
+      "check": "S3/basic: configuración vigente",
+      "passed": true
+    },
+    {
+      "check": "S3/basic: pregunta aprobada",
+      "passed": true
+    },
+    {
+      "check": "S3/basic: contextos efectivamente suministrados",
+      "passed": true
+    },
+    {
+      "check": "S3/basic/DOC-012: fuente efectiva sanitizada",
+      "passed": true
+    },
+    {
+      "check": "S3/basic: ejecución sin error técnico",
+      "passed": true
+    },
+    {
+      "check": "S3/basic/faithfulness: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "S3/basic/faithfulness: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "S3/basic/faithfulness: score finito",
+      "passed": true
+    },
+    {
+      "check": "S3/basic/answer_relevancy: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "S3/basic/answer_relevancy: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "S3/basic/answer_relevancy: score finito",
+      "passed": true
+    },
+    {
+      "check": "S3/basic/context_precision: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "S3/basic/context_precision: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "S3/basic/context_precision: score finito",
+      "passed": true
+    },
+    {
+      "check": "S3/basic/context_recall: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "S3/basic/context_recall: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "S3/basic/context_recall: score finito",
+      "passed": true
+    },
+    {
+      "check": "S3/rerank: configuración vigente",
+      "passed": true
+    },
+    {
+      "check": "S3/rerank: pregunta aprobada",
+      "passed": true
+    },
+    {
+      "check": "S3/rerank: contextos efectivamente suministrados",
+      "passed": true
+    },
+    {
+      "check": "S3/rerank/DOC-012::chunk-000-aab8e60566e4bda5: fuente efectiva sanitizada",
+      "passed": true
+    },
+    {
+      "check": "S3/rerank: límites",
+      "passed": true
+    },
+    {
+      "check": "S3/rerank: ejecución sin error técnico",
+      "passed": true
+    },
+    {
+      "check": "S3/rerank/faithfulness: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "S3/rerank/faithfulness: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "S3/rerank/faithfulness: score finito",
+      "passed": true
+    },
+    {
+      "check": "S3/rerank/answer_relevancy: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "S3/rerank/answer_relevancy: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "S3/rerank/answer_relevancy: score finito",
+      "passed": true
+    },
+    {
+      "check": "S3/rerank/context_precision: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "S3/rerank/context_precision: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "S3/rerank/context_precision: score finito",
+      "passed": true
+    },
+    {
+      "check": "S3/rerank/context_recall: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "S3/rerank/context_recall: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "S3/rerank/context_recall: score finito",
+      "passed": true
+    },
+    {
+      "check": "C1/basic: configuración vigente",
+      "passed": true
+    },
+    {
+      "check": "C1/basic: pregunta aprobada",
+      "passed": true
+    },
+    {
+      "check": "C1/basic: contextos efectivamente suministrados",
+      "passed": true
+    },
+    {
+      "check": "C1/basic/DOC-008: fuente efectiva sanitizada",
+      "passed": true
+    },
+    {
+      "check": "C1/basic/DOC-001: fuente efectiva sanitizada",
+      "passed": true
+    },
+    {
+      "check": "C1/basic: ejecución sin error técnico",
+      "passed": true
+    },
+    {
+      "check": "C1/basic/faithfulness: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "C1/basic/faithfulness: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "C1/basic/faithfulness: score finito",
+      "passed": true
+    },
+    {
+      "check": "C1/basic/answer_relevancy: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "C1/basic/answer_relevancy: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "C1/basic/answer_relevancy: score finito",
+      "passed": true
+    },
+    {
+      "check": "C1/basic/context_precision: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "C1/basic/context_precision: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "C1/basic/context_precision: score finito",
+      "passed": true
+    },
+    {
+      "check": "C1/basic/context_recall: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "C1/basic/context_recall: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "C1/basic/context_recall: score finito",
+      "passed": true
+    },
+    {
+      "check": "C1/rerank: configuración vigente",
+      "passed": true
+    },
+    {
+      "check": "C1/rerank: pregunta aprobada",
+      "passed": true
+    },
+    {
+      "check": "C1/rerank: contextos efectivamente suministrados",
+      "passed": true
+    },
+    {
+      "check": "C1/rerank/DOC-008::chunk-000-989bdb5081187467: fuente efectiva sanitizada",
+      "passed": true
+    },
+    {
+      "check": "C1/rerank/DOC-001::chunk-000-5d1a5023e0007962: fuente efectiva sanitizada",
+      "passed": true
+    },
+    {
+      "check": "C1/rerank/DOC-007::chunk-000-bfbf474549da33fb: fuente efectiva sanitizada",
+      "passed": true
+    },
+    {
+      "check": "C1/rerank/DOC-008::chunk-001-92e73e8b1d8ef4e4: fuente efectiva sanitizada",
+      "passed": true
+    },
+    {
+      "check": "C1/rerank: límites",
+      "passed": true
+    },
+    {
+      "check": "C1/rerank: ejecución sin error técnico",
+      "passed": true
+    },
+    {
+      "check": "C1/rerank/faithfulness: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "C1/rerank/faithfulness: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "C1/rerank/faithfulness: score finito",
+      "passed": true
+    },
+    {
+      "check": "C1/rerank/answer_relevancy: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "C1/rerank/answer_relevancy: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "C1/rerank/answer_relevancy: score finito",
+      "passed": true
+    },
+    {
+      "check": "C1/rerank/context_precision: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "C1/rerank/context_precision: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "C1/rerank/context_recall: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "C1/rerank/context_recall: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "C1/rerank/context_recall: score finito",
+      "passed": true
+    },
+    {
+      "check": "C2/basic: configuración vigente",
+      "passed": true
+    },
+    {
+      "check": "C2/basic: pregunta aprobada",
+      "passed": true
+    },
+    {
+      "check": "C2/basic: contextos efectivamente suministrados",
+      "passed": true
+    },
+    {
+      "check": "C2/basic/DOC-002: fuente efectiva sanitizada",
+      "passed": true
+    },
+    {
+      "check": "C2/basic: ejecución sin error técnico",
+      "passed": true
+    },
+    {
+      "check": "C2/basic/faithfulness: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "C2/basic/faithfulness: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "C2/basic/faithfulness: score finito",
+      "passed": true
+    },
+    {
+      "check": "C2/basic/answer_relevancy: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "C2/basic/answer_relevancy: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "C2/basic/answer_relevancy: score finito",
+      "passed": true
+    },
+    {
+      "check": "C2/basic/context_precision: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "C2/basic/context_precision: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "C2/basic/context_precision: score finito",
+      "passed": true
+    },
+    {
+      "check": "C2/basic/context_recall: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "C2/basic/context_recall: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "C2/basic/context_recall: score finito",
+      "passed": true
+    },
+    {
+      "check": "C2/rerank: configuración vigente",
+      "passed": true
+    },
+    {
+      "check": "C2/rerank: pregunta aprobada",
+      "passed": true
+    },
+    {
+      "check": "C2/rerank: contextos efectivamente suministrados",
+      "passed": true
+    },
+    {
+      "check": "C2/rerank/DOC-002::chunk-000-be61eb2c57df8b1d: fuente efectiva sanitizada",
+      "passed": true
+    },
+    {
+      "check": "C2/rerank/DOC-004::chunk-000-e141194203030764: fuente efectiva sanitizada",
+      "passed": true
+    },
+    {
+      "check": "C2/rerank/DOC-002::chunk-001-b3408e1e8b2c9830: fuente efectiva sanitizada",
+      "passed": true
+    },
+    {
+      "check": "C2/rerank: límites",
+      "passed": true
+    },
+    {
+      "check": "C2/rerank: ejecución sin error técnico",
+      "passed": true
+    },
+    {
+      "check": "C2/rerank/faithfulness: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "C2/rerank/faithfulness: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "C2/rerank/faithfulness: score finito",
+      "passed": true
+    },
+    {
+      "check": "C2/rerank/answer_relevancy: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "C2/rerank/answer_relevancy: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "C2/rerank/answer_relevancy: score finito",
+      "passed": true
+    },
+    {
+      "check": "C2/rerank/context_precision: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "C2/rerank/context_precision: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "C2/rerank/context_precision: score finito",
+      "passed": true
+    },
+    {
+      "check": "C2/rerank/context_recall: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "C2/rerank/context_recall: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "C2/rerank/context_recall: score finito",
+      "passed": true
+    },
+    {
+      "check": "C3/basic: configuración vigente",
+      "passed": true
+    },
+    {
+      "check": "C3/basic: pregunta aprobada",
+      "passed": true
+    },
+    {
+      "check": "C3/basic: contextos efectivamente suministrados",
+      "passed": true
+    },
+    {
+      "check": "C3/basic/DOC-010: fuente efectiva sanitizada",
+      "passed": true
+    },
+    {
+      "check": "C3/basic/DOC-011: fuente efectiva sanitizada",
+      "passed": true
+    },
+    {
+      "check": "C3/basic: ejecución sin error técnico",
+      "passed": true
+    },
+    {
+      "check": "C3/basic/faithfulness: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "C3/basic/faithfulness: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "C3/basic/answer_relevancy: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "C3/basic/answer_relevancy: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "C3/basic/context_precision: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "C3/basic/context_precision: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "C3/basic/context_recall: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "C3/basic/context_recall: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "C3/rerank: configuración vigente",
+      "passed": true
+    },
+    {
+      "check": "C3/rerank: pregunta aprobada",
+      "passed": true
+    },
+    {
+      "check": "C3/rerank: contextos efectivamente suministrados",
+      "passed": true
+    },
+    {
+      "check": "C3/rerank/DOC-011::chunk-000-7345273c5fa84a67: fuente efectiva sanitizada",
+      "passed": true
+    },
+    {
+      "check": "C3/rerank/DOC-010::chunk-000-c0431097960fbec4: fuente efectiva sanitizada",
+      "passed": true
+    },
+    {
+      "check": "C3/rerank/DOC-010::chunk-001-01056046b7cf009c: fuente efectiva sanitizada",
+      "passed": true
+    },
+    {
+      "check": "C3/rerank/DOC-011::chunk-001-dffc157246d4aead: fuente efectiva sanitizada",
+      "passed": true
+    },
+    {
+      "check": "C3/rerank: límites",
+      "passed": true
+    },
+    {
+      "check": "C3/rerank: ejecución sin error técnico",
+      "passed": true
+    },
+    {
+      "check": "C3/rerank/faithfulness: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "C3/rerank/faithfulness: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "C3/rerank/answer_relevancy: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "C3/rerank/answer_relevancy: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "C3/rerank/context_precision: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "C3/rerank/context_precision: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "C3/rerank/context_recall: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "C3/rerank/context_recall: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "C3/rerank/context_recall: score finito",
+      "passed": true
+    },
+    {
+      "check": "E1/basic: configuración vigente",
+      "passed": true
+    },
+    {
+      "check": "E1/basic: pregunta aprobada",
+      "passed": true
+    },
+    {
+      "check": "E1/basic: contextos efectivamente suministrados",
+      "passed": true
+    },
+    {
+      "check": "E1/basic: ejecución sin error técnico",
+      "passed": true
+    },
+    {
+      "check": "E1/basic/faithfulness: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "E1/basic/faithfulness: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "E1/basic/faithfulness: score finito",
+      "passed": true
+    },
+    {
+      "check": "E1/basic/answer_relevancy: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "E1/basic/answer_relevancy: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "E1/basic/answer_relevancy: score finito",
+      "passed": true
+    },
+    {
+      "check": "E1/basic/context_precision: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "E1/basic/context_recall: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "E1/rerank: configuración vigente",
+      "passed": true
+    },
+    {
+      "check": "E1/rerank: pregunta aprobada",
+      "passed": true
+    },
+    {
+      "check": "E1/rerank: contextos efectivamente suministrados",
+      "passed": true
+    },
+    {
+      "check": "E1/rerank: límites",
+      "passed": true
+    },
+    {
+      "check": "E1/rerank: ejecución sin error técnico",
+      "passed": true
+    },
+    {
+      "check": "E1/rerank/faithfulness: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "E1/rerank/faithfulness: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "E1/rerank/faithfulness: score finito",
+      "passed": true
+    },
+    {
+      "check": "E1/rerank/answer_relevancy: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "E1/rerank/answer_relevancy: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "E1/rerank/answer_relevancy: score finito",
+      "passed": true
+    },
+    {
+      "check": "E1/rerank/context_precision: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "E1/rerank/context_recall: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "E2/basic: configuración vigente",
+      "passed": true
+    },
+    {
+      "check": "E2/basic: pregunta aprobada",
+      "passed": true
+    },
+    {
+      "check": "E2/basic: contextos efectivamente suministrados",
+      "passed": true
+    },
+    {
+      "check": "E2/basic/DOC-002: fuente efectiva sanitizada",
+      "passed": true
+    },
+    {
+      "check": "E2/basic: ejecución sin error técnico",
+      "passed": true
+    },
+    {
+      "check": "E2/basic/faithfulness: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "E2/basic/faithfulness: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "E2/basic/faithfulness: score finito",
+      "passed": true
+    },
+    {
+      "check": "E2/basic/answer_relevancy: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "E2/basic/answer_relevancy: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "E2/basic/answer_relevancy: score finito",
+      "passed": true
+    },
+    {
+      "check": "E2/basic/context_precision: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "E2/basic/context_recall: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "E2/rerank: configuración vigente",
+      "passed": true
+    },
+    {
+      "check": "E2/rerank: pregunta aprobada",
+      "passed": true
+    },
+    {
+      "check": "E2/rerank: contextos efectivamente suministrados",
+      "passed": true
+    },
+    {
+      "check": "E2/rerank: límites",
+      "passed": true
+    },
+    {
+      "check": "E2/rerank: ejecución sin error técnico",
+      "passed": true
+    },
+    {
+      "check": "E2/rerank/faithfulness: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "E2/rerank/faithfulness: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "E2/rerank/answer_relevancy: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "E2/rerank/answer_relevancy: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "E2/rerank/context_precision: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "E2/rerank/context_recall: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "I1/basic: configuración vigente",
+      "passed": true
+    },
+    {
+      "check": "I1/basic: pregunta aprobada",
+      "passed": true
+    },
+    {
+      "check": "I1/basic: contextos efectivamente suministrados",
+      "passed": true
+    },
+    {
+      "check": "I1/basic/DOC-007: fuente efectiva sanitizada",
+      "passed": true
+    },
+    {
+      "check": "I1/basic: ejecución sin error técnico",
+      "passed": true
+    },
+    {
+      "check": "I1/basic/faithfulness: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "I1/basic/faithfulness: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "I1/basic/answer_relevancy: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "I1/basic/answer_relevancy: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "I1/basic/answer_relevancy: score finito",
+      "passed": true
+    },
+    {
+      "check": "I1/basic/context_precision: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "I1/basic/context_precision: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "I1/basic/context_precision: score finito",
+      "passed": true
+    },
+    {
+      "check": "I1/basic/context_recall: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "I1/basic/context_recall: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "I1/basic/context_recall: score finito",
+      "passed": true
+    },
+    {
+      "check": "I1/rerank: configuración vigente",
+      "passed": true
+    },
+    {
+      "check": "I1/rerank: pregunta aprobada",
+      "passed": true
+    },
+    {
+      "check": "I1/rerank: contextos efectivamente suministrados",
+      "passed": true
+    },
+    {
+      "check": "I1/rerank/DOC-007::chunk-000-bfbf474549da33fb: fuente efectiva sanitizada",
+      "passed": true
+    },
+    {
+      "check": "I1/rerank: límites",
+      "passed": true
+    },
+    {
+      "check": "I1/rerank: ejecución sin error técnico",
+      "passed": true
+    },
+    {
+      "check": "I1/rerank/faithfulness: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "I1/rerank/faithfulness: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "I1/rerank/faithfulness: score finito",
+      "passed": true
+    },
+    {
+      "check": "I1/rerank/answer_relevancy: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "I1/rerank/answer_relevancy: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "I1/rerank/answer_relevancy: score finito",
+      "passed": true
+    },
+    {
+      "check": "I1/rerank/context_precision: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "I1/rerank/context_precision: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "I1/rerank/context_precision: score finito",
+      "passed": true
+    },
+    {
+      "check": "I1/rerank/context_recall: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "I1/rerank/context_recall: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "I1/rerank/context_recall: score finito",
+      "passed": true
+    },
+    {
+      "check": "I2/basic: configuración vigente",
+      "passed": true
+    },
+    {
+      "check": "I2/basic: pregunta aprobada",
+      "passed": true
+    },
+    {
+      "check": "I2/basic: contextos efectivamente suministrados",
+      "passed": true
+    },
+    {
+      "check": "I2/basic/DOC-013: fuente efectiva sanitizada",
+      "passed": true
+    },
+    {
+      "check": "I2/basic: ejecución sin error técnico",
+      "passed": true
+    },
+    {
+      "check": "I2/basic/faithfulness: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "I2/basic/faithfulness: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "I2/basic/faithfulness: score finito",
+      "passed": true
+    },
+    {
+      "check": "I2/basic/answer_relevancy: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "I2/basic/answer_relevancy: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "I2/basic/answer_relevancy: score finito",
+      "passed": true
+    },
+    {
+      "check": "I2/basic/context_precision: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "I2/basic/context_precision: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "I2/basic/context_recall: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "I2/basic/context_recall: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "I2/rerank: configuración vigente",
+      "passed": true
+    },
+    {
+      "check": "I2/rerank: pregunta aprobada",
+      "passed": true
+    },
+    {
+      "check": "I2/rerank: contextos efectivamente suministrados",
+      "passed": true
+    },
+    {
+      "check": "I2/rerank/DOC-013::chunk-000-7d57d8f61c472874: fuente efectiva sanitizada",
+      "passed": true
+    },
+    {
+      "check": "I2/rerank/DOC-013::chunk-001-757e9a1ab5f2b921: fuente efectiva sanitizada",
+      "passed": true
+    },
+    {
+      "check": "I2/rerank: límites",
+      "passed": true
+    },
+    {
+      "check": "I2/rerank: ejecución sin error técnico",
+      "passed": true
+    },
+    {
+      "check": "I2/rerank/faithfulness: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "I2/rerank/faithfulness: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "I2/rerank/answer_relevancy: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "I2/rerank/answer_relevancy: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "I2/rerank/context_precision: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "I2/rerank/context_precision: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "I2/rerank/context_recall: estado terminal",
+      "passed": true
+    },
+    {
+      "check": "I2/rerank/context_recall: entradas correctas",
+      "passed": true
+    },
+    {
+      "check": "Evidencias sin valores completos de credenciales",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "count": 335
+}

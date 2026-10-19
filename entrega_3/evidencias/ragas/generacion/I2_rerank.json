@@ -1,0 +1,364 @@
+{
+  "id": "I2",
+  "variant": "rerank",
+  "started_at": "2026-10-18T23:11:37.738272+00:00",
+  "total_seconds": 16.618748699998832,
+  "question": "Me cayó una intimación del fisco, ¿qué hago ahora?",
+  "candidates": [
+    {
+      "id": "DOC-013::chunk-000-7d57d8f61c472874",
+      "documento": "Una intimación o un requerimiento fiscal es una notificación formal en la que el organismo reclama una presentación faltante, un pago adeudado o documentación de respaldo. La notificación llega al domicilio fiscal electrónico y corre un plazo de respuesta desde que se considera notificada, aunque el contribuyente no la haya leído. Dejar vencer el plazo agrava la situación: habilita multas, la determinación de oficio y, en casos de deuda firme, el juicio de ejecución fiscal. Estas consultas no se",
+      "documento_raw": "Una intimación o un requerimiento fiscal es una notificación formal en la que el organismo reclama una presentación faltante, un pago adeudado o documentación de respaldo. La notificación llega al domicilio fiscal electrónico y corre un plazo de respuesta desde que se considera notificada, aunque el contribuyente no la haya leído. Dejar vencer el plazo agrava la situación: habilita multas, la determinación de oficio y, en casos de deuda firme, el juicio de ejecución fiscal. Estas consultas no se",
+      "metadatos": {
+        "categoria": "casos_complejos",
+        "chunk_id": "DOC-013::chunk-000-7d57d8f61c472874",
+        "activo": true,
+        "tipo_contribuyente": "general",
+        "start_index": 0,
+        "tags_regionales": "intimacion, inspeccion, requerimiento, multa, descargo, ejecucion fiscal, domicilio fiscal electronico",
+        "chunk_index": 0,
+        "parent_id": "DOC-013",
+        "jurisdiccion": "nacional"
+      },
+      "distancia": 0.21820086240768433,
+      "similitud": 0.7818
+    },
+    {
+      "id": "DOC-013::chunk-001-757e9a1ab5f2b921",
+      "documento": "de oficio y, en casos de deuda firme, el juicio de ejecución fiscal. Estas consultas no se responden con información general. Requieren leer la notificación concreta, identificar impuesto, período y monto reclamado, revisar si la obligación efectivamente está incumplida y definir si corresponde presentar el descargo, allanarse o rectificar. Por eso se clasifican como casos de mayor complejidad y se derivan al profesional responsable con el detalle del caso. El asistente no evalúa la procedencia",
+      "documento_raw": "de oficio y, en casos de deuda firme, el juicio de ejecución fiscal. Estas consultas no se responden con información general. Requieren leer la notificación concreta, identificar impuesto, período y monto reclamado, revisar si la obligación efectivamente está incumplida y definir si corresponde presentar el descargo, allanarse o rectificar. Por eso se clasifican como casos de mayor complejidad y se derivan al profesional responsable con el detalle del caso. El asistente no evalúa la procedencia",
+      "metadatos": {
+        "activo": true,
+        "parent_id": "DOC-013",
+        "chunk_index": 1,
+        "chunk_id": "DOC-013::chunk-001-757e9a1ab5f2b921",
+        "jurisdiccion": "nacional",
+        "start_index": 410,
+        "tipo_contribuyente": "general",
+        "categoria": "casos_complejos",
+        "tags_regionales": "intimacion, inspeccion, requerimiento, multa, descargo, ejecucion fiscal, domicilio fiscal electronico"
+      },
+      "distancia": 0.2345150113105774,
+      "similitud": 0.7655
+    },
+    {
+      "id": "DOC-012::chunk-001-86a2ddefc4629448",
+      "documento": "del contribuyente, el impuesto y el período fiscal. Sin los tres, la búsqueda es ambigua, porque un mismo cliente tiene un comprobante por impuesto y por mes. Los comprobantes son documentación privada del cliente y solo se entregan al titular o a quien el titular autorizó formalmente. El estudio conserva copia de cada comprobante entregado.",
+      "documento_raw": "del contribuyente, el impuesto y el período fiscal. Sin los tres, la búsqueda es ambigua, porque un mismo cliente tiene un comprobante por impuesto y por mes. Los comprobantes son documentación privada del cliente y solo se entregan al titular o a quien el titular autorizó formalmente. El estudio conserva copia de cada comprobante entregado.",
+      "metadatos": {
+        "categoria": "comprobantes",
+        "tags_regionales": "comprobante, pago, presentacion, acuse, vep, ticket, constancia de pago",
+        "tipo_contribuyente": "general",
+        "parent_id": "DOC-012",
+        "chunk_id": "DOC-012::chunk-001-86a2ddefc4629448",
+        "activo": true,
+        "jurisdiccion": "nacional",
+        "chunk_index": 1,
+        "start_index": 404
+      },
+      "distancia": 0.3342890739440918,
+      "similitud": 0.6657
+    },
+    {
+      "id": "DOC-008::chunk-001-92e73e8b1d8ef4e4",
+      "documento": "se escalona por terminación de CUIT. La declaración jurada exige tener la nómina actualizada: altas y bajas de empleados deben registrarse antes de liquidar, porque un alta no registrada convierte la relación en trabajo no registrado. El pago fuera de término genera intereses y bloquea la obtención del certificado de libre deuda previsional que piden muchas licitaciones.",
+      "documento_raw": "se escalona por terminación de CUIT. La declaración jurada exige tener la nómina actualizada: altas y bajas de empleados deben registrarse antes de liquidar, porque un alta no registrada convierte la relación en trabajo no registrado. El pago fuera de término genera intereses y bloquea la obtención del certificado de libre deuda previsional que piden muchas licitaciones.",
+      "metadatos": {
+        "tags_regionales": "empleador, cargas sociales, sueldos, aportes, contribuciones, nomina, libre deuda, f931",
+        "chunk_id": "DOC-008::chunk-001-92e73e8b1d8ef4e4",
+        "tipo_contribuyente": "empleador",
+        "activo": true,
+        "categoria": "normativa",
+        "chunk_index": 1,
+        "start_index": 400,
+        "parent_id": "DOC-008",
+        "jurisdiccion": "nacional"
+      },
+      "distancia": 0.3392062187194824,
+      "similitud": 0.6608
+    },
+    {
+      "id": "DOC-015::chunk-000-88c73e4bc15cb2af",
+      "documento": "El estudio emite y gestiona constancias y certificados para sus clientes. La constancia de inscripción acredita en qué impuestos está inscripto el contribuyente y se descarga del padrón con el CUIT, es pública y no requiere clave fiscal. El certificado de no retención evita que los agentes de recaudación retengan cuando el contribuyente acumula saldo a favor, se tramita con clave fiscal y tiene vigencia acotada. El certificado de libre deuda previsional acredita que no hay deuda de cargas",
+      "documento_raw": "El estudio emite y gestiona constancias y certificados para sus clientes. La constancia de inscripción acredita en qué impuestos está inscripto el contribuyente y se descarga del padrón con el CUIT, es pública y no requiere clave fiscal. El certificado de no retención evita que los agentes de recaudación retengan cuando el contribuyente acumula saldo a favor, se tramita con clave fiscal y tiene vigencia acotada. El certificado de libre deuda previsional acredita que no hay deuda de cargas",
+      "metadatos": {
+        "jurisdiccion": "nacional",
+        "categoria": "documentacion",
+        "start_index": 0,
+        "chunk_index": 0,
+        "activo": true,
+        "tipo_contribuyente": "general",
+        "parent_id": "DOC-015",
+        "chunk_id": "DOC-015::chunk-000-88c73e4bc15cb2af",
+        "tags_regionales": "certificado, constancia, documentacion, constancia de inscripcion, no retencion, libre deuda, cuil"
+      },
+      "distancia": 0.340829074382782,
+      "similitud": 0.6592
+    },
+    {
+      "id": "DOC-009::chunk-001-035f01ef4d76a001",
+      "documento": "hacer caer el plan, momento en el que la deuda original revive completa con sus intereses. Un plan caído no se puede reactivar: hay que adherir a uno nuevo si existe un régimen vigente que lo admita. Los estados internos del seguimiento son: solicitado, vigente, caído y cancelado. Antes de informar un estado hay que identificar CUIT, impuesto y período, porque un cliente puede tener varios planes simultáneos.",
+      "documento_raw": "hacer caer el plan, momento en el que la deuda original revive completa con sus intereses. Un plan caído no se puede reactivar: hay que adherir a uno nuevo si existe un régimen vigente que lo admita. Los estados internos del seguimiento son: solicitado, vigente, caído y cancelado. Antes de informar un estado hay que identificar CUIT, impuesto y período, porque un cliente puede tener varios planes simultáneos.",
+      "metadatos": {
+        "chunk_id": "DOC-009::chunk-001-035f01ef4d76a001",
+        "start_index": 398,
+        "jurisdiccion": "nacional",
+        "chunk_index": 1,
+        "categoria": "tramites",
+        "parent_id": "DOC-009",
+        "tags_regionales": "moratoria, plan de pagos, estado, cuotas, deuda, cbu, regularizacion",
+        "activo": true,
+        "tipo_contribuyente": "general"
+      },
+      "distancia": 0.3447073698043823,
+      "similitud": 0.6553
+    },
+    {
+      "id": "DOC-001::chunk-001-619740ed81062fb1",
+      "documento": "hábil siguiente. Presentar la declaración jurada y pagar el saldo son dos actos distintos: se puede presentar en término y pagar fuera de término, y en ese caso corren intereses resarcitorios sobre el saldo. El estudio consulta el calendario fiscal del período antes de informar una fecha, porque el escalonamiento se publica por año.",
+      "documento_raw": "hábil siguiente. Presentar la declaración jurada y pagar el saldo son dos actos distintos: se puede presentar en término y pagar fuera de término, y en ese caso corren intereses resarcitorios sobre el saldo. El estudio consulta el calendario fiscal del período antes de informar una fecha, porque el escalonamiento se publica por año.",
+      "metadatos": {
+        "parent_id": "DOC-001",
+        "jurisdiccion": "nacional",
+        "chunk_id": "DOC-001::chunk-001-619740ed81062fb1",
+        "tipo_contribuyente": "responsable_inscripto",
+        "tags_regionales": "iva, ddjj, declaracion jurada, vencimiento, terminacion de cuit, calendario fiscal, arca, afip",
+        "activo": true,
+        "categoria": "vencimientos",
+        "chunk_index": 1,
+        "start_index": 397
+      },
+      "distancia": 0.34562838077545166,
+      "similitud": 0.6544
+    },
+    {
+      "id": "DOC-006::chunk-001-90d9ac8d7a943aff",
+      "documento": "el domicilio fiscal exige respaldo documental del nuevo domicilio y, hasta que la modificación se acepta, las notificaciones siguen llegando al domicilio anterior, que es el riesgo concreto de demorar el trámite. Los estados internos del seguimiento son: pendiente, procesado y observado. Un trámite observado suele deberse a documentación de respaldo insuficiente o a un domicilio que el organismo no puede validar. Toda modificación es una operación de escritura sobre el padrón y por eso requiere",
+      "documento_raw": "el domicilio fiscal exige respaldo documental del nuevo domicilio y, hasta que la modificación se acepta, las notificaciones siguen llegando al domicilio anterior, que es el riesgo concreto de demorar el trámite. Los estados internos del seguimiento son: pendiente, procesado y observado. Un trámite observado suele deberse a documentación de respaldo insuficiente o a un domicilio que el organismo no puede validar. Toda modificación es una operación de escritura sobre el padrón y por eso requiere",
+      "metadatos": {
+        "jurisdiccion": "nacional",
+        "categoria": "tramites",
+        "chunk_id": "DOC-006::chunk-001-90d9ac8d7a943aff",
+        "parent_id": "DOC-006",
+        "chunk_index": 1,
+        "start_index": 398,
+        "activo": true,
+        "tags_regionales": "alta, modificacion, estado, domicilio fiscal, padron, sistema registral, clave fiscal",
+        "tipo_contribuyente": "general"
+      },
+      "distancia": 0.34601110219955444,
+      "similitud": 0.654
+    }
+  ],
+  "selected": [
+    {
+      "id": "DOC-013::chunk-000-7d57d8f61c472874",
+      "documento": "Una intimación o un requerimiento fiscal es una notificación formal en la que el organismo reclama una presentación faltante, un pago adeudado o documentación de respaldo. La notificación llega al domicilio fiscal electrónico y corre un plazo de respuesta desde que se considera notificada, aunque el contribuyente no la haya leído. Dejar vencer el plazo agrava la situación: habilita multas, la determinación de oficio y, en casos de deuda firme, el juicio de ejecución fiscal. Estas consultas no se",
+      "documento_raw": "Una intimación o un requerimiento fiscal es una notificación formal en la que el organismo reclama una presentación faltante, un pago adeudado o documentación de respaldo. La notificación llega al domicilio fiscal electrónico y corre un plazo de respuesta desde que se considera notificada, aunque el contribuyente no la haya leído. Dejar vencer el plazo agrava la situación: habilita multas, la determinación de oficio y, en casos de deuda firme, el juicio de ejecución fiscal. Estas consultas no se",
+      "metadatos": {
+        "categoria": "casos_complejos",
+        "chunk_id": "DOC-013::chunk-000-7d57d8f61c472874",
+        "activo": true,
+        "tipo_contribuyente": "general",
+        "start_index": 0,
+        "tags_regionales": "intimacion, inspeccion, requerimiento, multa, descargo, ejecucion fiscal, domicilio fiscal electronico",
+        "chunk_index": 0,
+        "parent_id": "DOC-013",
+        "jurisdiccion": "nacional"
+      },
+      "distancia": 0.21820086240768433,
+      "similitud": 0.7818
+    },
+    {
+      "id": "DOC-013::chunk-001-757e9a1ab5f2b921",
+      "documento": "de oficio y, en casos de deuda firme, el juicio de ejecución fiscal. Estas consultas no se responden con información general. Requieren leer la notificación concreta, identificar impuesto, período y monto reclamado, revisar si la obligación efectivamente está incumplida y definir si corresponde presentar el descargo, allanarse o rectificar. Por eso se clasifican como casos de mayor complejidad y se derivan al profesional responsable con el detalle del caso. El asistente no evalúa la procedencia",
+      "documento_raw": "de oficio y, en casos de deuda firme, el juicio de ejecución fiscal. Estas consultas no se responden con información general. Requieren leer la notificación concreta, identificar impuesto, período y monto reclamado, revisar si la obligación efectivamente está incumplida y definir si corresponde presentar el descargo, allanarse o rectificar. Por eso se clasifican como casos de mayor complejidad y se derivan al profesional responsable con el detalle del caso. El asistente no evalúa la procedencia",
+      "metadatos": {
+        "activo": true,
+        "parent_id": "DOC-013",
+        "chunk_index": 1,
+        "chunk_id": "DOC-013::chunk-001-757e9a1ab5f2b921",
+        "jurisdiccion": "nacional",
+        "start_index": 410,
+        "tipo_contribuyente": "general",
+        "categoria": "casos_complejos",
+        "tags_regionales": "intimacion, inspeccion, requerimiento, multa, descargo, ejecucion fiscal, domicilio fiscal electronico"
+      },
+      "distancia": 0.2345150113105774,
+      "similitud": 0.7655
+    }
+  ],
+  "status": "ok",
+  "judge": {
+    "items": [
+      {
+        "id": "DOC-013::chunk-000-7d57d8f61c472874",
+        "score": 0.9,
+        "reason": "Explica qué es una intimación, dónde se recibe y las consecuencias de no responder a tiempo, lo cual es fundamental para entender la urgencia de la situación."
+      },
+      {
+        "id": "DOC-013::chunk-001-757e9a1ab5f2b921",
+        "score": 0.8,
+        "reason": "Proporciona pasos prácticos sobre qué hacer: leer la notificación, identificar los datos clave y consultar con un profesional para definir si corresponde un descargo o rectificación."
+      },
+      {
+        "id": "DOC-012::chunk-001-86a2ddefc4629448",
+        "score": 0.1,
+        "reason": "Menciona la importancia de identificar el impuesto y período, pero se enfoca en la gestión de comprobantes, no en la respuesta a una intimación."
+      },
+      {
+        "id": "DOC-008::chunk-001-92e73e8b1d8ef4e4",
+        "score": 0.0,
+        "reason": "No aporta información relevante sobre cómo proceder ante una intimación fiscal."
+      },
+      {
+        "id": "DOC-015::chunk-000-88c73e4bc15cb2af",
+        "score": 0.0,
+        "reason": "Trata sobre certificados y constancias, no sobre la atención de intimaciones."
+      },
+      {
+        "id": "DOC-009::chunk-001-035f01ef4d76a001",
+        "score": 0.0,
+        "reason": "Habla sobre planes de pago, no sobre la recepción de una intimación."
+      },
+      {
+        "id": "DOC-001::chunk-001-619740ed81062fb1",
+        "score": 0.0,
+        "reason": "Se refiere a declaraciones juradas y calendario fiscal, no a intimaciones."
+      },
+      {
+        "id": "DOC-006::chunk-001-90d9ac8d7a943aff",
+        "score": 0.0,
+        "reason": "Trata sobre el cambio de domicilio fiscal, no sobre cómo actuar ante una intimación recibida."
+      }
+    ]
+  },
+  "timings": {
+    "retrieval_seconds": 1.066188199998578,
+    "reranking_seconds": 9.901010000001406,
+    "generation_seconds": 5.589230300000054
+  },
+  "answer": "Ante una intimación o requerimiento fiscal, debe tener en cuenta lo siguiente:\n\n*   Se trata de una notificación formal que llega al domicilio fiscal electrónico y sobre la cual corre un plazo de respuesta desde que se considera notificada, independientemente de si fue leída o no [DOC-013::chunk-000-7d57d8f61c472874].\n*   Dejar vencer el plazo agrava la situación, habilitando multas, la determinación de oficio y, en casos de deuda firme, el juicio de ejecución fiscal [DOC-013::chunk-000-7d57d8f61c472874].\n*   Estas consultas requieren leer la notificación concreta para identificar el impuesto, período y monto reclamado, revisar si la obligación está incumplida y definir si corresponde presentar un descargo, allanarse o rectificar [DOC-013::chunk-001-757e9a1ab5f2b921].\n*   Debido a que son casos de mayor complejidad, deben derivarse al profesional responsable con el detalle del caso [DOC-013::chunk-001-757e9a1ab5f2b921].",
+  "sources": [
+    {
+      "id": "DOC-013::chunk-000-7d57d8f61c472874",
+      "documento": "Una intimación o un requerimiento fiscal es una notificación formal en la que el organismo reclama una presentación faltante, un pago adeudado o documentación de respaldo. La notificación llega al domicilio fiscal electrónico y corre un plazo de respuesta desde que se considera notificada, aunque el contribuyente no la haya leído. Dejar vencer el plazo agrava la situación: habilita multas, la determinación de oficio y, en casos de deuda firme, el juicio de ejecución fiscal. Estas consultas no se",
+      "documento_raw": "Una intimación o un requerimiento fiscal es una notificación formal en la que el organismo reclama una presentación faltante, un pago adeudado o documentación de respaldo. La notificación llega al domicilio fiscal electrónico y corre un plazo de respuesta desde que se considera notificada, aunque el contribuyente no la haya leído. Dejar vencer el plazo agrava la situación: habilita multas, la determinación de oficio y, en casos de deuda firme, el juicio de ejecución fiscal. Estas consultas no se",
+      "metadatos": {
+        "categoria": "casos_complejos",
+        "chunk_id": "DOC-013::chunk-000-7d57d8f61c472874",
+        "activo": true,
+        "tipo_contribuyente": "general",
+        "start_index": 0,
+        "tags_regionales": "intimacion, inspeccion, requerimiento, multa, descargo, ejecucion fiscal, domicilio fiscal electronico",
+        "chunk_index": 0,
+        "parent_id": "DOC-013",
+        "jurisdiccion": "nacional"
+      },
+      "distancia": 0.21820086240768433,
+      "similitud": 0.7818
+    },
+    {
+      "id": "DOC-013::chunk-001-757e9a1ab5f2b921",
+      "documento": "de oficio y, en casos de deuda firme, el juicio de ejecución fiscal. Estas consultas no se responden con información general. Requieren leer la notificación concreta, identificar impuesto, período y monto reclamado, revisar si la obligación efectivamente está incumplida y definir si corresponde presentar el descargo, allanarse o rectificar. Por eso se clasifican como casos de mayor complejidad y se derivan al profesional responsable con el detalle del caso. El asistente no evalúa la procedencia",
+      "documento_raw": "de oficio y, en casos de deuda firme, el juicio de ejecución fiscal. Estas consultas no se responden con información general. Requieren leer la notificación concreta, identificar impuesto, período y monto reclamado, revisar si la obligación efectivamente está incumplida y definir si corresponde presentar el descargo, allanarse o rectificar. Por eso se clasifican como casos de mayor complejidad y se derivan al profesional responsable con el detalle del caso. El asistente no evalúa la procedencia",
+      "metadatos": {
+        "activo": true,
+        "parent_id": "DOC-013",
+        "chunk_index": 1,
+        "chunk_id": "DOC-013::chunk-001-757e9a1ab5f2b921",
+        "jurisdiccion": "nacional",
+        "start_index": 410,
+        "tipo_contribuyente": "general",
+        "categoria": "casos_complejos",
+        "tags_regionales": "intimacion, inspeccion, requerimiento, multa, descargo, ejecucion fiscal, domicilio fiscal electronico"
+      },
+      "distancia": 0.2345150113105774,
+      "similitud": 0.7655
+    }
+  ],
+  "settings": {
+    "variant": "rerank",
+    "model": "gemini-3.1-flash-lite",
+    "temperature": 0.0,
+    "top_k": 3,
+    "candidate_k": 8,
+    "selected_k": 4,
+    "max_distance": 0.28,
+    "min_judge_score": 0.5
+  },
+  "usage": [
+    {
+      "run_id": "01a15148-f770-7262-a06b-4621d74cf9c7",
+      "role": "judge",
+      "usage": {
+        "input_tokens": 1166,
+        "output_tokens": 624,
+        "total_tokens": 1790
+      },
+      "provider_usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 624,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 1166,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 1166
+          }
+        ],
+        "thoughts_token_count": null,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 1790,
+        "traffic_type": null
+      }
+    },
+    {
+      "run_id": "01a15149-1e1d-76b2-99b1-b6f26949503f",
+      "role": "generator",
+      "usage": {
+        "input_tokens": 442,
+        "output_tokens": 276,
+        "total_tokens": 718
+      },
+      "provider_usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 276,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 442,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 442
+          }
+        ],
+        "thoughts_token_count": null,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 718,
+        "traffic_type": null
+      }
+    }
+  ],
+  "attempts": [],
+  "generator_contexts": [
+    "Una intimación o un requerimiento fiscal es una notificación formal en la que el organismo reclama una presentación faltante, un pago adeudado o documentación de respaldo. La notificación llega al domicilio fiscal electrónico y corre un plazo de respuesta desde que se considera notificada, aunque el contribuyente no la haya leído. Dejar vencer el plazo agrava la situación: habilita multas, la determinación de oficio y, en casos de deuda firme, el juicio de ejecución fiscal. Estas consultas no se",
+    "de oficio y, en casos de deuda firme, el juicio de ejecución fiscal. Estas consultas no se responden con información general. Requieren leer la notificación concreta, identificar impuesto, período y monto reclamado, revisar si la obligación efectivamente está incumplida y definir si corresponde presentar el descargo, allanarse o rectificar. Por eso se clasifican como casos de mayor complejidad y se derivan al profesional responsable con el detalle del caso. El asistente no evalúa la procedencia"
+  ],
+  "generator_payload": {
+    "pregunta": "Me cayó una intimación del fisco, ¿qué hago ahora?",
+    "contexto": [
+      {
+        "id": "DOC-013::chunk-000-7d57d8f61c472874",
+        "contenido": "Una intimación o un requerimiento fiscal es una notificación formal en la que el organismo reclama una presentación faltante, un pago adeudado o documentación de respaldo. La notificación llega al domicilio fiscal electrónico y corre un plazo de respuesta desde que se considera notificada, aunque el contribuyente no la haya leído. Dejar vencer el plazo agrava la situación: habilita multas, la determinación de oficio y, en casos de deuda firme, el juicio de ejecución fiscal. Estas consultas no se"
+      },
+      {
+        "id": "DOC-013::chunk-001-757e9a1ab5f2b921",
+        "contenido": "de oficio y, en casos de deuda firme, el juicio de ejecución fiscal. Estas consultas no se responden con información general. Requieren leer la notificación concreta, identificar impuesto, período y monto reclamado, revisar si la obligación efectivamente está incumplida y definir si corresponde presentar el descargo, allanarse o rectificar. Por eso se clasifican como casos de mayor complejidad y se derivan al profesional responsable con el detalle del caso. El asistente no evalúa la procedencia"
+      }
+    ]
+  }
+}

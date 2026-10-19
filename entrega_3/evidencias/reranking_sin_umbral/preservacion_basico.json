@@ -1,0 +1,6 @@
+{
+  "pipeline_only_logic_change": "distancia_maxima=None exclusivamente para rerank",
+  "other_pipeline_ast_unchanged": true,
+  "basic_answers_identical": true,
+  "basic_sources_identical": true
+}

@@ -1,0 +1,14 @@
+{
+  "executed_at_utc": "2026-10-17T21:31:28.138329+00:00",
+  "implementation_unchanged": true,
+  "cases_executed": 7,
+  "technical_errors": 0,
+  "langsmith_credentials": {
+    "GEMINI_API_KEY": true,
+    "LANGSMITH_API_KEY": false,
+    "LANGSMITH_PROJECT": false,
+    "LANGSMITH_ENDPOINT": false,
+    "LANGSMITH_TRACING_configured": false,
+    "LANGSMITH_TRACING_enabled": false
+  }
+}
