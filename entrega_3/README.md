@@ -407,3 +407,7 @@ Se intentaron exactamente los 18 objetivos del plan y se recuperaron los 18, con
 La comparación actualizada está en [C.3/C.4](informe.md#c3--comparación-básico-vs-avanzado) y [resumen](evidencias/ragas/resumen/resumen.json). La menor media avanzada es Context Precision 0.6250 sobre ocho casos. C2/Precision y S2/Faithfulness conservan los scores y juicios anómalos originales, sin recalcularlos ni cambiar el evaluador. La instalación limpia no equivale a una reconstrucción física del corpus: esta última no se ejecutó; se verificó que los UUID no forman parte de su identidad lógica.
 
 `retomar_fallidas.py` ya completó esta tanda: no ejecutarlo para obtener otras puntuaciones. Los errores de cada intento y el resumen anterior permanecen auditables. El estado `incompleto` que aparece en anexos o registros anteriores corresponde al momento previo a esta recuperación.
+
+## Conservación de hashes al versionar
+
+`.gitattributes` conserva los bytes exactos de dataset, manifiestos, protocolo, código/evidencias de C y `uv.lock`, incluidos sus finales de línea. También fija por archivo los finales de línea del pipeline B tal como se evaluó. Las líneas vacías finales de reportes generados/archivados se preservan como parte del registro; no se reformatean evidencias para corregir un aviso cosmético de whitespace. Esto mantiene los hashes de la corrida en un checkout Git nuevo y no cambia modelos, prompts, contenido ni comportamiento. Los hashes de B deben verificarse sobre un checkout Git que aplique esos atributos, no sobre una extracción ZIP con otra convención.

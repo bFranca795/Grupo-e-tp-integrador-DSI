@@ -1,5 +1,10 @@
 # TP Integrador — Entrega 3: LCEL y RAG avanzado
 
+**Estado final vigente:** A y B conservadas; B.1–B.4 completos. C.1–C.4 están cumplidos para la corrida aprobada: 20 respuestas, 72 puntuaciones válidas, 8 no aplicables y 0 errores pendientes. La comparación y sus limitaciones vigentes están en C.3/C.4.
+
+**Lectura del historial:** desde «Estado de la entrega» hasta el cierre de B se conserva el registro histórico de A/B. Sus menciones de «sin Parte C», «sin RAGAS», pendientes de LangSmith o ausencia de push describen aquellas etapas y no el estado final.
+
+
 **Estado de la entrega:** B.1–B.3 están implementados y validados en los casos
 documentados. Esto no constituye una mejora general ni una evaluación RAGAS.
 **B.4 cumplido:** la traza existente está contrastada por API y las capturas

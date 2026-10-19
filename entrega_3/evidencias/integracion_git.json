@@ -1,0 +1,40 @@
+{
+  "remote": "origin",
+  "remote_url": "https://github.com/bFranca795/Grupo-e-tp-integrador-DSI.git",
+  "fetch_note": "Configured refspec covered main only; explicitly fetched refs/heads/* into refs/remotes/origin/*.",
+  "remote_main": "39981bd5763cbb3ec131005ab9d50a47e8cf1ef2",
+  "remote_b": "5a9b9b7f4681d64f1b07bf7ea8e92c4e77f937fa",
+  "local_main": "39981bd5763cbb3ec131005ab9d50a47e8cf1ef2",
+  "local_b": "5a9b9b7f4681d64f1b07bf7ea8e92c4e77f937fa",
+  "approved_c_local_commit": "a2dd4948739223cecfa8f8b751f19b45494bdeb2",
+  "a1_commit": "4260af53f0322f2fd3c32f4c5864cb49bc1cbd7a",
+  "a1_is_ancestor_of_main": true,
+  "b_is_in_main": false,
+  "local_b_equals_remote_b": true,
+  "main_already_in_c": true,
+  "b_local_already_in_c": true,
+  "b_remote_already_in_c": true,
+  "b_only_commits": [
+    "e6c90f58870194d3361c14681956014c7e778ee1",
+    "d016c5207f3173cad59e29f2541c556a13a7377b",
+    "5a9b9b7f4681d64f1b07bf7ea8e92c4e77f937fa"
+  ],
+  "merges_required": [],
+  "conflicts": [],
+  "evaluated_pipeline_changed": false,
+  "new_provider_calls": 0,
+  "tests": {
+    "pipeline": 11,
+    "evaluation": 4,
+    "continuation": 5,
+    "dataset_checks": 154,
+    "evidence_checks": 353,
+    "dependency_check": "PASS",
+    "locked_dependencies": "PASS",
+    "local_links": "PASS",
+    "unrounded_paired_calculations": "PASS",
+    "secrets_and_binary_exclusions": "PASS"
+  },
+  "line_endings": "Approved bytes preserved by .gitattributes; isolated checkout verified 95 protected/hash-sensitive artifacts. No pipeline blob/code difference versus remote B.",
+  "documentation": "Added current state and explicit historical-scope marker; preserved A/B content and LangSmith screenshots."
+}
