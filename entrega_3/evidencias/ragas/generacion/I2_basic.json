@@ -1,0 +1,114 @@
+{
+  "id": "I2",
+  "variant": "basic",
+  "started_at": "2026-10-18T23:11:33.871198+00:00",
+  "total_seconds": 3.8624495999974897,
+  "question": "Me cayó una intimación del fisco, ¿qué hago ahora?",
+  "candidates": [
+    {
+      "id": "DOC-013",
+      "documento": "Una intimación o un requerimiento fiscal es una notificación formal en la que el organismo reclama una presentación faltante, un pago adeudado o documentación de respaldo. La notificación llega al domicilio fiscal electrónico y corre un plazo de respuesta desde que se considera notificada, aunque el contribuyente no la haya leído. Dejar vencer el plazo agrava la situación: habilita multas, la determinación de oficio y, en casos de deuda firme, el juicio de ejecución fiscal. Estas consultas no se responden con información general. Requieren leer la notificación concreta, identificar impuesto, período y monto reclamado, revisar si la obligación efectivamente está incumplida y definir si corresponde presentar el descargo, allanarse o rectificar. Por eso se clasifican como casos de mayor complejidad y se derivan al profesional responsable con el detalle del caso. El asistente no evalúa la procedencia del reclamo ni sugiere una estrategia de respuesta.",
+      "documento_raw": "Una intimación o un requerimiento fiscal es una notificación formal en la que el organismo reclama una presentación faltante, un pago adeudado o documentación de respaldo. La notificación llega al domicilio fiscal electrónico y corre un plazo de respuesta desde que se considera notificada, aunque el contribuyente no la haya leído. Dejar vencer el plazo agrava la situación: habilita multas, la determinación de oficio y, en casos de deuda firme, el juicio de ejecución fiscal. Estas consultas no se responden con información general. Requieren leer la notificación concreta, identificar impuesto, período y monto reclamado, revisar si la obligación efectivamente está incumplida y definir si corresponde presentar el descargo, allanarse o rectificar. Por eso se clasifican como casos de mayor complejidad y se derivan al profesional responsable con el detalle del caso. El asistente no evalúa la procedencia del reclamo ni sugiere una estrategia de respuesta. Los clientes preguntan: me llego una intimacion, tengo un requerimiento de AFIP, me cayo una inspeccion, me quieren embargar, me llego una multa.",
+      "metadatos": {
+        "categoria": "casos_complejos",
+        "jurisdiccion": "nacional",
+        "activo": true,
+        "tipo_contribuyente": "general",
+        "tags_regionales": "intimacion, inspeccion, requerimiento, multa, descargo, ejecucion fiscal, domicilio fiscal electronico"
+      },
+      "distancia": 0.18127399682998657,
+      "similitud": 0.8187
+    }
+  ],
+  "selected": [
+    {
+      "id": "DOC-013",
+      "documento": "Una intimación o un requerimiento fiscal es una notificación formal en la que el organismo reclama una presentación faltante, un pago adeudado o documentación de respaldo. La notificación llega al domicilio fiscal electrónico y corre un plazo de respuesta desde que se considera notificada, aunque el contribuyente no la haya leído. Dejar vencer el plazo agrava la situación: habilita multas, la determinación de oficio y, en casos de deuda firme, el juicio de ejecución fiscal. Estas consultas no se responden con información general. Requieren leer la notificación concreta, identificar impuesto, período y monto reclamado, revisar si la obligación efectivamente está incumplida y definir si corresponde presentar el descargo, allanarse o rectificar. Por eso se clasifican como casos de mayor complejidad y se derivan al profesional responsable con el detalle del caso. El asistente no evalúa la procedencia del reclamo ni sugiere una estrategia de respuesta.",
+      "documento_raw": "Una intimación o un requerimiento fiscal es una notificación formal en la que el organismo reclama una presentación faltante, un pago adeudado o documentación de respaldo. La notificación llega al domicilio fiscal electrónico y corre un plazo de respuesta desde que se considera notificada, aunque el contribuyente no la haya leído. Dejar vencer el plazo agrava la situación: habilita multas, la determinación de oficio y, en casos de deuda firme, el juicio de ejecución fiscal. Estas consultas no se responden con información general. Requieren leer la notificación concreta, identificar impuesto, período y monto reclamado, revisar si la obligación efectivamente está incumplida y definir si corresponde presentar el descargo, allanarse o rectificar. Por eso se clasifican como casos de mayor complejidad y se derivan al profesional responsable con el detalle del caso. El asistente no evalúa la procedencia del reclamo ni sugiere una estrategia de respuesta. Los clientes preguntan: me llego una intimacion, tengo un requerimiento de AFIP, me cayo una inspeccion, me quieren embargar, me llego una multa.",
+      "metadatos": {
+        "categoria": "casos_complejos",
+        "jurisdiccion": "nacional",
+        "activo": true,
+        "tipo_contribuyente": "general",
+        "tags_regionales": "intimacion, inspeccion, requerimiento, multa, descargo, ejecucion fiscal, domicilio fiscal electronico"
+      },
+      "distancia": 0.18127399682998657,
+      "similitud": 0.8187
+    }
+  ],
+  "status": "ok",
+  "judge": null,
+  "timings": {
+    "retrieval_seconds": 0.3652031000019633,
+    "generation_seconds": 3.4356431999985944
+  },
+  "answer": "Ante una intimación o requerimiento fiscal, debe tener en cuenta lo siguiente:\n\n*   La notificación llega al domicilio fiscal electrónico y el plazo de respuesta corre desde que se considera notificada, independientemente de si fue leída o no (DOC-013).\n*   Dejar vencer el plazo agrava la situación, habilitando multas, la determinación de oficio y, en casos de deuda firme, el juicio de ejecución fiscal (DOC-013).\n*   Estas consultas requieren leer la notificación concreta, identificar el impuesto, el período y el monto reclamado, revisar si la obligación está incumplida y definir si corresponde presentar un descargo, allanarse o rectificar (DOC-013).\n*   Debido a que se clasifican como casos de mayor complejidad, deben derivarse al profesional responsable con el detalle del caso (DOC-013).\n\nEl asistente no evalúa la procedencia del reclamo ni sugiere una estrategia de respuesta (DOC-013).",
+  "sources": [
+    {
+      "id": "DOC-013",
+      "documento": "Una intimación o un requerimiento fiscal es una notificación formal en la que el organismo reclama una presentación faltante, un pago adeudado o documentación de respaldo. La notificación llega al domicilio fiscal electrónico y corre un plazo de respuesta desde que se considera notificada, aunque el contribuyente no la haya leído. Dejar vencer el plazo agrava la situación: habilita multas, la determinación de oficio y, en casos de deuda firme, el juicio de ejecución fiscal. Estas consultas no se responden con información general. Requieren leer la notificación concreta, identificar impuesto, período y monto reclamado, revisar si la obligación efectivamente está incumplida y definir si corresponde presentar el descargo, allanarse o rectificar. Por eso se clasifican como casos de mayor complejidad y se derivan al profesional responsable con el detalle del caso. El asistente no evalúa la procedencia del reclamo ni sugiere una estrategia de respuesta.",
+      "documento_raw": "Una intimación o un requerimiento fiscal es una notificación formal en la que el organismo reclama una presentación faltante, un pago adeudado o documentación de respaldo. La notificación llega al domicilio fiscal electrónico y corre un plazo de respuesta desde que se considera notificada, aunque el contribuyente no la haya leído. Dejar vencer el plazo agrava la situación: habilita multas, la determinación de oficio y, en casos de deuda firme, el juicio de ejecución fiscal. Estas consultas no se responden con información general. Requieren leer la notificación concreta, identificar impuesto, período y monto reclamado, revisar si la obligación efectivamente está incumplida y definir si corresponde presentar el descargo, allanarse o rectificar. Por eso se clasifican como casos de mayor complejidad y se derivan al profesional responsable con el detalle del caso. El asistente no evalúa la procedencia del reclamo ni sugiere una estrategia de respuesta. Los clientes preguntan: me llego una intimacion, tengo un requerimiento de AFIP, me cayo una inspeccion, me quieren embargar, me llego una multa.",
+      "metadatos": {
+        "categoria": "casos_complejos",
+        "jurisdiccion": "nacional",
+        "activo": true,
+        "tipo_contribuyente": "general",
+        "tags_regionales": "intimacion, inspeccion, requerimiento, multa, descargo, ejecucion fiscal, domicilio fiscal electronico"
+      },
+      "distancia": 0.18127399682998657,
+      "similitud": 0.8187
+    }
+  ],
+  "settings": {
+    "variant": "basic",
+    "model": "gemini-3.1-flash-lite",
+    "temperature": 0.0,
+    "top_k": 3,
+    "candidate_k": 8,
+    "selected_k": 3,
+    "max_distance": 0.28,
+    "min_judge_score": 0.5
+  },
+  "usage": [
+    {
+      "run_id": "01a15148-e598-7d53-b42f-c36f4ef2aef0",
+      "role": "generator",
+      "usage": {
+        "input_tokens": 371,
+        "output_tokens": 208,
+        "total_tokens": 579
+      },
+      "provider_usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 208,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 371,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 371
+          }
+        ],
+        "thoughts_token_count": null,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 579,
+        "traffic_type": null
+      }
+    }
+  ],
+  "attempts": [],
+  "generator_contexts": [
+    "Una intimación o un requerimiento fiscal es una notificación formal en la que el organismo reclama una presentación faltante, un pago adeudado o documentación de respaldo. La notificación llega al domicilio fiscal electrónico y corre un plazo de respuesta desde que se considera notificada, aunque el contribuyente no la haya leído. Dejar vencer el plazo agrava la situación: habilita multas, la determinación de oficio y, en casos de deuda firme, el juicio de ejecución fiscal. Estas consultas no se responden con información general. Requieren leer la notificación concreta, identificar impuesto, período y monto reclamado, revisar si la obligación efectivamente está incumplida y definir si corresponde presentar el descargo, allanarse o rectificar. Por eso se clasifican como casos de mayor complejidad y se derivan al profesional responsable con el detalle del caso. El asistente no evalúa la procedencia del reclamo ni sugiere una estrategia de respuesta."
+  ],
+  "generator_payload": {
+    "pregunta": "Me cayó una intimación del fisco, ¿qué hago ahora?",
+    "contexto": [
+      {
+        "id": "DOC-013",
+        "contenido": "Una intimación o un requerimiento fiscal es una notificación formal en la que el organismo reclama una presentación faltante, un pago adeudado o documentación de respaldo. La notificación llega al domicilio fiscal electrónico y corre un plazo de respuesta desde que se considera notificada, aunque el contribuyente no la haya leído. Dejar vencer el plazo agrava la situación: habilita multas, la determinación de oficio y, en casos de deuda firme, el juicio de ejecución fiscal. Estas consultas no se responden con información general. Requieren leer la notificación concreta, identificar impuesto, período y monto reclamado, revisar si la obligación efectivamente está incumplida y definir si corresponde presentar el descargo, allanarse o rectificar. Por eso se clasifican como casos de mayor complejidad y se derivan al profesional responsable con el detalle del caso. El asistente no evalúa la procedencia del reclamo ni sugiere una estrategia de respuesta."
+      }
+    ]
+  }
+}

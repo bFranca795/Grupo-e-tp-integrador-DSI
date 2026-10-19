@@ -15,3 +15,5 @@ estudio_contable_ids.json
 .ruff_cache/
 .mypy_cache/
 .uv-cache/
+.tools/
+.venv-repro/

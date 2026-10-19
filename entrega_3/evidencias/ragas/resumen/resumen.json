@@ -1,0 +1,376 @@
+{
+  "aggregates": [
+    {
+      "metric": "faithfulness",
+      "variant": "basic",
+      "mean": 0.9666666666666667,
+      "n": 10,
+      "valid_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "C1",
+        "C2",
+        "C3",
+        "E1",
+        "E2",
+        "I1",
+        "I2"
+      ],
+      "excluded": []
+    },
+    {
+      "metric": "faithfulness",
+      "variant": "rerank",
+      "mean": 1.0,
+      "n": 10,
+      "valid_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "C1",
+        "C2",
+        "C3",
+        "E1",
+        "E2",
+        "I1",
+        "I2"
+      ],
+      "excluded": []
+    },
+    {
+      "metric": "answer_relevancy",
+      "variant": "basic",
+      "mean": 0.659328360631299,
+      "n": 10,
+      "valid_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "C1",
+        "C2",
+        "C3",
+        "E1",
+        "E2",
+        "I1",
+        "I2"
+      ],
+      "excluded": []
+    },
+    {
+      "metric": "answer_relevancy",
+      "variant": "rerank",
+      "mean": 0.7668727138088197,
+      "n": 10,
+      "valid_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "C1",
+        "C2",
+        "C3",
+        "E1",
+        "E2",
+        "I1",
+        "I2"
+      ],
+      "excluded": []
+    },
+    {
+      "metric": "context_precision",
+      "variant": "basic",
+      "mean": 0.6249999999375,
+      "n": 8,
+      "valid_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "C1",
+        "C2",
+        "C3",
+        "I1",
+        "I2"
+      ],
+      "excluded": [
+        {
+          "id": "E1",
+          "status": "not_applicable",
+          "reason": "no_positive_factual_reference"
+        },
+        {
+          "id": "E2",
+          "status": "not_applicable",
+          "reason": "no_positive_factual_reference"
+        }
+      ]
+    },
+    {
+      "metric": "context_precision",
+      "variant": "rerank",
+      "mean": 0.62499999994375,
+      "n": 8,
+      "valid_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "C1",
+        "C2",
+        "C3",
+        "I1",
+        "I2"
+      ],
+      "excluded": [
+        {
+          "id": "E1",
+          "status": "not_applicable",
+          "reason": "no_positive_factual_reference"
+        },
+        {
+          "id": "E2",
+          "status": "not_applicable",
+          "reason": "no_positive_factual_reference"
+        }
+      ]
+    },
+    {
+      "metric": "context_recall",
+      "variant": "basic",
+      "mean": 0.9375,
+      "n": 8,
+      "valid_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "C1",
+        "C2",
+        "C3",
+        "I1",
+        "I2"
+      ],
+      "excluded": [
+        {
+          "id": "E1",
+          "status": "not_applicable",
+          "reason": "no_positive_factual_reference"
+        },
+        {
+          "id": "E2",
+          "status": "not_applicable",
+          "reason": "no_positive_factual_reference"
+        }
+      ]
+    },
+    {
+      "metric": "context_recall",
+      "variant": "rerank",
+      "mean": 0.984375,
+      "n": 8,
+      "valid_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "C1",
+        "C2",
+        "C3",
+        "I1",
+        "I2"
+      ],
+      "excluded": [
+        {
+          "id": "E1",
+          "status": "not_applicable",
+          "reason": "no_positive_factual_reference"
+        },
+        {
+          "id": "E2",
+          "status": "not_applicable",
+          "reason": "no_positive_factual_reference"
+        }
+      ]
+    }
+  ],
+  "paired": [
+    {
+      "metric": "faithfulness",
+      "basic": 0.9666666666666667,
+      "rerank": 1.0,
+      "delta": 0.033333333333333326,
+      "n": 10,
+      "paired_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "C1",
+        "C2",
+        "C3",
+        "E1",
+        "E2",
+        "I1",
+        "I2"
+      ],
+      "excluded": []
+    },
+    {
+      "metric": "answer_relevancy",
+      "basic": 0.659328360631299,
+      "rerank": 0.7668727138088197,
+      "delta": 0.10754435317752076,
+      "n": 10,
+      "paired_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "C1",
+        "C2",
+        "C3",
+        "E1",
+        "E2",
+        "I1",
+        "I2"
+      ],
+      "excluded": []
+    },
+    {
+      "metric": "context_precision",
+      "basic": 0.6249999999375,
+      "rerank": 0.62499999994375,
+      "delta": 6.250000517127319e-12,
+      "n": 8,
+      "paired_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "C1",
+        "C2",
+        "C3",
+        "I1",
+        "I2"
+      ],
+      "excluded": [
+        {
+          "id": "E1",
+          "states": {
+            "basic": {
+              "status": "not_applicable",
+              "reason": "no_positive_factual_reference"
+            },
+            "rerank": {
+              "status": "not_applicable",
+              "reason": "no_positive_factual_reference"
+            }
+          }
+        },
+        {
+          "id": "E2",
+          "states": {
+            "basic": {
+              "status": "not_applicable",
+              "reason": "no_positive_factual_reference"
+            },
+            "rerank": {
+              "status": "not_applicable",
+              "reason": "no_positive_factual_reference"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "metric": "context_recall",
+      "basic": 0.9375,
+      "rerank": 0.984375,
+      "delta": 0.046875,
+      "n": 8,
+      "paired_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "C1",
+        "C2",
+        "C3",
+        "I1",
+        "I2"
+      ],
+      "excluded": [
+        {
+          "id": "E1",
+          "states": {
+            "basic": {
+              "status": "not_applicable",
+              "reason": "no_positive_factual_reference"
+            },
+            "rerank": {
+              "status": "not_applicable",
+              "reason": "no_positive_factual_reference"
+            }
+          }
+        },
+        {
+          "id": "E2",
+          "states": {
+            "basic": {
+              "status": "not_applicable",
+              "reason": "no_positive_factual_reference"
+            },
+            "rerank": {
+              "status": "not_applicable",
+              "reason": "no_positive_factual_reference"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "escapes": [
+    {
+      "id": "E1",
+      "variant": "basic",
+      "status": "insufficient_context",
+      "answer": "No poseo información suficiente en la base de conocimiento para responder esa consulta.",
+      "exact_abstention": true,
+      "correct_abstention": true,
+      "source_ids": [],
+      "review_reason": "Revisión editorial: frase de abstención prevista sin contenido añadido; insufficient_context es una salida funcional, sin judge_error ni execution_error."
+    },
+    {
+      "id": "E1",
+      "variant": "rerank",
+      "status": "insufficient_context",
+      "answer": "No poseo información suficiente en la base de conocimiento para responder esa consulta.",
+      "exact_abstention": true,
+      "correct_abstention": true,
+      "source_ids": [],
+      "review_reason": "Revisión editorial: frase de abstención prevista sin contenido añadido; insufficient_context es una salida funcional, sin judge_error ni execution_error."
+    },
+    {
+      "id": "E2",
+      "variant": "basic",
+      "status": "ok",
+      "answer": "No poseo información suficiente en la base de conocimiento para responder esa consulta (DOC-002).",
+      "exact_abstention": false,
+      "correct_abstention": true,
+      "source_ids": [
+        "DOC-002"
+      ],
+      "review_reason": "Revisión editorial: reconoce falta de información y no agrega requisitos ni honorarios. La cita DOC-002 identifica el documento de requisitos recuperado; no contiene ni inventa un precio."
+    },
+    {
+      "id": "E2",
+      "variant": "rerank",
+      "status": "insufficient_context",
+      "answer": "No poseo información suficiente en la base de conocimiento para responder esa consulta.",
+      "exact_abstention": true,
+      "correct_abstention": true,
+      "source_ids": [],
+      "review_reason": "Revisión editorial: frase de abstención prevista sin contenido añadido; insufficient_context es una salida funcional, sin judge_error ni execution_error."
+    }
+  ],
+  "worst_advanced_metrics": [
+    "context_precision"
+  ],
+  "any_improvement": true,
+  "pending": 0,
+  "generation_count": 20,
+  "technical_evaluation_errors": 0,
+  "c_complete": true
+}

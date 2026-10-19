@@ -1,0 +1,21 @@
+{
+  "call_id": "99a36e97d78f46138e587c2713e2c18d",
+  "kind": "evaluator_llm",
+  "attempt": 2,
+  "started_at": "2026-10-18T23:25:04.156505+00:00",
+  "input": {
+    "model": "gemini-3.1-flash-lite",
+    "prompt": "Generate a question for the given answer and Identify if answer is noncommittal. Give noncommittal as 1 if the answer is noncommittal and 0 if the answer is committal. A noncommittal answer is one that is evasive, vague, or ambiguous. For example, \"I don't know\" or \"I'm not sure\" are noncommittal answers\nPlease return the output in a JSON format that complies with the following schema as specified in JSON Schema:\n{\"properties\": {\"question\": {\"title\": \"Question\", \"type\": \"string\"}, \"noncommittal\": {\"title\": \"Noncommittal\", \"type\": \"integer\"}}, \"required\": [\"question\", \"noncommittal\"], \"title\": \"ResponseRelevanceOutput\", \"type\": \"object\"}Do not use single quotes in your response but double quotes,properly escaped with a backslash.\n\n--------EXAMPLES-----------\nExample 1\nInput: {\n    \"response\": \"Albert Einstein was born in Germany.\"\n}\nOutput: {\n    \"question\": \"Where was Albert Einstein born?\",\n    \"noncommittal\": 0\n}\n\nExample 2\nInput: {\n    \"response\": \"I don't know about the  groundbreaking feature of the smartphone invented in 2023 as am unaware of information beyond 2022. \"\n}\nOutput: {\n    \"question\": \"What was the groundbreaking feature of the smartphone invented in 2023?\",\n    \"noncommittal\": 1\n}\n-----------------------------\n\nNow perform the same with the following input\ninput: {\n    \"response\": \"No poseo información suficiente en la base de conocimiento para responder esa consulta.\"\n}\nOutput: ",
+    "temperature": 0.0,
+    "max_output_tokens": 8192,
+    "response_mime_type": "application/json",
+    "stop": null
+  },
+  "status": "error",
+  "error": {
+    "type": "ClientError",
+    "code": 429
+  },
+  "transient": true,
+  "seconds": 0.29524210000090534
+}

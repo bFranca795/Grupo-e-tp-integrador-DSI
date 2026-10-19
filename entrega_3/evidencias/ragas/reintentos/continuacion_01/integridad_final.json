@@ -1,0 +1,18 @@
+{
+  "checks": {
+    "protected_85_unchanged": true,
+    "original_18_archived_unchanged": true,
+    "inputs_18_unchanged": true,
+    "original_217_call_records_retained": true,
+    "new_calls_sequential_with_min_12_seconds": true,
+    "only_503_new_attempt_errors": true,
+    "no_new_429": true
+  },
+  "status": "PASS",
+  "protected_count": 85,
+  "new_attempts": 55,
+  "new_successes": 48,
+  "new_transient_errors": 7,
+  "minimum_observed_pause_seconds": 12.000936899998583,
+  "pipeline_generations_repeated": 0
+}

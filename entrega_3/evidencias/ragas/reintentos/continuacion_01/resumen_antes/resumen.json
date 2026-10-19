@@ -1,0 +1,718 @@
+{
+  "aggregates": [
+    {
+      "metric": "faithfulness",
+      "variant": "basic",
+      "mean": 0.9583333333333334,
+      "n": 8,
+      "valid_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "C1",
+        "C2",
+        "E1",
+        "E2",
+        "I2"
+      ],
+      "excluded": [
+        {
+          "id": "C3",
+          "status": "evaluation_error",
+          "reason": {
+            "type": "ClientError",
+            "code": 429
+          }
+        },
+        {
+          "id": "I1",
+          "status": "evaluation_error",
+          "reason": {
+            "type": "ClientError",
+            "code": 429
+          }
+        }
+      ]
+    },
+    {
+      "metric": "faithfulness",
+      "variant": "rerank",
+      "mean": 1.0,
+      "n": 6,
+      "valid_ids": [
+        "S2",
+        "S3",
+        "C1",
+        "C2",
+        "E1",
+        "I1"
+      ],
+      "excluded": [
+        {
+          "id": "S1",
+          "status": "evaluation_error",
+          "reason": {
+            "type": "TimeoutError",
+            "code": null
+          }
+        },
+        {
+          "id": "C3",
+          "status": "evaluation_error",
+          "reason": {
+            "type": "ClientError",
+            "code": 429
+          }
+        },
+        {
+          "id": "E2",
+          "status": "evaluation_error",
+          "reason": {
+            "type": "ClientError",
+            "code": 429
+          }
+        },
+        {
+          "id": "I2",
+          "status": "evaluation_error",
+          "reason": {
+            "type": "ClientError",
+            "code": 429
+          }
+        }
+      ]
+    },
+    {
+      "metric": "answer_relevancy",
+      "variant": "basic",
+      "mean": 0.6235769712844975,
+      "n": 9,
+      "valid_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "C1",
+        "C2",
+        "E1",
+        "E2",
+        "I1",
+        "I2"
+      ],
+      "excluded": [
+        {
+          "id": "C3",
+          "status": "evaluation_error",
+          "reason": {
+            "type": "ClientError",
+            "code": 429
+          }
+        }
+      ]
+    },
+    {
+      "metric": "answer_relevancy",
+      "variant": "rerank",
+      "mean": 0.8253148728819127,
+      "n": 7,
+      "valid_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "C1",
+        "C2",
+        "E1",
+        "I1"
+      ],
+      "excluded": [
+        {
+          "id": "C3",
+          "status": "evaluation_error",
+          "reason": {
+            "type": "ClientError",
+            "code": 429
+          }
+        },
+        {
+          "id": "E2",
+          "status": "evaluation_error",
+          "reason": {
+            "type": "ClientError",
+            "code": 429
+          }
+        },
+        {
+          "id": "I2",
+          "status": "evaluation_error",
+          "reason": {
+            "type": "ClientError",
+            "code": 429
+          }
+        }
+      ]
+    },
+    {
+      "metric": "context_precision",
+      "variant": "basic",
+      "mean": 0.6666666666,
+      "n": 6,
+      "valid_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "C1",
+        "C2",
+        "I1"
+      ],
+      "excluded": [
+        {
+          "id": "C3",
+          "status": "evaluation_error",
+          "reason": {
+            "type": "ClientError",
+            "code": 429
+          }
+        },
+        {
+          "id": "E1",
+          "status": "not_applicable",
+          "reason": "no_positive_factual_reference"
+        },
+        {
+          "id": "E2",
+          "status": "not_applicable",
+          "reason": "no_positive_factual_reference"
+        },
+        {
+          "id": "I2",
+          "status": "evaluation_error",
+          "reason": {
+            "type": "ClientError",
+            "code": 429
+          }
+        }
+      ]
+    },
+    {
+      "metric": "context_precision",
+      "variant": "rerank",
+      "mean": 0.79999999992,
+      "n": 5,
+      "valid_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "C2",
+        "I1"
+      ],
+      "excluded": [
+        {
+          "id": "C1",
+          "status": "evaluation_error",
+          "reason": {
+            "type": "ClientError",
+            "code": 429
+          }
+        },
+        {
+          "id": "C3",
+          "status": "evaluation_error",
+          "reason": {
+            "type": "ClientError",
+            "code": 429
+          }
+        },
+        {
+          "id": "E1",
+          "status": "not_applicable",
+          "reason": "no_positive_factual_reference"
+        },
+        {
+          "id": "E2",
+          "status": "not_applicable",
+          "reason": "no_positive_factual_reference"
+        },
+        {
+          "id": "I2",
+          "status": "evaluation_error",
+          "reason": {
+            "type": "ClientError",
+            "code": 429
+          }
+        }
+      ]
+    },
+    {
+      "metric": "context_recall",
+      "variant": "basic",
+      "mean": 0.9166666666666666,
+      "n": 6,
+      "valid_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "C1",
+        "C2",
+        "I1"
+      ],
+      "excluded": [
+        {
+          "id": "C3",
+          "status": "evaluation_error",
+          "reason": {
+            "type": "ClientError",
+            "code": 429
+          }
+        },
+        {
+          "id": "E1",
+          "status": "not_applicable",
+          "reason": "no_positive_factual_reference"
+        },
+        {
+          "id": "E2",
+          "status": "not_applicable",
+          "reason": "no_positive_factual_reference"
+        },
+        {
+          "id": "I2",
+          "status": "evaluation_error",
+          "reason": {
+            "type": "ClientError",
+            "code": 429
+          }
+        }
+      ]
+    },
+    {
+      "metric": "context_recall",
+      "variant": "rerank",
+      "mean": 0.9821428571428571,
+      "n": 7,
+      "valid_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "C1",
+        "C2",
+        "C3",
+        "I1"
+      ],
+      "excluded": [
+        {
+          "id": "E1",
+          "status": "not_applicable",
+          "reason": "no_positive_factual_reference"
+        },
+        {
+          "id": "E2",
+          "status": "not_applicable",
+          "reason": "no_positive_factual_reference"
+        },
+        {
+          "id": "I2",
+          "status": "evaluation_error",
+          "reason": {
+            "type": "ClientError",
+            "code": 429
+          }
+        }
+      ]
+    }
+  ],
+  "paired": [
+    {
+      "metric": "faithfulness",
+      "basic": 0.9333333333333333,
+      "rerank": 1.0,
+      "delta": 0.06666666666666665,
+      "n": 5,
+      "paired_ids": [
+        "S2",
+        "S3",
+        "C1",
+        "C2",
+        "E1"
+      ],
+      "excluded": [
+        {
+          "id": "S1",
+          "states": {
+            "basic": {
+              "status": "ok",
+              "reason": null
+            },
+            "rerank": {
+              "status": "evaluation_error",
+              "reason": {
+                "type": "TimeoutError",
+                "code": null
+              }
+            }
+          }
+        },
+        {
+          "id": "C3",
+          "states": {
+            "basic": {
+              "status": "evaluation_error",
+              "reason": {
+                "type": "ClientError",
+                "code": 429
+              }
+            },
+            "rerank": {
+              "status": "evaluation_error",
+              "reason": {
+                "type": "ClientError",
+                "code": 429
+              }
+            }
+          }
+        },
+        {
+          "id": "E2",
+          "states": {
+            "basic": {
+              "status": "ok",
+              "reason": null
+            },
+            "rerank": {
+              "status": "evaluation_error",
+              "reason": {
+                "type": "ClientError",
+                "code": 429
+              }
+            }
+          }
+        },
+        {
+          "id": "I1",
+          "states": {
+            "basic": {
+              "status": "evaluation_error",
+              "reason": {
+                "type": "ClientError",
+                "code": 429
+              }
+            },
+            "rerank": {
+              "status": "ok",
+              "reason": null
+            }
+          }
+        },
+        {
+          "id": "I2",
+          "states": {
+            "basic": {
+              "status": "ok",
+              "reason": null
+            },
+            "rerank": {
+              "status": "evaluation_error",
+              "reason": {
+                "type": "ClientError",
+                "code": 429
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "metric": "answer_relevancy",
+      "basic": 0.6730695682431843,
+      "rerank": 0.8253148728819127,
+      "delta": 0.15224530463872843,
+      "n": 7,
+      "paired_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "C1",
+        "C2",
+        "E1",
+        "I1"
+      ],
+      "excluded": [
+        {
+          "id": "C3",
+          "states": {
+            "basic": {
+              "status": "evaluation_error",
+              "reason": {
+                "type": "ClientError",
+                "code": 429
+              }
+            },
+            "rerank": {
+              "status": "evaluation_error",
+              "reason": {
+                "type": "ClientError",
+                "code": 429
+              }
+            }
+          }
+        },
+        {
+          "id": "E2",
+          "states": {
+            "basic": {
+              "status": "ok",
+              "reason": null
+            },
+            "rerank": {
+              "status": "evaluation_error",
+              "reason": {
+                "type": "ClientError",
+                "code": 429
+              }
+            }
+          }
+        },
+        {
+          "id": "I2",
+          "states": {
+            "basic": {
+              "status": "ok",
+              "reason": null
+            },
+            "rerank": {
+              "status": "evaluation_error",
+              "reason": {
+                "type": "ClientError",
+                "code": 429
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "metric": "context_precision",
+      "basic": 0.79999999992,
+      "rerank": 0.79999999992,
+      "delta": 0.0,
+      "n": 5,
+      "paired_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "C2",
+        "I1"
+      ],
+      "excluded": [
+        {
+          "id": "C1",
+          "states": {
+            "basic": {
+              "status": "ok",
+              "reason": null
+            },
+            "rerank": {
+              "status": "evaluation_error",
+              "reason": {
+                "type": "ClientError",
+                "code": 429
+              }
+            }
+          }
+        },
+        {
+          "id": "C3",
+          "states": {
+            "basic": {
+              "status": "evaluation_error",
+              "reason": {
+                "type": "ClientError",
+                "code": 429
+              }
+            },
+            "rerank": {
+              "status": "evaluation_error",
+              "reason": {
+                "type": "ClientError",
+                "code": 429
+              }
+            }
+          }
+        },
+        {
+          "id": "E1",
+          "states": {
+            "basic": {
+              "status": "not_applicable",
+              "reason": "no_positive_factual_reference"
+            },
+            "rerank": {
+              "status": "not_applicable",
+              "reason": "no_positive_factual_reference"
+            }
+          }
+        },
+        {
+          "id": "E2",
+          "states": {
+            "basic": {
+              "status": "not_applicable",
+              "reason": "no_positive_factual_reference"
+            },
+            "rerank": {
+              "status": "not_applicable",
+              "reason": "no_positive_factual_reference"
+            }
+          }
+        },
+        {
+          "id": "I2",
+          "states": {
+            "basic": {
+              "status": "evaluation_error",
+              "reason": {
+                "type": "ClientError",
+                "code": 429
+              }
+            },
+            "rerank": {
+              "status": "evaluation_error",
+              "reason": {
+                "type": "ClientError",
+                "code": 429
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "metric": "context_recall",
+      "basic": 0.9166666666666666,
+      "rerank": 0.9791666666666666,
+      "delta": 0.0625,
+      "n": 6,
+      "paired_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "C1",
+        "C2",
+        "I1"
+      ],
+      "excluded": [
+        {
+          "id": "C3",
+          "states": {
+            "basic": {
+              "status": "evaluation_error",
+              "reason": {
+                "type": "ClientError",
+                "code": 429
+              }
+            },
+            "rerank": {
+              "status": "ok",
+              "reason": null
+            }
+          }
+        },
+        {
+          "id": "E1",
+          "states": {
+            "basic": {
+              "status": "not_applicable",
+              "reason": "no_positive_factual_reference"
+            },
+            "rerank": {
+              "status": "not_applicable",
+              "reason": "no_positive_factual_reference"
+            }
+          }
+        },
+        {
+          "id": "E2",
+          "states": {
+            "basic": {
+              "status": "not_applicable",
+              "reason": "no_positive_factual_reference"
+            },
+            "rerank": {
+              "status": "not_applicable",
+              "reason": "no_positive_factual_reference"
+            }
+          }
+        },
+        {
+          "id": "I2",
+          "states": {
+            "basic": {
+              "status": "evaluation_error",
+              "reason": {
+                "type": "ClientError",
+                "code": 429
+              }
+            },
+            "rerank": {
+              "status": "evaluation_error",
+              "reason": {
+                "type": "ClientError",
+                "code": 429
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "escapes": [
+    {
+      "id": "E1",
+      "variant": "basic",
+      "status": "insufficient_context",
+      "answer": "No poseo información suficiente en la base de conocimiento para responder esa consulta.",
+      "exact_abstention": true,
+      "correct_abstention": true,
+      "source_ids": [],
+      "review_reason": "Revisión editorial: frase de abstención prevista sin contenido añadido; insufficient_context es una salida funcional, sin judge_error ni execution_error."
+    },
+    {
+      "id": "E1",
+      "variant": "rerank",
+      "status": "insufficient_context",
+      "answer": "No poseo información suficiente en la base de conocimiento para responder esa consulta.",
+      "exact_abstention": true,
+      "correct_abstention": true,
+      "source_ids": [],
+      "review_reason": "Revisión editorial: frase de abstención prevista sin contenido añadido; insufficient_context es una salida funcional, sin judge_error ni execution_error."
+    },
+    {
+      "id": "E2",
+      "variant": "basic",
+      "status": "ok",
+      "answer": "No poseo información suficiente en la base de conocimiento para responder esa consulta (DOC-002).",
+      "exact_abstention": false,
+      "correct_abstention": true,
+      "source_ids": [
+        "DOC-002"
+      ],
+      "review_reason": "Revisión editorial: reconoce falta de información y no agrega requisitos ni honorarios. La cita DOC-002 identifica el documento de requisitos recuperado; no contiene ni inventa un precio."
+    },
+    {
+      "id": "E2",
+      "variant": "rerank",
+      "status": "insufficient_context",
+      "answer": "No poseo información suficiente en la base de conocimiento para responder esa consulta.",
+      "exact_abstention": true,
+      "correct_abstention": true,
+      "source_ids": [],
+      "review_reason": "Revisión editorial: frase de abstención prevista sin contenido añadido; insufficient_context es una salida funcional, sin judge_error ni execution_error."
+    }
+  ],
+  "worst_advanced_metrics": [
+    "context_precision"
+  ],
+  "any_improvement": true,
+  "pending": 0,
+  "generation_count": 20,
+  "technical_evaluation_errors": 18,
+  "c_complete": false
+}

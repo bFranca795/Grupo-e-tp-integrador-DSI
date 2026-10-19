@@ -1,0 +1,2274 @@
+[
+  {
+    "case_variant": "C1_basic",
+    "call_id": "2105473d06784ad7977f787f783ef622",
+    "attempt": 1,
+    "stage": "faithfulness_verdicts",
+    "judgment": {
+      "statements": [
+        {
+          "statement": "El responsable inscripto debe presentar la declaración jurada del IVA del período.",
+          "reason": "El texto indica explícitamente que el responsable inscripto presenta la declaración jurada del período.",
+          "verdict": 1
+        },
+        {
+          "statement": "El responsable inscripto debe pagar el saldo del IVA en el mes siguiente al período liquidado.",
+          "reason": "El texto menciona que el responsable inscripto paga el saldo en el mismo mes siguiente al que liquida.",
+          "verdict": 1
+        },
+        {
+          "statement": "La fecha exacta de vencimiento del IVA depende de la terminación del CUIT del responsable inscripto.",
+          "reason": "El texto afirma que la fecha exacta depende de la terminación del CUIT.",
+          "verdict": 1
+        },
+        {
+          "statement": "El calendario de vencimientos del IVA sigue un escalonamiento donde las terminaciones de CUIT más bajas vencen primero y las más altas vencen después.",
+          "reason": "El texto describe exactamente este mecanismo de escalonamiento.",
+          "verdict": 1
+        },
+        {
+          "statement": "Si el vencimiento del IVA cae en sábado, domingo o feriado, el plazo se traslada al primer día hábil siguiente.",
+          "reason": "El texto confirma esta regla para los días no hábiles.",
+          "verdict": 1
+        },
+        {
+          "statement": "La presentación de la declaración jurada del IVA y el pago del IVA son actos distintos.",
+          "reason": "El texto establece explícitamente que son dos actos distintos.",
+          "verdict": 1
+        },
+        {
+          "statement": "El pago del IVA fuera de término genera intereses resarcitorios.",
+          "reason": "El texto indica que si se paga fuera de término, corren intereses resarcitorios sobre el saldo.",
+          "verdict": 1
+        },
+        {
+          "statement": "El empleador debe presentar mensualmente una declaración jurada de cargas sociales.",
+          "reason": "El texto comienza afirmando que el empleador presenta mensualmente la declaración jurada de cargas sociales.",
+          "verdict": 1
+        },
+        {
+          "statement": "La declaración jurada de cargas sociales informa la nómina del período.",
+          "reason": "El texto menciona que la declaración jurada informa la nómina del período.",
+          "verdict": 1
+        },
+        {
+          "statement": "La declaración jurada de cargas sociales liquida los aportes y las contribuciones de seguridad social.",
+          "reason": "El texto indica que la declaración jurada liquida aportes y contribuciones.",
+          "verdict": 1
+        },
+        {
+          "statement": "Los aportes de seguridad social son retenidos del sueldo bruto del trabajador.",
+          "reason": "El texto especifica que los aportes los retiene el empleador del sueldo bruto del trabajador.",
+          "verdict": 1
+        },
+        {
+          "statement": "Las contribuciones de seguridad social son pagadas por el empleador.",
+          "reason": "El texto indica que las contribuciones las paga el empleador por encima del sueldo.",
+          "verdict": 1
+        },
+        {
+          "statement": "El empleador tiene la obligación de mantener la nómina actualizada.",
+          "reason": "El texto señala que la declaración jurada exige tener la nómina actualizada.",
+          "verdict": 1
+        },
+        {
+          "statement": "El empleador debe registrar las altas y las bajas de los trabajadores antes de liquidar las cargas sociales.",
+          "reason": "El texto indica que altas y bajas deben registrarse antes de liquidar.",
+          "verdict": 1
+        },
+        {
+          "statement": "El vencimiento de la presentación y el pago de las cargas sociales ocurre en la segunda semana del mes siguiente al período liquidado.",
+          "reason": "El texto establece que el vencimiento cae en la segunda semana del mes siguiente.",
+          "verdict": 1
+        },
+        {
+          "statement": "El vencimiento de las cargas sociales está escalonado por la terminación del CUIT del empleador.",
+          "reason": "El texto menciona que el vencimiento también se escalona por terminación de CUIT.",
+          "verdict": 1
+        },
+        {
+          "statement": "El pago de las cargas sociales fuera de término genera intereses.",
+          "reason": "El texto afirma que el pago fuera de término genera intereses.",
+          "verdict": 1
+        },
+        {
+          "statement": "El pago de las cargas sociales fuera de término bloquea la obtención del certificado de libre deuda previsional.",
+          "reason": "El texto indica que el pago fuera de término bloquea la obtención de dicho certificado.",
+          "verdict": 1
+        }
+      ]
+    },
+    "raw_text": "{\n  \"statements\": [\n    {\n      \"statement\": \"El responsable inscripto debe presentar la declaración jurada del IVA del período.\",\n      \"reason\": \"El texto indica explícitamente que el responsable inscripto presenta la declaración jurada del período.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El responsable inscripto debe pagar el saldo del IVA en el mes siguiente al período liquidado.\",\n      \"reason\": \"El texto menciona que el responsable inscripto paga el saldo en el mismo mes siguiente al que liquida.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"La fecha exacta de vencimiento del IVA depende de la terminación del CUIT del responsable inscripto.\",\n      \"reason\": \"El texto afirma que la fecha exacta depende de la terminación del CUIT.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El calendario de vencimientos del IVA sigue un escalonamiento donde las terminaciones de CUIT más bajas vencen primero y las más altas vencen después.\",\n      \"reason\": \"El texto describe exactamente este mecanismo de escalonamiento.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"Si el vencimiento del IVA cae en sábado, domingo o feriado, el plazo se traslada al primer día hábil siguiente.\",\n      \"reason\": \"El texto confirma esta regla para los días no hábiles.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"La presentación de la declaración jurada del IVA y el pago del IVA son actos distintos.\",\n      \"reason\": \"El texto establece explícitamente que son dos actos distintos.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El pago del IVA fuera de término genera intereses resarcitorios.\",\n      \"reason\": \"El texto indica que si se paga fuera de término, corren intereses resarcitorios sobre el saldo.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El empleador debe presentar mensualmente una declaración jurada de cargas sociales.\",\n      \"reason\": \"El texto comienza afirmando que el empleador presenta mensualmente la declaración jurada de cargas sociales.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"La declaración jurada de cargas sociales informa la nómina del período.\",\n      \"reason\": \"El texto menciona que la declaración jurada informa la nómina del período.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"La declaración jurada de cargas sociales liquida los aportes y las contribuciones de seguridad social.\",\n      \"reason\": \"El texto indica que la declaración jurada liquida aportes y contribuciones.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"Los aportes de seguridad social son retenidos del sueldo bruto del trabajador.\",\n      \"reason\": \"El texto especifica que los aportes los retiene el empleador del sueldo bruto del trabajador.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"Las contribuciones de seguridad social son pagadas por el empleador.\",\n      \"reason\": \"El texto indica que las contribuciones las paga el empleador por encima del sueldo.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El empleador tiene la obligación de mantener la nómina actualizada.\",\n      \"reason\": \"El texto señala que la declaración jurada exige tener la nómina actualizada.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El empleador debe registrar las altas y las bajas de los trabajadores antes de liquidar las cargas sociales.\",\n      \"reason\": \"El texto indica que altas y bajas deben registrarse antes de liquidar.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El vencimiento de la presentación y el pago de las cargas sociales ocurre en la segunda semana del mes siguiente al período liquidado.\",\n      \"reason\": \"El texto establece que el vencimiento cae en la segunda semana del mes siguiente.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El vencimiento de las cargas sociales está escalonado por la terminación del CUIT del empleador.\",\n      \"reason\": \"El texto menciona que el vencimiento también se escalona por terminación de CUIT.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El pago de las cargas sociales fuera de término genera intereses.\",\n      \"reason\": \"El texto afirma que el pago fuera de término genera intereses.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El pago de las cargas sociales fuera de término bloquea la obtención del certificado de libre deuda previsional.\",\n      \"reason\": \"El texto indica que el pago fuera de término bloquea la obtención de dicho certificado.\",\n      \"verdict\": 1\n    }\n  ]\n}",
+    "path": "evaluacion/C1_basic/calls/2105473d06784ad7977f787f783ef622_1.json"
+  },
+  {
+    "case_variant": "C1_basic",
+    "call_id": "5c27ebae574640feb38f6603ca2ef94d",
+    "attempt": 1,
+    "stage": "answer_relevancy_question",
+    "judgment": {
+      "question": "¿Cuáles son los procedimientos y plazos para la liquidación del IVA y las cargas sociales en Argentina?",
+      "noncommittal": 0
+    },
+    "raw_text": "{\n  \"question\": \"¿Cuáles son los procedimientos y plazos para la liquidación del IVA y las cargas sociales en Argentina?\",\n  \"noncommittal\": 0\n}",
+    "path": "evaluacion/C1_basic/calls/5c27ebae574640feb38f6603ca2ef94d_1.json"
+  },
+  {
+    "case_variant": "C1_basic",
+    "call_id": "77041ea4372c47d3ba13440569efb3ed",
+    "attempt": 1,
+    "stage": "context_precision_verdict",
+    "judgment": {
+      "reason": "The context provided information specifically regarding the employer's obligations for social security charges (cargas sociales), but it did not contain information regarding the VAT (IVA) liquidation process, such as the documents required (invoices, credit notes, etc.) or the specific rules for VAT filing. The answer includes significant information not present in the provided context.",
+      "verdict": 0
+    },
+    "raw_text": "{\n    \"reason\": \"The context provided information specifically regarding the employer's obligations for social security charges (cargas sociales), but it did not contain information regarding the VAT (IVA) liquidation process, such as the documents required (invoices, credit notes, etc.) or the specific rules for VAT filing. The answer includes significant information not present in the provided context.\",\n    \"verdict\": 0\n}",
+    "path": "evaluacion/C1_basic/calls/77041ea4372c47d3ba13440569efb3ed_1.json"
+  },
+  {
+    "case_variant": "C1_basic",
+    "call_id": "8fec9ab3f60c46159be91c1fbcb8601f",
+    "attempt": 1,
+    "stage": "faithfulness_statements",
+    "judgment": {
+      "statements": [
+        "El responsable inscripto debe presentar la declaración jurada del IVA del período.",
+        "El responsable inscripto debe pagar el saldo del IVA en el mes siguiente al período liquidado.",
+        "La fecha exacta de vencimiento del IVA depende de la terminación del CUIT del responsable inscripto.",
+        "El calendario de vencimientos del IVA sigue un escalonamiento donde las terminaciones de CUIT más bajas vencen primero y las más altas vencen después.",
+        "Si el vencimiento del IVA cae en sábado, domingo o feriado, el plazo se traslada al primer día hábil siguiente.",
+        "La presentación de la declaración jurada del IVA y el pago del IVA son actos distintos.",
+        "El pago del IVA fuera de término genera intereses resarcitorios.",
+        "El empleador debe presentar mensualmente una declaración jurada de cargas sociales.",
+        "La declaración jurada de cargas sociales informa la nómina del período.",
+        "La declaración jurada de cargas sociales liquida los aportes y las contribuciones de seguridad social.",
+        "Los aportes de seguridad social son retenidos del sueldo bruto del trabajador.",
+        "Las contribuciones de seguridad social son pagadas por el empleador.",
+        "El empleador tiene la obligación de mantener la nómina actualizada.",
+        "El empleador debe registrar las altas y las bajas de los trabajadores antes de liquidar las cargas sociales.",
+        "El vencimiento de la presentación y el pago de las cargas sociales ocurre en la segunda semana del mes siguiente al período liquidado.",
+        "El vencimiento de las cargas sociales está escalonado por la terminación del CUIT del empleador.",
+        "El pago de las cargas sociales fuera de término genera intereses.",
+        "El pago de las cargas sociales fuera de término bloquea la obtención del certificado de libre deuda previsional."
+      ]
+    },
+    "raw_text": "{\n  \"statements\": [\n    \"El responsable inscripto debe presentar la declaración jurada del IVA del período.\",\n    \"El responsable inscripto debe pagar el saldo del IVA en el mes siguiente al período liquidado.\",\n    \"La fecha exacta de vencimiento del IVA depende de la terminación del CUIT del responsable inscripto.\",\n    \"El calendario de vencimientos del IVA sigue un escalonamiento donde las terminaciones de CUIT más bajas vencen primero y las más altas vencen después.\",\n    \"Si el vencimiento del IVA cae en sábado, domingo o feriado, el plazo se traslada al primer día hábil siguiente.\",\n    \"La presentación de la declaración jurada del IVA y el pago del IVA son actos distintos.\",\n    \"El pago del IVA fuera de término genera intereses resarcitorios.\",\n    \"El empleador debe presentar mensualmente una declaración jurada de cargas sociales.\",\n    \"La declaración jurada de cargas sociales informa la nómina del período.\",\n    \"La declaración jurada de cargas sociales liquida los aportes y las contribuciones de seguridad social.\",\n    \"Los aportes de seguridad social son retenidos del sueldo bruto del trabajador.\",\n    \"Las contribuciones de seguridad social son pagadas por el empleador.\",\n    \"El empleador tiene la obligación de mantener la nómina actualizada.\",\n    \"El empleador debe registrar las altas y las bajas de los trabajadores antes de liquidar las cargas sociales.\",\n    \"El vencimiento de la presentación y el pago de las cargas sociales ocurre en la segunda semana del mes siguiente al período liquidado.\",\n    \"El vencimiento de las cargas sociales está escalonado por la terminación del CUIT del empleador.\",\n    \"El pago de las cargas sociales fuera de término genera intereses.\",\n    \"El pago de las cargas sociales fuera de término bloquea la obtención del certificado de libre deuda previsional.\"\n  ]\n}",
+    "path": "evaluacion/C1_basic/calls/8fec9ab3f60c46159be91c1fbcb8601f_1.json"
+  },
+  {
+    "case_variant": "C1_basic",
+    "call_id": "aa96dc9981ff4ad08ca8f3a7c2f0ba00",
+    "attempt": 1,
+    "stage": "context_precision_verdict",
+    "judgment": {
+      "reason": "The context provided information regarding the VAT (IVA) filing process, but it did not contain any information regarding the employer's obligations for social security charges (cargas sociales). The answer includes details about social security that were not present in the provided context.",
+      "verdict": 0
+    },
+    "raw_text": "{\n    \"reason\": \"The context provided information regarding the VAT (IVA) filing process, but it did not contain any information regarding the employer's obligations for social security charges (cargas sociales). The answer includes details about social security that were not present in the provided context.\",\n    \"verdict\": 0\n}",
+    "path": "evaluacion/C1_basic/calls/aa96dc9981ff4ad08ca8f3a7c2f0ba00_1.json"
+  },
+  {
+    "case_variant": "C1_basic",
+    "call_id": "ceffa749fc1d45e998032bfe98089fe3",
+    "attempt": 1,
+    "stage": "answer_relevancy_question",
+    "judgment": {
+      "question": "¿Cuáles son los procedimientos y plazos para la liquidación del IVA y las cargas sociales en Argentina?",
+      "noncommittal": 0
+    },
+    "raw_text": "{\n  \"question\": \"¿Cuáles son los procedimientos y plazos para la liquidación del IVA y las cargas sociales en Argentina?\",\n  \"noncommittal\": 0\n}",
+    "path": "evaluacion/C1_basic/calls/ceffa749fc1d45e998032bfe98089fe3_1.json"
+  },
+  {
+    "case_variant": "C1_basic",
+    "call_id": "e582f86cd4534b0f9b48f737464cc07e",
+    "attempt": 1,
+    "stage": "context_recall_classifications",
+    "judgment": {
+      "classifications": [
+        {
+          "statement": "Entregá las facturas de venta del período y las facturas de compra recibidas.",
+          "reason": "Esta información no se encuentra en el contexto proporcionado.",
+          "attributed": 0
+        },
+        {
+          "statement": "Incluí las notas de crédito y débito emitidas y recibidas, los comprobantes de retenciones y percepciones sufridas y, si facturás por ese medio, los tickets de controlador fiscal.",
+          "reason": "Esta información no se encuentra en el contexto proporcionado.",
+          "attributed": 0
+        },
+        {
+          "statement": "El IVA es mensual: la declaración y el pago del saldo corresponden al mes siguiente al liquidado; la fecha depende de la terminación del CUIT y, si cae en día inhábil, pasa al primer día hábil siguiente.",
+          "reason": "Esta información está explícitamente contenida en el contexto.",
+          "attributed": 1
+        },
+        {
+          "statement": "Presentación y pago son actos distintos: presentar en término y pagar tarde genera intereses resarcitorios sobre el saldo; el estudio consulta el calendario del período antes de informar una fecha exacta.",
+          "reason": "Esta información está explícitamente contenida en el contexto.",
+          "attributed": 1
+        },
+        {
+          "statement": "Como empleador debés presentar mensualmente la declaración de cargas sociales con la nómina, aportes retenidos del sueldo bruto del trabajador y contribuciones a cargo del empleador por encima del sueldo.",
+          "reason": "Esta información está explícitamente contenida en el contexto.",
+          "attributed": 1
+        },
+        {
+          "statement": "La presentación y el pago vencen en la segunda semana del mes siguiente, escalonados por terminación de CUIT.",
+          "reason": "Esta información está explícitamente contenida en el contexto.",
+          "attributed": 1
+        },
+        {
+          "statement": "Las altas y bajas de empleados deben registrarse antes de liquidar; un alta no registrada implica trabajo no registrado.",
+          "reason": "Esta información está explícitamente contenida en el contexto.",
+          "attributed": 1
+        },
+        {
+          "statement": "Pagar las cargas sociales fuera de término genera intereses y bloquea el certificado de libre deuda previsional.",
+          "reason": "Esta información está explícitamente contenida en el contexto.",
+          "attributed": 1
+        }
+      ]
+    },
+    "raw_text": "{\n  \"classifications\": [\n    {\n      \"statement\": \"Entregá las facturas de venta del período y las facturas de compra recibidas.\",\n      \"reason\": \"Esta información no se encuentra en el contexto proporcionado.\",\n      \"attributed\": 0\n    },\n    {\n      \"statement\": \"Incluí las notas de crédito y débito emitidas y recibidas, los comprobantes de retenciones y percepciones sufridas y, si facturás por ese medio, los tickets de controlador fiscal.\",\n      \"reason\": \"Esta información no se encuentra en el contexto proporcionado.\",\n      \"attributed\": 0\n    },\n    {\n      \"statement\": \"El IVA es mensual: la declaración y el pago del saldo corresponden al mes siguiente al liquidado; la fecha depende de la terminación del CUIT y, si cae en día inhábil, pasa al primer día hábil siguiente.\",\n      \"reason\": \"Esta información está explícitamente contenida en el contexto.\",\n      \"attributed\": 1\n    },\n    {\n      \"statement\": \"Presentación y pago son actos distintos: presentar en término y pagar tarde genera intereses resarcitorios sobre el saldo; el estudio consulta el calendario del período antes de informar una fecha exacta.\",\n      \"reason\": \"Esta información está explícitamente contenida en el contexto.\",\n      \"attributed\": 1\n    },\n    {\n      \"statement\": \"Como empleador debés presentar mensualmente la declaración de cargas sociales con la nómina, aportes retenidos del sueldo bruto del trabajador y contribuciones a cargo del empleador por encima del sueldo.\",\n      \"reason\": \"Esta información está explícitamente contenida en el contexto.\",\n      \"attributed\": 1\n    },\n    {\n      \"statement\": \"La presentación y el pago vencen en la segunda semana del mes siguiente, escalonados por terminación de CUIT.\",\n      \"reason\": \"Esta información está explícitamente contenida en el contexto.\",\n      \"attributed\": 1\n    },\n    {\n      \"statement\": \"Las altas y bajas de empleados deben registrarse antes de liquidar; un alta no registrada implica trabajo no registrado.\",\n      \"reason\": \"Esta información está explícitamente contenida en el contexto.\",\n      \"attributed\": 1\n    },\n    {\n      \"statement\": \"Pagar las cargas sociales fuera de término genera intereses y bloquea el certificado de libre deuda previsional.\",\n      \"reason\": \"Esta información está explícitamente contenida en el contexto.\",\n      \"attributed\": 1\n    }\n  ]\n}",
+    "path": "evaluacion/C1_basic/calls/e582f86cd4534b0f9b48f737464cc07e_1.json"
+  },
+  {
+    "case_variant": "C1_basic",
+    "call_id": "eb813a223ff24d9bbac6617f06f6d61f",
+    "attempt": 1,
+    "stage": "answer_relevancy_question",
+    "judgment": {
+      "question": "¿Cuáles son los procedimientos y plazos para la liquidación del IVA y las cargas sociales en Argentina?",
+      "noncommittal": 0
+    },
+    "raw_text": "{\n  \"question\": \"¿Cuáles son los procedimientos y plazos para la liquidación del IVA y las cargas sociales en Argentina?\",\n  \"noncommittal\": 0\n}",
+    "path": "evaluacion/C1_basic/calls/eb813a223ff24d9bbac6617f06f6d61f_1.json"
+  },
+  {
+    "case_variant": "C1_rerank",
+    "call_id": "02a077ec600745b5b8c86e99f8bf3eec",
+    "attempt": 1,
+    "stage": "faithfulness_statements",
+    "judgment": {
+      "statements": [
+        "El estudio contable necesita que el cliente proporcione facturas de venta emitidas para liquidar el IVA.",
+        "El estudio contable necesita que el cliente proporcione facturas de compra recibidas para liquidar el IVA.",
+        "El estudio contable necesita que el cliente proporcione notas de crédito y débito emitidas y recibidas para liquidar el IVA.",
+        "El estudio contable necesita que el cliente proporcione comprobantes de retenciones y percepciones sufridas para liquidar el IVA.",
+        "El estudio contable necesita que el cliente proporcione tickets de controlador fiscal si el cliente utiliza ese medio para liquidar el IVA.",
+        "El IVA es un impuesto mensual.",
+        "El contribuyente presenta la declaración jurada del IVA en el mes siguiente al mes liquidado.",
+        "El contribuyente paga el saldo del IVA en el mes siguiente al mes liquidado.",
+        "La fecha exacta de vencimiento del IVA depende de la terminación del CUIT del contribuyente.",
+        "Las fechas de vencimiento del IVA se escalonan de menor a mayor según la terminación del CUIT.",
+        "Si el vencimiento del IVA cae en sábado, domingo o feriado, el plazo se traslada al primer día hábil siguiente.",
+        "La presentación de la declaración jurada del IVA y el pago del IVA son actos distintos.",
+        "El empleador debe presentar mensualmente una declaración jurada de cargas sociales.",
+        "La declaración jurada de cargas sociales informa la nómina del período.",
+        "La declaración jurada de cargas sociales liquida aportes y contribuciones.",
+        "Los aportes son retenidos del sueldo bruto del trabajador.",
+        "Las contribuciones son pagadas por el empleador.",
+        "El vencimiento de la presentación y el pago de las cargas sociales ocurre en la segunda semana del mes siguiente al período liquidado.",
+        "El vencimiento de las cargas sociales está escalonado por la terminación del CUIT del empleador.",
+        "El empleador tiene la obligación de mantener la nómina actualizada.",
+        "El empleador debe registrar las altas y bajas de empleados antes de liquidar las cargas sociales.",
+        "El pago de las cargas sociales fuera de término genera intereses.",
+        "El pago de las cargas sociales fuera de término bloquea la obtención del certificado de libre deuda previsional."
+      ]
+    },
+    "raw_text": "{\n  \"statements\": [\n    \"El estudio contable necesita que el cliente proporcione facturas de venta emitidas para liquidar el IVA.\",\n    \"El estudio contable necesita que el cliente proporcione facturas de compra recibidas para liquidar el IVA.\",\n    \"El estudio contable necesita que el cliente proporcione notas de crédito y débito emitidas y recibidas para liquidar el IVA.\",\n    \"El estudio contable necesita que el cliente proporcione comprobantes de retenciones y percepciones sufridas para liquidar el IVA.\",\n    \"El estudio contable necesita que el cliente proporcione tickets de controlador fiscal si el cliente utiliza ese medio para liquidar el IVA.\",\n    \"El IVA es un impuesto mensual.\",\n    \"El contribuyente presenta la declaración jurada del IVA en el mes siguiente al mes liquidado.\",\n    \"El contribuyente paga el saldo del IVA en el mes siguiente al mes liquidado.\",\n    \"La fecha exacta de vencimiento del IVA depende de la terminación del CUIT del contribuyente.\",\n    \"Las fechas de vencimiento del IVA se escalonan de menor a mayor según la terminación del CUIT.\",\n    \"Si el vencimiento del IVA cae en sábado, domingo o feriado, el plazo se traslada al primer día hábil siguiente.\",\n    \"La presentación de la declaración jurada del IVA y el pago del IVA son actos distintos.\",\n    \"El empleador debe presentar mensualmente una declaración jurada de cargas sociales.\",\n    \"La declaración jurada de cargas sociales informa la nómina del período.\",\n    \"La declaración jurada de cargas sociales liquida aportes y contribuciones.\",\n    \"Los aportes son retenidos del sueldo bruto del trabajador.\",\n    \"Las contribuciones son pagadas por el empleador.\",\n    \"El vencimiento de la presentación y el pago de las cargas sociales ocurre en la segunda semana del mes siguiente al período liquidado.\",\n    \"El vencimiento de las cargas sociales está escalonado por la terminación del CUIT del empleador.\",\n    \"El empleador tiene la obligación de mantener la nómina actualizada.\",\n    \"El empleador debe registrar las altas y bajas de empleados antes de liquidar las cargas sociales.\",\n    \"El pago de las cargas sociales fuera de término genera intereses.\",\n    \"El pago de las cargas sociales fuera de término bloquea la obtención del certificado de libre deuda previsional.\"\n  ]\n}",
+    "path": "evaluacion/C1_rerank/calls/02a077ec600745b5b8c86e99f8bf3eec_1.json"
+  },
+  {
+    "case_variant": "C1_rerank",
+    "call_id": "0931891b5b184d8589e3519793c5d649",
+    "attempt": 1,
+    "stage": "context_recall_classifications",
+    "judgment": {
+      "classifications": [
+        {
+          "statement": "Entregá las facturas de venta del período y las facturas de compra recibidas.",
+          "reason": "El contexto menciona explícitamente que se necesitan las facturas de venta emitidas y las facturas de compra recibidas para liquidar el IVA.",
+          "attributed": 1
+        },
+        {
+          "statement": "Incluí las notas de crédito y débito emitidas y recibidas, los comprobantes de retenciones y percepciones sufridas y, si facturás por ese medio, los tickets de controlador fiscal.",
+          "reason": "Estos elementos están listados en el contexto como requisitos para la liquidación del IVA.",
+          "attributed": 1
+        },
+        {
+          "statement": "El IVA es mensual: la declaración y el pago del saldo corresponden al mes siguiente al liquidado; la fecha depende de la terminación del CUIT y, si cae en día inhábil, pasa al primer día hábil siguiente.",
+          "reason": "El contexto confirma que el IVA es mensual, que se paga el mes siguiente, que depende de la terminación del CUIT y que se traslada al primer día hábil si el vencimiento cae en día inhábil.",
+          "attributed": 1
+        },
+        {
+          "statement": "Presentación y pago son actos distintos: presentar en término y pagar tarde genera intereses resarcitorios sobre el saldo; el estudio consulta el calendario del período antes de informar una fecha exacta.",
+          "reason": "El contexto menciona que presentar y pagar son actos distintos, pero no menciona explícitamente que el estudio consulte el calendario antes de informar una fecha exacta.",
+          "attributed": 0
+        },
+        {
+          "statement": "Como empleador debés presentar mensualmente la declaración de cargas sociales con la nómina, aportes retenidos del sueldo bruto del trabajador y contribuciones a cargo del empleador por encima del sueldo.",
+          "reason": "El contexto detalla que el empleador presenta mensualmente la declaración de cargas sociales, incluyendo la nómina, los aportes retenidos y las contribuciones.",
+          "attributed": 1
+        },
+        {
+          "statement": "La presentación y el pago vencen en la segunda semana del mes siguiente, escalonados por terminación de CUIT.",
+          "reason": "Esta información sobre el vencimiento en la segunda semana y el escalonamiento por CUIT está presente en el contexto.",
+          "attributed": 1
+        },
+        {
+          "statement": "Las altas y bajas de empleados deben registrarse antes de liquidar; un alta no registrada implica trabajo no registrado.",
+          "reason": "El contexto indica que las altas y bajas deben registrarse antes de liquidar y que un alta no registrada implica trabajo no registrado.",
+          "attributed": 1
+        },
+        {
+          "statement": "Pagar las cargas sociales fuera de término genera intereses y bloquea el certificado de libre deuda previsional.",
+          "reason": "El contexto confirma que el pago fuera de término genera intereses y bloquea la obtención del certificado de libre deuda previsional.",
+          "attributed": 1
+        }
+      ]
+    },
+    "raw_text": "{\n  \"classifications\": [\n    {\n      \"statement\": \"Entregá las facturas de venta del período y las facturas de compra recibidas.\",\n      \"reason\": \"El contexto menciona explícitamente que se necesitan las facturas de venta emitidas y las facturas de compra recibidas para liquidar el IVA.\",\n      \"attributed\": 1\n    },\n    {\n      \"statement\": \"Incluí las notas de crédito y débito emitidas y recibidas, los comprobantes de retenciones y percepciones sufridas y, si facturás por ese medio, los tickets de controlador fiscal.\",\n      \"reason\": \"Estos elementos están listados en el contexto como requisitos para la liquidación del IVA.\",\n      \"attributed\": 1\n    },\n    {\n      \"statement\": \"El IVA es mensual: la declaración y el pago del saldo corresponden al mes siguiente al liquidado; la fecha depende de la terminación del CUIT y, si cae en día inhábil, pasa al primer día hábil siguiente.\",\n      \"reason\": \"El contexto confirma que el IVA es mensual, que se paga el mes siguiente, que depende de la terminación del CUIT y que se traslada al primer día hábil si el vencimiento cae en día inhábil.\",\n      \"attributed\": 1\n    },\n    {\n      \"statement\": \"Presentación y pago son actos distintos: presentar en término y pagar tarde genera intereses resarcitorios sobre el saldo; el estudio consulta el calendario del período antes de informar una fecha exacta.\",\n      \"reason\": \"El contexto menciona que presentar y pagar son actos distintos, pero no menciona explícitamente que el estudio consulte el calendario antes de informar una fecha exacta.\",\n      \"attributed\": 0\n    },\n    {\n      \"statement\": \"Como empleador debés presentar mensualmente la declaración de cargas sociales con la nómina, aportes retenidos del sueldo bruto del trabajador y contribuciones a cargo del empleador por encima del sueldo.\",\n      \"reason\": \"El contexto detalla que el empleador presenta mensualmente la declaración de cargas sociales, incluyendo la nómina, los aportes retenidos y las contribuciones.\",\n      \"attributed\": 1\n    },\n    {\n      \"statement\": \"La presentación y el pago vencen en la segunda semana del mes siguiente, escalonados por terminación de CUIT.\",\n      \"reason\": \"Esta información sobre el vencimiento en la segunda semana y el escalonamiento por CUIT está presente en el contexto.\",\n      \"attributed\": 1\n    },\n    {\n      \"statement\": \"Las altas y bajas de empleados deben registrarse antes de liquidar; un alta no registrada implica trabajo no registrado.\",\n      \"reason\": \"El contexto indica que las altas y bajas deben registrarse antes de liquidar y que un alta no registrada implica trabajo no registrado.\",\n      \"attributed\": 1\n    },\n    {\n      \"statement\": \"Pagar las cargas sociales fuera de término genera intereses y bloquea el certificado de libre deuda previsional.\",\n      \"reason\": \"El contexto confirma que el pago fuera de término genera intereses y bloquea la obtención del certificado de libre deuda previsional.\",\n      \"attributed\": 1\n    }\n  ]\n}",
+    "path": "evaluacion/C1_rerank/calls/0931891b5b184d8589e3519793c5d649_1.json"
+  },
+  {
+    "case_variant": "C1_rerank",
+    "call_id": "396985dccaa441109b75cfc9c82fbfd7",
+    "attempt": 1,
+    "stage": "faithfulness_verdicts",
+    "judgment": {
+      "statements": [
+        {
+          "statement": "El estudio contable necesita que el cliente proporcione facturas de venta emitidas para liquidar el IVA.",
+          "reason": "El texto menciona explícitamente que para liquidar el IVA, el estudio necesita las facturas de venta emitidas en el período.",
+          "verdict": 1
+        },
+        {
+          "statement": "El estudio contable necesita que el cliente proporcione facturas de compra recibidas para liquidar el IVA.",
+          "reason": "El texto menciona explícitamente que para liquidar el IVA, el estudio necesita las facturas de compra recibidas.",
+          "verdict": 1
+        },
+        {
+          "statement": "El estudio contable necesita que el cliente proporcione notas de crédito y débito emitidas y recibidas para liquidar el IVA.",
+          "reason": "El texto menciona explícitamente que para liquidar el IVA, el estudio necesita las notas de crédito y de débito tanto emitidas como recibidas.",
+          "verdict": 1
+        },
+        {
+          "statement": "El estudio contable necesita que el cliente proporcione comprobantes de retenciones y percepciones sufridas para liquidar el IVA.",
+          "reason": "El texto menciona explícitamente que para liquidar el IVA, el estudio necesita los comprobantes de retenciones y percepciones sufridas.",
+          "verdict": 1
+        },
+        {
+          "statement": "El estudio contable necesita que el cliente proporcione tickets de controlador fiscal si el cliente utiliza ese medio para liquidar el IVA.",
+          "reason": "El texto menciona explícitamente que para liquidar el IVA, el estudio necesita los tickets de controlador fiscal si el cliente factura por ese medio.",
+          "verdict": 1
+        },
+        {
+          "statement": "El IVA es un impuesto mensual.",
+          "reason": "El texto afirma explícitamente que el IVA es un impuesto mensual.",
+          "verdict": 1
+        },
+        {
+          "statement": "El contribuyente presenta la declaración jurada del IVA en el mes siguiente al mes liquidado.",
+          "reason": "El texto indica que el responsable inscripto presenta la declaración jurada del período en el mismo mes siguiente al que liquida.",
+          "verdict": 1
+        },
+        {
+          "statement": "El contribuyente paga el saldo del IVA en el mes siguiente al mes liquidado.",
+          "reason": "El texto indica que el responsable inscripto paga el saldo en el mismo mes siguiente al que liquida.",
+          "verdict": 1
+        },
+        {
+          "statement": "La fecha exacta de vencimiento del IVA depende de la terminación del CUIT del contribuyente.",
+          "reason": "El texto menciona que la fecha exacta depende de la terminación del CUIT.",
+          "verdict": 1
+        },
+        {
+          "statement": "Las fechas de vencimiento del IVA se escalonan de menor a mayor según la terminación del CUIT.",
+          "reason": "El texto indica que las terminaciones más bajas vencen primero y las más altas cierran el escalonamiento unos días después.",
+          "verdict": 1
+        },
+        {
+          "statement": "Si el vencimiento del IVA cae en sábado, domingo o feriado, el plazo se traslada al primer día hábil siguiente.",
+          "reason": "El texto establece explícitamente esta regla para los vencimientos del IVA.",
+          "verdict": 1
+        },
+        {
+          "statement": "La presentación de la declaración jurada del IVA y el pago del IVA son actos distintos.",
+          "reason": "El texto afirma explícitamente que presentar la declaración jurada y pagar el saldo son dos actos distintos.",
+          "verdict": 1
+        },
+        {
+          "statement": "El empleador debe presentar mensualmente una declaración jurada de cargas sociales.",
+          "reason": "El texto indica que el empleador presenta mensualmente la declaración jurada de cargas sociales.",
+          "verdict": 1
+        },
+        {
+          "statement": "La declaración jurada de cargas sociales informa la nómina del período.",
+          "reason": "El texto menciona que la declaración jurada informa la nómina del período.",
+          "verdict": 1
+        },
+        {
+          "statement": "La declaración jurada de cargas sociales liquida aportes y contribuciones.",
+          "reason": "El texto menciona que la declaración jurada liquida aportes y contribuciones.",
+          "verdict": 1
+        },
+        {
+          "statement": "Los aportes son retenidos del sueldo bruto del trabajador.",
+          "reason": "El texto indica que los aportes los retiene el empleador del sueldo bruto del trabajador.",
+          "verdict": 1
+        },
+        {
+          "statement": "Las contribuciones son pagadas por el empleador.",
+          "reason": "El texto indica que las contribuciones las paga el empleador por encima del sueldo.",
+          "verdict": 1
+        },
+        {
+          "statement": "El vencimiento de la presentación y el pago de las cargas sociales ocurre en la segunda semana del mes siguiente al período liquidado.",
+          "reason": "El texto menciona que el vencimiento de la presentación y del pago cae en la segunda semana del mes siguiente al período liquidado.",
+          "verdict": 1
+        },
+        {
+          "statement": "El vencimiento de las cargas sociales está escalonado por la terminación del CUIT del empleador.",
+          "reason": "El texto menciona que el vencimiento también se escalona por terminación de CUIT.",
+          "verdict": 1
+        },
+        {
+          "statement": "El empleador tiene la obligación de mantener la nómina actualizada.",
+          "reason": "El texto indica que la declaración jurada exige tener la nómina actualizada.",
+          "verdict": 1
+        },
+        {
+          "statement": "El empleador debe registrar las altas y bajas de empleados antes de liquidar las cargas sociales.",
+          "reason": "El texto indica que las altas y bajas de empleados deben registrarse antes de liquidar.",
+          "verdict": 1
+        },
+        {
+          "statement": "El pago de las cargas sociales fuera de término genera intereses.",
+          "reason": "El texto menciona que el pago fuera de término genera intereses.",
+          "verdict": 1
+        },
+        {
+          "statement": "El pago de las cargas sociales fuera de término bloquea la obtención del certificado de libre deuda previsional.",
+          "reason": "El texto menciona que el pago fuera de término bloquea la obtención del certificado de libre deuda previsional.",
+          "verdict": 1
+        }
+      ]
+    },
+    "raw_text": "{\n  \"statements\": [\n    {\n      \"statement\": \"El estudio contable necesita que el cliente proporcione facturas de venta emitidas para liquidar el IVA.\",\n      \"reason\": \"El texto menciona explícitamente que para liquidar el IVA, el estudio necesita las facturas de venta emitidas en el período.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El estudio contable necesita que el cliente proporcione facturas de compra recibidas para liquidar el IVA.\",\n      \"reason\": \"El texto menciona explícitamente que para liquidar el IVA, el estudio necesita las facturas de compra recibidas.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El estudio contable necesita que el cliente proporcione notas de crédito y débito emitidas y recibidas para liquidar el IVA.\",\n      \"reason\": \"El texto menciona explícitamente que para liquidar el IVA, el estudio necesita las notas de crédito y de débito tanto emitidas como recibidas.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El estudio contable necesita que el cliente proporcione comprobantes de retenciones y percepciones sufridas para liquidar el IVA.\",\n      \"reason\": \"El texto menciona explícitamente que para liquidar el IVA, el estudio necesita los comprobantes de retenciones y percepciones sufridas.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El estudio contable necesita que el cliente proporcione tickets de controlador fiscal si el cliente utiliza ese medio para liquidar el IVA.\",\n      \"reason\": \"El texto menciona explícitamente que para liquidar el IVA, el estudio necesita los tickets de controlador fiscal si el cliente factura por ese medio.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El IVA es un impuesto mensual.\",\n      \"reason\": \"El texto afirma explícitamente que el IVA es un impuesto mensual.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El contribuyente presenta la declaración jurada del IVA en el mes siguiente al mes liquidado.\",\n      \"reason\": \"El texto indica que el responsable inscripto presenta la declaración jurada del período en el mismo mes siguiente al que liquida.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El contribuyente paga el saldo del IVA en el mes siguiente al mes liquidado.\",\n      \"reason\": \"El texto indica que el responsable inscripto paga el saldo en el mismo mes siguiente al que liquida.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"La fecha exacta de vencimiento del IVA depende de la terminación del CUIT del contribuyente.\",\n      \"reason\": \"El texto menciona que la fecha exacta depende de la terminación del CUIT.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"Las fechas de vencimiento del IVA se escalonan de menor a mayor según la terminación del CUIT.\",\n      \"reason\": \"El texto indica que las terminaciones más bajas vencen primero y las más altas cierran el escalonamiento unos días después.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"Si el vencimiento del IVA cae en sábado, domingo o feriado, el plazo se traslada al primer día hábil siguiente.\",\n      \"reason\": \"El texto establece explícitamente esta regla para los vencimientos del IVA.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"La presentación de la declaración jurada del IVA y el pago del IVA son actos distintos.\",\n      \"reason\": \"El texto afirma explícitamente que presentar la declaración jurada y pagar el saldo son dos actos distintos.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El empleador debe presentar mensualmente una declaración jurada de cargas sociales.\",\n      \"reason\": \"El texto indica que el empleador presenta mensualmente la declaración jurada de cargas sociales.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"La declaración jurada de cargas sociales informa la nómina del período.\",\n      \"reason\": \"El texto menciona que la declaración jurada informa la nómina del período.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"La declaración jurada de cargas sociales liquida aportes y contribuciones.\",\n      \"reason\": \"El texto menciona que la declaración jurada liquida aportes y contribuciones.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"Los aportes son retenidos del sueldo bruto del trabajador.\",\n      \"reason\": \"El texto indica que los aportes los retiene el empleador del sueldo bruto del trabajador.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"Las contribuciones son pagadas por el empleador.\",\n      \"reason\": \"El texto indica que las contribuciones las paga el empleador por encima del sueldo.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El vencimiento de la presentación y el pago de las cargas sociales ocurre en la segunda semana del mes siguiente al período liquidado.\",\n      \"reason\": \"El texto menciona que el vencimiento de la presentación y del pago cae en la segunda semana del mes siguiente al período liquidado.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El vencimiento de las cargas sociales está escalonado por la terminación del CUIT del empleador.\",\n      \"reason\": \"El texto menciona que el vencimiento también se escalona por terminación de CUIT.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El empleador tiene la obligación de mantener la nómina actualizada.\",\n      \"reason\": \"El texto indica que la declaración jurada exige tener la nómina actualizada.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El empleador debe registrar las altas y bajas de empleados antes de liquidar las cargas sociales.\",\n      \"reason\": \"El texto indica que las altas y bajas de empleados deben registrarse antes de liquidar.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El pago de las cargas sociales fuera de término genera intereses.\",\n      \"reason\": \"El texto menciona que el pago fuera de término genera intereses.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El pago de las cargas sociales fuera de término bloquea la obtención del certificado de libre deuda previsional.\",\n      \"reason\": \"El texto menciona que el pago fuera de término bloquea la obtención del certificado de libre deuda previsional.\",\n      \"verdict\": 1\n    }\n  ]\n}",
+    "path": "evaluacion/C1_rerank/calls/396985dccaa441109b75cfc9c82fbfd7_1.json"
+  },
+  {
+    "case_variant": "C1_rerank",
+    "call_id": "3fc25d6db03d48caa00647110fb2e95f",
+    "attempt": 1,
+    "stage": "answer_relevancy_question",
+    "judgment": {
+      "question": "¿Qué documentación se requiere para liquidar el IVA y cuáles son las obligaciones y plazos para la presentación del IVA y las cargas sociales?",
+      "noncommittal": 0
+    },
+    "raw_text": "{\n  \"question\": \"¿Qué documentación se requiere para liquidar el IVA y cuáles son las obligaciones y plazos para la presentación del IVA y las cargas sociales?\",\n  \"noncommittal\": 0\n}",
+    "path": "evaluacion/C1_rerank/calls/3fc25d6db03d48caa00647110fb2e95f_1.json"
+  },
+  {
+    "case_variant": "C1_rerank",
+    "call_id": "8a558ca812a048748a11d1d29965e916",
+    "attempt": 1,
+    "stage": "answer_relevancy_question",
+    "judgment": {
+      "question": "¿Qué documentación se requiere para liquidar el IVA y cuáles son las obligaciones y plazos para la presentación del IVA y las cargas sociales?",
+      "noncommittal": 0
+    },
+    "raw_text": "{\n  \"question\": \"¿Qué documentación se requiere para liquidar el IVA y cuáles son las obligaciones y plazos para la presentación del IVA y las cargas sociales?\",\n  \"noncommittal\": 0\n}",
+    "path": "evaluacion/C1_rerank/calls/8a558ca812a048748a11d1d29965e916_1.json"
+  },
+  {
+    "case_variant": "C1_rerank",
+    "call_id": "b4ebc3f2436a403b9f74e5b6a018fc84",
+    "attempt": 1,
+    "stage": "answer_relevancy_question",
+    "judgment": {
+      "question": "¿Qué documentación se requiere para liquidar el IVA y cuáles son las obligaciones y plazos para la presentación del IVA y las cargas sociales?",
+      "noncommittal": 0
+    },
+    "raw_text": "{\n  \"question\": \"¿Qué documentación se requiere para liquidar el IVA y cuáles son las obligaciones y plazos para la presentación del IVA y las cargas sociales?\",\n  \"noncommittal\": 0\n}",
+    "path": "evaluacion/C1_rerank/calls/b4ebc3f2436a403b9f74e5b6a018fc84_1.json"
+  },
+  {
+    "case_variant": "C1_rerank",
+    "call_id": "c80e7d4ec03e4b21b0dc01e86f5e77aa",
+    "attempt": 1,
+    "stage": "context_precision_verdict",
+    "judgment": {
+      "reason": "The context provided only covers the basics of IVA (Value Added Tax) and its payment schedule. It does not contain any information regarding the employer's obligations for social security contributions (cargas sociales), which is a significant part of the user's question. The answer provided includes information not present in the context.",
+      "verdict": 0
+    },
+    "raw_text": "{\n    \"reason\": \"The context provided only covers the basics of IVA (Value Added Tax) and its payment schedule. It does not contain any information regarding the employer's obligations for social security contributions (cargas sociales), which is a significant part of the user's question. The answer provided includes information not present in the context.\",\n    \"verdict\": 0\n}",
+    "path": "evaluacion/C1_rerank/calls/c80e7d4ec03e4b21b0dc01e86f5e77aa_1.json"
+  },
+  {
+    "case_variant": "C1_rerank",
+    "call_id": "f151c00b2b3a4a5b8074c0264925f51d",
+    "attempt": 1,
+    "stage": "context_precision_verdict",
+    "judgment": {
+      "reason": "The context provided only covers the obligations regarding social security charges (cargas sociales). It does not contain any information regarding the liquidation of VAT (IVA), such as the documents required or the specific procedures for filing and payment, which were part of the user's question.",
+      "verdict": 0
+    },
+    "raw_text": "{\n    \"reason\": \"The context provided only covers the obligations regarding social security charges (cargas sociales). It does not contain any information regarding the liquidation of VAT (IVA), such as the documents required or the specific procedures for filing and payment, which were part of the user's question.\",\n    \"verdict\": 0\n}",
+    "path": "evaluacion/C1_rerank/calls/f151c00b2b3a4a5b8074c0264925f51d_1.json"
+  },
+  {
+    "case_variant": "C2_basic",
+    "call_id": "0d07b91572ce4421949a2d023125f11e",
+    "attempt": 1,
+    "stage": "faithfulness_statements",
+    "judgment": {
+      "statements": [
+        "El estudio requiere el DNI del titular frente y dorso para dar de alta el Monotributo.",
+        "El estudio requiere la constancia de CUIT o el número de CUIL para dar de alta el Monotributo.",
+        "El estudio requiere una clave fiscal con nivel de seguridad suficiente para operar para dar de alta el Monotributo.",
+        "El estudio requiere el domicilio fiscal con un comprobante que lo respalde para dar de alta el Monotributo.",
+        "El comprobante del domicilio fiscal puede ser una factura de un servicio a nombre del titular o un contrato de alquiler.",
+        "El estudio requiere una estimación de los ingresos brutos anuales de la actividad para dar de alta el Monotributo.",
+        "El estudio requiere la definición de la actividad económica a declarar para determinar el código de actividad.",
+        "La definición de la actividad económica sirve para determinar si la actividad es venta de cosas muebles o prestación de servicios.",
+        "El estudio requiere la superficie afectada y el consumo eléctrico anual en caso de tener un local.",
+        "La base de conocimiento no posee información suficiente para responder qué incluye la cuota del Monotributo."
+      ]
+    },
+    "raw_text": "{\n  \"statements\": [\n    \"El estudio requiere el DNI del titular frente y dorso para dar de alta el Monotributo.\",\n    \"El estudio requiere la constancia de CUIT o el número de CUIL para dar de alta el Monotributo.\",\n    \"El estudio requiere una clave fiscal con nivel de seguridad suficiente para operar para dar de alta el Monotributo.\",\n    \"El estudio requiere el domicilio fiscal con un comprobante que lo respalde para dar de alta el Monotributo.\",\n    \"El comprobante del domicilio fiscal puede ser una factura de un servicio a nombre del titular o un contrato de alquiler.\",\n    \"El estudio requiere una estimación de los ingresos brutos anuales de la actividad para dar de alta el Monotributo.\",\n    \"El estudio requiere la definición de la actividad económica a declarar para determinar el código de actividad.\",\n    \"La definición de la actividad económica sirve para determinar si la actividad es venta de cosas muebles o prestación de servicios.\",\n    \"El estudio requiere la superficie afectada y el consumo eléctrico anual en caso de tener un local.\",\n    \"La base de conocimiento no posee información suficiente para responder qué incluye la cuota del Monotributo.\"\n  ]\n}",
+    "path": "evaluacion/C2_basic/calls/0d07b91572ce4421949a2d023125f11e_1.json"
+  },
+  {
+    "case_variant": "C2_basic",
+    "call_id": "15f24d93c34b4d66bb47d43bc5f3b6b5",
+    "attempt": 1,
+    "stage": "answer_relevancy_question",
+    "judgment": {
+      "question": "¿Qué documentación se requiere para dar de alta el Monotributo y qué incluye la cuota a pagar?",
+      "noncommittal": 1
+    },
+    "raw_text": "{\n  \"question\": \"¿Qué documentación se requiere para dar de alta el Monotributo y qué incluye la cuota a pagar?\",\n  \"noncommittal\": 1\n}",
+    "path": "evaluacion/C2_basic/calls/15f24d93c34b4d66bb47d43bc5f3b6b5_1.json"
+  },
+  {
+    "case_variant": "C2_basic",
+    "call_id": "1c77df688f844d74938c1085c8a6e189",
+    "attempt": 1,
+    "stage": "answer_relevancy_question",
+    "judgment": {
+      "question": "¿Qué documentación se requiere para dar de alta el Monotributo y qué incluye la cuota a pagar?",
+      "noncommittal": 1
+    },
+    "raw_text": "{\n  \"question\": \"¿Qué documentación se requiere para dar de alta el Monotributo y qué incluye la cuota a pagar?\",\n  \"noncommittal\": 1\n}",
+    "path": "evaluacion/C2_basic/calls/1c77df688f844d74938c1085c8a6e189_1.json"
+  },
+  {
+    "case_variant": "C2_basic",
+    "call_id": "28bab9a1392d45cf8b9a648afd671035",
+    "attempt": 1,
+    "stage": "answer_relevancy_question",
+    "judgment": {
+      "question": "¿Qué documentación se requiere para dar de alta el Monotributo y qué incluye la cuota a pagar?",
+      "noncommittal": 1
+    },
+    "raw_text": "{\n  \"question\": \"¿Qué documentación se requiere para dar de alta el Monotributo y qué incluye la cuota a pagar?\",\n  \"noncommittal\": 1\n}",
+    "path": "evaluacion/C2_basic/calls/28bab9a1392d45cf8b9a648afd671035_1.json"
+  },
+  {
+    "case_variant": "C2_basic",
+    "call_id": "369a7ad2d4484fc5893fc65e75364c8c",
+    "attempt": 1,
+    "stage": "context_recall_classifications",
+    "judgment": {
+      "classifications": [
+        {
+          "statement": "Para el alta necesitás DNI frente y dorso, constancia de CUIT o número de CUIL, clave fiscal con seguridad suficiente, domicilio fiscal respaldado por factura de servicio a tu nombre o contrato de alquiler y estimación de ingresos brutos anuales.",
+          "reason": "Esta información está explícitamente detallada en el contexto proporcionado.",
+          "attributed": 1
+        },
+        {
+          "statement": "También debés definir la actividad económica y si vendés cosas muebles o prestás servicios, porque difieren los topes; si tenés local, informar superficie afectada y consumo eléctrico anual.",
+          "reason": "El contexto menciona la necesidad de definir la actividad, el tipo de actividad y los parámetros de categorización para locales.",
+          "attributed": 1
+        },
+        {
+          "statement": "La categoría inicial se asigna por ingresos estimados y después se recategoriza según los reales.",
+          "reason": "Esta afirmación se encuentra directamente en el texto del contexto.",
+          "attributed": 1
+        },
+        {
+          "statement": "La cuota mensual del Monotributo integra el impuesto integrado, el aporte jubilatorio y el aporte a la obra social.",
+          "reason": "El contexto no menciona qué componentes integran la cuota mensual del Monotributo.",
+          "attributed": 0
+        }
+      ]
+    },
+    "raw_text": "{\n  \"classifications\": [\n    {\n      \"statement\": \"Para el alta necesitás DNI frente y dorso, constancia de CUIT o número de CUIL, clave fiscal con seguridad suficiente, domicilio fiscal respaldado por factura de servicio a tu nombre o contrato de alquiler y estimación de ingresos brutos anuales.\",\n      \"reason\": \"Esta información está explícitamente detallada en el contexto proporcionado.\",\n      \"attributed\": 1\n    },\n    {\n      \"statement\": \"También debés definir la actividad económica y si vendés cosas muebles o prestás servicios, porque difieren los topes; si tenés local, informar superficie afectada y consumo eléctrico anual.\",\n      \"reason\": \"El contexto menciona la necesidad de definir la actividad, el tipo de actividad y los parámetros de categorización para locales.\",\n      \"attributed\": 1\n    },\n    {\n      \"statement\": \"La categoría inicial se asigna por ingresos estimados y después se recategoriza según los reales.\",\n      \"reason\": \"Esta afirmación se encuentra directamente en el texto del contexto.\",\n      \"attributed\": 1\n    },\n    {\n      \"statement\": \"La cuota mensual del Monotributo integra el impuesto integrado, el aporte jubilatorio y el aporte a la obra social.\",\n      \"reason\": \"El contexto no menciona qué componentes integran la cuota mensual del Monotributo.\",\n      \"attributed\": 0\n    }\n  ]\n}",
+    "path": "evaluacion/C2_basic/calls/369a7ad2d4484fc5893fc65e75364c8c_1.json"
+  },
+  {
+    "case_variant": "C2_basic",
+    "call_id": "8754cd09575c42b68c57ab5d731bbd1e",
+    "attempt": 1,
+    "stage": "faithfulness_verdicts",
+    "judgment": {
+      "statements": [
+        {
+          "statement": "El estudio requiere el DNI del titular frente y dorso para dar de alta el Monotributo.",
+          "reason": "El texto menciona explícitamente que el estudio pide el DNI del titular (frente y dorso).",
+          "verdict": 1
+        },
+        {
+          "statement": "El estudio requiere la constancia de CUIT o el número de CUIL para dar de alta el Monotributo.",
+          "reason": "El texto menciona explícitamente que el estudio pide la constancia de CUIT o número de CUIL.",
+          "verdict": 1
+        },
+        {
+          "statement": "El estudio requiere una clave fiscal con nivel de seguridad suficiente para operar para dar de alta el Monotributo.",
+          "reason": "El texto menciona explícitamente que el estudio pide la clave fiscal con nivel de seguridad suficiente para operar.",
+          "verdict": 1
+        },
+        {
+          "statement": "El estudio requiere el domicilio fiscal con un comprobante que lo respalde para dar de alta el Monotributo.",
+          "reason": "El texto menciona explícitamente que el estudio pide el domicilio fiscal con un comprobante que lo respalde.",
+          "verdict": 1
+        },
+        {
+          "statement": "El comprobante del domicilio fiscal puede ser una factura de un servicio a nombre del titular o un contrato de alquiler.",
+          "reason": "El texto especifica que el comprobante puede ser una factura de un servicio a nombre del titular o un contrato de alquiler.",
+          "verdict": 1
+        },
+        {
+          "statement": "El estudio requiere una estimación de los ingresos brutos anuales de la actividad para dar de alta el Monotributo.",
+          "reason": "El texto menciona explícitamente que el estudio pide una estimación de los ingresos brutos anuales.",
+          "verdict": 1
+        },
+        {
+          "statement": "El estudio requiere la definición de la actividad económica a declarar para determinar el código de actividad.",
+          "reason": "El texto indica que hace falta definir la actividad económica porque de eso depende el código de actividad.",
+          "verdict": 1
+        },
+        {
+          "statement": "La definición de la actividad económica sirve para determinar si la actividad es venta de cosas muebles o prestación de servicios.",
+          "reason": "El texto menciona que se debe definir la actividad para saber si es venta de cosas muebles o prestación de servicios, ya que los topes difieren.",
+          "verdict": 1
+        },
+        {
+          "statement": "El estudio requiere la superficie afectada y el consumo eléctrico anual en caso de tener un local.",
+          "reason": "El texto indica que si el titular tiene local, se piden la superficie afectada y el consumo eléctrico anual.",
+          "verdict": 1
+        },
+        {
+          "statement": "La base de conocimiento no posee información suficiente para responder qué incluye la cuota del Monotributo.",
+          "reason": "El texto proporcionado no menciona en ningún momento qué incluye la cuota del Monotributo.",
+          "verdict": 1
+        }
+      ]
+    },
+    "raw_text": "{\n  \"statements\": [\n    {\n      \"statement\": \"El estudio requiere el DNI del titular frente y dorso para dar de alta el Monotributo.\",\n      \"reason\": \"El texto menciona explícitamente que el estudio pide el DNI del titular (frente y dorso).\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El estudio requiere la constancia de CUIT o el número de CUIL para dar de alta el Monotributo.\",\n      \"reason\": \"El texto menciona explícitamente que el estudio pide la constancia de CUIT o número de CUIL.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El estudio requiere una clave fiscal con nivel de seguridad suficiente para operar para dar de alta el Monotributo.\",\n      \"reason\": \"El texto menciona explícitamente que el estudio pide la clave fiscal con nivel de seguridad suficiente para operar.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El estudio requiere el domicilio fiscal con un comprobante que lo respalde para dar de alta el Monotributo.\",\n      \"reason\": \"El texto menciona explícitamente que el estudio pide el domicilio fiscal con un comprobante que lo respalde.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El comprobante del domicilio fiscal puede ser una factura de un servicio a nombre del titular o un contrato de alquiler.\",\n      \"reason\": \"El texto especifica que el comprobante puede ser una factura de un servicio a nombre del titular o un contrato de alquiler.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El estudio requiere una estimación de los ingresos brutos anuales de la actividad para dar de alta el Monotributo.\",\n      \"reason\": \"El texto menciona explícitamente que el estudio pide una estimación de los ingresos brutos anuales.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El estudio requiere la definición de la actividad económica a declarar para determinar el código de actividad.\",\n      \"reason\": \"El texto indica que hace falta definir la actividad económica porque de eso depende el código de actividad.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"La definición de la actividad económica sirve para determinar si la actividad es venta de cosas muebles o prestación de servicios.\",\n      \"reason\": \"El texto menciona que se debe definir la actividad para saber si es venta de cosas muebles o prestación de servicios, ya que los topes difieren.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El estudio requiere la superficie afectada y el consumo eléctrico anual en caso de tener un local.\",\n      \"reason\": \"El texto indica que si el titular tiene local, se piden la superficie afectada y el consumo eléctrico anual.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"La base de conocimiento no posee información suficiente para responder qué incluye la cuota del Monotributo.\",\n      \"reason\": \"El texto proporcionado no menciona en ningún momento qué incluye la cuota del Monotributo.\",\n      \"verdict\": 1\n    }\n  ]\n}",
+    "path": "evaluacion/C2_basic/calls/8754cd09575c42b68c57ab5d731bbd1e_1.json"
+  },
+  {
+    "case_variant": "C2_basic",
+    "call_id": "f31888c4c1614717af2bd05d055a0b71",
+    "attempt": 1,
+    "stage": "context_precision_verdict",
+    "judgment": {
+      "reason": "The context provides the necessary documentation for the Monotributo registration, but it does not contain information regarding what the monthly fee includes (tax, pension, and health insurance). Therefore, the answer includes information not present in the provided context.",
+      "verdict": 0
+    },
+    "raw_text": "{\n    \"reason\": \"The context provides the necessary documentation for the Monotributo registration, but it does not contain information regarding what the monthly fee includes (tax, pension, and health insurance). Therefore, the answer includes information not present in the provided context.\",\n    \"verdict\": 0\n}",
+    "path": "evaluacion/C2_basic/calls/f31888c4c1614717af2bd05d055a0b71_1.json"
+  },
+  {
+    "case_variant": "C2_rerank",
+    "call_id": "09fc1896a07e4d6b84a9ba179d24df50",
+    "attempt": 1,
+    "stage": "faithfulness_verdicts",
+    "judgment": {
+      "statements": [
+        {
+          "statement": "El titular necesita el DNI frente y dorso para dar de alta el Monotributo.",
+          "reason": "El texto menciona explícitamente que se pide el DNI del titular (frente y dorso).",
+          "verdict": 1
+        },
+        {
+          "statement": "El titular necesita la constancia de CUIT o el número de CUIL para dar de alta el Monotributo.",
+          "reason": "El texto menciona explícitamente que se pide la constancia de CUIT o número de CUIL.",
+          "verdict": 1
+        },
+        {
+          "statement": "El titular necesita una clave fiscal con nivel de seguridad suficiente para operar para dar de alta el Monotributo.",
+          "reason": "El texto menciona explícitamente que se pide la clave fiscal con nivel de seguridad suficiente para operar.",
+          "verdict": 1
+        },
+        {
+          "statement": "El titular necesita un domicilio fiscal con un comprobante que lo respalde para dar de alta el Monotributo.",
+          "reason": "El texto menciona explícitamente que se pide el domicilio fiscal con un comprobante que lo respalde.",
+          "verdict": 1
+        },
+        {
+          "statement": "El comprobante del domicilio fiscal puede ser una factura de un servicio a nombre del titular o un contrato de alquiler.",
+          "reason": "El texto especifica que el comprobante puede ser una factura de un servicio a nombre del titular o un contrato de alquiler.",
+          "verdict": 1
+        },
+        {
+          "statement": "El titular necesita una estimación de los ingresos brutos anuales de la actividad para dar de alta el Monotributo.",
+          "reason": "El texto menciona explícitamente que se pide una estimación de los ingresos brutos anuales de la actividad.",
+          "verdict": 1
+        },
+        {
+          "statement": "El titular necesita la definición de la actividad económica a declarar para dar de alta el Monotributo.",
+          "reason": "El texto menciona que hace falta definir la actividad económica que se va a declarar.",
+          "verdict": 1
+        },
+        {
+          "statement": "El titular debe especificar si la actividad económica consiste en la venta de cosas muebles o en la prestación de servicios.",
+          "reason": "El texto indica que hace falta definir si la actividad es venta de cosas muebles o prestación de servicios.",
+          "verdict": 1
+        },
+        {
+          "statement": "El titular necesita la superficie afectada y el consumo eléctrico anual si el titular tiene un local.",
+          "reason": "El texto menciona que si el titular tiene local, se piden la superficie afectada y el consumo eléctrico anual.",
+          "verdict": 1
+        },
+        {
+          "statement": "La cuota mensual del Monotributo integra el impuesto integrado.",
+          "reason": "El texto indica que la cuota mensual integra el impuesto integrado.",
+          "verdict": 1
+        },
+        {
+          "statement": "La cuota mensual del Monotributo integra el aporte jubilatorio.",
+          "reason": "El texto indica que la cuota mensual integra el aporte jubilatorio.",
+          "verdict": 1
+        },
+        {
+          "statement": "La cuota mensual del Monotributo integra el aporte a la obra social.",
+          "reason": "El texto indica que la cuota mensual integra el aporte a la obra social.",
+          "verdict": 1
+        }
+      ]
+    },
+    "raw_text": "{\n  \"statements\": [\n    {\n      \"statement\": \"El titular necesita el DNI frente y dorso para dar de alta el Monotributo.\",\n      \"reason\": \"El texto menciona explícitamente que se pide el DNI del titular (frente y dorso).\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El titular necesita la constancia de CUIT o el número de CUIL para dar de alta el Monotributo.\",\n      \"reason\": \"El texto menciona explícitamente que se pide la constancia de CUIT o número de CUIL.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El titular necesita una clave fiscal con nivel de seguridad suficiente para operar para dar de alta el Monotributo.\",\n      \"reason\": \"El texto menciona explícitamente que se pide la clave fiscal con nivel de seguridad suficiente para operar.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El titular necesita un domicilio fiscal con un comprobante que lo respalde para dar de alta el Monotributo.\",\n      \"reason\": \"El texto menciona explícitamente que se pide el domicilio fiscal con un comprobante que lo respalde.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El comprobante del domicilio fiscal puede ser una factura de un servicio a nombre del titular o un contrato de alquiler.\",\n      \"reason\": \"El texto especifica que el comprobante puede ser una factura de un servicio a nombre del titular o un contrato de alquiler.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El titular necesita una estimación de los ingresos brutos anuales de la actividad para dar de alta el Monotributo.\",\n      \"reason\": \"El texto menciona explícitamente que se pide una estimación de los ingresos brutos anuales de la actividad.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El titular necesita la definición de la actividad económica a declarar para dar de alta el Monotributo.\",\n      \"reason\": \"El texto menciona que hace falta definir la actividad económica que se va a declarar.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El titular debe especificar si la actividad económica consiste en la venta de cosas muebles o en la prestación de servicios.\",\n      \"reason\": \"El texto indica que hace falta definir si la actividad es venta de cosas muebles o prestación de servicios.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El titular necesita la superficie afectada y el consumo eléctrico anual si el titular tiene un local.\",\n      \"reason\": \"El texto menciona que si el titular tiene local, se piden la superficie afectada y el consumo eléctrico anual.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"La cuota mensual del Monotributo integra el impuesto integrado.\",\n      \"reason\": \"El texto indica que la cuota mensual integra el impuesto integrado.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"La cuota mensual del Monotributo integra el aporte jubilatorio.\",\n      \"reason\": \"El texto indica que la cuota mensual integra el aporte jubilatorio.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"La cuota mensual del Monotributo integra el aporte a la obra social.\",\n      \"reason\": \"El texto indica que la cuota mensual integra el aporte a la obra social.\",\n      \"verdict\": 1\n    }\n  ]\n}",
+    "path": "evaluacion/C2_rerank/calls/09fc1896a07e4d6b84a9ba179d24df50_1.json"
+  },
+  {
+    "case_variant": "C2_rerank",
+    "call_id": "0e5116c2d20c49d6877bf9c14a707e7c",
+    "attempt": 1,
+    "stage": "context_precision_verdict",
+    "judgment": {
+      "reason": "The context provides the necessary documentation for the registration process, but it does not contain information regarding what the monthly fee includes. The answer includes information about the components of the monthly fee (tax, pension, and health insurance) which is not present in the provided context.",
+      "verdict": 0
+    },
+    "raw_text": "{\n    \"reason\": \"The context provides the necessary documentation for the registration process, but it does not contain information regarding what the monthly fee includes. The answer includes information about the components of the monthly fee (tax, pension, and health insurance) which is not present in the provided context.\",\n    \"verdict\": 0\n}",
+    "path": "evaluacion/C2_rerank/calls/0e5116c2d20c49d6877bf9c14a707e7c_1.json"
+  },
+  {
+    "case_variant": "C2_rerank",
+    "call_id": "25a1b8002abe4a83943268aa2a1aed60",
+    "attempt": 1,
+    "stage": "context_precision_verdict",
+    "judgment": {
+      "reason": "The context provided information about the activity classification and categorization parameters, but it did not contain the specific list of required documentation (DNI, CUIT/CUIL, fiscal address proof, etc.) nor the breakdown of what the monthly quota includes (tax, pension, health insurance). The answer includes significant information not present in the provided context.",
+      "verdict": 0
+    },
+    "raw_text": "{\n  \"reason\": \"The context provided information about the activity classification and categorization parameters, but it did not contain the specific list of required documentation (DNI, CUIT/CUIL, fiscal address proof, etc.) nor the breakdown of what the monthly quota includes (tax, pension, health insurance). The answer includes significant information not present in the provided context.\",\n  \"verdict\": 0\n}",
+    "path": "evaluacion/C2_rerank/calls/25a1b8002abe4a83943268aa2a1aed60_1.json"
+  },
+  {
+    "case_variant": "C2_rerank",
+    "call_id": "3d75fd538bd04884b711fe9d1628d16d",
+    "attempt": 1,
+    "stage": "answer_relevancy_question",
+    "judgment": {
+      "question": "¿Qué documentación se necesita para dar de alta el Monotributo y qué componentes integran la cuota mensual?",
+      "noncommittal": 0
+    },
+    "raw_text": "{\n  \"question\": \"¿Qué documentación se necesita para dar de alta el Monotributo y qué componentes integran la cuota mensual?\",\n  \"noncommittal\": 0\n}",
+    "path": "evaluacion/C2_rerank/calls/3d75fd538bd04884b711fe9d1628d16d_1.json"
+  },
+  {
+    "case_variant": "C2_rerank",
+    "call_id": "5dea2cce74b047b2bc9dbc06c6c06b5c",
+    "attempt": 1,
+    "stage": "answer_relevancy_question",
+    "judgment": {
+      "question": "¿Qué documentación se necesita para dar de alta el Monotributo y qué componentes integran la cuota mensual?",
+      "noncommittal": 0
+    },
+    "raw_text": "{\n  \"question\": \"¿Qué documentación se necesita para dar de alta el Monotributo y qué componentes integran la cuota mensual?\",\n  \"noncommittal\": 0\n}",
+    "path": "evaluacion/C2_rerank/calls/5dea2cce74b047b2bc9dbc06c6c06b5c_1.json"
+  },
+  {
+    "case_variant": "C2_rerank",
+    "call_id": "60c17bb37ad7474b8b99cf413ebd8dbf",
+    "attempt": 1,
+    "stage": "context_precision_verdict",
+    "judgment": {
+      "reason": "The context provided information about the components of the monthly Monotributo fee, but it did not contain the specific documentation requirements for registration (DNI, CUIT, fiscal key, etc.) mentioned in the answer. Therefore, the context was only partially useful.",
+      "verdict": 0
+    },
+    "raw_text": "{\n    \"reason\": \"The context provided information about the components of the monthly Monotributo fee, but it did not contain the specific documentation requirements for registration (DNI, CUIT, fiscal key, etc.) mentioned in the answer. Therefore, the context was only partially useful.\",\n    \"verdict\": 0\n}",
+    "path": "evaluacion/C2_rerank/calls/60c17bb37ad7474b8b99cf413ebd8dbf_1.json"
+  },
+  {
+    "case_variant": "C2_rerank",
+    "call_id": "b4eb818a8e34442e9c994d925a6b2589",
+    "attempt": 2,
+    "stage": "context_recall_classifications",
+    "judgment": {
+      "classifications": [
+        {
+          "statement": "Para el alta necesitás DNI frente y dorso, constancia de CUIT o número de CUIL, clave fiscal con seguridad suficiente, domicilio fiscal respaldado por factura de servicio a tu nombre o contrato de alquiler y estimación de ingresos brutos anuales.",
+          "reason": "Todos estos requisitos están explícitamente mencionados en el contexto proporcionado.",
+          "attributed": 1
+        },
+        {
+          "statement": "También debés definir la actividad económica y si vendés cosas muebles o prestás servicios, porque difieren los topes; si tenés local, informar superficie afectada y consumo eléctrico anual.",
+          "reason": "El contexto menciona la necesidad de definir la actividad, la distinción entre venta de muebles o servicios, y los parámetros de superficie y consumo eléctrico para locales.",
+          "attributed": 1
+        },
+        {
+          "statement": "La categoría inicial se asigna por ingresos estimados y después se recategoriza según los reales.",
+          "reason": "Esta información se encuentra directamente en la última oración del contexto.",
+          "attributed": 1
+        },
+        {
+          "statement": "La cuota mensual del Monotributo integra el impuesto integrado, el aporte jubilatorio y el aporte a la obra social.",
+          "reason": "El contexto detalla que la cuota mensual integra estos tres componentes específicos.",
+          "attributed": 1
+        }
+      ]
+    },
+    "raw_text": "{\n  \"classifications\": [\n    {\n      \"statement\": \"Para el alta necesitás DNI frente y dorso, constancia de CUIT o número de CUIL, clave fiscal con seguridad suficiente, domicilio fiscal respaldado por factura de servicio a tu nombre o contrato de alquiler y estimación de ingresos brutos anuales.\",\n      \"reason\": \"Todos estos requisitos están explícitamente mencionados en el contexto proporcionado.\",\n      \"attributed\": 1\n    },\n    {\n      \"statement\": \"También debés definir la actividad económica y si vendés cosas muebles o prestás servicios, porque difieren los topes; si tenés local, informar superficie afectada y consumo eléctrico anual.\",\n      \"reason\": \"El contexto menciona la necesidad de definir la actividad, la distinción entre venta de muebles o servicios, y los parámetros de superficie y consumo eléctrico para locales.\",\n      \"attributed\": 1\n    },\n    {\n      \"statement\": \"La categoría inicial se asigna por ingresos estimados y después se recategoriza según los reales.\",\n      \"reason\": \"Esta información se encuentra directamente en la última oración del contexto.\",\n      \"attributed\": 1\n    },\n    {\n      \"statement\": \"La cuota mensual del Monotributo integra el impuesto integrado, el aporte jubilatorio y el aporte a la obra social.\",\n      \"reason\": \"El contexto detalla que la cuota mensual integra estos tres componentes específicos.\",\n      \"attributed\": 1\n    }\n  ]\n}",
+    "path": "evaluacion/C2_rerank/calls/b4eb818a8e34442e9c994d925a6b2589_2.json"
+  },
+  {
+    "case_variant": "C2_rerank",
+    "call_id": "c722e7719233438b8553b27a4d620d57",
+    "attempt": 1,
+    "stage": "answer_relevancy_question",
+    "judgment": {
+      "question": "¿Qué documentación se necesita para dar de alta el Monotributo y qué componentes integran la cuota mensual?",
+      "noncommittal": 0
+    },
+    "raw_text": "{\n  \"question\": \"¿Qué documentación se necesita para dar de alta el Monotributo y qué componentes integran la cuota mensual?\",\n  \"noncommittal\": 0\n}",
+    "path": "evaluacion/C2_rerank/calls/c722e7719233438b8553b27a4d620d57_1.json"
+  },
+  {
+    "case_variant": "C2_rerank",
+    "call_id": "fd10e07ba36f499483c901a3d8c59b49",
+    "attempt": 1,
+    "stage": "faithfulness_statements",
+    "judgment": {
+      "statements": [
+        "El titular necesita el DNI frente y dorso para dar de alta el Monotributo.",
+        "El titular necesita la constancia de CUIT o el número de CUIL para dar de alta el Monotributo.",
+        "El titular necesita una clave fiscal con nivel de seguridad suficiente para operar para dar de alta el Monotributo.",
+        "El titular necesita un domicilio fiscal con un comprobante que lo respalde para dar de alta el Monotributo.",
+        "El comprobante del domicilio fiscal puede ser una factura de un servicio a nombre del titular o un contrato de alquiler.",
+        "El titular necesita una estimación de los ingresos brutos anuales de la actividad para dar de alta el Monotributo.",
+        "El titular necesita la definición de la actividad económica a declarar para dar de alta el Monotributo.",
+        "El titular debe especificar si la actividad económica consiste en la venta de cosas muebles o en la prestación de servicios.",
+        "El titular necesita la superficie afectada y el consumo eléctrico anual si el titular tiene un local.",
+        "La cuota mensual del Monotributo integra el impuesto integrado.",
+        "La cuota mensual del Monotributo integra el aporte jubilatorio.",
+        "La cuota mensual del Monotributo integra el aporte a la obra social."
+      ]
+    },
+    "raw_text": "{\n  \"statements\": [\n    \"El titular necesita el DNI frente y dorso para dar de alta el Monotributo.\",\n    \"El titular necesita la constancia de CUIT o el número de CUIL para dar de alta el Monotributo.\",\n    \"El titular necesita una clave fiscal con nivel de seguridad suficiente para operar para dar de alta el Monotributo.\",\n    \"El titular necesita un domicilio fiscal con un comprobante que lo respalde para dar de alta el Monotributo.\",\n    \"El comprobante del domicilio fiscal puede ser una factura de un servicio a nombre del titular o un contrato de alquiler.\",\n    \"El titular necesita una estimación de los ingresos brutos anuales de la actividad para dar de alta el Monotributo.\",\n    \"El titular necesita la definición de la actividad económica a declarar para dar de alta el Monotributo.\",\n    \"El titular debe especificar si la actividad económica consiste en la venta de cosas muebles o en la prestación de servicios.\",\n    \"El titular necesita la superficie afectada y el consumo eléctrico anual si el titular tiene un local.\",\n    \"La cuota mensual del Monotributo integra el impuesto integrado.\",\n    \"La cuota mensual del Monotributo integra el aporte jubilatorio.\",\n    \"La cuota mensual del Monotributo integra el aporte a la obra social.\"\n  ]\n}",
+    "path": "evaluacion/C2_rerank/calls/fd10e07ba36f499483c901a3d8c59b49_1.json"
+  },
+  {
+    "case_variant": "C3_rerank",
+    "call_id": "7cd31fb87dd64969b7a20721c8db68e3",
+    "attempt": 1,
+    "stage": "context_recall_classifications",
+    "judgment": {
+      "classifications": [
+        {
+          "statement": "En CABA administra AGIP (Administración Gubernamental de Ingresos Públicos): el contribuyente local presenta declaración mensual y resumen anual, y paga sobre ingresos facturados atribuibles a la jurisdicción; la alícuota depende de la actividad, con diferenciales y exenciones para determinados rubros.",
+          "reason": "La información sobre el organismo, las obligaciones y la determinación de alícuotas en CABA está presente en el contexto.",
+          "attributed": 1
+        },
+        {
+          "statement": "El vencimiento mensual de CABA cae en la segunda quincena y se escalona por CUIT; las retenciones y percepciones se computan a cuenta y suelen generar saldo a favor.",
+          "reason": "El contexto confirma que el vencimiento es en la segunda quincena, se escalona por CUIT y que las retenciones/percepciones generan saldo a favor.",
+          "attributed": 1
+        },
+        {
+          "statement": "En Provincia de Buenos Aires administra ARBA (Agencia de Recaudación de la Provincia de Buenos Aires): el contribuyente local presenta declaración mensual y paga sobre ingresos atribuibles a la Provincia; las alícuotas dependen de la actividad y de los ingresos del año anterior.",
+          "reason": "El contexto especifica que ARBA administra el impuesto en PBA, detalla la declaración mensual y cómo se calculan las alícuotas.",
+          "attributed": 1
+        },
+        {
+          "statement": "Los vencimientos y el escalonamiento por CUIT de ARBA son propios y no coinciden con los de CABA.",
+          "reason": "El contexto menciona explícitamente que los vencimientos y el escalonamiento de ARBA son propios y no coinciden con los de la Ciudad.",
+          "attributed": 1
+        },
+        {
+          "statement": "ARBA actualiza mensualmente los padrones de retenciones y percepciones y la alícuota aplicable se consulta allí antes de facturar; ante saldo a favor que supera cierto umbral se puede solicitar reducción de alícuota.",
+          "reason": "El contexto confirma la actualización mensual de padrones, la consulta previa a facturar y la posibilidad de solicitar reducción de alícuota por saldo a favor.",
+          "attributed": 1
+        },
+        {
+          "statement": "La actividad en varias jurisdicciones corresponde a Convenio Multilateral.",
+          "reason": "El contexto establece que quien opera en varias jurisdicciones tributa por Convenio Multilateral.",
+          "attributed": 1
+        }
+      ]
+    },
+    "raw_text": "{\n  \"classifications\": [\n    {\n      \"statement\": \"En CABA administra AGIP (Administración Gubernamental de Ingresos Públicos): el contribuyente local presenta declaración mensual y resumen anual, y paga sobre ingresos facturados atribuibles a la jurisdicción; la alícuota depende de la actividad, con diferenciales y exenciones para determinados rubros.\",\n      \"reason\": \"La información sobre el organismo, las obligaciones y la determinación de alícuotas en CABA está presente en el contexto.\",\n      \"attributed\": 1\n    },\n    {\n      \"statement\": \"El vencimiento mensual de CABA cae en la segunda quincena y se escalona por CUIT; las retenciones y percepciones se computan a cuenta y suelen generar saldo a favor.\",\n      \"reason\": \"El contexto confirma que el vencimiento es en la segunda quincena, se escalona por CUIT y que las retenciones/percepciones generan saldo a favor.\",\n      \"attributed\": 1\n    },\n    {\n      \"statement\": \"En Provincia de Buenos Aires administra ARBA (Agencia de Recaudación de la Provincia de Buenos Aires): el contribuyente local presenta declaración mensual y paga sobre ingresos atribuibles a la Provincia; las alícuotas dependen de la actividad y de los ingresos del año anterior.\",\n      \"reason\": \"El contexto especifica que ARBA administra el impuesto en PBA, detalla la declaración mensual y cómo se calculan las alícuotas.\",\n      \"attributed\": 1\n    },\n    {\n      \"statement\": \"Los vencimientos y el escalonamiento por CUIT de ARBA son propios y no coinciden con los de CABA.\",\n      \"reason\": \"El contexto menciona explícitamente que los vencimientos y el escalonamiento de ARBA son propios y no coinciden con los de la Ciudad.\",\n      \"attributed\": 1\n    },\n    {\n      \"statement\": \"ARBA actualiza mensualmente los padrones de retenciones y percepciones y la alícuota aplicable se consulta allí antes de facturar; ante saldo a favor que supera cierto umbral se puede solicitar reducción de alícuota.\",\n      \"reason\": \"El contexto confirma la actualización mensual de padrones, la consulta previa a facturar y la posibilidad de solicitar reducción de alícuota por saldo a favor.\",\n      \"attributed\": 1\n    },\n    {\n      \"statement\": \"La actividad en varias jurisdicciones corresponde a Convenio Multilateral.\",\n      \"reason\": \"El contexto establece que quien opera en varias jurisdicciones tributa por Convenio Multilateral.\",\n      \"attributed\": 1\n    }\n  ]\n}",
+    "path": "evaluacion/C3_rerank/calls/7cd31fb87dd64969b7a20721c8db68e3_1.json"
+  },
+  {
+    "case_variant": "E1_basic",
+    "call_id": "0378230285924786b4162a1b27b94a7f",
+    "attempt": 1,
+    "stage": "faithfulness_verdicts",
+    "judgment": {
+      "statements": [
+        {
+          "statement": "The artificial intelligence does not possess sufficient information in the knowledge base to answer the query regarding the phytosanitary certificate for exporting livestock.",
+          "reason": "The provided context is empty, therefore it contains no information regarding phytosanitary certificates or livestock, making it impossible to answer the query.",
+          "verdict": 1
+        }
+      ]
+    },
+    "raw_text": "{\n  \"statements\": [\n    {\n      \"statement\": \"The artificial intelligence does not possess sufficient information in the knowledge base to answer the query regarding the phytosanitary certificate for exporting livestock.\",\n      \"reason\": \"The provided context is empty, therefore it contains no information regarding phytosanitary certificates or livestock, making it impossible to answer the query.\",\n      \"verdict\": 1\n    }\n  ]\n}",
+    "path": "evaluacion/E1_basic/calls/0378230285924786b4162a1b27b94a7f_1.json"
+  },
+  {
+    "case_variant": "E1_basic",
+    "call_id": "293f386117084af8a420556bddfb6090",
+    "attempt": 1,
+    "stage": "answer_relevancy_question",
+    "judgment": {
+      "question": "¿Podrías proporcionarme información sobre ese tema?",
+      "noncommittal": 1
+    },
+    "raw_text": "{\n  \"question\": \"¿Podrías proporcionarme información sobre ese tema?\",\n  \"noncommittal\": 1\n}",
+    "path": "evaluacion/E1_basic/calls/293f386117084af8a420556bddfb6090_1.json"
+  },
+  {
+    "case_variant": "E1_basic",
+    "call_id": "7f05f62c7a884b908ce02f1840f6b76e",
+    "attempt": 1,
+    "stage": "answer_relevancy_question",
+    "judgment": {
+      "question": "¿Podrías proporcionarme información sobre ese tema?",
+      "noncommittal": 1
+    },
+    "raw_text": "{\n  \"question\": \"¿Podrías proporcionarme información sobre ese tema?\",\n  \"noncommittal\": 1\n}",
+    "path": "evaluacion/E1_basic/calls/7f05f62c7a884b908ce02f1840f6b76e_1.json"
+  },
+  {
+    "case_variant": "E1_basic",
+    "call_id": "c3e57c2f89ed455eab9aed1f1843fc75",
+    "attempt": 1,
+    "stage": "faithfulness_statements",
+    "judgment": {
+      "statements": [
+        "The artificial intelligence does not possess sufficient information in the knowledge base to answer the query regarding the phytosanitary certificate for exporting livestock."
+      ]
+    },
+    "raw_text": "{\n  \"statements\": [\n    \"The artificial intelligence does not possess sufficient information in the knowledge base to answer the query regarding the phytosanitary certificate for exporting livestock.\"\n  ]\n}",
+    "path": "evaluacion/E1_basic/calls/c3e57c2f89ed455eab9aed1f1843fc75_1.json"
+  },
+  {
+    "case_variant": "E1_basic",
+    "call_id": "d6b83bdfd94945f2a646d20b27099c3b",
+    "attempt": 1,
+    "stage": "answer_relevancy_question",
+    "judgment": {
+      "question": "¿Podrías proporcionarme información sobre ese tema?",
+      "noncommittal": 1
+    },
+    "raw_text": "{\n  \"question\": \"¿Podrías proporcionarme información sobre ese tema?\",\n  \"noncommittal\": 1\n}",
+    "path": "evaluacion/E1_basic/calls/d6b83bdfd94945f2a646d20b27099c3b_1.json"
+  },
+  {
+    "case_variant": "E1_rerank",
+    "call_id": "b802227645bb4fb7afa77fac154d8958",
+    "attempt": 1,
+    "stage": "answer_relevancy_question",
+    "judgment": {
+      "question": "¿Podrías proporcionarme información sobre ese tema?",
+      "noncommittal": 1
+    },
+    "raw_text": "{\n  \"question\": \"¿Podrías proporcionarme información sobre ese tema?\",\n  \"noncommittal\": 1\n}",
+    "path": "evaluacion/E1_rerank/calls/b802227645bb4fb7afa77fac154d8958_1.json"
+  },
+  {
+    "case_variant": "E1_rerank",
+    "call_id": "c1e40f5727d0432d81ecba59b4901b2a",
+    "attempt": 1,
+    "stage": "faithfulness_statements",
+    "judgment": {
+      "statements": [
+        "The artificial intelligence does not possess sufficient information in the knowledge base to answer the query regarding the phytosanitary certificate for exporting livestock."
+      ]
+    },
+    "raw_text": "{\n  \"statements\": [\n    \"The artificial intelligence does not possess sufficient information in the knowledge base to answer the query regarding the phytosanitary certificate for exporting livestock.\"\n  ]\n}",
+    "path": "evaluacion/E1_rerank/calls/c1e40f5727d0432d81ecba59b4901b2a_1.json"
+  },
+  {
+    "case_variant": "E1_rerank",
+    "call_id": "d5ff7685068744e3b0995fbadc3b3e37",
+    "attempt": 1,
+    "stage": "answer_relevancy_question",
+    "judgment": {
+      "question": "¿Podrías proporcionarme información sobre ese tema?",
+      "noncommittal": 1
+    },
+    "raw_text": "{\n  \"question\": \"¿Podrías proporcionarme información sobre ese tema?\",\n  \"noncommittal\": 1\n}",
+    "path": "evaluacion/E1_rerank/calls/d5ff7685068744e3b0995fbadc3b3e37_1.json"
+  },
+  {
+    "case_variant": "E1_rerank",
+    "call_id": "e03f4643a75945f4837091e23a172127",
+    "attempt": 1,
+    "stage": "faithfulness_verdicts",
+    "judgment": {
+      "statements": [
+        {
+          "statement": "The artificial intelligence does not possess sufficient information in the knowledge base to answer the query regarding the phytosanitary certificate for exporting livestock.",
+          "reason": "The provided context is empty, therefore it contains no information regarding phytosanitary certificates or livestock, making it impossible to answer the query.",
+          "verdict": 1
+        }
+      ]
+    },
+    "raw_text": "{\n  \"statements\": [\n    {\n      \"statement\": \"The artificial intelligence does not possess sufficient information in the knowledge base to answer the query regarding the phytosanitary certificate for exporting livestock.\",\n      \"reason\": \"The provided context is empty, therefore it contains no information regarding phytosanitary certificates or livestock, making it impossible to answer the query.\",\n      \"verdict\": 1\n    }\n  ]\n}",
+    "path": "evaluacion/E1_rerank/calls/e03f4643a75945f4837091e23a172127_1.json"
+  },
+  {
+    "case_variant": "E1_rerank",
+    "call_id": "eb1802f0f2384621a1749d29025bf750",
+    "attempt": 1,
+    "stage": "answer_relevancy_question",
+    "judgment": {
+      "question": "¿Podrías proporcionarme información sobre ese tema?",
+      "noncommittal": 1
+    },
+    "raw_text": "{\n  \"question\": \"¿Podrías proporcionarme información sobre ese tema?\",\n  \"noncommittal\": 1\n}",
+    "path": "evaluacion/E1_rerank/calls/eb1802f0f2384621a1749d29025bf750_1.json"
+  },
+  {
+    "case_variant": "E2_basic",
+    "call_id": "0f2b06a1fd1740a8b10290eaff8942af",
+    "attempt": 1,
+    "stage": "faithfulness_statements",
+    "judgment": {
+      "statements": [
+        "The knowledge base does not contain sufficient information to answer the inquiry regarding the cost of the Monotributo registration process (DOC-002)."
+      ]
+    },
+    "raw_text": "{\n  \"statements\": [\n    \"The knowledge base does not contain sufficient information to answer the inquiry regarding the cost of the Monotributo registration process (DOC-002).\"\n  ]\n}",
+    "path": "evaluacion/E2_basic/calls/0f2b06a1fd1740a8b10290eaff8942af_1.json"
+  },
+  {
+    "case_variant": "E2_basic",
+    "call_id": "23ce88edcad84990912bf39ce805a2b1",
+    "attempt": 1,
+    "stage": "faithfulness_verdicts",
+    "judgment": {
+      "statements": [
+        {
+          "statement": "The knowledge base does not contain sufficient information to answer the inquiry regarding the cost of the Monotributo registration process (DOC-002).",
+          "reason": "The provided text lists the requirements and documents needed for the registration process, but it does not mention any costs or fees associated with it.",
+          "verdict": 1
+        }
+      ]
+    },
+    "raw_text": "{\n  \"statements\": [\n    {\n      \"statement\": \"The knowledge base does not contain sufficient information to answer the inquiry regarding the cost of the Monotributo registration process (DOC-002).\",\n      \"reason\": \"The provided text lists the requirements and documents needed for the registration process, but it does not mention any costs or fees associated with it.\",\n      \"verdict\": 1\n    }\n  ]\n}",
+    "path": "evaluacion/E2_basic/calls/23ce88edcad84990912bf39ce805a2b1_1.json"
+  },
+  {
+    "case_variant": "E2_basic",
+    "call_id": "30111f99ea834d10be130b7c2b41adac",
+    "attempt": 1,
+    "stage": "answer_relevancy_question",
+    "judgment": {
+      "question": "¿Podrías proporcionarme información sobre ese tema?",
+      "noncommittal": 1
+    },
+    "raw_text": "{\n  \"question\": \"¿Podrías proporcionarme información sobre ese tema?\",\n  \"noncommittal\": 1\n}",
+    "path": "evaluacion/E2_basic/calls/30111f99ea834d10be130b7c2b41adac_1.json"
+  },
+  {
+    "case_variant": "E2_basic",
+    "call_id": "c7bbaf228d004c17903e2818e4d6b2f9",
+    "attempt": 1,
+    "stage": "answer_relevancy_question",
+    "judgment": {
+      "question": "¿Podrías proporcionarme información sobre ese tema?",
+      "noncommittal": 1
+    },
+    "raw_text": "{\n  \"question\": \"¿Podrías proporcionarme información sobre ese tema?\",\n  \"noncommittal\": 1\n}",
+    "path": "evaluacion/E2_basic/calls/c7bbaf228d004c17903e2818e4d6b2f9_1.json"
+  },
+  {
+    "case_variant": "E2_basic",
+    "call_id": "d5c2326d32a642e792ac6ef53ab5a865",
+    "attempt": 1,
+    "stage": "answer_relevancy_question",
+    "judgment": {
+      "question": "¿Podrías proporcionarme información sobre ese tema?",
+      "noncommittal": 1
+    },
+    "raw_text": "{\n  \"question\": \"¿Podrías proporcionarme información sobre ese tema?\",\n  \"noncommittal\": 1\n}",
+    "path": "evaluacion/E2_basic/calls/d5c2326d32a642e792ac6ef53ab5a865_1.json"
+  },
+  {
+    "case_variant": "E2_rerank",
+    "call_id": "71098347a56d4eeeb0ff93f30a5097ef",
+    "attempt": 1,
+    "stage": "answer_relevancy_question",
+    "judgment": {
+      "question": "¿Podrías proporcionarme información sobre ese tema?",
+      "noncommittal": 1
+    },
+    "raw_text": "{\n  \"question\": \"¿Podrías proporcionarme información sobre ese tema?\",\n  \"noncommittal\": 1\n}",
+    "path": "evaluacion/E2_rerank/calls/71098347a56d4eeeb0ff93f30a5097ef_1.json"
+  },
+  {
+    "case_variant": "E2_rerank",
+    "call_id": "8b5b0fa115ba4297aa0d0d43c92c255b",
+    "attempt": 1,
+    "stage": "answer_relevancy_question",
+    "judgment": {
+      "question": "¿Podrías proporcionarme información sobre ese tema?",
+      "noncommittal": 1
+    },
+    "raw_text": "{\n  \"question\": \"¿Podrías proporcionarme información sobre ese tema?\",\n  \"noncommittal\": 1\n}",
+    "path": "evaluacion/E2_rerank/calls/8b5b0fa115ba4297aa0d0d43c92c255b_1.json"
+  },
+  {
+    "case_variant": "I1_basic",
+    "call_id": "19e961015ef54b578daf6962cfc3448d",
+    "attempt": 1,
+    "stage": "context_precision_verdict",
+    "judgment": {
+      "reason": "The context explicitly lists all the documents required to settle the VAT (IVA), and the answer accurately summarizes these requirements based on the provided text.",
+      "verdict": 1
+    },
+    "raw_text": "{\n    \"reason\": \"The context explicitly lists all the documents required to settle the VAT (IVA), and the answer accurately summarizes these requirements based on the provided text.\",\n    \"verdict\": 1\n}",
+    "path": "evaluacion/I1_basic/calls/19e961015ef54b578daf6962cfc3448d_1.json"
+  },
+  {
+    "case_variant": "I1_basic",
+    "call_id": "256e9625456641ce8f79e11656f6a479",
+    "attempt": 1,
+    "stage": "answer_relevancy_question",
+    "judgment": {
+      "question": "¿Qué documentación se requiere para liquidar el IVA de un mes?",
+      "noncommittal": 0
+    },
+    "raw_text": "{\n  \"question\": \"¿Qué documentación se requiere para liquidar el IVA de un mes?\",\n  \"noncommittal\": 0\n}",
+    "path": "evaluacion/I1_basic/calls/256e9625456641ce8f79e11656f6a479_1.json"
+  },
+  {
+    "case_variant": "I1_basic",
+    "call_id": "6f60cbaef6cc47c2b7b7880083c7c6fc",
+    "attempt": 1,
+    "stage": "answer_relevancy_question",
+    "judgment": {
+      "question": "¿Qué documentación se requiere para liquidar el IVA de un mes?",
+      "noncommittal": 0
+    },
+    "raw_text": "{\n  \"question\": \"¿Qué documentación se requiere para liquidar el IVA de un mes?\",\n  \"noncommittal\": 0\n}",
+    "path": "evaluacion/I1_basic/calls/6f60cbaef6cc47c2b7b7880083c7c6fc_1.json"
+  },
+  {
+    "case_variant": "I1_basic",
+    "call_id": "961473c7993141e7abc31cbb79878515",
+    "attempt": 1,
+    "stage": "answer_relevancy_question",
+    "judgment": {
+      "question": "¿Qué documentación se requiere para liquidar el IVA de un mes?",
+      "noncommittal": 0
+    },
+    "raw_text": "{\n  \"question\": \"¿Qué documentación se requiere para liquidar el IVA de un mes?\",\n  \"noncommittal\": 0\n}",
+    "path": "evaluacion/I1_basic/calls/961473c7993141e7abc31cbb79878515_1.json"
+  },
+  {
+    "case_variant": "I1_basic",
+    "call_id": "c30018a3d3764d9098fd71c20e67e855",
+    "attempt": 1,
+    "stage": "context_recall_classifications",
+    "judgment": {
+      "classifications": [
+        {
+          "statement": "Entregá las facturas de venta del período y las facturas de compra recibidas.",
+          "reason": "El contexto menciona explícitamente que se necesitan las facturas de venta emitidas y las facturas de compra recibidas para liquidar el IVA.",
+          "attributed": 1
+        },
+        {
+          "statement": "Incluí las notas de crédito y débito emitidas y recibidas, los comprobantes de retenciones y percepciones sufridas y, si facturás por ese medio, los tickets de controlador fiscal.",
+          "reason": "El contexto enumera estos elementos como necesarios para la liquidación del IVA.",
+          "attributed": 1
+        }
+      ]
+    },
+    "raw_text": "{\n  \"classifications\": [\n    {\n      \"statement\": \"Entregá las facturas de venta del período y las facturas de compra recibidas.\",\n      \"reason\": \"El contexto menciona explícitamente que se necesitan las facturas de venta emitidas y las facturas de compra recibidas para liquidar el IVA.\",\n      \"attributed\": 1\n    },\n    {\n      \"statement\": \"Incluí las notas de crédito y débito emitidas y recibidas, los comprobantes de retenciones y percepciones sufridas y, si facturás por ese medio, los tickets de controlador fiscal.\",\n      \"reason\": \"El contexto enumera estos elementos como necesarios para la liquidación del IVA.\",\n      \"attributed\": 1\n    }\n  ]\n}",
+    "path": "evaluacion/I1_basic/calls/c30018a3d3764d9098fd71c20e67e855_1.json"
+  },
+  {
+    "case_variant": "I1_rerank",
+    "call_id": "11d48af6c76743e0803cb5f5a1bd934a",
+    "attempt": 1,
+    "stage": "faithfulness_statements",
+    "judgment": {
+      "statements": [
+        "El estudio necesita documentación del cliente para liquidar el impuesto al valor agregado.",
+        "El cliente debe entregar las facturas de venta emitidas en el período.",
+        "El cliente debe entregar las facturas de compra recibidas.",
+        "El cliente debe entregar las notas de crédito emitidas y recibidas.",
+        "El cliente debe entregar las notas de débito emitidas y recibidas.",
+        "El cliente debe entregar los comprobantes de retenciones sufridas.",
+        "El cliente debe entregar los comprobantes de percepciones sufridas.",
+        "El cliente debe entregar los tickets de controlador fiscal si el cliente factura por ese medio."
+      ]
+    },
+    "raw_text": "{\n  \"statements\": [\n    \"El estudio necesita documentación del cliente para liquidar el impuesto al valor agregado.\",\n    \"El cliente debe entregar las facturas de venta emitidas en el período.\",\n    \"El cliente debe entregar las facturas de compra recibidas.\",\n    \"El cliente debe entregar las notas de crédito emitidas y recibidas.\",\n    \"El cliente debe entregar las notas de débito emitidas y recibidas.\",\n    \"El cliente debe entregar los comprobantes de retenciones sufridas.\",\n    \"El cliente debe entregar los comprobantes de percepciones sufridas.\",\n    \"El cliente debe entregar los tickets de controlador fiscal si el cliente factura por ese medio.\"\n  ]\n}",
+    "path": "evaluacion/I1_rerank/calls/11d48af6c76743e0803cb5f5a1bd934a_1.json"
+  },
+  {
+    "case_variant": "I1_rerank",
+    "call_id": "35482615f3eb41358f3711a2861fe83f",
+    "attempt": 1,
+    "stage": "answer_relevancy_question",
+    "judgment": {
+      "question": "¿Qué documentación necesita el estudio para liquidar el IVA?",
+      "noncommittal": 0
+    },
+    "raw_text": "{\n  \"question\": \"¿Qué documentación necesita el estudio para liquidar el IVA?\",\n  \"noncommittal\": 0\n}",
+    "path": "evaluacion/I1_rerank/calls/35482615f3eb41358f3711a2861fe83f_1.json"
+  },
+  {
+    "case_variant": "I1_rerank",
+    "call_id": "4568fd23a6c84c3ab9bb9d42aecd1424",
+    "attempt": 1,
+    "stage": "answer_relevancy_question",
+    "judgment": {
+      "question": "¿Qué documentación necesita el estudio para liquidar el IVA?",
+      "noncommittal": 0
+    },
+    "raw_text": "{\n  \"question\": \"¿Qué documentación necesita el estudio para liquidar el IVA?\",\n  \"noncommittal\": 0\n}",
+    "path": "evaluacion/I1_rerank/calls/4568fd23a6c84c3ab9bb9d42aecd1424_1.json"
+  },
+  {
+    "case_variant": "I1_rerank",
+    "call_id": "61f6670a440241fb819e288d09770a41",
+    "attempt": 1,
+    "stage": "context_precision_verdict",
+    "judgment": {
+      "reason": "The context provides a comprehensive list of the documents required to calculate the VAT (IVA), which directly answers the user's question about what needs to be provided.",
+      "verdict": 1
+    },
+    "raw_text": "{\n    \"reason\": \"The context provides a comprehensive list of the documents required to calculate the VAT (IVA), which directly answers the user's question about what needs to be provided.\",\n    \"verdict\": 1\n}",
+    "path": "evaluacion/I1_rerank/calls/61f6670a440241fb819e288d09770a41_1.json"
+  },
+  {
+    "case_variant": "I1_rerank",
+    "call_id": "75f2e5758896459291242ea533ffb265",
+    "attempt": 1,
+    "stage": "faithfulness_verdicts",
+    "judgment": {
+      "statements": [
+        {
+          "statement": "El estudio necesita documentación del cliente para liquidar el impuesto al valor agregado.",
+          "reason": "El texto menciona explícitamente que para liquidar el IVA de un mes, el estudio necesita una serie de documentos del cliente.",
+          "verdict": 1
+        },
+        {
+          "statement": "El cliente debe entregar las facturas de venta emitidas en el período.",
+          "reason": "El texto incluye las facturas de venta emitidas en el período como uno de los elementos necesarios.",
+          "verdict": 1
+        },
+        {
+          "statement": "El cliente debe entregar las facturas de compra recibidas.",
+          "reason": "El texto incluye las facturas de compra recibidas como uno de los elementos necesarios.",
+          "verdict": 1
+        },
+        {
+          "statement": "El cliente debe entregar las notas de crédito emitidas y recibidas.",
+          "reason": "El texto menciona las notas de crédito tanto emitidas como recibidas como parte de la documentación necesaria.",
+          "verdict": 1
+        },
+        {
+          "statement": "El cliente debe entregar las notas de débito emitidas y recibidas.",
+          "reason": "El texto menciona las notas de débito tanto emitidas como recibidas como parte de la documentación necesaria.",
+          "verdict": 1
+        },
+        {
+          "statement": "El cliente debe entregar los comprobantes de retenciones sufridas.",
+          "reason": "El texto incluye los comprobantes de retenciones sufridas como parte de la documentación necesaria.",
+          "verdict": 1
+        },
+        {
+          "statement": "El cliente debe entregar los comprobantes de percepciones sufridas.",
+          "reason": "El texto incluye los comprobantes de percepciones sufridas como parte de la documentación necesaria.",
+          "verdict": 1
+        },
+        {
+          "statement": "El cliente debe entregar los tickets de controlador fiscal si el cliente factura por ese medio.",
+          "reason": "El texto especifica que se necesitan los tickets de controlador fiscal si el cliente factura por ese medio.",
+          "verdict": 1
+        }
+      ]
+    },
+    "raw_text": "{\n  \"statements\": [\n    {\n      \"statement\": \"El estudio necesita documentación del cliente para liquidar el impuesto al valor agregado.\",\n      \"reason\": \"El texto menciona explícitamente que para liquidar el IVA de un mes, el estudio necesita una serie de documentos del cliente.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El cliente debe entregar las facturas de venta emitidas en el período.\",\n      \"reason\": \"El texto incluye las facturas de venta emitidas en el período como uno de los elementos necesarios.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El cliente debe entregar las facturas de compra recibidas.\",\n      \"reason\": \"El texto incluye las facturas de compra recibidas como uno de los elementos necesarios.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El cliente debe entregar las notas de crédito emitidas y recibidas.\",\n      \"reason\": \"El texto menciona las notas de crédito tanto emitidas como recibidas como parte de la documentación necesaria.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El cliente debe entregar las notas de débito emitidas y recibidas.\",\n      \"reason\": \"El texto menciona las notas de débito tanto emitidas como recibidas como parte de la documentación necesaria.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El cliente debe entregar los comprobantes de retenciones sufridas.\",\n      \"reason\": \"El texto incluye los comprobantes de retenciones sufridas como parte de la documentación necesaria.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El cliente debe entregar los comprobantes de percepciones sufridas.\",\n      \"reason\": \"El texto incluye los comprobantes de percepciones sufridas como parte de la documentación necesaria.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El cliente debe entregar los tickets de controlador fiscal si el cliente factura por ese medio.\",\n      \"reason\": \"El texto especifica que se necesitan los tickets de controlador fiscal si el cliente factura por ese medio.\",\n      \"verdict\": 1\n    }\n  ]\n}",
+    "path": "evaluacion/I1_rerank/calls/75f2e5758896459291242ea533ffb265_1.json"
+  },
+  {
+    "case_variant": "I1_rerank",
+    "call_id": "89bfe3fc1eac45fb85bcaf85010a8f2e",
+    "attempt": 1,
+    "stage": "answer_relevancy_question",
+    "judgment": {
+      "question": "¿Qué documentación necesita el estudio para liquidar el IVA?",
+      "noncommittal": 0
+    },
+    "raw_text": "{\n  \"question\": \"¿Qué documentación necesita el estudio para liquidar el IVA?\",\n  \"noncommittal\": 0\n}",
+    "path": "evaluacion/I1_rerank/calls/89bfe3fc1eac45fb85bcaf85010a8f2e_1.json"
+  },
+  {
+    "case_variant": "I1_rerank",
+    "call_id": "94021adcaaa149c58e7ebb8699d71c70",
+    "attempt": 1,
+    "stage": "context_recall_classifications",
+    "judgment": {
+      "classifications": [
+        {
+          "statement": "Entregá las facturas de venta del período y las facturas de compra recibidas.",
+          "reason": "El contexto menciona explícitamente que se necesitan las facturas de venta emitidas y las facturas de compra recibidas para liquidar el IVA.",
+          "attributed": 1
+        },
+        {
+          "statement": "Incluí las notas de crédito y débito emitidas y recibidas, los comprobantes de retenciones y percepciones sufridas y, si facturás por ese medio, los tickets de controlador fiscal.",
+          "reason": "El contexto enumera estos elementos como necesarios para la liquidación del IVA.",
+          "attributed": 1
+        }
+      ]
+    },
+    "raw_text": "{\n  \"classifications\": [\n    {\n      \"statement\": \"Entregá las facturas de venta del período y las facturas de compra recibidas.\",\n      \"reason\": \"El contexto menciona explícitamente que se necesitan las facturas de venta emitidas y las facturas de compra recibidas para liquidar el IVA.\",\n      \"attributed\": 1\n    },\n    {\n      \"statement\": \"Incluí las notas de crédito y débito emitidas y recibidas, los comprobantes de retenciones y percepciones sufridas y, si facturás por ese medio, los tickets de controlador fiscal.\",\n      \"reason\": \"El contexto enumera estos elementos como necesarios para la liquidación del IVA.\",\n      \"attributed\": 1\n    }\n  ]\n}",
+    "path": "evaluacion/I1_rerank/calls/94021adcaaa149c58e7ebb8699d71c70_1.json"
+  },
+  {
+    "case_variant": "I2_basic",
+    "call_id": "7c519771ebe74fd28ce53d77dc3c6628",
+    "attempt": 1,
+    "stage": "faithfulness_verdicts",
+    "judgment": {
+      "statements": [
+        {
+          "statement": "La notificación fiscal llega al domicilio fiscal electrónico.",
+          "reason": "El texto indica explícitamente que la notificación llega al domicilio fiscal electrónico.",
+          "verdict": 1
+        },
+        {
+          "statement": "El plazo de respuesta corre desde que la notificación se considera recibida.",
+          "reason": "El texto menciona que el plazo corre desde que se considera notificada, lo cual es equivalente a recibida en este contexto.",
+          "verdict": 1
+        },
+        {
+          "statement": "El plazo de respuesta corre independientemente de si la notificación fue leída o no.",
+          "reason": "El texto afirma que el plazo corre aunque el contribuyente no la haya leído.",
+          "verdict": 1
+        },
+        {
+          "statement": "Dejar vencer el plazo agrava la situación fiscal.",
+          "reason": "El texto menciona que dejar vencer el plazo agrava la situación.",
+          "verdict": 1
+        },
+        {
+          "statement": "Dejar vencer el plazo habilita la aplicación de multas.",
+          "reason": "El texto indica que dejar vencer el plazo habilita multas.",
+          "verdict": 1
+        },
+        {
+          "statement": "Dejar vencer el plazo habilita la determinación de oficio.",
+          "reason": "El texto indica que dejar vencer el plazo habilita la determinación de oficio.",
+          "verdict": 1
+        },
+        {
+          "statement": "Dejar vencer el plazo habilita el juicio de ejecución fiscal en casos de deuda firme.",
+          "reason": "El texto indica que en casos de deuda firme, dejar vencer el plazo habilita el juicio de ejecución fiscal.",
+          "verdict": 1
+        },
+        {
+          "statement": "Las consultas fiscales requieren leer la notificación concreta.",
+          "reason": "El texto especifica que estas consultas requieren leer la notificación concreta.",
+          "verdict": 1
+        },
+        {
+          "statement": "Las consultas fiscales requieren identificar el impuesto, el período y el monto reclamado.",
+          "reason": "El texto especifica que se requiere identificar impuesto, período y monto reclamado.",
+          "verdict": 1
+        },
+        {
+          "statement": "Las consultas fiscales requieren revisar si la obligación está incumplida.",
+          "reason": "El texto especifica que se requiere revisar si la obligación efectivamente está incumplida.",
+          "verdict": 1
+        },
+        {
+          "statement": "Las consultas fiscales requieren definir si corresponde presentar un descargo, allanarse o rectificar.",
+          "reason": "El texto especifica que se requiere definir si corresponde presentar el descargo, allanarse o rectificar.",
+          "verdict": 1
+        },
+        {
+          "statement": "Los casos de mayor complejidad deben derivarse al profesional responsable con el detalle del caso.",
+          "reason": "El texto indica que estos casos se clasifican como de mayor complejidad y se derivan al profesional responsable con el detalle del caso.",
+          "verdict": 1
+        },
+        {
+          "statement": "El asistente no evalúa la procedencia del reclamo.",
+          "reason": "El texto afirma explícitamente que el asistente no evalúa la procedencia del reclamo.",
+          "verdict": 1
+        },
+        {
+          "statement": "El asistente no sugiere una estrategia de respuesta.",
+          "reason": "El texto afirma explícitamente que el asistente no sugiere una estrategia de respuesta.",
+          "verdict": 1
+        }
+      ]
+    },
+    "raw_text": "{\n  \"statements\": [\n    {\n      \"statement\": \"La notificación fiscal llega al domicilio fiscal electrónico.\",\n      \"reason\": \"El texto indica explícitamente que la notificación llega al domicilio fiscal electrónico.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El plazo de respuesta corre desde que la notificación se considera recibida.\",\n      \"reason\": \"El texto menciona que el plazo corre desde que se considera notificada, lo cual es equivalente a recibida en este contexto.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El plazo de respuesta corre independientemente de si la notificación fue leída o no.\",\n      \"reason\": \"El texto afirma que el plazo corre aunque el contribuyente no la haya leído.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"Dejar vencer el plazo agrava la situación fiscal.\",\n      \"reason\": \"El texto menciona que dejar vencer el plazo agrava la situación.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"Dejar vencer el plazo habilita la aplicación de multas.\",\n      \"reason\": \"El texto indica que dejar vencer el plazo habilita multas.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"Dejar vencer el plazo habilita la determinación de oficio.\",\n      \"reason\": \"El texto indica que dejar vencer el plazo habilita la determinación de oficio.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"Dejar vencer el plazo habilita el juicio de ejecución fiscal en casos de deuda firme.\",\n      \"reason\": \"El texto indica que en casos de deuda firme, dejar vencer el plazo habilita el juicio de ejecución fiscal.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"Las consultas fiscales requieren leer la notificación concreta.\",\n      \"reason\": \"El texto especifica que estas consultas requieren leer la notificación concreta.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"Las consultas fiscales requieren identificar el impuesto, el período y el monto reclamado.\",\n      \"reason\": \"El texto especifica que se requiere identificar impuesto, período y monto reclamado.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"Las consultas fiscales requieren revisar si la obligación está incumplida.\",\n      \"reason\": \"El texto especifica que se requiere revisar si la obligación efectivamente está incumplida.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"Las consultas fiscales requieren definir si corresponde presentar un descargo, allanarse o rectificar.\",\n      \"reason\": \"El texto especifica que se requiere definir si corresponde presentar el descargo, allanarse o rectificar.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"Los casos de mayor complejidad deben derivarse al profesional responsable con el detalle del caso.\",\n      \"reason\": \"El texto indica que estos casos se clasifican como de mayor complejidad y se derivan al profesional responsable con el detalle del caso.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El asistente no evalúa la procedencia del reclamo.\",\n      \"reason\": \"El texto afirma explícitamente que el asistente no evalúa la procedencia del reclamo.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El asistente no sugiere una estrategia de respuesta.\",\n      \"reason\": \"El texto afirma explícitamente que el asistente no sugiere una estrategia de respuesta.\",\n      \"verdict\": 1\n    }\n  ]\n}",
+    "path": "evaluacion/I2_basic/calls/7c519771ebe74fd28ce53d77dc3c6628_1.json"
+  },
+  {
+    "case_variant": "I2_basic",
+    "call_id": "a1317e4b0ff64cd7baa2a2e7f71eaed6",
+    "attempt": 1,
+    "stage": "answer_relevancy_question",
+    "judgment": {
+      "question": "¿Qué pasos debo seguir ante una intimación o requerimiento fiscal y cuál es el alcance de la asistencia del sistema?",
+      "noncommittal": 0
+    },
+    "raw_text": "{\n  \"question\": \"¿Qué pasos debo seguir ante una intimación o requerimiento fiscal y cuál es el alcance de la asistencia del sistema?\",\n  \"noncommittal\": 0\n}",
+    "path": "evaluacion/I2_basic/calls/a1317e4b0ff64cd7baa2a2e7f71eaed6_1.json"
+  },
+  {
+    "case_variant": "I2_basic",
+    "call_id": "b48ee212630d4d5089bfe6055088e84b",
+    "attempt": 1,
+    "stage": "faithfulness_statements",
+    "judgment": {
+      "statements": [
+        "La notificación fiscal llega al domicilio fiscal electrónico.",
+        "El plazo de respuesta corre desde que la notificación se considera recibida.",
+        "El plazo de respuesta corre independientemente de si la notificación fue leída o no.",
+        "Dejar vencer el plazo agrava la situación fiscal.",
+        "Dejar vencer el plazo habilita la aplicación de multas.",
+        "Dejar vencer el plazo habilita la determinación de oficio.",
+        "Dejar vencer el plazo habilita el juicio de ejecución fiscal en casos de deuda firme.",
+        "Las consultas fiscales requieren leer la notificación concreta.",
+        "Las consultas fiscales requieren identificar el impuesto, el período y el monto reclamado.",
+        "Las consultas fiscales requieren revisar si la obligación está incumplida.",
+        "Las consultas fiscales requieren definir si corresponde presentar un descargo, allanarse o rectificar.",
+        "Los casos de mayor complejidad deben derivarse al profesional responsable con el detalle del caso.",
+        "El asistente no evalúa la procedencia del reclamo.",
+        "El asistente no sugiere una estrategia de respuesta."
+      ]
+    },
+    "raw_text": "{\n  \"statements\": [\n    \"La notificación fiscal llega al domicilio fiscal electrónico.\",\n    \"El plazo de respuesta corre desde que la notificación se considera recibida.\",\n    \"El plazo de respuesta corre independientemente de si la notificación fue leída o no.\",\n    \"Dejar vencer el plazo agrava la situación fiscal.\",\n    \"Dejar vencer el plazo habilita la aplicación de multas.\",\n    \"Dejar vencer el plazo habilita la determinación de oficio.\",\n    \"Dejar vencer el plazo habilita el juicio de ejecución fiscal en casos de deuda firme.\",\n    \"Las consultas fiscales requieren leer la notificación concreta.\",\n    \"Las consultas fiscales requieren identificar el impuesto, el período y el monto reclamado.\",\n    \"Las consultas fiscales requieren revisar si la obligación está incumplida.\",\n    \"Las consultas fiscales requieren definir si corresponde presentar un descargo, allanarse o rectificar.\",\n    \"Los casos de mayor complejidad deben derivarse al profesional responsable con el detalle del caso.\",\n    \"El asistente no evalúa la procedencia del reclamo.\",\n    \"El asistente no sugiere una estrategia de respuesta.\"\n  ]\n}",
+    "path": "evaluacion/I2_basic/calls/b48ee212630d4d5089bfe6055088e84b_1.json"
+  },
+  {
+    "case_variant": "I2_basic",
+    "call_id": "d0d22d1ee2bb485bbeee3823b3ff2641",
+    "attempt": 1,
+    "stage": "answer_relevancy_question",
+    "judgment": {
+      "question": "¿Qué pasos debo seguir ante una intimación o requerimiento fiscal y cuál es el alcance de la asistencia del sistema?",
+      "noncommittal": 0
+    },
+    "raw_text": "{\n  \"question\": \"¿Qué pasos debo seguir ante una intimación o requerimiento fiscal y cuál es el alcance de la asistencia del sistema?\",\n  \"noncommittal\": 0\n}",
+    "path": "evaluacion/I2_basic/calls/d0d22d1ee2bb485bbeee3823b3ff2641_1.json"
+  },
+  {
+    "case_variant": "I2_basic",
+    "call_id": "df21b294452840cc8a0b25e089c45300",
+    "attempt": 1,
+    "stage": "answer_relevancy_question",
+    "judgment": {
+      "question": "¿Qué pasos debo seguir ante una intimación o requerimiento fiscal y cuál es el alcance de la asistencia del sistema?",
+      "noncommittal": 0
+    },
+    "raw_text": "{\n  \"question\": \"¿Qué pasos debo seguir ante una intimación o requerimiento fiscal y cuál es el alcance de la asistencia del sistema?\",\n  \"noncommittal\": 0\n}",
+    "path": "evaluacion/I2_basic/calls/df21b294452840cc8a0b25e089c45300_1.json"
+  },
+  {
+    "case_variant": "S1_basic",
+    "call_id": "087a679246394a9daf70b7e38623e51f",
+    "attempt": 1,
+    "stage": "answer_relevancy_question",
+    "judgment": {
+      "question": "¿Qué documentos se deben presentar para liquidar el IVA del mes?",
+      "noncommittal": 0
+    },
+    "raw_text": "{\n  \"question\": \"¿Qué documentos se deben presentar para liquidar el IVA del mes?\",\n  \"noncommittal\": 0\n}",
+    "path": "evaluacion/S1_basic/calls/087a679246394a9daf70b7e38623e51f_1.json"
+  },
+  {
+    "case_variant": "S1_basic",
+    "call_id": "42e20e07efaf46869b2bc64ffbedf8be",
+    "attempt": 1,
+    "stage": "faithfulness_verdicts",
+    "judgment": {
+      "statements": [
+        {
+          "statement": "El contribuyente debe entregar facturas de venta emitidas en el período para liquidar el IVA del mes.",
+          "reason": "El texto menciona explícitamente que el estudio necesita las facturas de venta emitidas en el período.",
+          "verdict": 1
+        },
+        {
+          "statement": "El contribuyente debe entregar facturas de compra recibidas para liquidar el IVA del mes.",
+          "reason": "El texto menciona explícitamente que el estudio necesita las facturas de compra recibidas.",
+          "verdict": 1
+        },
+        {
+          "statement": "El contribuyente debe entregar notas de crédito emitidas para liquidar el IVA del mes.",
+          "reason": "El texto menciona explícitamente que el estudio necesita las notas de crédito emitidas.",
+          "verdict": 1
+        },
+        {
+          "statement": "El contribuyente debe entregar notas de débito emitidas para liquidar el IVA del mes.",
+          "reason": "El texto menciona explícitamente que el estudio necesita las notas de débito emitidas.",
+          "verdict": 1
+        },
+        {
+          "statement": "El contribuyente debe entregar notas de crédito recibidas para liquidar el IVA del mes.",
+          "reason": "El texto menciona explícitamente que el estudio necesita las notas de crédito recibidas.",
+          "verdict": 1
+        },
+        {
+          "statement": "El contribuyente debe entregar notas de débito recibidas para liquidar el IVA del mes.",
+          "reason": "El texto menciona explícitamente que el estudio necesita las notas de débito recibidas.",
+          "verdict": 1
+        },
+        {
+          "statement": "El contribuyente debe entregar comprobantes de retenciones sufridas para liquidar el IVA del mes.",
+          "reason": "El texto menciona explícitamente que el estudio necesita los comprobantes de retenciones sufridas.",
+          "verdict": 1
+        },
+        {
+          "statement": "El contribuyente debe entregar comprobantes de percepciones sufridas para liquidar el IVA del mes.",
+          "reason": "El texto menciona explícitamente que el estudio necesita los comprobantes de percepciones sufridas.",
+          "verdict": 1
+        },
+        {
+          "statement": "El contribuyente debe entregar tickets de controlador fiscal para liquidar el IVA del mes si el contribuyente factura por ese medio.",
+          "reason": "El texto menciona explícitamente que el estudio necesita los tickets de controlador fiscal si el cliente factura por ese medio.",
+          "verdict": 1
+        }
+      ]
+    },
+    "raw_text": "{\n  \"statements\": [\n    {\n      \"statement\": \"El contribuyente debe entregar facturas de venta emitidas en el período para liquidar el IVA del mes.\",\n      \"reason\": \"El texto menciona explícitamente que el estudio necesita las facturas de venta emitidas en el período.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El contribuyente debe entregar facturas de compra recibidas para liquidar el IVA del mes.\",\n      \"reason\": \"El texto menciona explícitamente que el estudio necesita las facturas de compra recibidas.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El contribuyente debe entregar notas de crédito emitidas para liquidar el IVA del mes.\",\n      \"reason\": \"El texto menciona explícitamente que el estudio necesita las notas de crédito emitidas.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El contribuyente debe entregar notas de débito emitidas para liquidar el IVA del mes.\",\n      \"reason\": \"El texto menciona explícitamente que el estudio necesita las notas de débito emitidas.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El contribuyente debe entregar notas de crédito recibidas para liquidar el IVA del mes.\",\n      \"reason\": \"El texto menciona explícitamente que el estudio necesita las notas de crédito recibidas.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El contribuyente debe entregar notas de débito recibidas para liquidar el IVA del mes.\",\n      \"reason\": \"El texto menciona explícitamente que el estudio necesita las notas de débito recibidas.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El contribuyente debe entregar comprobantes de retenciones sufridas para liquidar el IVA del mes.\",\n      \"reason\": \"El texto menciona explícitamente que el estudio necesita los comprobantes de retenciones sufridas.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El contribuyente debe entregar comprobantes de percepciones sufridas para liquidar el IVA del mes.\",\n      \"reason\": \"El texto menciona explícitamente que el estudio necesita los comprobantes de percepciones sufridas.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El contribuyente debe entregar tickets de controlador fiscal para liquidar el IVA del mes si el contribuyente factura por ese medio.\",\n      \"reason\": \"El texto menciona explícitamente que el estudio necesita los tickets de controlador fiscal si el cliente factura por ese medio.\",\n      \"verdict\": 1\n    }\n  ]\n}",
+    "path": "evaluacion/S1_basic/calls/42e20e07efaf46869b2bc64ffbedf8be_1.json"
+  },
+  {
+    "case_variant": "S1_basic",
+    "call_id": "43ec6fa201ee4ec5a4da04928a566534",
+    "attempt": 1,
+    "stage": "context_recall_classifications",
+    "judgment": {
+      "classifications": [
+        {
+          "statement": "Entregá las facturas de venta del período y las facturas de compra recibidas.",
+          "reason": "El contexto menciona explícitamente que se necesitan las facturas de venta emitidas y las facturas de compra recibidas para liquidar el IVA.",
+          "attributed": 1
+        },
+        {
+          "statement": "Incluí las notas de crédito y débito emitidas y recibidas, los comprobantes de retenciones y percepciones sufridas y, si facturás por ese medio, los tickets de controlador fiscal.",
+          "reason": "El contexto enumera estos mismos elementos como necesarios para la liquidación del IVA.",
+          "attributed": 1
+        }
+      ]
+    },
+    "raw_text": "{\n  \"classifications\": [\n    {\n      \"statement\": \"Entregá las facturas de venta del período y las facturas de compra recibidas.\",\n      \"reason\": \"El contexto menciona explícitamente que se necesitan las facturas de venta emitidas y las facturas de compra recibidas para liquidar el IVA.\",\n      \"attributed\": 1\n    },\n    {\n      \"statement\": \"Incluí las notas de crédito y débito emitidas y recibidas, los comprobantes de retenciones y percepciones sufridas y, si facturás por ese medio, los tickets de controlador fiscal.\",\n      \"reason\": \"El contexto enumera estos mismos elementos como necesarios para la liquidación del IVA.\",\n      \"attributed\": 1\n    }\n  ]\n}",
+    "path": "evaluacion/S1_basic/calls/43ec6fa201ee4ec5a4da04928a566534_1.json"
+  },
+  {
+    "case_variant": "S1_basic",
+    "call_id": "75630d6048ca432783f77c7edca213b5",
+    "attempt": 1,
+    "stage": "answer_relevancy_question",
+    "judgment": {
+      "question": "¿Qué documentos se deben presentar para liquidar el IVA del mes?",
+      "noncommittal": 0
+    },
+    "raw_text": "{\n  \"question\": \"¿Qué documentos se deben presentar para liquidar el IVA del mes?\",\n  \"noncommittal\": 0\n}",
+    "path": "evaluacion/S1_basic/calls/75630d6048ca432783f77c7edca213b5_1.json"
+  },
+  {
+    "case_variant": "S1_basic",
+    "call_id": "b327c20e370b45708a1ad16c7e9fbda9",
+    "attempt": 1,
+    "stage": "faithfulness_statements",
+    "judgment": {
+      "statements": [
+        "El contribuyente debe entregar facturas de venta emitidas en el período para liquidar el IVA del mes.",
+        "El contribuyente debe entregar facturas de compra recibidas para liquidar el IVA del mes.",
+        "El contribuyente debe entregar notas de crédito emitidas para liquidar el IVA del mes.",
+        "El contribuyente debe entregar notas de débito emitidas para liquidar el IVA del mes.",
+        "El contribuyente debe entregar notas de crédito recibidas para liquidar el IVA del mes.",
+        "El contribuyente debe entregar notas de débito recibidas para liquidar el IVA del mes.",
+        "El contribuyente debe entregar comprobantes de retenciones sufridas para liquidar el IVA del mes.",
+        "El contribuyente debe entregar comprobantes de percepciones sufridas para liquidar el IVA del mes.",
+        "El contribuyente debe entregar tickets de controlador fiscal para liquidar el IVA del mes si el contribuyente factura por ese medio."
+      ]
+    },
+    "raw_text": "{\n  \"statements\": [\n    \"El contribuyente debe entregar facturas de venta emitidas en el período para liquidar el IVA del mes.\",\n    \"El contribuyente debe entregar facturas de compra recibidas para liquidar el IVA del mes.\",\n    \"El contribuyente debe entregar notas de crédito emitidas para liquidar el IVA del mes.\",\n    \"El contribuyente debe entregar notas de débito emitidas para liquidar el IVA del mes.\",\n    \"El contribuyente debe entregar notas de crédito recibidas para liquidar el IVA del mes.\",\n    \"El contribuyente debe entregar notas de débito recibidas para liquidar el IVA del mes.\",\n    \"El contribuyente debe entregar comprobantes de retenciones sufridas para liquidar el IVA del mes.\",\n    \"El contribuyente debe entregar comprobantes de percepciones sufridas para liquidar el IVA del mes.\",\n    \"El contribuyente debe entregar tickets de controlador fiscal para liquidar el IVA del mes si el contribuyente factura por ese medio.\"\n  ]\n}",
+    "path": "evaluacion/S1_basic/calls/b327c20e370b45708a1ad16c7e9fbda9_1.json"
+  },
+  {
+    "case_variant": "S1_basic",
+    "call_id": "c03ea99ceddf4cd49a1ef4369b75901c",
+    "attempt": 1,
+    "stage": "answer_relevancy_question",
+    "judgment": {
+      "question": "¿Qué documentos se deben presentar para liquidar el IVA del mes?",
+      "noncommittal": 0
+    },
+    "raw_text": "{\n  \"question\": \"¿Qué documentos se deben presentar para liquidar el IVA del mes?\",\n  \"noncommittal\": 0\n}",
+    "path": "evaluacion/S1_basic/calls/c03ea99ceddf4cd49a1ef4369b75901c_1.json"
+  },
+  {
+    "case_variant": "S1_basic",
+    "call_id": "e6ac5d4ab5494b8392bcd5a6027a1f67",
+    "attempt": 2,
+    "stage": "context_precision_verdict",
+    "judgment": {
+      "reason": "The context explicitly lists all the necessary documents required to settle the VAT, and the answer accurately summarizes these requirements based on the provided text.",
+      "verdict": 1
+    },
+    "raw_text": "{\n    \"reason\": \"The context explicitly lists all the necessary documents required to settle the VAT, and the answer accurately summarizes these requirements based on the provided text.\",\n    \"verdict\": 1\n}",
+    "path": "evaluacion/S1_basic/calls/e6ac5d4ab5494b8392bcd5a6027a1f67_2.json"
+  },
+  {
+    "case_variant": "S1_rerank",
+    "call_id": "0d6000c50e4b4a98859e280b55ac59e6",
+    "attempt": 1,
+    "stage": "context_recall_classifications",
+    "judgment": {
+      "classifications": [
+        {
+          "statement": "Entregá las facturas de venta del período y las facturas de compra recibidas.",
+          "reason": "El contexto menciona explícitamente que se necesitan las facturas de venta emitidas y las facturas de compra recibidas para liquidar el IVA.",
+          "attributed": 1
+        },
+        {
+          "statement": "Incluí las notas de crédito y débito emitidas y recibidas, los comprobantes de retenciones y percepciones sufridas y, si facturás por ese medio, los tickets de controlador fiscal.",
+          "reason": "El contexto enumera estos mismos elementos como necesarios para la liquidación del IVA.",
+          "attributed": 1
+        }
+      ]
+    },
+    "raw_text": "{\n  \"classifications\": [\n    {\n      \"statement\": \"Entregá las facturas de venta del período y las facturas de compra recibidas.\",\n      \"reason\": \"El contexto menciona explícitamente que se necesitan las facturas de venta emitidas y las facturas de compra recibidas para liquidar el IVA.\",\n      \"attributed\": 1\n    },\n    {\n      \"statement\": \"Incluí las notas de crédito y débito emitidas y recibidas, los comprobantes de retenciones y percepciones sufridas y, si facturás por ese medio, los tickets de controlador fiscal.\",\n      \"reason\": \"El contexto enumera estos mismos elementos como necesarios para la liquidación del IVA.\",\n      \"attributed\": 1\n    }\n  ]\n}",
+    "path": "evaluacion/S1_rerank/calls/0d6000c50e4b4a98859e280b55ac59e6_1.json"
+  },
+  {
+    "case_variant": "S1_rerank",
+    "call_id": "24486060eaa14f00acb73a5c0677a8de",
+    "attempt": 1,
+    "stage": "context_precision_verdict",
+    "judgment": {
+      "reason": "The context explicitly lists all the necessary documents required to settle the VAT, and the answer accurately summarizes these requirements based on the provided text.",
+      "verdict": 1
+    },
+    "raw_text": "{\n    \"reason\": \"The context explicitly lists all the necessary documents required to settle the VAT, and the answer accurately summarizes these requirements based on the provided text.\",\n    \"verdict\": 1\n}",
+    "path": "evaluacion/S1_rerank/calls/24486060eaa14f00acb73a5c0677a8de_1.json"
+  },
+  {
+    "case_variant": "S1_rerank",
+    "call_id": "3315d0207e4340ba809a836c2dab83c8",
+    "attempt": 1,
+    "stage": "answer_relevancy_question",
+    "judgment": {
+      "question": "¿Qué comprobantes se deben presentar para liquidar el IVA del mes?",
+      "noncommittal": 0
+    },
+    "raw_text": "{\n  \"question\": \"¿Qué comprobantes se deben presentar para liquidar el IVA del mes?\",\n  \"noncommittal\": 0\n}",
+    "path": "evaluacion/S1_rerank/calls/3315d0207e4340ba809a836c2dab83c8_1.json"
+  },
+  {
+    "case_variant": "S1_rerank",
+    "call_id": "417d57bd1bbf4845a79e2f7c17b744d8",
+    "attempt": 1,
+    "stage": "answer_relevancy_question",
+    "judgment": {
+      "question": "¿Qué comprobantes se deben presentar para liquidar el IVA del mes?",
+      "noncommittal": 0
+    },
+    "raw_text": "{\n  \"question\": \"¿Qué comprobantes se deben presentar para liquidar el IVA del mes?\",\n  \"noncommittal\": 0\n}",
+    "path": "evaluacion/S1_rerank/calls/417d57bd1bbf4845a79e2f7c17b744d8_1.json"
+  },
+  {
+    "case_variant": "S1_rerank",
+    "call_id": "55bf669ec94c475b93060977c6b59340",
+    "attempt": 1,
+    "stage": "context_precision_verdict",
+    "judgment": {
+      "reason": "The provided context explains the general rules for computing VAT (credit fiscal) and mentions that late invoices require rectifications, but it does not provide a comprehensive list of the specific documents required to settle the monthly VAT as requested in the answer.",
+      "verdict": 0
+    },
+    "raw_text": "{\n    \"reason\": \"The provided context explains the general rules for computing VAT (credit fiscal) and mentions that late invoices require rectifications, but it does not provide a comprehensive list of the specific documents required to settle the monthly VAT as requested in the answer.\",\n    \"verdict\": 0\n}",
+    "path": "evaluacion/S1_rerank/calls/55bf669ec94c475b93060977c6b59340_1.json"
+  },
+  {
+    "case_variant": "S1_rerank",
+    "call_id": "6bf1ea4cfbe64d85b2f71ee777e990bb",
+    "attempt": 1,
+    "stage": "faithfulness_verdicts",
+    "judgment": {
+      "statements": [
+        {
+          "statement": "El contribuyente debe entregar facturas de venta emitidas en el período para liquidar el IVA del mes.",
+          "reason": "El texto menciona explícitamente que el estudio necesita las facturas de venta emitidas en el período.",
+          "verdict": 1
+        },
+        {
+          "statement": "El contribuyente debe entregar facturas de compra recibidas para liquidar el IVA del mes.",
+          "reason": "El texto menciona explícitamente que el estudio necesita las facturas de compra recibidas.",
+          "verdict": 1
+        },
+        {
+          "statement": "El contribuyente debe entregar notas de crédito emitidas para liquidar el IVA del mes.",
+          "reason": "El texto menciona explícitamente que el estudio necesita las notas de crédito emitidas.",
+          "verdict": 1
+        },
+        {
+          "statement": "El contribuyente debe entregar notas de débito emitidas para liquidar el IVA del mes.",
+          "reason": "El texto menciona explícitamente que el estudio necesita las notas de débito emitidas.",
+          "verdict": 1
+        },
+        {
+          "statement": "El contribuyente debe entregar notas de crédito recibidas para liquidar el IVA del mes.",
+          "reason": "El texto menciona explícitamente que el estudio necesita las notas de crédito recibidas.",
+          "verdict": 1
+        },
+        {
+          "statement": "El contribuyente debe entregar notas de débito recibidas para liquidar el IVA del mes.",
+          "reason": "El texto menciona explícitamente que el estudio necesita las notas de débito recibidas.",
+          "verdict": 1
+        },
+        {
+          "statement": "El contribuyente debe entregar comprobantes de retenciones sufridas para liquidar el IVA del mes.",
+          "reason": "El texto menciona explícitamente que el estudio necesita los comprobantes de retenciones sufridas.",
+          "verdict": 1
+        },
+        {
+          "statement": "El contribuyente debe entregar comprobantes de percepciones sufridas para liquidar el IVA del mes.",
+          "reason": "El texto menciona explícitamente que el estudio necesita los comprobantes de percepciones sufridas.",
+          "verdict": 1
+        },
+        {
+          "statement": "El contribuyente debe entregar tickets de controlador fiscal para liquidar el IVA del mes si el cliente factura por ese medio.",
+          "reason": "El texto menciona explícitamente que el estudio necesita los tickets de controlador fiscal si el cliente factura por ese medio.",
+          "verdict": 1
+        }
+      ]
+    },
+    "raw_text": "{\n  \"statements\": [\n    {\n      \"statement\": \"El contribuyente debe entregar facturas de venta emitidas en el período para liquidar el IVA del mes.\",\n      \"reason\": \"El texto menciona explícitamente que el estudio necesita las facturas de venta emitidas en el período.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El contribuyente debe entregar facturas de compra recibidas para liquidar el IVA del mes.\",\n      \"reason\": \"El texto menciona explícitamente que el estudio necesita las facturas de compra recibidas.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El contribuyente debe entregar notas de crédito emitidas para liquidar el IVA del mes.\",\n      \"reason\": \"El texto menciona explícitamente que el estudio necesita las notas de crédito emitidas.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El contribuyente debe entregar notas de débito emitidas para liquidar el IVA del mes.\",\n      \"reason\": \"El texto menciona explícitamente que el estudio necesita las notas de débito emitidas.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El contribuyente debe entregar notas de crédito recibidas para liquidar el IVA del mes.\",\n      \"reason\": \"El texto menciona explícitamente que el estudio necesita las notas de crédito recibidas.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El contribuyente debe entregar notas de débito recibidas para liquidar el IVA del mes.\",\n      \"reason\": \"El texto menciona explícitamente que el estudio necesita las notas de débito recibidas.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El contribuyente debe entregar comprobantes de retenciones sufridas para liquidar el IVA del mes.\",\n      \"reason\": \"El texto menciona explícitamente que el estudio necesita los comprobantes de retenciones sufridas.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El contribuyente debe entregar comprobantes de percepciones sufridas para liquidar el IVA del mes.\",\n      \"reason\": \"El texto menciona explícitamente que el estudio necesita los comprobantes de percepciones sufridas.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El contribuyente debe entregar tickets de controlador fiscal para liquidar el IVA del mes si el cliente factura por ese medio.\",\n      \"reason\": \"El texto menciona explícitamente que el estudio necesita los tickets de controlador fiscal si el cliente factura por ese medio.\",\n      \"verdict\": 1\n    }\n  ]\n}",
+    "path": "evaluacion/S1_rerank/calls/6bf1ea4cfbe64d85b2f71ee777e990bb_1.json"
+  },
+  {
+    "case_variant": "S1_rerank",
+    "call_id": "aa24139b548b4b5aa57fb09615ac691a",
+    "attempt": 3,
+    "stage": "faithfulness_statements",
+    "judgment": {
+      "statements": [
+        "El contribuyente debe entregar facturas de venta emitidas en el período para liquidar el IVA del mes.",
+        "El contribuyente debe entregar facturas de compra recibidas para liquidar el IVA del mes.",
+        "El contribuyente debe entregar notas de crédito emitidas para liquidar el IVA del mes.",
+        "El contribuyente debe entregar notas de débito emitidas para liquidar el IVA del mes.",
+        "El contribuyente debe entregar notas de crédito recibidas para liquidar el IVA del mes.",
+        "El contribuyente debe entregar notas de débito recibidas para liquidar el IVA del mes.",
+        "El contribuyente debe entregar comprobantes de retenciones sufridas para liquidar el IVA del mes.",
+        "El contribuyente debe entregar comprobantes de percepciones sufridas para liquidar el IVA del mes.",
+        "El contribuyente debe entregar tickets de controlador fiscal para liquidar el IVA del mes si el cliente factura por ese medio."
+      ]
+    },
+    "raw_text": "{\n  \"statements\": [\n    \"El contribuyente debe entregar facturas de venta emitidas en el período para liquidar el IVA del mes.\",\n    \"El contribuyente debe entregar facturas de compra recibidas para liquidar el IVA del mes.\",\n    \"El contribuyente debe entregar notas de crédito emitidas para liquidar el IVA del mes.\",\n    \"El contribuyente debe entregar notas de débito emitidas para liquidar el IVA del mes.\",\n    \"El contribuyente debe entregar notas de crédito recibidas para liquidar el IVA del mes.\",\n    \"El contribuyente debe entregar notas de débito recibidas para liquidar el IVA del mes.\",\n    \"El contribuyente debe entregar comprobantes de retenciones sufridas para liquidar el IVA del mes.\",\n    \"El contribuyente debe entregar comprobantes de percepciones sufridas para liquidar el IVA del mes.\",\n    \"El contribuyente debe entregar tickets de controlador fiscal para liquidar el IVA del mes si el cliente factura por ese medio.\"\n  ]\n}",
+    "path": "evaluacion/S1_rerank/calls/aa24139b548b4b5aa57fb09615ac691a_3.json"
+  },
+  {
+    "case_variant": "S1_rerank",
+    "call_id": "e97568ab98794b9482b509208f02d4af",
+    "attempt": 1,
+    "stage": "answer_relevancy_question",
+    "judgment": {
+      "question": "¿Qué comprobantes se deben presentar para liquidar el IVA del mes?",
+      "noncommittal": 0
+    },
+    "raw_text": "{\n  \"question\": \"¿Qué comprobantes se deben presentar para liquidar el IVA del mes?\",\n  \"noncommittal\": 0\n}",
+    "path": "evaluacion/S1_rerank/calls/e97568ab98794b9482b509208f02d4af_1.json"
+  },
+  {
+    "case_variant": "S2_basic",
+    "call_id": "572334d8aee84ccd84bdfe5e8624e7b3",
+    "attempt": 1,
+    "stage": "context_precision_verdict",
+    "judgment": {
+      "reason": "The context explicitly lists the three components of the monthly Monotributo payment, which directly answers the user's question.",
+      "verdict": 1
+    },
+    "raw_text": "{\n    \"reason\": \"The context explicitly lists the three components of the monthly Monotributo payment, which directly answers the user's question.\",\n    \"verdict\": 1\n}",
+    "path": "evaluacion/S2_basic/calls/572334d8aee84ccd84bdfe5e8624e7b3_1.json"
+  },
+  {
+    "case_variant": "S2_basic",
+    "call_id": "579534ca42c940f29e60ef6473c24461",
+    "attempt": 2,
+    "stage": "answer_relevancy_question",
+    "judgment": {
+      "question": "¿Cuáles son los tres componentes que integran la cuota mensual del Monotributo?",
+      "noncommittal": 0
+    },
+    "raw_text": "{\n  \"question\": \"¿Cuáles son los tres componentes que integran la cuota mensual del Monotributo?\",\n  \"noncommittal\": 0\n}",
+    "path": "evaluacion/S2_basic/calls/579534ca42c940f29e60ef6473c24461_2.json"
+  },
+  {
+    "case_variant": "S2_basic",
+    "call_id": "5ebb31514df54a4a8c58da095c8c75b2",
+    "attempt": 2,
+    "stage": "faithfulness_verdicts",
+    "judgment": {
+      "statements": [
+        {
+          "statement": "La cuota mensual del Monotributo integra el impuesto integrado.",
+          "reason": "El texto menciona explícitamente que la cuota mensual integra el impuesto integrado.",
+          "verdict": 1
+        },
+        {
+          "statement": "La cuota mensual del Monotributo integra el aporte jubilatorio.",
+          "reason": "El texto menciona explícitamente que la cuota mensual integra el aporte jubilatorio.",
+          "verdict": 1
+        },
+        {
+          "statement": "La cuota mensual del Monotributo integra el aporte a la obra social según el documento DOC-004.",
+          "reason": "Aunque el texto menciona que la cuota integra el aporte a la obra social, no hace ninguna referencia a un documento llamado DOC-004.",
+          "verdict": 0
+        }
+      ]
+    },
+    "raw_text": "{\n  \"statements\": [\n    {\n      \"statement\": \"La cuota mensual del Monotributo integra el impuesto integrado.\",\n      \"reason\": \"El texto menciona explícitamente que la cuota mensual integra el impuesto integrado.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"La cuota mensual del Monotributo integra el aporte jubilatorio.\",\n      \"reason\": \"El texto menciona explícitamente que la cuota mensual integra el aporte jubilatorio.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"La cuota mensual del Monotributo integra el aporte a la obra social según el documento DOC-004.\",\n      \"reason\": \"Aunque el texto menciona que la cuota integra el aporte a la obra social, no hace ninguna referencia a un documento llamado DOC-004.\",\n      \"verdict\": 0\n    }\n  ]\n}",
+    "path": "evaluacion/S2_basic/calls/5ebb31514df54a4a8c58da095c8c75b2_2.json"
+  },
+  {
+    "case_variant": "S2_basic",
+    "call_id": "78786d87981d4ec7ae2bfc469ec1de2e",
+    "attempt": 1,
+    "stage": "answer_relevancy_question",
+    "judgment": {
+      "question": "¿Cuáles son los tres componentes que integran la cuota mensual del Monotributo?",
+      "noncommittal": 0
+    },
+    "raw_text": "{\n  \"question\": \"¿Cuáles son los tres componentes que integran la cuota mensual del Monotributo?\",\n  \"noncommittal\": 0\n}",
+    "path": "evaluacion/S2_basic/calls/78786d87981d4ec7ae2bfc469ec1de2e_1.json"
+  },
+  {
+    "case_variant": "S2_basic",
+    "call_id": "8909eb19a691484fa55ed200a98fdf1f",
+    "attempt": 1,
+    "stage": "answer_relevancy_question",
+    "judgment": {
+      "question": "¿Cuáles son los tres componentes que integran la cuota mensual del Monotributo?",
+      "noncommittal": 0
+    },
+    "raw_text": "{\n  \"question\": \"¿Cuáles son los tres componentes que integran la cuota mensual del Monotributo?\",\n  \"noncommittal\": 0\n}",
+    "path": "evaluacion/S2_basic/calls/8909eb19a691484fa55ed200a98fdf1f_1.json"
+  },
+  {
+    "case_variant": "S2_basic",
+    "call_id": "a534ba22ef3646ad826a499135cd6998",
+    "attempt": 1,
+    "stage": "context_recall_classifications",
+    "judgment": {
+      "classifications": [
+        {
+          "statement": "La cuota mensual del Monotributo integra el impuesto integrado, el aporte jubilatorio y el aporte a la obra social.",
+          "reason": "El contexto menciona explícitamente que la cuota mensual única integra estos tres componentes.",
+          "attributed": 1
+        }
+      ]
+    },
+    "raw_text": "{\n  \"classifications\": [\n    {\n      \"statement\": \"La cuota mensual del Monotributo integra el impuesto integrado, el aporte jubilatorio y el aporte a la obra social.\",\n      \"reason\": \"El contexto menciona explícitamente que la cuota mensual única integra estos tres componentes.\",\n      \"attributed\": 1\n    }\n  ]\n}",
+    "path": "evaluacion/S2_basic/calls/a534ba22ef3646ad826a499135cd6998_1.json"
+  },
+  {
+    "case_variant": "S2_basic",
+    "call_id": "e67b45dbf1d94820b5f9c841ebe1bf5d",
+    "attempt": 1,
+    "stage": "faithfulness_statements",
+    "judgment": {
+      "statements": [
+        "La cuota mensual del Monotributo integra el impuesto integrado.",
+        "La cuota mensual del Monotributo integra el aporte jubilatorio.",
+        "La cuota mensual del Monotributo integra el aporte a la obra social según el documento DOC-004."
+      ]
+    },
+    "raw_text": "{\n  \"statements\": [\n    \"La cuota mensual del Monotributo integra el impuesto integrado.\",\n    \"La cuota mensual del Monotributo integra el aporte jubilatorio.\",\n    \"La cuota mensual del Monotributo integra el aporte a la obra social según el documento DOC-004.\"\n  ]\n}",
+    "path": "evaluacion/S2_basic/calls/e67b45dbf1d94820b5f9c841ebe1bf5d_1.json"
+  },
+  {
+    "case_variant": "S2_rerank",
+    "call_id": "170366296b7b4f61b0d7ac4ea11cb832",
+    "attempt": 1,
+    "stage": "answer_relevancy_question",
+    "judgment": {
+      "question": "¿Cuáles son los componentes que integran la cuota mensual del Monotributo?",
+      "noncommittal": 0
+    },
+    "raw_text": "{\n  \"question\": \"¿Cuáles son los componentes que integran la cuota mensual del Monotributo?\",\n  \"noncommittal\": 0\n}",
+    "path": "evaluacion/S2_rerank/calls/170366296b7b4f61b0d7ac4ea11cb832_1.json"
+  },
+  {
+    "case_variant": "S2_rerank",
+    "call_id": "4b973e32c9aa4fa49a289483e7f99473",
+    "attempt": 1,
+    "stage": "answer_relevancy_question",
+    "judgment": {
+      "question": "¿Cuáles son los componentes que integran la cuota mensual del Monotributo?",
+      "noncommittal": 0
+    },
+    "raw_text": "{\n  \"question\": \"¿Cuáles son los componentes que integran la cuota mensual del Monotributo?\",\n  \"noncommittal\": 0\n}",
+    "path": "evaluacion/S2_rerank/calls/4b973e32c9aa4fa49a289483e7f99473_1.json"
+  },
+  {
+    "case_variant": "S2_rerank",
+    "call_id": "51da7d97158e4e2b8fad994308020991",
+    "attempt": 1,
+    "stage": "faithfulness_statements",
+    "judgment": {
+      "statements": [
+        "La cuota mensual del Monotributo integra el impuesto integrado.",
+        "La cuota mensual del Monotributo integra el aporte jubilatorio.",
+        "La cuota mensual del Monotributo integra el aporte a la obra social."
+      ]
+    },
+    "raw_text": "{\n  \"statements\": [\n    \"La cuota mensual del Monotributo integra el impuesto integrado.\",\n    \"La cuota mensual del Monotributo integra el aporte jubilatorio.\",\n    \"La cuota mensual del Monotributo integra el aporte a la obra social.\"\n  ]\n}",
+    "path": "evaluacion/S2_rerank/calls/51da7d97158e4e2b8fad994308020991_1.json"
+  },
+  {
+    "case_variant": "S2_rerank",
+    "call_id": "6e3242812c5c4a6bba27981f812f7aff",
+    "attempt": 1,
+    "stage": "faithfulness_verdicts",
+    "judgment": {
+      "statements": [
+        {
+          "statement": "La cuota mensual del Monotributo integra el impuesto integrado.",
+          "reason": "El texto menciona explícitamente que la cuota mensual integra el impuesto integrado.",
+          "verdict": 1
+        },
+        {
+          "statement": "La cuota mensual del Monotributo integra el aporte jubilatorio.",
+          "reason": "El texto menciona explícitamente que la cuota mensual integra el aporte jubilatorio.",
+          "verdict": 1
+        },
+        {
+          "statement": "La cuota mensual del Monotributo integra el aporte a la obra social.",
+          "reason": "El texto menciona explícitamente que la cuota mensual integra el aporte a la obra social.",
+          "verdict": 1
+        }
+      ]
+    },
+    "raw_text": "{\n  \"statements\": [\n    {\n      \"statement\": \"La cuota mensual del Monotributo integra el impuesto integrado.\",\n      \"reason\": \"El texto menciona explícitamente que la cuota mensual integra el impuesto integrado.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"La cuota mensual del Monotributo integra el aporte jubilatorio.\",\n      \"reason\": \"El texto menciona explícitamente que la cuota mensual integra el aporte jubilatorio.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"La cuota mensual del Monotributo integra el aporte a la obra social.\",\n      \"reason\": \"El texto menciona explícitamente que la cuota mensual integra el aporte a la obra social.\",\n      \"verdict\": 1\n    }\n  ]\n}",
+    "path": "evaluacion/S2_rerank/calls/6e3242812c5c4a6bba27981f812f7aff_1.json"
+  },
+  {
+    "case_variant": "S2_rerank",
+    "call_id": "b5e096e454d5421185deda1744143f98",
+    "attempt": 1,
+    "stage": "context_recall_classifications",
+    "judgment": {
+      "classifications": [
+        {
+          "statement": "La cuota mensual del Monotributo integra el impuesto integrado, el aporte jubilatorio y el aporte a la obra social.",
+          "reason": "El contexto menciona explícitamente que la cuota mensual única integra estos tres componentes: el impuesto integrado, el aporte jubilatorio y el aporte a la obra social.",
+          "attributed": 1
+        }
+      ]
+    },
+    "raw_text": "{\n  \"classifications\": [\n    {\n      \"statement\": \"La cuota mensual del Monotributo integra el impuesto integrado, el aporte jubilatorio y el aporte a la obra social.\",\n      \"reason\": \"El contexto menciona explícitamente que la cuota mensual única integra estos tres componentes: el impuesto integrado, el aporte jubilatorio y el aporte a la obra social.\",\n      \"attributed\": 1\n    }\n  ]\n}",
+    "path": "evaluacion/S2_rerank/calls/b5e096e454d5421185deda1744143f98_1.json"
+  },
+  {
+    "case_variant": "S2_rerank",
+    "call_id": "c27a266c800347a795a1498c14d09c54",
+    "attempt": 1,
+    "stage": "answer_relevancy_question",
+    "judgment": {
+      "question": "¿Cuáles son los componentes que integran la cuota mensual del Monotributo?",
+      "noncommittal": 0
+    },
+    "raw_text": "{\n  \"question\": \"¿Cuáles son los componentes que integran la cuota mensual del Monotributo?\",\n  \"noncommittal\": 0\n}",
+    "path": "evaluacion/S2_rerank/calls/c27a266c800347a795a1498c14d09c54_1.json"
+  },
+  {
+    "case_variant": "S2_rerank",
+    "call_id": "e354f68f966c4503a1565d0b3a145f67",
+    "attempt": 1,
+    "stage": "context_precision_verdict",
+    "judgment": {
+      "reason": "The context explicitly lists the three components of the monthly Monotributo fee, which directly answers the question.",
+      "verdict": 1
+    },
+    "raw_text": "{\n    \"reason\": \"The context explicitly lists the three components of the monthly Monotributo fee, which directly answers the question.\",\n    \"verdict\": 1\n}",
+    "path": "evaluacion/S2_rerank/calls/e354f68f966c4503a1565d0b3a145f67_1.json"
+  },
+  {
+    "case_variant": "S3_basic",
+    "call_id": "029304948d724cdeb794e111354b333d",
+    "attempt": 1,
+    "stage": "context_recall_classifications",
+    "judgment": {
+      "classifications": [
+        {
+          "statement": "El comprobante de presentación es el acuse de recibo con número de transacción, fecha y hora.",
+          "reason": "La información coincide directamente con la definición proporcionada en el contexto.",
+          "attributed": 1
+        },
+        {
+          "statement": "El comprobante de pago es el ticket del volante electrónico de pago o el extracto del débito, según el medio utilizado.",
+          "reason": "La información coincide directamente con la definición proporcionada en el contexto.",
+          "attributed": 1
+        }
+      ]
+    },
+    "raw_text": "{\n  \"classifications\": [\n    {\n      \"statement\": \"El comprobante de presentación es el acuse de recibo con número de transacción, fecha y hora.\",\n      \"reason\": \"La información coincide directamente con la definición proporcionada en el contexto.\",\n      \"attributed\": 1\n    },\n    {\n      \"statement\": \"El comprobante de pago es el ticket del volante electrónico de pago o el extracto del débito, según el medio utilizado.\",\n      \"reason\": \"La información coincide directamente con la definición proporcionada en el contexto.\",\n      \"attributed\": 1\n    }\n  ]\n}",
+    "path": "evaluacion/S3_basic/calls/029304948d724cdeb794e111354b333d_1.json"
+  },
+  {
+    "case_variant": "S3_basic",
+    "call_id": "2b68287db18f40c7829d651885bbb064",
+    "attempt": 1,
+    "stage": "context_precision_verdict",
+    "judgment": {
+      "reason": "The context explicitly defines both the comprobante de presentación and the comprobante de pago, providing the exact information needed to answer the question.",
+      "verdict": 1
+    },
+    "raw_text": "{\n    \"reason\": \"The context explicitly defines both the comprobante de presentación and the comprobante de pago, providing the exact information needed to answer the question.\",\n    \"verdict\": 1\n}",
+    "path": "evaluacion/S3_basic/calls/2b68287db18f40c7829d651885bbb064_1.json"
+  },
+  {
+    "case_variant": "S3_basic",
+    "call_id": "55a534dc1cf1458e94cc5afa08e4fdad",
+    "attempt": 1,
+    "stage": "faithfulness_verdicts",
+    "judgment": {
+      "statements": [
+        {
+          "statement": "El comprobante de presentación es el acuse de recibo.",
+          "reason": "El texto establece explícitamente que el comprobante de presentación es el acuse de recibo.",
+          "verdict": 1
+        },
+        {
+          "statement": "El comprobante de presentación contiene el número de transacción, la fecha y la hora.",
+          "reason": "El texto indica que el acuse de recibo lleva número de transacción, fecha y hora.",
+          "verdict": 1
+        },
+        {
+          "statement": "El comprobante de pago es el ticket del volante electrónico de pago o el extracto del débito.",
+          "reason": "El texto define el comprobante de pago como el ticket del volante electrónico de pago o el extracto del débito.",
+          "verdict": 1
+        },
+        {
+          "statement": "El tipo de comprobante de pago depende del medio utilizado.",
+          "reason": "El texto menciona que el comprobante de pago es uno u otro según el medio utilizado.",
+          "verdict": 1
+        }
+      ]
+    },
+    "raw_text": "{\n  \"statements\": [\n    {\n      \"statement\": \"El comprobante de presentación es el acuse de recibo.\",\n      \"reason\": \"El texto establece explícitamente que el comprobante de presentación es el acuse de recibo.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El comprobante de presentación contiene el número de transacción, la fecha y la hora.\",\n      \"reason\": \"El texto indica que el acuse de recibo lleva número de transacción, fecha y hora.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El comprobante de pago es el ticket del volante electrónico de pago o el extracto del débito.\",\n      \"reason\": \"El texto define el comprobante de pago como el ticket del volante electrónico de pago o el extracto del débito.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El tipo de comprobante de pago depende del medio utilizado.\",\n      \"reason\": \"El texto menciona que el comprobante de pago es uno u otro según el medio utilizado.\",\n      \"verdict\": 1\n    }\n  ]\n}",
+    "path": "evaluacion/S3_basic/calls/55a534dc1cf1458e94cc5afa08e4fdad_1.json"
+  },
+  {
+    "case_variant": "S3_basic",
+    "call_id": "5ccc4bccee2d4f2e8163f2dd8837b589",
+    "attempt": 1,
+    "stage": "answer_relevancy_question",
+    "judgment": {
+      "question": "¿Cuál es la diferencia entre el comprobante de presentación y el comprobante de pago?",
+      "noncommittal": 0
+    },
+    "raw_text": "{\n  \"question\": \"¿Cuál es la diferencia entre el comprobante de presentación y el comprobante de pago?\",\n  \"noncommittal\": 0\n}",
+    "path": "evaluacion/S3_basic/calls/5ccc4bccee2d4f2e8163f2dd8837b589_1.json"
+  },
+  {
+    "case_variant": "S3_basic",
+    "call_id": "a6386eeb4d0341a88a8546549fee2658",
+    "attempt": 1,
+    "stage": "answer_relevancy_question",
+    "judgment": {
+      "question": "¿Cuál es la diferencia entre el comprobante de presentación y el comprobante de pago?",
+      "noncommittal": 0
+    },
+    "raw_text": "{\n  \"question\": \"¿Cuál es la diferencia entre el comprobante de presentación y el comprobante de pago?\",\n  \"noncommittal\": 0\n}",
+    "path": "evaluacion/S3_basic/calls/a6386eeb4d0341a88a8546549fee2658_1.json"
+  },
+  {
+    "case_variant": "S3_basic",
+    "call_id": "c3afd15165484bca9cf3b6ae4859aed7",
+    "attempt": 1,
+    "stage": "answer_relevancy_question",
+    "judgment": {
+      "question": "¿Cuál es la diferencia entre el comprobante de presentación y el comprobante de pago?",
+      "noncommittal": 0
+    },
+    "raw_text": "{\n  \"question\": \"¿Cuál es la diferencia entre el comprobante de presentación y el comprobante de pago?\",\n  \"noncommittal\": 0\n}",
+    "path": "evaluacion/S3_basic/calls/c3afd15165484bca9cf3b6ae4859aed7_1.json"
+  },
+  {
+    "case_variant": "S3_basic",
+    "call_id": "dff1ecddb3b140688f3912272cb44ef4",
+    "attempt": 1,
+    "stage": "faithfulness_statements",
+    "judgment": {
+      "statements": [
+        "El comprobante de presentación es el acuse de recibo.",
+        "El comprobante de presentación contiene el número de transacción, la fecha y la hora.",
+        "El comprobante de pago es el ticket del volante electrónico de pago o el extracto del débito.",
+        "El tipo de comprobante de pago depende del medio utilizado."
+      ]
+    },
+    "raw_text": "{\n  \"statements\": [\n    \"El comprobante de presentación es el acuse de recibo.\",\n    \"El comprobante de presentación contiene el número de transacción, la fecha y la hora.\",\n    \"El comprobante de pago es el ticket del volante electrónico de pago o el extracto del débito.\",\n    \"El tipo de comprobante de pago depende del medio utilizado.\"\n  ]\n}",
+    "path": "evaluacion/S3_basic/calls/dff1ecddb3b140688f3912272cb44ef4_1.json"
+  },
+  {
+    "case_variant": "S3_rerank",
+    "call_id": "071918bf51f148d9833a69f3be486f0a",
+    "attempt": 1,
+    "stage": "answer_relevancy_question",
+    "judgment": {
+      "question": "¿Cuál es la diferencia entre el comprobante de presentación y el comprobante de pago?",
+      "noncommittal": 0
+    },
+    "raw_text": "{\n  \"question\": \"¿Cuál es la diferencia entre el comprobante de presentación y el comprobante de pago?\",\n  \"noncommittal\": 0\n}",
+    "path": "evaluacion/S3_rerank/calls/071918bf51f148d9833a69f3be486f0a_1.json"
+  },
+  {
+    "case_variant": "S3_rerank",
+    "call_id": "235a14f778614bf69743287627c0e9fa",
+    "attempt": 1,
+    "stage": "context_precision_verdict",
+    "judgment": {
+      "reason": "The context explicitly defines both the comprobante de presentación and the comprobante de pago, providing the exact information used in the answer.",
+      "verdict": 1
+    },
+    "raw_text": "{\n    \"reason\": \"The context explicitly defines both the comprobante de presentación and the comprobante de pago, providing the exact information used in the answer.\",\n    \"verdict\": 1\n}",
+    "path": "evaluacion/S3_rerank/calls/235a14f778614bf69743287627c0e9fa_1.json"
+  },
+  {
+    "case_variant": "S3_rerank",
+    "call_id": "32c4b12d7c62477aa68da9fbf2c123f0",
+    "attempt": 1,
+    "stage": "answer_relevancy_question",
+    "judgment": {
+      "question": "¿Cuál es la diferencia entre el comprobante de presentación y el comprobante de pago?",
+      "noncommittal": 0
+    },
+    "raw_text": "{\n  \"question\": \"¿Cuál es la diferencia entre el comprobante de presentación y el comprobante de pago?\",\n  \"noncommittal\": 0\n}",
+    "path": "evaluacion/S3_rerank/calls/32c4b12d7c62477aa68da9fbf2c123f0_1.json"
+  },
+  {
+    "case_variant": "S3_rerank",
+    "call_id": "4a9a48f31e75440e8ecd78cfc9cde788",
+    "attempt": 1,
+    "stage": "faithfulness_statements",
+    "judgment": {
+      "statements": [
+        "El comprobante de presentación es el acuse de recibo.",
+        "El comprobante de presentación contiene el número de transacción.",
+        "El comprobante de presentación contiene la fecha.",
+        "El comprobante de presentación contiene la hora.",
+        "El comprobante de pago es el ticket del volante electrónico de pago o el extracto del débito.",
+        "El tipo de comprobante de pago depende del medio utilizado."
+      ]
+    },
+    "raw_text": "{\n  \"statements\": [\n    \"El comprobante de presentación es el acuse de recibo.\",\n    \"El comprobante de presentación contiene el número de transacción.\",\n    \"El comprobante de presentación contiene la fecha.\",\n    \"El comprobante de presentación contiene la hora.\",\n    \"El comprobante de pago es el ticket del volante electrónico de pago o el extracto del débito.\",\n    \"El tipo de comprobante de pago depende del medio utilizado.\"\n  ]\n}",
+    "path": "evaluacion/S3_rerank/calls/4a9a48f31e75440e8ecd78cfc9cde788_1.json"
+  },
+  {
+    "case_variant": "S3_rerank",
+    "call_id": "9d9684f42eb34bcd80d0c15daf8bff67",
+    "attempt": 1,
+    "stage": "context_recall_classifications",
+    "judgment": {
+      "classifications": [
+        {
+          "statement": "El comprobante de presentación es el acuse de recibo con número de transacción, fecha y hora.",
+          "reason": "La información coincide directamente con la definición proporcionada en el contexto.",
+          "attributed": 1
+        },
+        {
+          "statement": "El comprobante de pago es el ticket del volante electrónico de pago o el extracto del débito, según el medio utilizado.",
+          "reason": "La información es una transcripción exacta de lo indicado en el contexto.",
+          "attributed": 1
+        }
+      ]
+    },
+    "raw_text": "{\n  \"classifications\": [\n    {\n      \"statement\": \"El comprobante de presentación es el acuse de recibo con número de transacción, fecha y hora.\",\n      \"reason\": \"La información coincide directamente con la definición proporcionada en el contexto.\",\n      \"attributed\": 1\n    },\n    {\n      \"statement\": \"El comprobante de pago es el ticket del volante electrónico de pago o el extracto del débito, según el medio utilizado.\",\n      \"reason\": \"La información es una transcripción exacta de lo indicado en el contexto.\",\n      \"attributed\": 1\n    }\n  ]\n}",
+    "path": "evaluacion/S3_rerank/calls/9d9684f42eb34bcd80d0c15daf8bff67_1.json"
+  },
+  {
+    "case_variant": "S3_rerank",
+    "call_id": "ceb03502d05940dfa6cce0467fb42166",
+    "attempt": 1,
+    "stage": "faithfulness_verdicts",
+    "judgment": {
+      "statements": [
+        {
+          "statement": "El comprobante de presentación es el acuse de recibo.",
+          "reason": "El texto afirma explícitamente que el comprobante de presentación es el acuse de recibo.",
+          "verdict": 1
+        },
+        {
+          "statement": "El comprobante de presentación contiene el número de transacción.",
+          "reason": "El texto indica que el acuse de recibo lleva número de transacción.",
+          "verdict": 1
+        },
+        {
+          "statement": "El comprobante de presentación contiene la fecha.",
+          "reason": "El texto indica que el acuse de recibo lleva fecha.",
+          "verdict": 1
+        },
+        {
+          "statement": "El comprobante de presentación contiene la hora.",
+          "reason": "El texto indica que el acuse de recibo lleva hora.",
+          "verdict": 1
+        },
+        {
+          "statement": "El comprobante de pago es el ticket del volante electrónico de pago o el extracto del débito.",
+          "reason": "El texto define el comprobante de pago como el ticket del volante electrónico de pago o el extracto del débito.",
+          "verdict": 1
+        },
+        {
+          "statement": "El tipo de comprobante de pago depende del medio utilizado.",
+          "reason": "El texto menciona que el comprobante de pago es uno u otro, según el medio utilizado.",
+          "verdict": 1
+        }
+      ]
+    },
+    "raw_text": "{\n  \"statements\": [\n    {\n      \"statement\": \"El comprobante de presentación es el acuse de recibo.\",\n      \"reason\": \"El texto afirma explícitamente que el comprobante de presentación es el acuse de recibo.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El comprobante de presentación contiene el número de transacción.\",\n      \"reason\": \"El texto indica que el acuse de recibo lleva número de transacción.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El comprobante de presentación contiene la fecha.\",\n      \"reason\": \"El texto indica que el acuse de recibo lleva fecha.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El comprobante de presentación contiene la hora.\",\n      \"reason\": \"El texto indica que el acuse de recibo lleva hora.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El comprobante de pago es el ticket del volante electrónico de pago o el extracto del débito.\",\n      \"reason\": \"El texto define el comprobante de pago como el ticket del volante electrónico de pago o el extracto del débito.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"El tipo de comprobante de pago depende del medio utilizado.\",\n      \"reason\": \"El texto menciona que el comprobante de pago es uno u otro, según el medio utilizado.\",\n      \"verdict\": 1\n    }\n  ]\n}",
+    "path": "evaluacion/S3_rerank/calls/ceb03502d05940dfa6cce0467fb42166_1.json"
+  },
+  {
+    "case_variant": "S3_rerank",
+    "call_id": "f924cb80a6284cfe8a4ff6e849d1635f",
+    "attempt": 1,
+    "stage": "answer_relevancy_question",
+    "judgment": {
+      "question": "¿Cuál es la diferencia entre el comprobante de presentación y el comprobante de pago?",
+      "noncommittal": 0
+    },
+    "raw_text": "{\n  \"question\": \"¿Cuál es la diferencia entre el comprobante de presentación y el comprobante de pago?\",\n  \"noncommittal\": 0\n}",
+    "path": "evaluacion/S3_rerank/calls/f924cb80a6284cfe8a4ff6e849d1635f_1.json"
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "environment": ".venv-repro",
+  "existing_environment_preserved": ".venv",
+  "python": "3.14.8",
+  "system": "Windows-11-10.0.26200-SP0",
+  "architecture": "AMD64",
+  "uv": "0.13.1",
+  "lock_sha256": "f47f55edeabf808143d7efa53fcc38265272a42526d28519599cb1205f0575f7",
+  "versions": {
+    "ragas": "0.2.15",
+    "google-genai": "2.24.0",
+    "langchain-core": "1.6.12",
+    "langchain-community": "0.3.31",
+    "langchain-openai": "1.7.2",
+    "pydantic": "2.13.5",
+    "numpy": "2.5.3",
+    "chromadb": "1.5.9",
+    "nest-asyncio": "1.6.0"
+  },
+  "commands": [
+    "uv --cache-dir .uv-cache venv --python 3.14.8 .venv-repro",
+    "UV_PROJECT_ENVIRONMENT=.venv-repro uv --cache-dir .uv-cache sync --locked --python 3.14.8"
+  ],
+  "clean_dependencies_install_tested": true,
+  "python_runtime_reused": true,
+  "packages_installed": 131,
+  "checks": {
+    "imports": "PASS",
+    "pipeline_tests": 11,
+    "evaluation_tests": 4,
+    "continuation_tests": 5,
+    "dataset_checks": 154,
+    "dependency_check": "PASS",
+    "lock_check": "PASS",
+    "ragas_source_identical_to_original": true
+  },
+  "bootstrap_note": "uv python install attempted the existing user-managed runtime lock and was denied by sandbox. Existing CPython 3.14.8 was reused; no runtime/system/global tools were installed.",
+  "global_tools_installed": false
+}

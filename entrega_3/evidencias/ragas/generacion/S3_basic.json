@@ -1,0 +1,114 @@
+{
+  "id": "S3",
+  "variant": "basic",
+  "started_at": "2026-10-18T23:09:15.890020+00:00",
+  "total_seconds": 1.3472836000000825,
+  "question": "¿Qué diferencia hay entre el comprobante de presentación y el comprobante de pago?",
+  "candidates": [
+    {
+      "id": "DOC-012",
+      "documento": "El estudio entrega al cliente el comprobante de cada presentación y de cada pago que gestiona en su nombre. El comprobante de presentación es el acuse de recibo, que lleva número de transacción, fecha y hora. El comprobante de pago es el ticket del volante electrónico de pago o el extracto del débito, según el medio utilizado. Para recuperar el archivo correcto hay que identificar tres datos: el CUIT del contribuyente, el impuesto y el período fiscal. Sin los tres, la búsqueda es ambigua, porque un mismo cliente tiene un comprobante por impuesto y por mes. Los comprobantes son documentación privada del cliente y solo se entregan al titular o a quien el titular autorizó formalmente. El estudio conserva copia de cada comprobante entregado.",
+      "documento_raw": "El estudio entrega al cliente el comprobante de cada presentación y de cada pago que gestiona en su nombre. El comprobante de presentación es el acuse de recibo, que lleva número de transacción, fecha y hora. El comprobante de pago es el ticket del volante electrónico de pago o el extracto del débito, según el medio utilizado. Para recuperar el archivo correcto hay que identificar tres datos: el CUIT del contribuyente, el impuesto y el período fiscal. Sin los tres, la búsqueda es ambigua, porque un mismo cliente tiene un comprobante por impuesto y por mes. Los comprobantes son documentación privada del cliente y solo se entregan al titular o a quien el titular autorizó formalmente. El estudio conserva copia de cada comprobante entregado. Los clientes preguntan: mandame el comprobante de lo que pagaste, necesito el acuse de la presentacion, me pasas el ticket del pago de abril, perdi el comprobante me lo reenvias.",
+      "metadatos": {
+        "tipo_contribuyente": "general",
+        "categoria": "comprobantes",
+        "tags_regionales": "comprobante, pago, presentacion, acuse, vep, ticket, constancia de pago",
+        "activo": true,
+        "jurisdiccion": "nacional"
+      },
+      "distancia": 0.24824881553649902,
+      "similitud": 0.7518
+    }
+  ],
+  "selected": [
+    {
+      "id": "DOC-012",
+      "documento": "El estudio entrega al cliente el comprobante de cada presentación y de cada pago que gestiona en su nombre. El comprobante de presentación es el acuse de recibo, que lleva número de transacción, fecha y hora. El comprobante de pago es el ticket del volante electrónico de pago o el extracto del débito, según el medio utilizado. Para recuperar el archivo correcto hay que identificar tres datos: el CUIT del contribuyente, el impuesto y el período fiscal. Sin los tres, la búsqueda es ambigua, porque un mismo cliente tiene un comprobante por impuesto y por mes. Los comprobantes son documentación privada del cliente y solo se entregan al titular o a quien el titular autorizó formalmente. El estudio conserva copia de cada comprobante entregado.",
+      "documento_raw": "El estudio entrega al cliente el comprobante de cada presentación y de cada pago que gestiona en su nombre. El comprobante de presentación es el acuse de recibo, que lleva número de transacción, fecha y hora. El comprobante de pago es el ticket del volante electrónico de pago o el extracto del débito, según el medio utilizado. Para recuperar el archivo correcto hay que identificar tres datos: el CUIT del contribuyente, el impuesto y el período fiscal. Sin los tres, la búsqueda es ambigua, porque un mismo cliente tiene un comprobante por impuesto y por mes. Los comprobantes son documentación privada del cliente y solo se entregan al titular o a quien el titular autorizó formalmente. El estudio conserva copia de cada comprobante entregado. Los clientes preguntan: mandame el comprobante de lo que pagaste, necesito el acuse de la presentacion, me pasas el ticket del pago de abril, perdi el comprobante me lo reenvias.",
+      "metadatos": {
+        "tipo_contribuyente": "general",
+        "categoria": "comprobantes",
+        "tags_regionales": "comprobante, pago, presentacion, acuse, vep, ticket, constancia de pago",
+        "activo": true,
+        "jurisdiccion": "nacional"
+      },
+      "distancia": 0.24824881553649902,
+      "similitud": 0.7518
+    }
+  ],
+  "status": "ok",
+  "judge": null,
+  "timings": {
+    "retrieval_seconds": 0.3504716000024928,
+    "generation_seconds": 0.940006100005121
+  },
+  "answer": "La diferencia es la siguiente:\n\n*   El **comprobante de presentación** es el acuse de recibo, el cual contiene número de transacción, fecha y hora (DOC-012).\n*   El **comprobante de pago** es el ticket del volante electrónico de pago o el extracto del débito, dependiendo del medio utilizado (DOC-012).",
+  "sources": [
+    {
+      "id": "DOC-012",
+      "documento": "El estudio entrega al cliente el comprobante de cada presentación y de cada pago que gestiona en su nombre. El comprobante de presentación es el acuse de recibo, que lleva número de transacción, fecha y hora. El comprobante de pago es el ticket del volante electrónico de pago o el extracto del débito, según el medio utilizado. Para recuperar el archivo correcto hay que identificar tres datos: el CUIT del contribuyente, el impuesto y el período fiscal. Sin los tres, la búsqueda es ambigua, porque un mismo cliente tiene un comprobante por impuesto y por mes. Los comprobantes son documentación privada del cliente y solo se entregan al titular o a quien el titular autorizó formalmente. El estudio conserva copia de cada comprobante entregado.",
+      "documento_raw": "El estudio entrega al cliente el comprobante de cada presentación y de cada pago que gestiona en su nombre. El comprobante de presentación es el acuse de recibo, que lleva número de transacción, fecha y hora. El comprobante de pago es el ticket del volante electrónico de pago o el extracto del débito, según el medio utilizado. Para recuperar el archivo correcto hay que identificar tres datos: el CUIT del contribuyente, el impuesto y el período fiscal. Sin los tres, la búsqueda es ambigua, porque un mismo cliente tiene un comprobante por impuesto y por mes. Los comprobantes son documentación privada del cliente y solo se entregan al titular o a quien el titular autorizó formalmente. El estudio conserva copia de cada comprobante entregado. Los clientes preguntan: mandame el comprobante de lo que pagaste, necesito el acuse de la presentacion, me pasas el ticket del pago de abril, perdi el comprobante me lo reenvias.",
+      "metadatos": {
+        "tipo_contribuyente": "general",
+        "categoria": "comprobantes",
+        "tags_regionales": "comprobante, pago, presentacion, acuse, vep, ticket, constancia de pago",
+        "activo": true,
+        "jurisdiccion": "nacional"
+      },
+      "distancia": 0.24824881553649902,
+      "similitud": 0.7518
+    }
+  ],
+  "settings": {
+    "variant": "basic",
+    "model": "gemini-3.1-flash-lite",
+    "temperature": 0.0,
+    "top_k": 3,
+    "candidate_k": 8,
+    "selected_k": 3,
+    "max_distance": 0.28,
+    "min_judge_score": 0.5
+  },
+  "usage": [
+    {
+      "run_id": "01a15146-ca8b-77c2-97ff-48378447c425",
+      "role": "generator",
+      "usage": {
+        "input_tokens": 344,
+        "output_tokens": 80,
+        "total_tokens": 424
+      },
+      "provider_usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 80,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 344,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 344
+          }
+        ],
+        "thoughts_token_count": null,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 424,
+        "traffic_type": null
+      }
+    }
+  ],
+  "attempts": [],
+  "generator_contexts": [
+    "El estudio entrega al cliente el comprobante de cada presentación y de cada pago que gestiona en su nombre. El comprobante de presentación es el acuse de recibo, que lleva número de transacción, fecha y hora. El comprobante de pago es el ticket del volante electrónico de pago o el extracto del débito, según el medio utilizado. Para recuperar el archivo correcto hay que identificar tres datos: el CUIT del contribuyente, el impuesto y el período fiscal. Sin los tres, la búsqueda es ambigua, porque un mismo cliente tiene un comprobante por impuesto y por mes. Los comprobantes son documentación privada del cliente y solo se entregan al titular o a quien el titular autorizó formalmente. El estudio conserva copia de cada comprobante entregado."
+  ],
+  "generator_payload": {
+    "pregunta": "¿Qué diferencia hay entre el comprobante de presentación y el comprobante de pago?",
+    "contexto": [
+      {
+        "id": "DOC-012",
+        "contenido": "El estudio entrega al cliente el comprobante de cada presentación y de cada pago que gestiona en su nombre. El comprobante de presentación es el acuse de recibo, que lleva número de transacción, fecha y hora. El comprobante de pago es el ticket del volante electrónico de pago o el extracto del débito, según el medio utilizado. Para recuperar el archivo correcto hay que identificar tres datos: el CUIT del contribuyente, el impuesto y el período fiscal. Sin los tres, la búsqueda es ambigua, porque un mismo cliente tiene un comprobante por impuesto y por mes. Los comprobantes son documentación privada del cliente y solo se entregan al titular o a quien el titular autorizó formalmente. El estudio conserva copia de cada comprobante entregado."
+      }
+    ]
+  }
+}

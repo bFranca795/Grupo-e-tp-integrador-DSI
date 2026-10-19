@@ -1,0 +1,10 @@
+{
+  "ejecutar.py": {
+    "sha256": "e98ded8c926ae5deecf9654d2e42f7646526dc4a4d44719b1fb2dc56c4f95d7c",
+    "matches_recorded_execution_hash": true
+  },
+  "adaptadores.py": {
+    "sha256": "683a87db183216040f47e9c78f6037f086dbe25857fcb43814e440ba0dffc628",
+    "matches_recorded_execution_hash": true
+  }
+}

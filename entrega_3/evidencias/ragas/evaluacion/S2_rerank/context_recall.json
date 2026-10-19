@@ -1,0 +1,19 @@
+{
+  "started_at": "2026-10-18T23:19:48.192000+00:00",
+  "metric": "context_recall",
+  "input": {
+    "user_input": "¿Qué componentes integra la cuota mensual del Monotributo?",
+    "retrieved_contexts": [
+      "El monotributista paga una cuota mensual única que integra tres componentes: el impuesto integrado, el aporte jubilatorio y el aporte a la obra social. La cuota vence todos los meses alrededor del día 20 y, si ese día no es hábil, el plazo corre al día hábil siguiente. El monto depende de la categoría vigente del contribuyente, y las categorías se actualizan periódicamente, por lo que el importe del mes puede diferir del mes anterior aunque la categoría no haya cambiado. Pagar fuera de término"
+    ],
+    "reference_contexts": null,
+    "response": "La cuota mensual del Monotributo integra tres componentes: el impuesto integrado, el aporte jubilatorio y el aporte a la obra social (DOC-004::chunk-000-e141194203030764).",
+    "multi_responses": null,
+    "reference": "La cuota mensual del Monotributo integra el impuesto integrado, el aporte jubilatorio y el aporte a la obra social.",
+    "rubrics": null
+  },
+  "value": 1.0,
+  "raw_value": 1.0,
+  "status": "ok",
+  "seconds": 2.839476499997545
+}

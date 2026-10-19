@@ -1,0 +1,323 @@
+{
+  "id": "I1",
+  "variant": "rerank",
+  "started_at": "2026-10-18T23:11:22.730892+00:00",
+  "total_seconds": 11.132389899998088,
+  "question": "¿Qué tengo que arrimarles para liquidar el gravamen al valor agregado?",
+  "candidates": [
+    {
+      "id": "DOC-007::chunk-000-bfbf474549da33fb",
+      "documento": "Para liquidar el IVA de un mes, el estudio necesita del cliente: las facturas de venta emitidas en el período, las facturas de compra recibidas, las notas de crédito y de débito tanto emitidas como recibidas, los comprobantes de retenciones y percepciones sufridas, y los tickets de controlador fiscal si el cliente factura por ese medio. Cada comprobante aporta crédito fiscal o débito fiscal según sea compra o venta, y el saldo del período es la diferencia entre ambos. Un comprobante que llega",
+      "documento_raw": "Para liquidar el IVA de un mes, el estudio necesita del cliente: las facturas de venta emitidas en el período, las facturas de compra recibidas, las notas de crédito y de débito tanto emitidas como recibidas, los comprobantes de retenciones y percepciones sufridas, y los tickets de controlador fiscal si el cliente factura por ese medio. Cada comprobante aporta crédito fiscal o débito fiscal según sea compra o venta, y el saldo del período es la diferencia entre ambos. Un comprobante que llega",
+      "metadatos": {
+        "chunk_index": 0,
+        "chunk_id": "DOC-007::chunk-000-bfbf474549da33fb",
+        "start_index": 0,
+        "activo": true,
+        "tipo_contribuyente": "responsable_inscripto",
+        "jurisdiccion": "nacional",
+        "categoria": "documentacion",
+        "tags_regionales": "iva, facturas, comprobantes, credito fiscal, debito fiscal, notas de credito, percepciones, retenciones",
+        "parent_id": "DOC-007"
+      },
+      "distancia": 0.26774656772613525,
+      "similitud": 0.7323
+    },
+    {
+      "id": "DOC-001::chunk-000-5d1a5023e0007962",
+      "documento": "El IVA es un impuesto mensual. El responsable inscripto presenta la declaración jurada del período y paga el saldo en el mismo mes siguiente al que liquida. La fecha exacta depende de la terminación del CUIT: las terminaciones más bajas vencen primero y las más altas cierran el escalonamiento unos días después. Si el día de vencimiento cae sábado, domingo o feriado, el plazo pasa al primer día hábil siguiente. Presentar la declaración jurada y pagar el saldo son dos actos distintos: se puede",
+      "documento_raw": "El IVA es un impuesto mensual. El responsable inscripto presenta la declaración jurada del período y paga el saldo en el mismo mes siguiente al que liquida. La fecha exacta depende de la terminación del CUIT: las terminaciones más bajas vencen primero y las más altas cierran el escalonamiento unos días después. Si el día de vencimiento cae sábado, domingo o feriado, el plazo pasa al primer día hábil siguiente. Presentar la declaración jurada y pagar el saldo son dos actos distintos: se puede",
+      "metadatos": {
+        "activo": true,
+        "start_index": 0,
+        "tags_regionales": "iva, ddjj, declaracion jurada, vencimiento, terminacion de cuit, calendario fiscal, arca, afip",
+        "categoria": "vencimientos",
+        "parent_id": "DOC-001",
+        "chunk_index": 0,
+        "jurisdiccion": "nacional",
+        "tipo_contribuyente": "responsable_inscripto",
+        "chunk_id": "DOC-001::chunk-000-5d1a5023e0007962"
+      },
+      "distancia": 0.3122958540916443,
+      "similitud": 0.6877
+    },
+    {
+      "id": "DOC-008::chunk-001-92e73e8b1d8ef4e4",
+      "documento": "se escalona por terminación de CUIT. La declaración jurada exige tener la nómina actualizada: altas y bajas de empleados deben registrarse antes de liquidar, porque un alta no registrada convierte la relación en trabajo no registrado. El pago fuera de término genera intereses y bloquea la obtención del certificado de libre deuda previsional que piden muchas licitaciones.",
+      "documento_raw": "se escalona por terminación de CUIT. La declaración jurada exige tener la nómina actualizada: altas y bajas de empleados deben registrarse antes de liquidar, porque un alta no registrada convierte la relación en trabajo no registrado. El pago fuera de término genera intereses y bloquea la obtención del certificado de libre deuda previsional que piden muchas licitaciones.",
+      "metadatos": {
+        "jurisdiccion": "nacional",
+        "tipo_contribuyente": "empleador",
+        "start_index": 400,
+        "categoria": "normativa",
+        "chunk_index": 1,
+        "activo": true,
+        "chunk_id": "DOC-008::chunk-001-92e73e8b1d8ef4e4",
+        "tags_regionales": "empleador, cargas sociales, sueldos, aportes, contribuciones, nomina, libre deuda, f931",
+        "parent_id": "DOC-008"
+      },
+      "distancia": 0.3252607583999634,
+      "similitud": 0.6747
+    },
+    {
+      "id": "DOC-003::chunk-000-42f59d263c71dc15",
+      "documento": "La declaración jurada de IVA del cliente fue procesada por el estudio. El trámite pasó al estado finalizada, ya que la declaración fue presentada correctamente y el saldo correspondiente fue pagado o compensado.",
+      "documento_raw": "La declaración jurada de IVA del cliente fue procesada por el estudio. El trámite pasó al estado finalizada, ya que la declaración fue presentada correctamente y el saldo correspondiente fue pagado o compensado.",
+      "metadatos": {
+        "categoria": "tramites",
+        "start_index": 0,
+        "parent_id": "DOC-003",
+        "tags_regionales": "iva, estado, declaracion jurada, presentada, finalizada",
+        "jurisdiccion": "nacional",
+        "tipo_contribuyente": "responsable_inscripto",
+        "chunk_id": "DOC-003::chunk-000-42f59d263c71dc15",
+        "activo": true,
+        "chunk_index": 0
+      },
+      "distancia": 0.32642048597335815,
+      "similitud": 0.6736
+    },
+    {
+      "id": "DOC-002::chunk-001-b3408e1e8b2c9830",
+      "documento": "hace falta definir la actividad económica que se va a declarar, porque de eso depende el código de actividad, y si la actividad es venta de cosas muebles o prestación de servicios, porque los topes de cada categoría difieren. Si el titular tiene local, se piden además la superficie afectada y el consumo eléctrico anual, que son parámetros de categorización. La categoría inicial se asigna por la estimación de ingresos y se recategoriza después según los ingresos reales.",
+      "documento_raw": "hace falta definir la actividad económica que se va a declarar, porque de eso depende el código de actividad, y si la actividad es venta de cosas muebles o prestación de servicios, porque los topes de cada categoría difieren. Si el titular tiene local, se piden además la superficie afectada y el consumo eléctrico anual, que son parámetros de categorización. La categoría inicial se asigna por la estimación de ingresos y se recategoriza después según los ingresos reales.",
+      "metadatos": {
+        "categoria": "documentacion",
+        "activo": true,
+        "tipo_contribuyente": "monotributo",
+        "parent_id": "DOC-002",
+        "chunk_id": "DOC-002::chunk-001-b3408e1e8b2c9830",
+        "start_index": 393,
+        "chunk_index": 1,
+        "jurisdiccion": "nacional",
+        "tags_regionales": "monotributo, alta, papeles, inscripcion, pequeño contribuyente, clave fiscal, categoria, cuit"
+      },
+      "distancia": 0.32931506633758545,
+      "similitud": 0.6707
+    },
+    {
+      "id": "DOC-005::chunk-000-bca91900ca926a40",
+      "documento": "Para armar la declaración jurada anual del impuesto a las ganancias de una persona humana, el estudio solicita: recibos de sueldo de los doce meses o el certificado de retenciones que emite el empleador; facturas emitidas y comprobantes de ingresos si hay actividad independiente; resúmenes bancarios y extractos de cuentas al 31 de diciembre; escrituras, cédulas o títulos de los bienes registrables que integran el patrimonio; comprobantes de compra y venta de bienes ocurridas durante el año; y",
+      "documento_raw": "Para armar la declaración jurada anual del impuesto a las ganancias de una persona humana, el estudio solicita: recibos de sueldo de los doce meses o el certificado de retenciones que emite el empleador; facturas emitidas y comprobantes de ingresos si hay actividad independiente; resúmenes bancarios y extractos de cuentas al 31 de diciembre; escrituras, cédulas o títulos de los bienes registrables que integran el patrimonio; comprobantes de compra y venta de bienes ocurridas durante el año; y",
+      "metadatos": {
+        "activo": true,
+        "tipo_contribuyente": "persona_humana",
+        "parent_id": "DOC-005",
+        "chunk_index": 0,
+        "tags_regionales": "ganancias, documentacion, ddjj, bienes personales, deducciones, declaracion anual, patrimonio",
+        "jurisdiccion": "nacional",
+        "categoria": "documentacion",
+        "start_index": 0,
+        "chunk_id": "DOC-005::chunk-000-bca91900ca926a40"
+      },
+      "distancia": 0.3387562036514282,
+      "similitud": 0.6612
+    },
+    {
+      "id": "DOC-001::chunk-001-619740ed81062fb1",
+      "documento": "hábil siguiente. Presentar la declaración jurada y pagar el saldo son dos actos distintos: se puede presentar en término y pagar fuera de término, y en ese caso corren intereses resarcitorios sobre el saldo. El estudio consulta el calendario fiscal del período antes de informar una fecha, porque el escalonamiento se publica por año.",
+      "documento_raw": "hábil siguiente. Presentar la declaración jurada y pagar el saldo son dos actos distintos: se puede presentar en término y pagar fuera de término, y en ese caso corren intereses resarcitorios sobre el saldo. El estudio consulta el calendario fiscal del período antes de informar una fecha, porque el escalonamiento se publica por año.",
+      "metadatos": {
+        "activo": true,
+        "chunk_index": 1,
+        "tags_regionales": "iva, ddjj, declaracion jurada, vencimiento, terminacion de cuit, calendario fiscal, arca, afip",
+        "start_index": 397,
+        "tipo_contribuyente": "responsable_inscripto",
+        "chunk_id": "DOC-001::chunk-001-619740ed81062fb1",
+        "jurisdiccion": "nacional",
+        "categoria": "vencimientos",
+        "parent_id": "DOC-001"
+      },
+      "distancia": 0.33925002813339233,
+      "similitud": 0.6607
+    },
+    {
+      "id": "DOC-008::chunk-000-989bdb5081187467",
+      "documento": "El empleador presenta mensualmente la declaración jurada de cargas sociales, que informa la nómina del período y liquida aportes y contribuciones. Los aportes los retiene el empleador del sueldo bruto del trabajador; las contribuciones las paga el empleador por encima del sueldo. El vencimiento de la presentación y del pago cae en la segunda semana del mes siguiente al período liquidado y también se escalona por terminación de CUIT. La declaración jurada exige tener la nómina actualizada: altas",
+      "documento_raw": "El empleador presenta mensualmente la declaración jurada de cargas sociales, que informa la nómina del período y liquida aportes y contribuciones. Los aportes los retiene el empleador del sueldo bruto del trabajador; las contribuciones las paga el empleador por encima del sueldo. El vencimiento de la presentación y del pago cae en la segunda semana del mes siguiente al período liquidado y también se escalona por terminación de CUIT. La declaración jurada exige tener la nómina actualizada: altas",
+      "metadatos": {
+        "chunk_index": 0,
+        "tipo_contribuyente": "empleador",
+        "tags_regionales": "empleador, cargas sociales, sueldos, aportes, contribuciones, nomina, libre deuda, f931",
+        "parent_id": "DOC-008",
+        "jurisdiccion": "nacional",
+        "activo": true,
+        "start_index": 0,
+        "categoria": "normativa",
+        "chunk_id": "DOC-008::chunk-000-989bdb5081187467"
+      },
+      "distancia": 0.3415953516960144,
+      "similitud": 0.6584
+    }
+  ],
+  "selected": [
+    {
+      "id": "DOC-007::chunk-000-bfbf474549da33fb",
+      "documento": "Para liquidar el IVA de un mes, el estudio necesita del cliente: las facturas de venta emitidas en el período, las facturas de compra recibidas, las notas de crédito y de débito tanto emitidas como recibidas, los comprobantes de retenciones y percepciones sufridas, y los tickets de controlador fiscal si el cliente factura por ese medio. Cada comprobante aporta crédito fiscal o débito fiscal según sea compra o venta, y el saldo del período es la diferencia entre ambos. Un comprobante que llega",
+      "documento_raw": "Para liquidar el IVA de un mes, el estudio necesita del cliente: las facturas de venta emitidas en el período, las facturas de compra recibidas, las notas de crédito y de débito tanto emitidas como recibidas, los comprobantes de retenciones y percepciones sufridas, y los tickets de controlador fiscal si el cliente factura por ese medio. Cada comprobante aporta crédito fiscal o débito fiscal según sea compra o venta, y el saldo del período es la diferencia entre ambos. Un comprobante que llega",
+      "metadatos": {
+        "chunk_index": 0,
+        "chunk_id": "DOC-007::chunk-000-bfbf474549da33fb",
+        "start_index": 0,
+        "activo": true,
+        "tipo_contribuyente": "responsable_inscripto",
+        "jurisdiccion": "nacional",
+        "categoria": "documentacion",
+        "tags_regionales": "iva, facturas, comprobantes, credito fiscal, debito fiscal, notas de credito, percepciones, retenciones",
+        "parent_id": "DOC-007"
+      },
+      "distancia": 0.26774656772613525,
+      "similitud": 0.7323
+    }
+  ],
+  "status": "ok",
+  "judge": {
+    "items": [
+      {
+        "id": "DOC-007::chunk-000-bfbf474549da33fb",
+        "score": 1.0,
+        "reason": "El fragmento detalla explícitamente la documentación necesaria para liquidar el IVA: facturas de venta, de compra, notas de crédito/débito, comprobantes de retenciones/percepciones y tickets de controlador fiscal."
+      },
+      {
+        "id": "DOC-001::chunk-000-5d1a5023e0007962",
+        "score": 0.2,
+        "reason": "Menciona que el IVA es mensual y cómo se determinan los vencimientos, pero no detalla qué documentación debe entregarse."
+      },
+      {
+        "id": "DOC-008::chunk-001-92e73e8b1d8ef4e4",
+        "score": 0.0,
+        "reason": "Habla sobre la nómina de empleados y cargas sociales, no sobre la liquidación del IVA."
+      },
+      {
+        "id": "DOC-003::chunk-000-42f59d263c71dc15",
+        "score": 0.0,
+        "reason": "Es un estado de trámite, no aporta información sobre qué documentación se requiere."
+      },
+      {
+        "id": "DOC-002::chunk-001-b3408e1e8b2c9830",
+        "score": 0.0,
+        "reason": "Se refiere a la categorización de actividades y parámetros para monotributo o ingresos brutos, no a la liquidación del IVA."
+      },
+      {
+        "id": "DOC-005::chunk-000-bca91900ca926a40",
+        "score": 0.0,
+        "reason": "Detalla la documentación para el impuesto a las ganancias, no para el IVA."
+      },
+      {
+        "id": "DOC-001::chunk-001-619740ed81062fb1",
+        "score": 0.0,
+        "reason": "Habla sobre el calendario fiscal y el pago fuera de término, no sobre la documentación necesaria."
+      },
+      {
+        "id": "DOC-008::chunk-000-989bdb5081187467",
+        "score": 0.0,
+        "reason": "Se refiere a la declaración jurada de cargas sociales, no al IVA."
+      }
+    ]
+  },
+  "timings": {
+    "retrieval_seconds": 1.0967747999966377,
+    "reranking_seconds": 8.613983900002495,
+    "generation_seconds": 1.3766961000001174
+  },
+  "answer": "Para liquidar el IVA, el estudio necesita que el cliente entregue la siguiente documentación:\n\n*   Facturas de venta emitidas en el período.\n*   Facturas de compra recibidas.\n*   Notas de crédito y de débito (tanto emitidas como recibidas).\n*   Comprobantes de retenciones y percepciones sufridas.\n*   Tickets de controlador fiscal (si el cliente factura por ese medio).\n\nFuente: DOC-007::chunk-000-bfbf474549da33fb",
+  "sources": [
+    {
+      "id": "DOC-007::chunk-000-bfbf474549da33fb",
+      "documento": "Para liquidar el IVA de un mes, el estudio necesita del cliente: las facturas de venta emitidas en el período, las facturas de compra recibidas, las notas de crédito y de débito tanto emitidas como recibidas, los comprobantes de retenciones y percepciones sufridas, y los tickets de controlador fiscal si el cliente factura por ese medio. Cada comprobante aporta crédito fiscal o débito fiscal según sea compra o venta, y el saldo del período es la diferencia entre ambos. Un comprobante que llega",
+      "documento_raw": "Para liquidar el IVA de un mes, el estudio necesita del cliente: las facturas de venta emitidas en el período, las facturas de compra recibidas, las notas de crédito y de débito tanto emitidas como recibidas, los comprobantes de retenciones y percepciones sufridas, y los tickets de controlador fiscal si el cliente factura por ese medio. Cada comprobante aporta crédito fiscal o débito fiscal según sea compra o venta, y el saldo del período es la diferencia entre ambos. Un comprobante que llega",
+      "metadatos": {
+        "chunk_index": 0,
+        "chunk_id": "DOC-007::chunk-000-bfbf474549da33fb",
+        "start_index": 0,
+        "activo": true,
+        "tipo_contribuyente": "responsable_inscripto",
+        "jurisdiccion": "nacional",
+        "categoria": "documentacion",
+        "tags_regionales": "iva, facturas, comprobantes, credito fiscal, debito fiscal, notas de credito, percepciones, retenciones",
+        "parent_id": "DOC-007"
+      },
+      "distancia": 0.26774656772613525,
+      "similitud": 0.7323
+    }
+  ],
+  "settings": {
+    "variant": "rerank",
+    "model": "gemini-3.1-flash-lite",
+    "temperature": 0.0,
+    "top_k": 3,
+    "candidate_k": 8,
+    "selected_k": 4,
+    "max_distance": 0.28,
+    "min_judge_score": 0.5
+  },
+  "usage": [
+    {
+      "run_id": "01a15148-bcde-7c60-9f28-b76ebc2e8abb",
+      "role": "judge",
+      "usage": {
+        "input_tokens": 1186,
+        "output_tokens": 631,
+        "total_tokens": 1817
+      },
+      "provider_usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 631,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 1186,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 1186
+          }
+        ],
+        "thoughts_token_count": null,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 1817,
+        "traffic_type": null
+      }
+    },
+    {
+      "run_id": "01a15148-de85-74e3-adb7-03a962af3b94",
+      "role": "generator",
+      "usage": {
+        "input_tokens": 315,
+        "output_tokens": 117,
+        "total_tokens": 432
+      },
+      "provider_usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 117,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 315,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 315
+          }
+        ],
+        "thoughts_token_count": null,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 432,
+        "traffic_type": null
+      }
+    }
+  ],
+  "attempts": [],
+  "generator_contexts": [
+    "Para liquidar el IVA de un mes, el estudio necesita del cliente: las facturas de venta emitidas en el período, las facturas de compra recibidas, las notas de crédito y de débito tanto emitidas como recibidas, los comprobantes de retenciones y percepciones sufridas, y los tickets de controlador fiscal si el cliente factura por ese medio. Cada comprobante aporta crédito fiscal o débito fiscal según sea compra o venta, y el saldo del período es la diferencia entre ambos. Un comprobante que llega"
+  ],
+  "generator_payload": {
+    "pregunta": "¿Qué tengo que arrimarles para liquidar el gravamen al valor agregado?",
+    "contexto": [
+      {
+        "id": "DOC-007::chunk-000-bfbf474549da33fb",
+        "contenido": "Para liquidar el IVA de un mes, el estudio necesita del cliente: las facturas de venta emitidas en el período, las facturas de compra recibidas, las notas de crédito y de débito tanto emitidas como recibidas, los comprobantes de retenciones y percepciones sufridas, y los tickets de controlador fiscal si el cliente factura por ese medio. Cada comprobante aporta crédito fiscal o débito fiscal según sea compra o venta, y el saldo del período es la diferencia entre ambos. Un comprobante que llega"
+      }
+    ]
+  }
+}

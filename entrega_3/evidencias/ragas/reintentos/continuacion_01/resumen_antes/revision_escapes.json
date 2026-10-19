@@ -1,0 +1,34 @@
+﻿[
+    {
+        "id":  "E1",
+        "variant":  "basic",
+        "correct_abstention":  true,
+        "reason":  "Revisión editorial: frase de abstención prevista sin contenido añadido; insufficient_context es una salida funcional, sin judge_error ni execution_error.",
+        "answer":  "No poseo información suficiente en la base de conocimiento para responder esa consulta.",
+        "technical_status":  "insufficient_context"
+    },
+    {
+        "id":  "E1",
+        "variant":  "rerank",
+        "correct_abstention":  true,
+        "reason":  "Revisión editorial: frase de abstención prevista sin contenido añadido; insufficient_context es una salida funcional, sin judge_error ni execution_error.",
+        "answer":  "No poseo información suficiente en la base de conocimiento para responder esa consulta.",
+        "technical_status":  "insufficient_context"
+    },
+    {
+        "id":  "E2",
+        "variant":  "basic",
+        "correct_abstention":  true,
+        "reason":  "Revisión editorial: reconoce falta de información y no agrega requisitos ni honorarios. La cita DOC-002 identifica el documento de requisitos recuperado; no contiene ni inventa un precio.",
+        "answer":  "No poseo información suficiente en la base de conocimiento para responder esa consulta (DOC-002).",
+        "technical_status":  "ok"
+    },
+    {
+        "id":  "E2",
+        "variant":  "rerank",
+        "correct_abstention":  true,
+        "reason":  "Revisión editorial: frase de abstención prevista sin contenido añadido; insufficient_context es una salida funcional, sin judge_error ni execution_error.",
+        "answer":  "No poseo información suficiente en la base de conocimiento para responder esa consulta.",
+        "technical_status":  "insufficient_context"
+    }
+]

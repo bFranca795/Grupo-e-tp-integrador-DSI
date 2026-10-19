@@ -1,0 +1,98 @@
+{
+  "call_id": "06d07ecd5fee40a9902f076f950909b3",
+  "kind": "evaluator_llm",
+  "attempt": 1,
+  "started_at": "2026-10-19T00:00:50.530649+00:00",
+  "input": {
+    "model": "gemini-3.1-flash-lite",
+    "prompt": "Given a context, and an answer, analyze each sentence in the answer and classify if the sentence can be attributed to the given context or not. Use only 'Yes' (1) or 'No' (0) as a binary classification. Output json with reason.\nPlease return the output in a JSON format that complies with the following schema as specified in JSON Schema:\n{\"$defs\": {\"ContextRecallClassification\": {\"properties\": {\"statement\": {\"title\": \"Statement\", \"type\": \"string\"}, \"reason\": {\"title\": \"Reason\", \"type\": \"string\"}, \"attributed\": {\"title\": \"Attributed\", \"type\": \"integer\"}}, \"required\": [\"statement\", \"reason\", \"attributed\"], \"title\": \"ContextRecallClassification\", \"type\": \"object\"}}, \"properties\": {\"classifications\": {\"items\": {\"$ref\": \"#/$defs/ContextRecallClassification\"}, \"title\": \"Classifications\", \"type\": \"array\"}}, \"required\": [\"classifications\"], \"title\": \"ContextRecallClassifications\", \"type\": \"object\"}Do not use single quotes in your response but double quotes,properly escaped with a backslash.\n\n--------EXAMPLES-----------\nExample 1\nInput: {\n    \"question\": \"What can you tell me about albert Albert Einstein?\",\n    \"context\": \"Albert Einstein (14 March 1879 - 18 April 1955) was a German-born theoretical physicist, widely held to be one of the greatest and most influential scientists of all time. Best known for developing the theory of relativity, he also made important contributions to quantum mechanics, and was thus a central figure in the revolutionary reshaping of the scientific understanding of nature that modern physics accomplished in the first decades of the twentieth century. His mass-energy equivalence formula E = mc2, which arises from relativity theory, has been called 'the world's most famous equation'. He received the 1921 Nobel Prize in Physics 'for his services to theoretical physics, and especially for his discovery of the law of the photoelectric effect', a pivotal step in the development of quantum theory. His work is also known for its influence on the philosophy of science. In a 1999 poll of 130 leading physicists worldwide by the British journal Physics World, Einstein was ranked the greatest physicist of all time. His intellectual achievements and originality have made Einstein synonymous with genius.\",\n    \"answer\": \"Albert Einstein born in 14 March 1879 was  German-born theoretical physicist, widely held to be one of the greatest and most influential scientists of all time. He received the 1921 Nobel Prize in Physics for his services to theoretical physics. He published 4 papers in 1905.  Einstein moved to Switzerland in 1895\"\n}\nOutput: {\n    \"classifications\": [\n        {\n            \"statement\": \"Albert Einstein, born on 14 March 1879, was a German-born theoretical physicist, widely held to be one of the greatest and most influential scientists of all time.\",\n            \"reason\": \"The date of birth of Einstein is mentioned clearly in the context.\",\n            \"attributed\": 1\n        },\n        {\n            \"statement\": \"He received the 1921 Nobel Prize in Physics for his services to theoretical physics.\",\n            \"reason\": \"The exact sentence is present in the given context.\",\n            \"attributed\": 1\n        },\n        {\n            \"statement\": \"He published 4 papers in 1905.\",\n            \"reason\": \"There is no mention about papers he wrote in the given context.\",\n            \"attributed\": 0\n        },\n        {\n            \"statement\": \"Einstein moved to Switzerland in 1895.\",\n            \"reason\": \"There is no supporting evidence for this in the given context.\",\n            \"attributed\": 0\n        }\n    ]\n}\n-----------------------------\n\nNow perform the same with the following input\ninput: {\n    \"question\": \"Me cayó una intimación del fisco, ¿qué hago ahora?\",\n    \"context\": \"Una intimación o un requerimiento fiscal es una notificación formal en la que el organismo reclama una presentación faltante, un pago adeudado o documentación de respaldo. La notificación llega al domicilio fiscal electrónico y corre un plazo de respuesta desde que se considera notificada, aunque el contribuyente no la haya leído. Dejar vencer el plazo agrava la situación: habilita multas, la determinación de oficio y, en casos de deuda firme, el juicio de ejecución fiscal. Estas consultas no se\\nde oficio y, en casos de deuda firme, el juicio de ejecución fiscal. Estas consultas no se responden con información general. Requieren leer la notificación concreta, identificar impuesto, período y monto reclamado, revisar si la obligación efectivamente está incumplida y definir si corresponde presentar el descargo, allanarse o rectificar. Por eso se clasifican como casos de mayor complejidad y se derivan al profesional responsable con el detalle del caso. El asistente no evalúa la procedencia\",\n    \"answer\": \"Compartí la notificación concreta con el profesional responsable sin dejar vencer el plazo: corre desde que se considera notificada en el domicilio fiscal electrónico, aunque no la hayas leído. Dejar vencer el plazo habilita multas, determinación de oficio y, si hay deuda firme, ejecución fiscal. El caso debe derivarse al profesional con el detalle de la notificación, impuesto, período y monto, para revisar el supuesto incumplimiento y definir la respuesta. El asistente no evalúa la procedencia del reclamo ni recomienda una estrategia de respuesta.\"\n}\nOutput: ",
+    "temperature": 0.0,
+    "max_output_tokens": 8192,
+    "response_mime_type": "application/json",
+    "stop": null
+  },
+  "transport": "sequential_12s",
+  "status": "ok",
+  "response": {
+    "sdk_http_response": {
+      "headers": {
+        "x-gemini-service-tier": "standard",
+        "content-type": "application/json; charset=UTF-8",
+        "vary": "Origin, X-Origin, Referer",
+        "content-encoding": "gzip",
+        "date": "Mon, 19 Oct 2026 00:00:57 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "x-xss-protection": "0",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "server-timing": "gfet4t7; dur=6837",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "transfer-encoding": "chunked"
+      },
+      "body": null
+    },
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "media_resolution": null,
+              "code_execution_result": null,
+              "executable_code": null,
+              "file_data": null,
+              "function_call": null,
+              "function_response": null,
+              "inline_data": null,
+              "text": "{\n  \"classifications\": [\n    {\n      \"statement\": \"Compartí la notificación concreta con el profesional responsable sin dejar vencer el plazo: corre desde que se considera notificada en el domicilio fiscal electrónico, aunque no la hayas leído.\",\n      \"reason\": \"El contexto indica que se debe derivar al profesional responsable y que el plazo corre desde que se considera notificada en el domicilio fiscal electrónico, aunque no se haya leído.\",\n      \"attributed\": 1\n    },\n    {\n      \"statement\": \"Dejar vencer el plazo habilita multas, determinación de oficio y, si hay deuda firme, ejecución fiscal.\",\n      \"reason\": \"El contexto menciona explícitamente que dejar vencer el plazo habilita multas, la determinación de oficio y el juicio de ejecución fiscal en casos de deuda firme.\",\n      \"attributed\": 1\n    },\n    {\n      \"statement\": \"El caso debe derivarse al profesional con el detalle de la notificación, impuesto, período y monto, para revisar el supuesto incumplimiento y definir la respuesta.\",\n      \"reason\": \"El contexto establece que se deben identificar estos detalles y derivar el caso al profesional responsable.\",\n      \"attributed\": 1\n    },\n    {\n      \"statement\": \"El asistente no evalúa la procedencia del reclamo ni recomienda una estrategia de respuesta.\",\n      \"reason\": \"El contexto afirma explícitamente que el asistente no evalúa la procedencia.\",\n      \"attributed\": 1\n    }\n  ]\n}",
+              "thought": null,
+              "thought_signature": "EnMKcQFpFH0Ter_DCzSuPRh7ZL1va4R1vLu3I2U2glKEnDCQzdgcOd47q1viqJlPUT1YKnDKxE7sD_iBA-v6UCbLBGFh-eJlNkV3T53GolnrS71rqzgP0fHbLAYjmWExOQ-xwhApXZ_2sHOR25Nu_tlY0qlf",
+              "video_metadata": null,
+              "tool_call": null,
+              "tool_response": null,
+              "part_metadata": null,
+              "audio_transcription": null,
+              "media_processing": null
+            }
+          ],
+          "role": "model"
+        },
+        "citation_metadata": null,
+        "finish_message": null,
+        "token_count": null,
+        "finish_reason": "STOP",
+        "grounding_metadata": null,
+        "avg_logprobs": null,
+        "index": 0,
+        "logprobs_result": null,
+        "safety_ratings": null,
+        "url_context_metadata": null
+      }
+    ],
+    "create_time": null,
+    "model_version": "gemini-3.1-flash-lite",
+    "prompt_feedback": null,
+    "response_id": "s13VaqKNF_KHz7IPmIrFyQs",
+    "usage_metadata": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 321,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 1190,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 1190
+        }
+      ],
+      "thoughts_token_count": null,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 1511,
+      "traffic_type": null
+    },
+    "model_status": null,
+    "automatic_function_calling_history": null,
+    "parsed": null
+  },
+  "seconds": 6.954981599999883
+}

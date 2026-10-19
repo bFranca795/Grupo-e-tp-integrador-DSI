@@ -1,0 +1,19 @@
+{
+  "started_at": "2026-10-18T23:20:46.536765+00:00",
+  "metric": "context_recall",
+  "input": {
+    "user_input": "¿Qué diferencia hay entre el comprobante de presentación y el comprobante de pago?",
+    "retrieved_contexts": [
+      "El estudio entrega al cliente el comprobante de cada presentación y de cada pago que gestiona en su nombre. El comprobante de presentación es el acuse de recibo, que lleva número de transacción, fecha y hora. El comprobante de pago es el ticket del volante electrónico de pago o el extracto del débito, según el medio utilizado. Para recuperar el archivo correcto hay que identificar tres datos: el CUIT del contribuyente, el impuesto y el período fiscal. Sin los tres, la búsqueda es ambigua, porque"
+    ],
+    "reference_contexts": null,
+    "response": "La diferencia es la siguiente:\n\n*   El **comprobante de presentación** es el acuse de recibo, el cual contiene el número de transacción, la fecha y la hora (DOC-012::chunk-000-aab8e60566e4bda5).\n*   El **comprobante de pago** es el ticket del volante electrónico de pago o el extracto del débito, dependiendo del medio utilizado (DOC-012::chunk-000-aab8e60566e4bda5).",
+    "multi_responses": null,
+    "reference": "El comprobante de presentación es el acuse de recibo con número de transacción, fecha y hora. El comprobante de pago es el ticket del volante electrónico de pago o el extracto del débito, según el medio utilizado.",
+    "rubrics": null
+  },
+  "value": 1.0,
+  "raw_value": 1.0,
+  "status": "ok",
+  "seconds": 6.165706699997827
+}

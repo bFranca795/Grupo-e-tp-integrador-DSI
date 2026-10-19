@@ -1,0 +1,7 @@
+{
+  "exit_code": 0,
+  "unchanged": true,
+  "new_files": [],
+  "stdout": "PASS 152 comprobaciones automáticas; 0 errores\nPASS 152 comprobaciones automáticas; 0 errores",
+  "notes": "All terminal states reused, including exhausted errors; no provider calls repeated."
+}

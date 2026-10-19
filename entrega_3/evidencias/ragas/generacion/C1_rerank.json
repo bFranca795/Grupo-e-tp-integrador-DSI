@@ -1,0 +1,446 @@
+{
+  "id": "C1",
+  "variant": "rerank",
+  "started_at": "2026-10-18T23:09:24.578398+00:00",
+  "total_seconds": 5.756976000004215,
+  "question": "Soy empleador y responsable inscripto: ¿qué necesito para liquidar IVA, cuándo presento y pago esa declaración y qué obligaciones tengo con las cargas sociales?",
+  "candidates": [
+    {
+      "id": "DOC-008::chunk-000-989bdb5081187467",
+      "documento": "El empleador presenta mensualmente la declaración jurada de cargas sociales, que informa la nómina del período y liquida aportes y contribuciones. Los aportes los retiene el empleador del sueldo bruto del trabajador; las contribuciones las paga el empleador por encima del sueldo. El vencimiento de la presentación y del pago cae en la segunda semana del mes siguiente al período liquidado y también se escalona por terminación de CUIT. La declaración jurada exige tener la nómina actualizada: altas",
+      "documento_raw": "El empleador presenta mensualmente la declaración jurada de cargas sociales, que informa la nómina del período y liquida aportes y contribuciones. Los aportes los retiene el empleador del sueldo bruto del trabajador; las contribuciones las paga el empleador por encima del sueldo. El vencimiento de la presentación y del pago cae en la segunda semana del mes siguiente al período liquidado y también se escalona por terminación de CUIT. La declaración jurada exige tener la nómina actualizada: altas",
+      "metadatos": {
+        "parent_id": "DOC-008",
+        "activo": true,
+        "categoria": "normativa",
+        "start_index": 0,
+        "tags_regionales": "empleador, cargas sociales, sueldos, aportes, contribuciones, nomina, libre deuda, f931",
+        "tipo_contribuyente": "empleador",
+        "chunk_index": 0,
+        "jurisdiccion": "nacional",
+        "chunk_id": "DOC-008::chunk-000-989bdb5081187467"
+      },
+      "distancia": 0.26733124256134033,
+      "similitud": 0.7327
+    },
+    {
+      "id": "DOC-001::chunk-000-5d1a5023e0007962",
+      "documento": "El IVA es un impuesto mensual. El responsable inscripto presenta la declaración jurada del período y paga el saldo en el mismo mes siguiente al que liquida. La fecha exacta depende de la terminación del CUIT: las terminaciones más bajas vencen primero y las más altas cierran el escalonamiento unos días después. Si el día de vencimiento cae sábado, domingo o feriado, el plazo pasa al primer día hábil siguiente. Presentar la declaración jurada y pagar el saldo son dos actos distintos: se puede",
+      "documento_raw": "El IVA es un impuesto mensual. El responsable inscripto presenta la declaración jurada del período y paga el saldo en el mismo mes siguiente al que liquida. La fecha exacta depende de la terminación del CUIT: las terminaciones más bajas vencen primero y las más altas cierran el escalonamiento unos días después. Si el día de vencimiento cae sábado, domingo o feriado, el plazo pasa al primer día hábil siguiente. Presentar la declaración jurada y pagar el saldo son dos actos distintos: se puede",
+      "metadatos": {
+        "tags_regionales": "iva, ddjj, declaracion jurada, vencimiento, terminacion de cuit, calendario fiscal, arca, afip",
+        "jurisdiccion": "nacional",
+        "categoria": "vencimientos",
+        "tipo_contribuyente": "responsable_inscripto",
+        "chunk_id": "DOC-001::chunk-000-5d1a5023e0007962",
+        "chunk_index": 0,
+        "activo": true,
+        "parent_id": "DOC-001",
+        "start_index": 0
+      },
+      "distancia": 0.27388375997543335,
+      "similitud": 0.7261
+    },
+    {
+      "id": "DOC-008::chunk-001-92e73e8b1d8ef4e4",
+      "documento": "se escalona por terminación de CUIT. La declaración jurada exige tener la nómina actualizada: altas y bajas de empleados deben registrarse antes de liquidar, porque un alta no registrada convierte la relación en trabajo no registrado. El pago fuera de término genera intereses y bloquea la obtención del certificado de libre deuda previsional que piden muchas licitaciones.",
+      "documento_raw": "se escalona por terminación de CUIT. La declaración jurada exige tener la nómina actualizada: altas y bajas de empleados deben registrarse antes de liquidar, porque un alta no registrada convierte la relación en trabajo no registrado. El pago fuera de término genera intereses y bloquea la obtención del certificado de libre deuda previsional que piden muchas licitaciones.",
+      "metadatos": {
+        "chunk_index": 1,
+        "chunk_id": "DOC-008::chunk-001-92e73e8b1d8ef4e4",
+        "categoria": "normativa",
+        "tags_regionales": "empleador, cargas sociales, sueldos, aportes, contribuciones, nomina, libre deuda, f931",
+        "tipo_contribuyente": "empleador",
+        "activo": true,
+        "jurisdiccion": "nacional",
+        "parent_id": "DOC-008",
+        "start_index": 400
+      },
+      "distancia": 0.302478551864624,
+      "similitud": 0.6975
+    },
+    {
+      "id": "DOC-007::chunk-000-bfbf474549da33fb",
+      "documento": "Para liquidar el IVA de un mes, el estudio necesita del cliente: las facturas de venta emitidas en el período, las facturas de compra recibidas, las notas de crédito y de débito tanto emitidas como recibidas, los comprobantes de retenciones y percepciones sufridas, y los tickets de controlador fiscal si el cliente factura por ese medio. Cada comprobante aporta crédito fiscal o débito fiscal según sea compra o venta, y el saldo del período es la diferencia entre ambos. Un comprobante que llega",
+      "documento_raw": "Para liquidar el IVA de un mes, el estudio necesita del cliente: las facturas de venta emitidas en el período, las facturas de compra recibidas, las notas de crédito y de débito tanto emitidas como recibidas, los comprobantes de retenciones y percepciones sufridas, y los tickets de controlador fiscal si el cliente factura por ese medio. Cada comprobante aporta crédito fiscal o débito fiscal según sea compra o venta, y el saldo del período es la diferencia entre ambos. Un comprobante que llega",
+      "metadatos": {
+        "start_index": 0,
+        "tags_regionales": "iva, facturas, comprobantes, credito fiscal, debito fiscal, notas de credito, percepciones, retenciones",
+        "activo": true,
+        "tipo_contribuyente": "responsable_inscripto",
+        "chunk_id": "DOC-007::chunk-000-bfbf474549da33fb",
+        "categoria": "documentacion",
+        "parent_id": "DOC-007",
+        "jurisdiccion": "nacional",
+        "chunk_index": 0
+      },
+      "distancia": 0.32308971881866455,
+      "similitud": 0.6769
+    },
+    {
+      "id": "DOC-001::chunk-001-619740ed81062fb1",
+      "documento": "hábil siguiente. Presentar la declaración jurada y pagar el saldo son dos actos distintos: se puede presentar en término y pagar fuera de término, y en ese caso corren intereses resarcitorios sobre el saldo. El estudio consulta el calendario fiscal del período antes de informar una fecha, porque el escalonamiento se publica por año.",
+      "documento_raw": "hábil siguiente. Presentar la declaración jurada y pagar el saldo son dos actos distintos: se puede presentar en término y pagar fuera de término, y en ese caso corren intereses resarcitorios sobre el saldo. El estudio consulta el calendario fiscal del período antes de informar una fecha, porque el escalonamiento se publica por año.",
+      "metadatos": {
+        "tags_regionales": "iva, ddjj, declaracion jurada, vencimiento, terminacion de cuit, calendario fiscal, arca, afip",
+        "activo": true,
+        "jurisdiccion": "nacional",
+        "tipo_contribuyente": "responsable_inscripto",
+        "chunk_index": 1,
+        "parent_id": "DOC-001",
+        "chunk_id": "DOC-001::chunk-001-619740ed81062fb1",
+        "start_index": 397,
+        "categoria": "vencimientos"
+      },
+      "distancia": 0.3469077944755554,
+      "similitud": 0.6531
+    },
+    {
+      "id": "DOC-003::chunk-000-42f59d263c71dc15",
+      "documento": "La declaración jurada de IVA del cliente fue procesada por el estudio. El trámite pasó al estado finalizada, ya que la declaración fue presentada correctamente y el saldo correspondiente fue pagado o compensado.",
+      "documento_raw": "La declaración jurada de IVA del cliente fue procesada por el estudio. El trámite pasó al estado finalizada, ya que la declaración fue presentada correctamente y el saldo correspondiente fue pagado o compensado.",
+      "metadatos": {
+        "tags_regionales": "iva, estado, declaracion jurada, presentada, finalizada",
+        "activo": true,
+        "tipo_contribuyente": "responsable_inscripto",
+        "start_index": 0,
+        "jurisdiccion": "nacional",
+        "categoria": "tramites",
+        "parent_id": "DOC-003",
+        "chunk_id": "DOC-003::chunk-000-42f59d263c71dc15",
+        "chunk_index": 0
+      },
+      "distancia": 0.3610868453979492,
+      "similitud": 0.6389
+    },
+    {
+      "id": "DOC-004::chunk-000-e141194203030764",
+      "documento": "El monotributista paga una cuota mensual única que integra tres componentes: el impuesto integrado, el aporte jubilatorio y el aporte a la obra social. La cuota vence todos los meses alrededor del día 20 y, si ese día no es hábil, el plazo corre al día hábil siguiente. El monto depende de la categoría vigente del contribuyente, y las categorías se actualizan periódicamente, por lo que el importe del mes puede diferir del mes anterior aunque la categoría no haya cambiado. Pagar fuera de término",
+      "documento_raw": "El monotributista paga una cuota mensual única que integra tres componentes: el impuesto integrado, el aporte jubilatorio y el aporte a la obra social. La cuota vence todos los meses alrededor del día 20 y, si ese día no es hábil, el plazo corre al día hábil siguiente. El monto depende de la categoría vigente del contribuyente, y las categorías se actualizan periódicamente, por lo que el importe del mes puede diferir del mes anterior aunque la categoría no haya cambiado. Pagar fuera de término",
+      "metadatos": {
+        "parent_id": "DOC-004",
+        "start_index": 0,
+        "chunk_index": 0,
+        "tags_regionales": "monotributo, cuota, vencimiento, recategorizacion, obra social, jubilacion, impuesto integrado",
+        "categoria": "vencimientos",
+        "jurisdiccion": "nacional",
+        "tipo_contribuyente": "monotributo",
+        "chunk_id": "DOC-004::chunk-000-e141194203030764",
+        "activo": true
+      },
+      "distancia": 0.3717386722564697,
+      "similitud": 0.6283
+    },
+    {
+      "id": "DOC-007::chunk-001-dfd8e869b69c0e65",
+      "documento": "sea compra o venta, y el saldo del período es la diferencia entre ambos. Un comprobante que llega tarde no se puede computar en el período ya presentado y arrastra a una rectificativa. Las facturas de compra solo generan crédito fiscal si están a nombre del CUIT del cliente y corresponden a la actividad gravada. Los comprobantes tipo B y C emitidos a consumidor final no discriminan IVA y por eso no generan crédito fiscal computable.",
+      "documento_raw": "sea compra o venta, y el saldo del período es la diferencia entre ambos. Un comprobante que llega tarde no se puede computar en el período ya presentado y arrastra a una rectificativa. Las facturas de compra solo generan crédito fiscal si están a nombre del CUIT del cliente y corresponden a la actividad gravada. Los comprobantes tipo B y C emitidos a consumidor final no discriminan IVA y por eso no generan crédito fiscal computable.",
+      "metadatos": {
+        "chunk_id": "DOC-007::chunk-001-dfd8e869b69c0e65",
+        "chunk_index": 1,
+        "parent_id": "DOC-007",
+        "tipo_contribuyente": "responsable_inscripto",
+        "start_index": 400,
+        "tags_regionales": "iva, facturas, comprobantes, credito fiscal, debito fiscal, notas de credito, percepciones, retenciones",
+        "jurisdiccion": "nacional",
+        "categoria": "documentacion",
+        "activo": true
+      },
+      "distancia": 0.37469005584716797,
+      "similitud": 0.6253
+    }
+  ],
+  "selected": [
+    {
+      "id": "DOC-008::chunk-000-989bdb5081187467",
+      "documento": "El empleador presenta mensualmente la declaración jurada de cargas sociales, que informa la nómina del período y liquida aportes y contribuciones. Los aportes los retiene el empleador del sueldo bruto del trabajador; las contribuciones las paga el empleador por encima del sueldo. El vencimiento de la presentación y del pago cae en la segunda semana del mes siguiente al período liquidado y también se escalona por terminación de CUIT. La declaración jurada exige tener la nómina actualizada: altas",
+      "documento_raw": "El empleador presenta mensualmente la declaración jurada de cargas sociales, que informa la nómina del período y liquida aportes y contribuciones. Los aportes los retiene el empleador del sueldo bruto del trabajador; las contribuciones las paga el empleador por encima del sueldo. El vencimiento de la presentación y del pago cae en la segunda semana del mes siguiente al período liquidado y también se escalona por terminación de CUIT. La declaración jurada exige tener la nómina actualizada: altas",
+      "metadatos": {
+        "parent_id": "DOC-008",
+        "activo": true,
+        "categoria": "normativa",
+        "start_index": 0,
+        "tags_regionales": "empleador, cargas sociales, sueldos, aportes, contribuciones, nomina, libre deuda, f931",
+        "tipo_contribuyente": "empleador",
+        "chunk_index": 0,
+        "jurisdiccion": "nacional",
+        "chunk_id": "DOC-008::chunk-000-989bdb5081187467"
+      },
+      "distancia": 0.26733124256134033,
+      "similitud": 0.7327
+    },
+    {
+      "id": "DOC-001::chunk-000-5d1a5023e0007962",
+      "documento": "El IVA es un impuesto mensual. El responsable inscripto presenta la declaración jurada del período y paga el saldo en el mismo mes siguiente al que liquida. La fecha exacta depende de la terminación del CUIT: las terminaciones más bajas vencen primero y las más altas cierran el escalonamiento unos días después. Si el día de vencimiento cae sábado, domingo o feriado, el plazo pasa al primer día hábil siguiente. Presentar la declaración jurada y pagar el saldo son dos actos distintos: se puede",
+      "documento_raw": "El IVA es un impuesto mensual. El responsable inscripto presenta la declaración jurada del período y paga el saldo en el mismo mes siguiente al que liquida. La fecha exacta depende de la terminación del CUIT: las terminaciones más bajas vencen primero y las más altas cierran el escalonamiento unos días después. Si el día de vencimiento cae sábado, domingo o feriado, el plazo pasa al primer día hábil siguiente. Presentar la declaración jurada y pagar el saldo son dos actos distintos: se puede",
+      "metadatos": {
+        "tags_regionales": "iva, ddjj, declaracion jurada, vencimiento, terminacion de cuit, calendario fiscal, arca, afip",
+        "jurisdiccion": "nacional",
+        "categoria": "vencimientos",
+        "tipo_contribuyente": "responsable_inscripto",
+        "chunk_id": "DOC-001::chunk-000-5d1a5023e0007962",
+        "chunk_index": 0,
+        "activo": true,
+        "parent_id": "DOC-001",
+        "start_index": 0
+      },
+      "distancia": 0.27388375997543335,
+      "similitud": 0.7261
+    },
+    {
+      "id": "DOC-007::chunk-000-bfbf474549da33fb",
+      "documento": "Para liquidar el IVA de un mes, el estudio necesita del cliente: las facturas de venta emitidas en el período, las facturas de compra recibidas, las notas de crédito y de débito tanto emitidas como recibidas, los comprobantes de retenciones y percepciones sufridas, y los tickets de controlador fiscal si el cliente factura por ese medio. Cada comprobante aporta crédito fiscal o débito fiscal según sea compra o venta, y el saldo del período es la diferencia entre ambos. Un comprobante que llega",
+      "documento_raw": "Para liquidar el IVA de un mes, el estudio necesita del cliente: las facturas de venta emitidas en el período, las facturas de compra recibidas, las notas de crédito y de débito tanto emitidas como recibidas, los comprobantes de retenciones y percepciones sufridas, y los tickets de controlador fiscal si el cliente factura por ese medio. Cada comprobante aporta crédito fiscal o débito fiscal según sea compra o venta, y el saldo del período es la diferencia entre ambos. Un comprobante que llega",
+      "metadatos": {
+        "start_index": 0,
+        "tags_regionales": "iva, facturas, comprobantes, credito fiscal, debito fiscal, notas de credito, percepciones, retenciones",
+        "activo": true,
+        "tipo_contribuyente": "responsable_inscripto",
+        "chunk_id": "DOC-007::chunk-000-bfbf474549da33fb",
+        "categoria": "documentacion",
+        "parent_id": "DOC-007",
+        "jurisdiccion": "nacional",
+        "chunk_index": 0
+      },
+      "distancia": 0.32308971881866455,
+      "similitud": 0.6769
+    },
+    {
+      "id": "DOC-008::chunk-001-92e73e8b1d8ef4e4",
+      "documento": "se escalona por terminación de CUIT. La declaración jurada exige tener la nómina actualizada: altas y bajas de empleados deben registrarse antes de liquidar, porque un alta no registrada convierte la relación en trabajo no registrado. El pago fuera de término genera intereses y bloquea la obtención del certificado de libre deuda previsional que piden muchas licitaciones.",
+      "documento_raw": "se escalona por terminación de CUIT. La declaración jurada exige tener la nómina actualizada: altas y bajas de empleados deben registrarse antes de liquidar, porque un alta no registrada convierte la relación en trabajo no registrado. El pago fuera de término genera intereses y bloquea la obtención del certificado de libre deuda previsional que piden muchas licitaciones.",
+      "metadatos": {
+        "chunk_index": 1,
+        "chunk_id": "DOC-008::chunk-001-92e73e8b1d8ef4e4",
+        "categoria": "normativa",
+        "tags_regionales": "empleador, cargas sociales, sueldos, aportes, contribuciones, nomina, libre deuda, f931",
+        "tipo_contribuyente": "empleador",
+        "activo": true,
+        "jurisdiccion": "nacional",
+        "parent_id": "DOC-008",
+        "start_index": 400
+      },
+      "distancia": 0.302478551864624,
+      "similitud": 0.6975
+    }
+  ],
+  "status": "ok",
+  "judge": {
+    "items": [
+      {
+        "id": "DOC-008::chunk-000-989bdb5081187467",
+        "score": 1.0,
+        "reason": "Explica claramente las obligaciones de cargas sociales, la diferencia entre aportes y contribuciones, y el esquema de vencimiento escalonado por CUIT."
+      },
+      {
+        "id": "DOC-001::chunk-000-5d1a5023e0007962",
+        "score": 1.0,
+        "reason": "Detalla la periodicidad del IVA, el proceso de presentación y pago, y cómo se determina la fecha de vencimiento según el CUIT."
+      },
+      {
+        "id": "DOC-007::chunk-000-bfbf474549da33fb",
+        "score": 0.9,
+        "reason": "Proporciona información explícita sobre qué documentación (facturas, notas, comprobantes) se necesita para liquidar el IVA."
+      },
+      {
+        "id": "DOC-008::chunk-001-92e73e8b1d8ef4e4",
+        "score": 0.7,
+        "reason": "Aporta información adicional sobre la gestión de altas y bajas de empleados y las consecuencias del pago fuera de término."
+      },
+      {
+        "id": "DOC-001::chunk-001-619740ed81062fb1",
+        "score": 0.5,
+        "reason": "Complementa la información sobre la distinción entre presentación y pago, y la importancia del calendario fiscal."
+      },
+      {
+        "id": "DOC-007::chunk-001-dfd8e869b69c0e65",
+        "score": 0.4,
+        "reason": "Aporta detalles técnicos sobre el cómputo del crédito fiscal, útil para el proceso de liquidación de IVA."
+      },
+      {
+        "id": "DOC-003::chunk-000-42f59d263c71dc15",
+        "score": 0.1,
+        "reason": "Es una confirmación de estado de trámite, aporta poco valor informativo sobre los requisitos o plazos."
+      },
+      {
+        "id": "DOC-004::chunk-000-e141194203030764",
+        "score": 0.0,
+        "reason": "No es relevante, trata sobre el monotributo, no sobre un responsable inscripto."
+      }
+    ]
+  },
+  "timings": {
+    "retrieval_seconds": 0.36489959999744315,
+    "reranking_seconds": 3.93789839999954,
+    "generation_seconds": 1.410860900003172
+  },
+  "answer": "Para liquidar el IVA, el estudio necesita que el cliente proporcione: facturas de venta emitidas, facturas de compra recibidas, notas de crédito y débito (emitidas y recibidas), comprobantes de retenciones y percepciones sufridas, y tickets de controlador fiscal si utiliza ese medio [DOC-007].\n\nRespecto a la declaración y pago del IVA:\n*   Es un impuesto mensual donde se presenta la declaración jurada y se paga el saldo en el mes siguiente al que se liquida [DOC-001].\n*   La fecha exacta depende de la terminación del CUIT, escalonándose de menor a mayor [DOC-001].\n*   Si el vencimiento cae en sábado, domingo o feriado, el plazo se traslada al primer día hábil siguiente [DOC-001].\n*   La presentación y el pago son actos distintos [DOC-001].\n\nSobre las cargas sociales:\n*   El empleador debe presentar mensualmente una declaración jurada que informa la nómina del período y liquida aportes y contribuciones [DOC-008].\n*   Los aportes son retenidos del sueldo bruto del trabajador, mientras que las contribuciones son pagadas por el empleador [DOC-008].\n*   El vencimiento de la presentación y el pago ocurre en la segunda semana del mes siguiente al período liquidado, escalonado por terminación de CUIT [DOC-008].\n*   Es obligatorio tener la nómina actualizada, registrando altas y bajas de empleados antes de liquidar [DOC-008].\n*   El pago fuera de término genera intereses y bloquea la obtención del certificado de libre deuda previsional [DOC-008].",
+  "sources": [
+    {
+      "id": "DOC-008::chunk-000-989bdb5081187467",
+      "documento": "El empleador presenta mensualmente la declaración jurada de cargas sociales, que informa la nómina del período y liquida aportes y contribuciones. Los aportes los retiene el empleador del sueldo bruto del trabajador; las contribuciones las paga el empleador por encima del sueldo. El vencimiento de la presentación y del pago cae en la segunda semana del mes siguiente al período liquidado y también se escalona por terminación de CUIT. La declaración jurada exige tener la nómina actualizada: altas",
+      "documento_raw": "El empleador presenta mensualmente la declaración jurada de cargas sociales, que informa la nómina del período y liquida aportes y contribuciones. Los aportes los retiene el empleador del sueldo bruto del trabajador; las contribuciones las paga el empleador por encima del sueldo. El vencimiento de la presentación y del pago cae en la segunda semana del mes siguiente al período liquidado y también se escalona por terminación de CUIT. La declaración jurada exige tener la nómina actualizada: altas",
+      "metadatos": {
+        "parent_id": "DOC-008",
+        "activo": true,
+        "categoria": "normativa",
+        "start_index": 0,
+        "tags_regionales": "empleador, cargas sociales, sueldos, aportes, contribuciones, nomina, libre deuda, f931",
+        "tipo_contribuyente": "empleador",
+        "chunk_index": 0,
+        "jurisdiccion": "nacional",
+        "chunk_id": "DOC-008::chunk-000-989bdb5081187467"
+      },
+      "distancia": 0.26733124256134033,
+      "similitud": 0.7327
+    },
+    {
+      "id": "DOC-001::chunk-000-5d1a5023e0007962",
+      "documento": "El IVA es un impuesto mensual. El responsable inscripto presenta la declaración jurada del período y paga el saldo en el mismo mes siguiente al que liquida. La fecha exacta depende de la terminación del CUIT: las terminaciones más bajas vencen primero y las más altas cierran el escalonamiento unos días después. Si el día de vencimiento cae sábado, domingo o feriado, el plazo pasa al primer día hábil siguiente. Presentar la declaración jurada y pagar el saldo son dos actos distintos: se puede",
+      "documento_raw": "El IVA es un impuesto mensual. El responsable inscripto presenta la declaración jurada del período y paga el saldo en el mismo mes siguiente al que liquida. La fecha exacta depende de la terminación del CUIT: las terminaciones más bajas vencen primero y las más altas cierran el escalonamiento unos días después. Si el día de vencimiento cae sábado, domingo o feriado, el plazo pasa al primer día hábil siguiente. Presentar la declaración jurada y pagar el saldo son dos actos distintos: se puede",
+      "metadatos": {
+        "tags_regionales": "iva, ddjj, declaracion jurada, vencimiento, terminacion de cuit, calendario fiscal, arca, afip",
+        "jurisdiccion": "nacional",
+        "categoria": "vencimientos",
+        "tipo_contribuyente": "responsable_inscripto",
+        "chunk_id": "DOC-001::chunk-000-5d1a5023e0007962",
+        "chunk_index": 0,
+        "activo": true,
+        "parent_id": "DOC-001",
+        "start_index": 0
+      },
+      "distancia": 0.27388375997543335,
+      "similitud": 0.7261
+    },
+    {
+      "id": "DOC-007::chunk-000-bfbf474549da33fb",
+      "documento": "Para liquidar el IVA de un mes, el estudio necesita del cliente: las facturas de venta emitidas en el período, las facturas de compra recibidas, las notas de crédito y de débito tanto emitidas como recibidas, los comprobantes de retenciones y percepciones sufridas, y los tickets de controlador fiscal si el cliente factura por ese medio. Cada comprobante aporta crédito fiscal o débito fiscal según sea compra o venta, y el saldo del período es la diferencia entre ambos. Un comprobante que llega",
+      "documento_raw": "Para liquidar el IVA de un mes, el estudio necesita del cliente: las facturas de venta emitidas en el período, las facturas de compra recibidas, las notas de crédito y de débito tanto emitidas como recibidas, los comprobantes de retenciones y percepciones sufridas, y los tickets de controlador fiscal si el cliente factura por ese medio. Cada comprobante aporta crédito fiscal o débito fiscal según sea compra o venta, y el saldo del período es la diferencia entre ambos. Un comprobante que llega",
+      "metadatos": {
+        "start_index": 0,
+        "tags_regionales": "iva, facturas, comprobantes, credito fiscal, debito fiscal, notas de credito, percepciones, retenciones",
+        "activo": true,
+        "tipo_contribuyente": "responsable_inscripto",
+        "chunk_id": "DOC-007::chunk-000-bfbf474549da33fb",
+        "categoria": "documentacion",
+        "parent_id": "DOC-007",
+        "jurisdiccion": "nacional",
+        "chunk_index": 0
+      },
+      "distancia": 0.32308971881866455,
+      "similitud": 0.6769
+    },
+    {
+      "id": "DOC-008::chunk-001-92e73e8b1d8ef4e4",
+      "documento": "se escalona por terminación de CUIT. La declaración jurada exige tener la nómina actualizada: altas y bajas de empleados deben registrarse antes de liquidar, porque un alta no registrada convierte la relación en trabajo no registrado. El pago fuera de término genera intereses y bloquea la obtención del certificado de libre deuda previsional que piden muchas licitaciones.",
+      "documento_raw": "se escalona por terminación de CUIT. La declaración jurada exige tener la nómina actualizada: altas y bajas de empleados deben registrarse antes de liquidar, porque un alta no registrada convierte la relación en trabajo no registrado. El pago fuera de término genera intereses y bloquea la obtención del certificado de libre deuda previsional que piden muchas licitaciones.",
+      "metadatos": {
+        "chunk_index": 1,
+        "chunk_id": "DOC-008::chunk-001-92e73e8b1d8ef4e4",
+        "categoria": "normativa",
+        "tags_regionales": "empleador, cargas sociales, sueldos, aportes, contribuciones, nomina, libre deuda, f931",
+        "tipo_contribuyente": "empleador",
+        "activo": true,
+        "jurisdiccion": "nacional",
+        "parent_id": "DOC-008",
+        "start_index": 400
+      },
+      "distancia": 0.302478551864624,
+      "similitud": 0.6975
+    }
+  ],
+  "settings": {
+    "variant": "rerank",
+    "model": "gemini-3.1-flash-lite",
+    "temperature": 0.0,
+    "top_k": 3,
+    "candidate_k": 8,
+    "selected_k": 4,
+    "max_distance": 0.28,
+    "min_judge_score": 0.5
+  },
+  "usage": [
+    {
+      "run_id": "01a15146-ec78-75c2-ac26-a6568e1dbecd",
+      "role": "judge",
+      "usage": {
+        "input_tokens": 1201,
+        "output_tokens": 643,
+        "total_tokens": 1844
+      },
+      "provider_usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 643,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 1201,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 1201
+          }
+        ],
+        "thoughts_token_count": null,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 1844,
+        "traffic_type": null
+      }
+    },
+    {
+      "run_id": "01a15146-fbdb-7233-8331-e35619c0d483",
+      "role": "generator",
+      "usage": {
+        "input_tokens": 727,
+        "output_tokens": 372,
+        "total_tokens": 1099
+      },
+      "provider_usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 372,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 727,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 727
+          }
+        ],
+        "thoughts_token_count": null,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 1099,
+        "traffic_type": null
+      }
+    }
+  ],
+  "attempts": [],
+  "generator_contexts": [
+    "El empleador presenta mensualmente la declaración jurada de cargas sociales, que informa la nómina del período y liquida aportes y contribuciones. Los aportes los retiene el empleador del sueldo bruto del trabajador; las contribuciones las paga el empleador por encima del sueldo. El vencimiento de la presentación y del pago cae en la segunda semana del mes siguiente al período liquidado y también se escalona por terminación de CUIT. La declaración jurada exige tener la nómina actualizada: altas",
+    "El IVA es un impuesto mensual. El responsable inscripto presenta la declaración jurada del período y paga el saldo en el mismo mes siguiente al que liquida. La fecha exacta depende de la terminación del CUIT: las terminaciones más bajas vencen primero y las más altas cierran el escalonamiento unos días después. Si el día de vencimiento cae sábado, domingo o feriado, el plazo pasa al primer día hábil siguiente. Presentar la declaración jurada y pagar el saldo son dos actos distintos: se puede",
+    "Para liquidar el IVA de un mes, el estudio necesita del cliente: las facturas de venta emitidas en el período, las facturas de compra recibidas, las notas de crédito y de débito tanto emitidas como recibidas, los comprobantes de retenciones y percepciones sufridas, y los tickets de controlador fiscal si el cliente factura por ese medio. Cada comprobante aporta crédito fiscal o débito fiscal según sea compra o venta, y el saldo del período es la diferencia entre ambos. Un comprobante que llega",
+    "se escalona por terminación de CUIT. La declaración jurada exige tener la nómina actualizada: altas y bajas de empleados deben registrarse antes de liquidar, porque un alta no registrada convierte la relación en trabajo no registrado. El pago fuera de término genera intereses y bloquea la obtención del certificado de libre deuda previsional que piden muchas licitaciones."
+  ],
+  "generator_payload": {
+    "pregunta": "Soy empleador y responsable inscripto: ¿qué necesito para liquidar IVA, cuándo presento y pago esa declaración y qué obligaciones tengo con las cargas sociales?",
+    "contexto": [
+      {
+        "id": "DOC-008::chunk-000-989bdb5081187467",
+        "contenido": "El empleador presenta mensualmente la declaración jurada de cargas sociales, que informa la nómina del período y liquida aportes y contribuciones. Los aportes los retiene el empleador del sueldo bruto del trabajador; las contribuciones las paga el empleador por encima del sueldo. El vencimiento de la presentación y del pago cae en la segunda semana del mes siguiente al período liquidado y también se escalona por terminación de CUIT. La declaración jurada exige tener la nómina actualizada: altas"
+      },
+      {
+        "id": "DOC-001::chunk-000-5d1a5023e0007962",
+        "contenido": "El IVA es un impuesto mensual. El responsable inscripto presenta la declaración jurada del período y paga el saldo en el mismo mes siguiente al que liquida. La fecha exacta depende de la terminación del CUIT: las terminaciones más bajas vencen primero y las más altas cierran el escalonamiento unos días después. Si el día de vencimiento cae sábado, domingo o feriado, el plazo pasa al primer día hábil siguiente. Presentar la declaración jurada y pagar el saldo son dos actos distintos: se puede"
+      },
+      {
+        "id": "DOC-007::chunk-000-bfbf474549da33fb",
+        "contenido": "Para liquidar el IVA de un mes, el estudio necesita del cliente: las facturas de venta emitidas en el período, las facturas de compra recibidas, las notas de crédito y de débito tanto emitidas como recibidas, los comprobantes de retenciones y percepciones sufridas, y los tickets de controlador fiscal si el cliente factura por ese medio. Cada comprobante aporta crédito fiscal o débito fiscal según sea compra o venta, y el saldo del período es la diferencia entre ambos. Un comprobante que llega"
+      },
+      {
+        "id": "DOC-008::chunk-001-92e73e8b1d8ef4e4",
+        "contenido": "se escalona por terminación de CUIT. La declaración jurada exige tener la nómina actualizada: altas y bajas de empleados deben registrarse antes de liquidar, porque un alta no registrada convierte la relación en trabajo no registrado. El pago fuera de término genera intereses y bloquea la obtención del certificado de libre deuda previsional que piden muchas licitaciones."
+      }
+    ]
+  }
+}

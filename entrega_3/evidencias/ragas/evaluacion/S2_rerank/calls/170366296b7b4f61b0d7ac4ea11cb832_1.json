@@ -1,0 +1,97 @@
+{
+  "call_id": "170366296b7b4f61b0d7ac4ea11cb832",
+  "kind": "evaluator_llm",
+  "attempt": 1,
+  "started_at": "2026-10-18T23:19:31.301270+00:00",
+  "input": {
+    "model": "gemini-3.1-flash-lite",
+    "prompt": "Generate a question for the given answer and Identify if answer is noncommittal. Give noncommittal as 1 if the answer is noncommittal and 0 if the answer is committal. A noncommittal answer is one that is evasive, vague, or ambiguous. For example, \"I don't know\" or \"I'm not sure\" are noncommittal answers\nPlease return the output in a JSON format that complies with the following schema as specified in JSON Schema:\n{\"properties\": {\"question\": {\"title\": \"Question\", \"type\": \"string\"}, \"noncommittal\": {\"title\": \"Noncommittal\", \"type\": \"integer\"}}, \"required\": [\"question\", \"noncommittal\"], \"title\": \"ResponseRelevanceOutput\", \"type\": \"object\"}Do not use single quotes in your response but double quotes,properly escaped with a backslash.\n\n--------EXAMPLES-----------\nExample 1\nInput: {\n    \"response\": \"Albert Einstein was born in Germany.\"\n}\nOutput: {\n    \"question\": \"Where was Albert Einstein born?\",\n    \"noncommittal\": 0\n}\n\nExample 2\nInput: {\n    \"response\": \"I don't know about the  groundbreaking feature of the smartphone invented in 2023 as am unaware of information beyond 2022. \"\n}\nOutput: {\n    \"question\": \"What was the groundbreaking feature of the smartphone invented in 2023?\",\n    \"noncommittal\": 1\n}\n-----------------------------\n\nNow perform the same with the following input\ninput: {\n    \"response\": \"La cuota mensual del Monotributo integra tres componentes: el impuesto integrado, el aporte jubilatorio y el aporte a la obra social (DOC-004::chunk-000-e141194203030764).\"\n}\nOutput: ",
+    "temperature": 0.0,
+    "max_output_tokens": 8192,
+    "response_mime_type": "application/json",
+    "stop": null
+  },
+  "status": "ok",
+  "response": {
+    "sdk_http_response": {
+      "headers": {
+        "x-gemini-service-tier": "standard",
+        "content-type": "application/json; charset=UTF-8",
+        "vary": "Origin, X-Origin, Referer",
+        "content-encoding": "gzip",
+        "date": "Sun, 18 Oct 2026 23:19:37 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "x-xss-protection": "0",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "server-timing": "gfet4t7; dur=6491",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "transfer-encoding": "chunked"
+      },
+      "body": null
+    },
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "media_resolution": null,
+              "code_execution_result": null,
+              "executable_code": null,
+              "file_data": null,
+              "function_call": null,
+              "function_response": null,
+              "inline_data": null,
+              "text": "{\n  \"question\": \"¿Cuáles son los componentes que integran la cuota mensual del Monotributo?\",\n  \"noncommittal\": 0\n}",
+              "thought": null,
+              "thought_signature": "EnMKcQFpFH0T92f8xejNjfHmG5jo-z9s5JyOG52xBpsZVOU3amwXrsV_wG7Y8rPNg7r8EGSFAqocf05ACVGCGezfTud_5Iagu5QPQGFKHxhAD42h7m7xm23l75vnjBBdmSgGoIoC_CwHDRhg8Im5KFQNMc6F",
+              "video_metadata": null,
+              "tool_call": null,
+              "tool_response": null,
+              "part_metadata": null,
+              "audio_transcription": null,
+              "media_processing": null
+            }
+          ],
+          "role": "model"
+        },
+        "citation_metadata": null,
+        "finish_message": null,
+        "token_count": null,
+        "finish_reason": "STOP",
+        "grounding_metadata": null,
+        "avg_logprobs": null,
+        "index": 0,
+        "logprobs_result": null,
+        "safety_ratings": null,
+        "url_context_metadata": null
+      }
+    ],
+    "create_time": null,
+    "model_version": "gemini-3.1-flash-lite",
+    "prompt_feedback": null,
+    "response_id": "A1TVaqe_G8ysz7IPqZmWwQQ",
+    "usage_metadata": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 35,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 414,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 414
+        }
+      ],
+      "thoughts_token_count": null,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 449,
+      "traffic_type": null
+    },
+    "model_status": null,
+    "automatic_function_calling_history": null,
+    "parsed": null
+  },
+  "seconds": 6.618266299999959
+}

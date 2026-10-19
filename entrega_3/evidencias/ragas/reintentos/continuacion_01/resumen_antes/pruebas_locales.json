@@ -1,0 +1,22 @@
+{
+  "pipeline_unit_tests": {
+    "passed": 11,
+    "failed": 0
+  },
+  "evaluation_unit_tests": {
+    "passed": 4,
+    "failed": 0
+  },
+  "dataset_checks": {
+    "passed": 152,
+    "failed": 0
+  },
+  "evidence_checks": {
+    "passed": 335,
+    "failed": 0
+  },
+  "dependency_graph": "uv pip check: all installed packages compatible",
+  "lockfile": "uv lock --check --offline: passed",
+  "git_diff_check": "passed",
+  "scope": "Contract/integrity checks do not fill missing scores or prove semantic judgments."
+}

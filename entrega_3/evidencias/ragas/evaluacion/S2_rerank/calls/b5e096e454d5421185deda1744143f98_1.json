@@ -1,0 +1,97 @@
+{
+  "call_id": "b5e096e454d5421185deda1744143f98",
+  "kind": "evaluator_llm",
+  "attempt": 1,
+  "started_at": "2026-10-18T23:19:48.196940+00:00",
+  "input": {
+    "model": "gemini-3.1-flash-lite",
+    "prompt": "Given a context, and an answer, analyze each sentence in the answer and classify if the sentence can be attributed to the given context or not. Use only 'Yes' (1) or 'No' (0) as a binary classification. Output json with reason.\nPlease return the output in a JSON format that complies with the following schema as specified in JSON Schema:\n{\"$defs\": {\"ContextRecallClassification\": {\"properties\": {\"statement\": {\"title\": \"Statement\", \"type\": \"string\"}, \"reason\": {\"title\": \"Reason\", \"type\": \"string\"}, \"attributed\": {\"title\": \"Attributed\", \"type\": \"integer\"}}, \"required\": [\"statement\", \"reason\", \"attributed\"], \"title\": \"ContextRecallClassification\", \"type\": \"object\"}}, \"properties\": {\"classifications\": {\"items\": {\"$ref\": \"#/$defs/ContextRecallClassification\"}, \"title\": \"Classifications\", \"type\": \"array\"}}, \"required\": [\"classifications\"], \"title\": \"ContextRecallClassifications\", \"type\": \"object\"}Do not use single quotes in your response but double quotes,properly escaped with a backslash.\n\n--------EXAMPLES-----------\nExample 1\nInput: {\n    \"question\": \"What can you tell me about albert Albert Einstein?\",\n    \"context\": \"Albert Einstein (14 March 1879 - 18 April 1955) was a German-born theoretical physicist, widely held to be one of the greatest and most influential scientists of all time. Best known for developing the theory of relativity, he also made important contributions to quantum mechanics, and was thus a central figure in the revolutionary reshaping of the scientific understanding of nature that modern physics accomplished in the first decades of the twentieth century. His mass-energy equivalence formula E = mc2, which arises from relativity theory, has been called 'the world's most famous equation'. He received the 1921 Nobel Prize in Physics 'for his services to theoretical physics, and especially for his discovery of the law of the photoelectric effect', a pivotal step in the development of quantum theory. His work is also known for its influence on the philosophy of science. In a 1999 poll of 130 leading physicists worldwide by the British journal Physics World, Einstein was ranked the greatest physicist of all time. His intellectual achievements and originality have made Einstein synonymous with genius.\",\n    \"answer\": \"Albert Einstein born in 14 March 1879 was  German-born theoretical physicist, widely held to be one of the greatest and most influential scientists of all time. He received the 1921 Nobel Prize in Physics for his services to theoretical physics. He published 4 papers in 1905.  Einstein moved to Switzerland in 1895\"\n}\nOutput: {\n    \"classifications\": [\n        {\n            \"statement\": \"Albert Einstein, born on 14 March 1879, was a German-born theoretical physicist, widely held to be one of the greatest and most influential scientists of all time.\",\n            \"reason\": \"The date of birth of Einstein is mentioned clearly in the context.\",\n            \"attributed\": 1\n        },\n        {\n            \"statement\": \"He received the 1921 Nobel Prize in Physics for his services to theoretical physics.\",\n            \"reason\": \"The exact sentence is present in the given context.\",\n            \"attributed\": 1\n        },\n        {\n            \"statement\": \"He published 4 papers in 1905.\",\n            \"reason\": \"There is no mention about papers he wrote in the given context.\",\n            \"attributed\": 0\n        },\n        {\n            \"statement\": \"Einstein moved to Switzerland in 1895.\",\n            \"reason\": \"There is no supporting evidence for this in the given context.\",\n            \"attributed\": 0\n        }\n    ]\n}\n-----------------------------\n\nNow perform the same with the following input\ninput: {\n    \"question\": \"¿Qué componentes integra la cuota mensual del Monotributo?\",\n    \"context\": \"El monotributista paga una cuota mensual única que integra tres componentes: el impuesto integrado, el aporte jubilatorio y el aporte a la obra social. La cuota vence todos los meses alrededor del día 20 y, si ese día no es hábil, el plazo corre al día hábil siguiente. El monto depende de la categoría vigente del contribuyente, y las categorías se actualizan periódicamente, por lo que el importe del mes puede diferir del mes anterior aunque la categoría no haya cambiado. Pagar fuera de término\",\n    \"answer\": \"La cuota mensual del Monotributo integra el impuesto integrado, el aporte jubilatorio y el aporte a la obra social.\"\n}\nOutput: ",
+    "temperature": 0.0,
+    "max_output_tokens": 8192,
+    "response_mime_type": "application/json",
+    "stop": null
+  },
+  "status": "ok",
+  "response": {
+    "sdk_http_response": {
+      "headers": {
+        "x-gemini-service-tier": "standard",
+        "content-type": "application/json; charset=UTF-8",
+        "vary": "Origin, X-Origin, Referer",
+        "content-encoding": "gzip",
+        "date": "Sun, 18 Oct 2026 23:19:50 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "x-xss-protection": "0",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "server-timing": "gfet4t7; dur=2679",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "transfer-encoding": "chunked"
+      },
+      "body": null
+    },
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "media_resolution": null,
+              "code_execution_result": null,
+              "executable_code": null,
+              "file_data": null,
+              "function_call": null,
+              "function_response": null,
+              "inline_data": null,
+              "text": "{\n  \"classifications\": [\n    {\n      \"statement\": \"La cuota mensual del Monotributo integra el impuesto integrado, el aporte jubilatorio y el aporte a la obra social.\",\n      \"reason\": \"El contexto menciona explícitamente que la cuota mensual única integra estos tres componentes: el impuesto integrado, el aporte jubilatorio y el aporte a la obra social.\",\n      \"attributed\": 1\n    }\n  ]\n}",
+              "thought": null,
+              "thought_signature": "EnMKcQFpFH0TfqplAFQcrWbPAmeftVIBf1jIEQcGciLH_N8NnFSVhhT8abirZ-3zmZT36EoIT7znFtvI4YoCc5r3MDsMNbhwxMYN_z1uDdcowvMfGfrAOkAyYCWm-0CLqE79H4m0PTPB6LodcDKEquoQ2G1x",
+              "video_metadata": null,
+              "tool_call": null,
+              "tool_response": null,
+              "part_metadata": null,
+              "audio_transcription": null,
+              "media_processing": null
+            }
+          ],
+          "role": "model"
+        },
+        "citation_metadata": null,
+        "finish_message": null,
+        "token_count": null,
+        "finish_reason": "STOP",
+        "grounding_metadata": null,
+        "avg_logprobs": null,
+        "index": 0,
+        "logprobs_result": null,
+        "safety_ratings": null,
+        "url_context_metadata": null
+      }
+    ],
+    "create_time": null,
+    "model_version": "gemini-3.1-flash-lite",
+    "prompt_feedback": null,
+    "response_id": "FVTVauejBZHQz7IP4r3PuQQ",
+    "usage_metadata": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 98,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 1021,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 1021
+        }
+      ],
+      "thoughts_token_count": null,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 1119,
+      "traffic_type": null
+    },
+    "model_status": null,
+    "automatic_function_calling_history": null,
+    "parsed": null
+  },
+  "seconds": 2.8329043999983696
+}

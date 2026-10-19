@@ -1,0 +1,12 @@
+{
+  "recorded_at": "2026-10-18T23:14:04.413411+00:00",
+  "files": {
+    "ejecutar.py": "e98ded8c926ae5deecf9654d2e42f7646526dc4a4d44719b1fb2dc56c4f95d7c",
+    "adaptadores.py": "683a87db183216040f47e9c78f6037f086dbe25857fcb43814e440ba0dffc628",
+    "resumir.py": "6caad51724b654145542b61e9883134ec4dce69f281a98df55dde001f752d144",
+    "verificar_resultados.py": "bad9d4894a4bbf6a346cdffcf5368e27f2d9684eecfd69731d073efb030a9740",
+    "test_evaluacion.py": "cde7f890a009fc05100bb8a78d3e38a3866b5460c12be810fb1a1976df871b99",
+    "PROTOCOLO.md": "871847305471daa9094e96912d625e129533155c7e864931342ce70d17f5fca8",
+    "INTEGRACION.md": "9b9d0dd8195b0a7ace252d443a0450dcbd053c01f8314eb879dd2a95dd61544a"
+  }
+}

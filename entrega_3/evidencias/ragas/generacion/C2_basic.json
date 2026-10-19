@@ -1,0 +1,114 @@
+{
+  "id": "C2",
+  "variant": "basic",
+  "started_at": "2026-10-18T23:09:30.338131+00:00",
+  "total_seconds": 27.752471199994034,
+  "question": "¿Qué documentación necesito para darme de alta en Monotributo y qué incluye la cuota que después debo pagar?",
+  "candidates": [
+    {
+      "id": "DOC-002",
+      "documento": "Para dar de alta a una persona en el Monotributo, el estudio pide: DNI del titular (frente y dorso), constancia de CUIT o número de CUIL, clave fiscal con nivel de seguridad suficiente para operar, domicilio fiscal con un comprobante que lo respalde (factura de un servicio a nombre del titular o contrato de alquiler), y una estimación de los ingresos brutos anuales de la actividad. También hace falta definir la actividad económica que se va a declarar, porque de eso depende el código de actividad, y si la actividad es venta de cosas muebles o prestación de servicios, porque los topes de cada categoría difieren. Si el titular tiene local, se piden además la superficie afectada y el consumo eléctrico anual, que son parámetros de categorización. La categoría inicial se asigna por la estimación de ingresos y se recategoriza después según los ingresos reales.",
+      "documento_raw": "Para dar de alta a una persona en el Monotributo, el estudio pide: DNI del titular (frente y dorso), constancia de CUIT o número de CUIL, clave fiscal con nivel de seguridad suficiente para operar, domicilio fiscal con un comprobante que lo respalde (factura de un servicio a nombre del titular o contrato de alquiler), y una estimación de los ingresos brutos anuales de la actividad. También hace falta definir la actividad económica que se va a declarar, porque de eso depende el código de actividad, y si la actividad es venta de cosas muebles o prestación de servicios, porque los topes de cada categoría difieren. Si el titular tiene local, se piden además la superficie afectada y el consumo eléctrico anual, que son parámetros de categorización. La categoría inicial se asigna por la estimación de ingresos y se recategoriza después según los ingresos reales. Los clientes lo preguntan así: que papeles necesito para anotarme como pequeño contribuyente, que necesito para hacerme monotributista, quiero darme de alta en monotributo que llevo, como me inscribo para facturar.",
+      "metadatos": {
+        "tags_regionales": "monotributo, alta, papeles, inscripcion, pequeño contribuyente, clave fiscal, categoria, cuit",
+        "activo": true,
+        "jurisdiccion": "nacional",
+        "tipo_contribuyente": "monotributo",
+        "categoria": "documentacion"
+      },
+      "distancia": 0.22783833742141724,
+      "similitud": 0.7722
+    }
+  ],
+  "selected": [
+    {
+      "id": "DOC-002",
+      "documento": "Para dar de alta a una persona en el Monotributo, el estudio pide: DNI del titular (frente y dorso), constancia de CUIT o número de CUIL, clave fiscal con nivel de seguridad suficiente para operar, domicilio fiscal con un comprobante que lo respalde (factura de un servicio a nombre del titular o contrato de alquiler), y una estimación de los ingresos brutos anuales de la actividad. También hace falta definir la actividad económica que se va a declarar, porque de eso depende el código de actividad, y si la actividad es venta de cosas muebles o prestación de servicios, porque los topes de cada categoría difieren. Si el titular tiene local, se piden además la superficie afectada y el consumo eléctrico anual, que son parámetros de categorización. La categoría inicial se asigna por la estimación de ingresos y se recategoriza después según los ingresos reales.",
+      "documento_raw": "Para dar de alta a una persona en el Monotributo, el estudio pide: DNI del titular (frente y dorso), constancia de CUIT o número de CUIL, clave fiscal con nivel de seguridad suficiente para operar, domicilio fiscal con un comprobante que lo respalde (factura de un servicio a nombre del titular o contrato de alquiler), y una estimación de los ingresos brutos anuales de la actividad. También hace falta definir la actividad económica que se va a declarar, porque de eso depende el código de actividad, y si la actividad es venta de cosas muebles o prestación de servicios, porque los topes de cada categoría difieren. Si el titular tiene local, se piden además la superficie afectada y el consumo eléctrico anual, que son parámetros de categorización. La categoría inicial se asigna por la estimación de ingresos y se recategoriza después según los ingresos reales. Los clientes lo preguntan así: que papeles necesito para anotarme como pequeño contribuyente, que necesito para hacerme monotributista, quiero darme de alta en monotributo que llevo, como me inscribo para facturar.",
+      "metadatos": {
+        "tags_regionales": "monotributo, alta, papeles, inscripcion, pequeño contribuyente, clave fiscal, categoria, cuit",
+        "activo": true,
+        "jurisdiccion": "nacional",
+        "tipo_contribuyente": "monotributo",
+        "categoria": "documentacion"
+      },
+      "distancia": 0.22783833742141724,
+      "similitud": 0.7722
+    }
+  ],
+  "status": "ok",
+  "judge": null,
+  "timings": {
+    "retrieval_seconds": 0.32976829999824986,
+    "generation_seconds": 27.3800917999979
+  },
+  "answer": "Para dar de alta el Monotributo, el estudio requiere la siguiente documentación:\n\n*   DNI del titular (frente y dorso).\n*   Constancia de CUIT o número de CUIL.\n*   Clave fiscal con nivel de seguridad suficiente para operar.\n*   Domicilio fiscal con un comprobante que lo respalde (factura de un servicio a nombre del titular o contrato de alquiler).\n*   Estimación de los ingresos brutos anuales de la actividad.\n*   Definición de la actividad económica a declarar (para determinar el código de actividad y si es venta de cosas muebles o prestación de servicios).\n*   En caso de tener local: superficie afectada y consumo eléctrico anual.\n\nFuente: DOC-002.\n\nNo poseo información suficiente en la base de conocimiento para responder qué incluye la cuota que debe pagar.",
+  "sources": [
+    {
+      "id": "DOC-002",
+      "documento": "Para dar de alta a una persona en el Monotributo, el estudio pide: DNI del titular (frente y dorso), constancia de CUIT o número de CUIL, clave fiscal con nivel de seguridad suficiente para operar, domicilio fiscal con un comprobante que lo respalde (factura de un servicio a nombre del titular o contrato de alquiler), y una estimación de los ingresos brutos anuales de la actividad. También hace falta definir la actividad económica que se va a declarar, porque de eso depende el código de actividad, y si la actividad es venta de cosas muebles o prestación de servicios, porque los topes de cada categoría difieren. Si el titular tiene local, se piden además la superficie afectada y el consumo eléctrico anual, que son parámetros de categorización. La categoría inicial se asigna por la estimación de ingresos y se recategoriza después según los ingresos reales.",
+      "documento_raw": "Para dar de alta a una persona en el Monotributo, el estudio pide: DNI del titular (frente y dorso), constancia de CUIT o número de CUIL, clave fiscal con nivel de seguridad suficiente para operar, domicilio fiscal con un comprobante que lo respalde (factura de un servicio a nombre del titular o contrato de alquiler), y una estimación de los ingresos brutos anuales de la actividad. También hace falta definir la actividad económica que se va a declarar, porque de eso depende el código de actividad, y si la actividad es venta de cosas muebles o prestación de servicios, porque los topes de cada categoría difieren. Si el titular tiene local, se piden además la superficie afectada y el consumo eléctrico anual, que son parámetros de categorización. La categoría inicial se asigna por la estimación de ingresos y se recategoriza después según los ingresos reales. Los clientes lo preguntan así: que papeles necesito para anotarme como pequeño contribuyente, que necesito para hacerme monotributista, quiero darme de alta en monotributo que llevo, como me inscribo para facturar.",
+      "metadatos": {
+        "tags_regionales": "monotributo, alta, papeles, inscripcion, pequeño contribuyente, clave fiscal, categoria, cuit",
+        "activo": true,
+        "jurisdiccion": "nacional",
+        "tipo_contribuyente": "monotributo",
+        "categoria": "documentacion"
+      },
+      "distancia": 0.22783833742141724,
+      "similitud": 0.7722
+    }
+  ],
+  "settings": {
+    "variant": "basic",
+    "model": "gemini-3.1-flash-lite",
+    "temperature": 0.0,
+    "top_k": 3,
+    "candidate_k": 8,
+    "selected_k": 3,
+    "max_distance": 0.28,
+    "min_judge_score": 0.5
+  },
+  "usage": [
+    {
+      "run_id": "01a15147-02d5-71d1-9079-47e63c1ba710",
+      "role": "generator",
+      "usage": {
+        "input_tokens": 379,
+        "output_tokens": 181,
+        "total_tokens": 560
+      },
+      "provider_usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 181,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 379,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 379
+          }
+        ],
+        "thoughts_token_count": null,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 560,
+        "traffic_type": null
+      }
+    }
+  ],
+  "attempts": [],
+  "generator_contexts": [
+    "Para dar de alta a una persona en el Monotributo, el estudio pide: DNI del titular (frente y dorso), constancia de CUIT o número de CUIL, clave fiscal con nivel de seguridad suficiente para operar, domicilio fiscal con un comprobante que lo respalde (factura de un servicio a nombre del titular o contrato de alquiler), y una estimación de los ingresos brutos anuales de la actividad. También hace falta definir la actividad económica que se va a declarar, porque de eso depende el código de actividad, y si la actividad es venta de cosas muebles o prestación de servicios, porque los topes de cada categoría difieren. Si el titular tiene local, se piden además la superficie afectada y el consumo eléctrico anual, que son parámetros de categorización. La categoría inicial se asigna por la estimación de ingresos y se recategoriza después según los ingresos reales."
+  ],
+  "generator_payload": {
+    "pregunta": "¿Qué documentación necesito para darme de alta en Monotributo y qué incluye la cuota que después debo pagar?",
+    "contexto": [
+      {
+        "id": "DOC-002",
+        "contenido": "Para dar de alta a una persona en el Monotributo, el estudio pide: DNI del titular (frente y dorso), constancia de CUIT o número de CUIL, clave fiscal con nivel de seguridad suficiente para operar, domicilio fiscal con un comprobante que lo respalde (factura de un servicio a nombre del titular o contrato de alquiler), y una estimación de los ingresos brutos anuales de la actividad. También hace falta definir la actividad económica que se va a declarar, porque de eso depende el código de actividad, y si la actividad es venta de cosas muebles o prestación de servicios, porque los topes de cada categoría difieren. Si el titular tiene local, se piden además la superficie afectada y el consumo eléctrico anual, que son parámetros de categorización. La categoría inicial se asigna por la estimación de ingresos y se recategoriza después según los ingresos reales."
+      }
+    ]
+  }
+}

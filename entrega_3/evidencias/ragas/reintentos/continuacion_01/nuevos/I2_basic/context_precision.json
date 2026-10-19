@@ -1,0 +1,20 @@
+{
+  "started_at": "2026-10-18T23:58:06.141395+00:00",
+  "metric": "llm_context_precision_with_reference",
+  "input": {
+    "user_input": "Me cayó una intimación del fisco, ¿qué hago ahora?",
+    "retrieved_contexts": [
+      "Una intimación o un requerimiento fiscal es una notificación formal en la que el organismo reclama una presentación faltante, un pago adeudado o documentación de respaldo. La notificación llega al domicilio fiscal electrónico y corre un plazo de respuesta desde que se considera notificada, aunque el contribuyente no la haya leído. Dejar vencer el plazo agrava la situación: habilita multas, la determinación de oficio y, en casos de deuda firme, el juicio de ejecución fiscal. Estas consultas no se responden con información general. Requieren leer la notificación concreta, identificar impuesto, período y monto reclamado, revisar si la obligación efectivamente está incumplida y definir si corresponde presentar el descargo, allanarse o rectificar. Por eso se clasifican como casos de mayor complejidad y se derivan al profesional responsable con el detalle del caso. El asistente no evalúa la procedencia del reclamo ni sugiere una estrategia de respuesta."
+    ],
+    "reference_contexts": null,
+    "response": "Ante una intimación o requerimiento fiscal, debe tener en cuenta lo siguiente:\n\n*   La notificación llega al domicilio fiscal electrónico y el plazo de respuesta corre desde que se considera notificada, independientemente de si fue leída o no (DOC-013).\n*   Dejar vencer el plazo agrava la situación, habilitando multas, la determinación de oficio y, en casos de deuda firme, el juicio de ejecución fiscal (DOC-013).\n*   Estas consultas requieren leer la notificación concreta, identificar el impuesto, el período y el monto reclamado, revisar si la obligación está incumplida y definir si corresponde presentar un descargo, allanarse o rectificar (DOC-013).\n*   Debido a que se clasifican como casos de mayor complejidad, deben derivarse al profesional responsable con el detalle del caso (DOC-013).\n\nEl asistente no evalúa la procedencia del reclamo ni sugiere una estrategia de respuesta (DOC-013).",
+    "multi_responses": null,
+    "reference": "Compartí la notificación concreta con el profesional responsable sin dejar vencer el plazo: corre desde que se considera notificada en el domicilio fiscal electrónico, aunque no la hayas leído. Dejar vencer el plazo habilita multas, determinación de oficio y, si hay deuda firme, ejecución fiscal. El caso debe derivarse al profesional con el detalle de la notificación, impuesto, período y monto, para revisar el supuesto incumplimiento y definir la respuesta. El asistente no evalúa la procedencia del reclamo ni recomienda una estrategia de respuesta.",
+    "rubrics": null
+  },
+  "value": 0.9999999999,
+  "raw_value": 0.9999999999,
+  "status": "ok",
+  "seconds": 16.49616870000318,
+  "continuation_batch": "continuacion_01"
+}

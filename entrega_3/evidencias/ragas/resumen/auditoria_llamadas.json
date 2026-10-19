@@ -1,0 +1,5368 @@
+{
+  "evaluator_attempts": 272,
+  "evaluator_status_counts": {
+    "ok": 190,
+    "error": 82
+  },
+  "evaluator_errors": [
+    {
+      "case_variant": "C1_rerank",
+      "call_id": "07d359af689848e7bc19ee8492a4a8cc",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 119.13657429999876,
+      "error": {
+        "type": "ServerError",
+        "code": 504
+      },
+      "started_at": "2026-10-18T23:21:41.761718+00:00",
+      "path": "evaluacion/C1_rerank/calls/07d359af689848e7bc19ee8492a4a8cc_1.json"
+    },
+    {
+      "case_variant": "C1_rerank",
+      "call_id": "07d359af689848e7bc19ee8492a4a8cc",
+      "kind": "evaluator_llm",
+      "attempt": 2,
+      "status": "error",
+      "seconds": 0.3265068999971845,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:23:42.899195+00:00",
+      "path": "evaluacion/C1_rerank/calls/07d359af689848e7bc19ee8492a4a8cc_2.json"
+    },
+    {
+      "case_variant": "C1_rerank",
+      "call_id": "07d359af689848e7bc19ee8492a4a8cc",
+      "kind": "evaluator_llm",
+      "attempt": 3,
+      "status": "error",
+      "seconds": 0.298778600001242,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:23:47.230159+00:00",
+      "path": "evaluacion/C1_rerank/calls/07d359af689848e7bc19ee8492a4a8cc_3.json"
+    },
+    {
+      "case_variant": "C1_rerank",
+      "call_id": "bfe63384b3744b47a1344a77f5c45e06",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 0.7253654000014649,
+      "error": {
+        "type": "ServerError",
+        "code": 503,
+        "message": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+      },
+      "started_at": "2026-10-18T23:47:22.884270+00:00",
+      "path": "evaluacion/C1_rerank/calls/bfe63384b3744b47a1344a77f5c45e06_1.json"
+    },
+    {
+      "case_variant": "C1_rerank",
+      "call_id": "d3d093f58e49475485fe2d02898eff91",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 4.8482159999985015,
+      "error": {
+        "type": "ServerError",
+        "code": 503,
+        "message": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+      },
+      "started_at": "2026-10-18T23:46:24.585801+00:00",
+      "path": "evaluacion/C1_rerank/calls/d3d093f58e49475485fe2d02898eff91_1.json"
+    },
+    {
+      "case_variant": "C2_rerank",
+      "call_id": "b4eb818a8e34442e9c994d925a6b2589",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 0.3134070999949472,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:23:38.057416+00:00",
+      "path": "evaluacion/C2_rerank/calls/b4eb818a8e34442e9c994d925a6b2589_1.json"
+    },
+    {
+      "case_variant": "C3_basic",
+      "call_id": "3316bc10f8664d80aa82cf9ecfa0ebdd",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 0.2982138000006671,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:23:42.559441+00:00",
+      "path": "evaluacion/C3_basic/calls/3316bc10f8664d80aa82cf9ecfa0ebdd_1.json"
+    },
+    {
+      "case_variant": "C3_basic",
+      "call_id": "3316bc10f8664d80aa82cf9ecfa0ebdd",
+      "kind": "evaluator_llm",
+      "attempt": 2,
+      "status": "error",
+      "seconds": 0.3920836999968742,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:23:44.858847+00:00",
+      "path": "evaluacion/C3_basic/calls/3316bc10f8664d80aa82cf9ecfa0ebdd_2.json"
+    },
+    {
+      "case_variant": "C3_basic",
+      "call_id": "3316bc10f8664d80aa82cf9ecfa0ebdd",
+      "kind": "evaluator_llm",
+      "attempt": 3,
+      "status": "error",
+      "seconds": 0.2996620999983861,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:23:49.251760+00:00",
+      "path": "evaluacion/C3_basic/calls/3316bc10f8664d80aa82cf9ecfa0ebdd_3.json"
+    },
+    {
+      "case_variant": "C3_basic",
+      "call_id": "43968244c64a40f586010a879c830558",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 0.34633900000335416,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:23:47.533949+00:00",
+      "path": "evaluacion/C3_basic/calls/43968244c64a40f586010a879c830558_1.json"
+    },
+    {
+      "case_variant": "C3_basic",
+      "call_id": "43968244c64a40f586010a879c830558",
+      "kind": "evaluator_llm",
+      "attempt": 2,
+      "status": "error",
+      "seconds": 1.0190336000014213,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:23:49.881317+00:00",
+      "path": "evaluacion/C3_basic/calls/43968244c64a40f586010a879c830558_2.json"
+    },
+    {
+      "case_variant": "C3_basic",
+      "call_id": "43968244c64a40f586010a879c830558",
+      "kind": "evaluator_llm",
+      "attempt": 3,
+      "status": "error",
+      "seconds": 0.3050493999980972,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:23:54.901453+00:00",
+      "path": "evaluacion/C3_basic/calls/43968244c64a40f586010a879c830558_3.json"
+    },
+    {
+      "case_variant": "C3_basic",
+      "call_id": "5a9f697a79b74bb194e9e26f9143fdb3",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 0.3230026999954134,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:23:47.534255+00:00",
+      "path": "evaluacion/C3_basic/calls/5a9f697a79b74bb194e9e26f9143fdb3_1.json"
+    },
+    {
+      "case_variant": "C3_basic",
+      "call_id": "5a9f697a79b74bb194e9e26f9143fdb3",
+      "kind": "evaluator_llm",
+      "attempt": 2,
+      "status": "error",
+      "seconds": 0.3424888999943505,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:23:49.858292+00:00",
+      "path": "evaluacion/C3_basic/calls/5a9f697a79b74bb194e9e26f9143fdb3_2.json"
+    },
+    {
+      "case_variant": "C3_basic",
+      "call_id": "5a9f697a79b74bb194e9e26f9143fdb3",
+      "kind": "evaluator_llm",
+      "attempt": 3,
+      "status": "error",
+      "seconds": 0.2939445999945747,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:23:54.201735+00:00",
+      "path": "evaluacion/C3_basic/calls/5a9f697a79b74bb194e9e26f9143fdb3_3.json"
+    },
+    {
+      "case_variant": "C3_basic",
+      "call_id": "ab8e4648846a4b589c9c1bea9241de24",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 0.317684100002225,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:23:54.505076+00:00",
+      "path": "evaluacion/C3_basic/calls/ab8e4648846a4b589c9c1bea9241de24_1.json"
+    },
+    {
+      "case_variant": "C3_basic",
+      "call_id": "ab8e4648846a4b589c9c1bea9241de24",
+      "kind": "evaluator_llm",
+      "attempt": 2,
+      "status": "error",
+      "seconds": 0.31105370000295807,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:23:56.824100+00:00",
+      "path": "evaluacion/C3_basic/calls/ab8e4648846a4b589c9c1bea9241de24_2.json"
+    },
+    {
+      "case_variant": "C3_basic",
+      "call_id": "ab8e4648846a4b589c9c1bea9241de24",
+      "kind": "evaluator_llm",
+      "attempt": 3,
+      "status": "error",
+      "seconds": 0.32855689999996684,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:24:01.136478+00:00",
+      "path": "evaluacion/C3_basic/calls/ab8e4648846a4b589c9c1bea9241de24_3.json"
+    },
+    {
+      "case_variant": "C3_basic",
+      "call_id": "b0b5d8350c764faeaa2c74f0189276cc",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 6.7036765000011656,
+      "error": {
+        "type": "ServerError",
+        "code": 503,
+        "message": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+      },
+      "started_at": "2026-10-18T23:50:33.067605+00:00",
+      "path": "evaluacion/C3_basic/calls/b0b5d8350c764faeaa2c74f0189276cc_1.json"
+    },
+    {
+      "case_variant": "C3_basic",
+      "call_id": "d00ffa098b744e90bef127f0ba5a59a3",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 0.31049519999942277,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:23:49.555746+00:00",
+      "path": "evaluacion/C3_basic/calls/d00ffa098b744e90bef127f0ba5a59a3_1.json"
+    },
+    {
+      "case_variant": "C3_basic",
+      "call_id": "d00ffa098b744e90bef127f0ba5a59a3",
+      "kind": "evaluator_llm",
+      "attempt": 2,
+      "status": "error",
+      "seconds": 0.3197733999986667,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:23:51.867159+00:00",
+      "path": "evaluacion/C3_basic/calls/d00ffa098b744e90bef127f0ba5a59a3_2.json"
+    },
+    {
+      "case_variant": "C3_basic",
+      "call_id": "d00ffa098b744e90bef127f0ba5a59a3",
+      "kind": "evaluator_llm",
+      "attempt": 3,
+      "status": "error",
+      "seconds": 0.3095766999977059,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:23:56.188142+00:00",
+      "path": "evaluacion/C3_basic/calls/d00ffa098b744e90bef127f0ba5a59a3_3.json"
+    },
+    {
+      "case_variant": "C3_basic",
+      "call_id": "f6cd7e24e8e04458a02ee4e69bad0544",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 0.32028050000371877,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:23:47.534114+00:00",
+      "path": "evaluacion/C3_basic/calls/f6cd7e24e8e04458a02ee4e69bad0544_1.json"
+    },
+    {
+      "case_variant": "C3_basic",
+      "call_id": "f6cd7e24e8e04458a02ee4e69bad0544",
+      "kind": "evaluator_llm",
+      "attempt": 2,
+      "status": "error",
+      "seconds": 1.0418519000013475,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:23:49.857292+00:00",
+      "path": "evaluacion/C3_basic/calls/f6cd7e24e8e04458a02ee4e69bad0544_2.json"
+    },
+    {
+      "case_variant": "C3_basic",
+      "call_id": "f6cd7e24e8e04458a02ee4e69bad0544",
+      "kind": "evaluator_llm",
+      "attempt": 3,
+      "status": "error",
+      "seconds": 0.31612160000076983,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:23:54.900951+00:00",
+      "path": "evaluacion/C3_basic/calls/f6cd7e24e8e04458a02ee4e69bad0544_3.json"
+    },
+    {
+      "case_variant": "C3_rerank",
+      "call_id": "2514de43856a4e27961930ef07f4be3e",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 0.3068656000032206,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:23:56.509757+00:00",
+      "path": "evaluacion/C3_rerank/calls/2514de43856a4e27961930ef07f4be3e_1.json"
+    },
+    {
+      "case_variant": "C3_rerank",
+      "call_id": "2514de43856a4e27961930ef07f4be3e",
+      "kind": "evaluator_llm",
+      "attempt": 2,
+      "status": "error",
+      "seconds": 0.35951330000534654,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:23:58.817906+00:00",
+      "path": "evaluacion/C3_rerank/calls/2514de43856a4e27961930ef07f4be3e_2.json"
+    },
+    {
+      "case_variant": "C3_rerank",
+      "call_id": "2514de43856a4e27961930ef07f4be3e",
+      "kind": "evaluator_llm",
+      "attempt": 3,
+      "status": "error",
+      "seconds": 0.3106737999987672,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:24:03.178885+00:00",
+      "path": "evaluacion/C3_rerank/calls/2514de43856a4e27961930ef07f4be3e_3.json"
+    },
+    {
+      "case_variant": "C3_rerank",
+      "call_id": "4a68068106d14f229d7b817092ef386d",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 0.2885298999972292,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:24:01.470933+00:00",
+      "path": "evaluacion/C3_rerank/calls/4a68068106d14f229d7b817092ef386d_1.json"
+    },
+    {
+      "case_variant": "C3_rerank",
+      "call_id": "4a68068106d14f229d7b817092ef386d",
+      "kind": "evaluator_llm",
+      "attempt": 2,
+      "status": "error",
+      "seconds": 1.053786600001331,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:24:03.760759+00:00",
+      "path": "evaluacion/C3_rerank/calls/4a68068106d14f229d7b817092ef386d_2.json"
+    },
+    {
+      "case_variant": "C3_rerank",
+      "call_id": "4a68068106d14f229d7b817092ef386d",
+      "kind": "evaluator_llm",
+      "attempt": 3,
+      "status": "error",
+      "seconds": 0.29806129999633413,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:24:08.815646+00:00",
+      "path": "evaluacion/C3_rerank/calls/4a68068106d14f229d7b817092ef386d_3.json"
+    },
+    {
+      "case_variant": "C3_rerank",
+      "call_id": "4cdff0249835435c94f195a9a95f25a4",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 0.3164556999981869,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:24:03.494017+00:00",
+      "path": "evaluacion/C3_rerank/calls/4cdff0249835435c94f195a9a95f25a4_1.json"
+    },
+    {
+      "case_variant": "C3_rerank",
+      "call_id": "4cdff0249835435c94f195a9a95f25a4",
+      "kind": "evaluator_llm",
+      "attempt": 2,
+      "status": "error",
+      "seconds": 0.37404460000107065,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:24:05.811548+00:00",
+      "path": "evaluacion/C3_rerank/calls/4cdff0249835435c94f195a9a95f25a4_2.json"
+    },
+    {
+      "case_variant": "C3_rerank",
+      "call_id": "4cdff0249835435c94f195a9a95f25a4",
+      "kind": "evaluator_llm",
+      "attempt": 3,
+      "status": "error",
+      "seconds": 0.309683400002541,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:24:10.186795+00:00",
+      "path": "evaluacion/C3_rerank/calls/4cdff0249835435c94f195a9a95f25a4_3.json"
+    },
+    {
+      "case_variant": "C3_rerank",
+      "call_id": "4d3e162e28ae4f169d433183839bea91",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 0.3141012000050978,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:24:01.470587+00:00",
+      "path": "evaluacion/C3_rerank/calls/4d3e162e28ae4f169d433183839bea91_1.json"
+    },
+    {
+      "case_variant": "C3_rerank",
+      "call_id": "4d3e162e28ae4f169d433183839bea91",
+      "kind": "evaluator_llm",
+      "attempt": 2,
+      "status": "error",
+      "seconds": 0.30769100000179606,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:24:03.785727+00:00",
+      "path": "evaluacion/C3_rerank/calls/4d3e162e28ae4f169d433183839bea91_2.json"
+    },
+    {
+      "case_variant": "C3_rerank",
+      "call_id": "4d3e162e28ae4f169d433183839bea91",
+      "kind": "evaluator_llm",
+      "attempt": 3,
+      "status": "error",
+      "seconds": 0.3014617000008002,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:24:08.094789+00:00",
+      "path": "evaluacion/C3_rerank/calls/4d3e162e28ae4f169d433183839bea91_3.json"
+    },
+    {
+      "case_variant": "C3_rerank",
+      "call_id": "72fc6b952376440889e31a22b962e93c",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 0.8060047000035411,
+      "error": {
+        "type": "ServerError",
+        "code": 503,
+        "message": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+      },
+      "started_at": "2026-10-18T23:53:51.411204+00:00",
+      "path": "evaluacion/C3_rerank/calls/72fc6b952376440889e31a22b962e93c_1.json"
+    },
+    {
+      "case_variant": "C3_rerank",
+      "call_id": "d28466cf8675485d8f7886d543823b1f",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 0.3127981999932672,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:24:01.470758+00:00",
+      "path": "evaluacion/C3_rerank/calls/d28466cf8675485d8f7886d543823b1f_1.json"
+    },
+    {
+      "case_variant": "C3_rerank",
+      "call_id": "d28466cf8675485d8f7886d543823b1f",
+      "kind": "evaluator_llm",
+      "attempt": 2,
+      "status": "error",
+      "seconds": 0.30159460000140825,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:24:03.785233+00:00",
+      "path": "evaluacion/C3_rerank/calls/d28466cf8675485d8f7886d543823b1f_2.json"
+    },
+    {
+      "case_variant": "C3_rerank",
+      "call_id": "d28466cf8675485d8f7886d543823b1f",
+      "kind": "evaluator_llm",
+      "attempt": 3,
+      "status": "error",
+      "seconds": 1.0007929999992484,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:24:08.087774+00:00",
+      "path": "evaluacion/C3_rerank/calls/d28466cf8675485d8f7886d543823b1f_3.json"
+    },
+    {
+      "case_variant": "E2_rerank",
+      "call_id": "39aa7f5d0741483fa2a3c53038f76b27",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 0.30430759999580914,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:24:56.941172+00:00",
+      "path": "evaluacion/E2_rerank/calls/39aa7f5d0741483fa2a3c53038f76b27_1.json"
+    },
+    {
+      "case_variant": "E2_rerank",
+      "call_id": "39aa7f5d0741483fa2a3c53038f76b27",
+      "kind": "evaluator_llm",
+      "attempt": 2,
+      "status": "error",
+      "seconds": 0.28225270000257296,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:24:59.246779+00:00",
+      "path": "evaluacion/E2_rerank/calls/39aa7f5d0741483fa2a3c53038f76b27_2.json"
+    },
+    {
+      "case_variant": "E2_rerank",
+      "call_id": "39aa7f5d0741483fa2a3c53038f76b27",
+      "kind": "evaluator_llm",
+      "attempt": 3,
+      "status": "error",
+      "seconds": 0.2993882000009762,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:03.530004+00:00",
+      "path": "evaluacion/E2_rerank/calls/39aa7f5d0741483fa2a3c53038f76b27_3.json"
+    },
+    {
+      "case_variant": "E2_rerank",
+      "call_id": "99a36e97d78f46138e587c2713e2c18d",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 0.2995160999998916,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:01.850496+00:00",
+      "path": "evaluacion/E2_rerank/calls/99a36e97d78f46138e587c2713e2c18d_1.json"
+    },
+    {
+      "case_variant": "E2_rerank",
+      "call_id": "99a36e97d78f46138e587c2713e2c18d",
+      "kind": "evaluator_llm",
+      "attempt": 2,
+      "status": "error",
+      "seconds": 0.29524210000090534,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:04.156505+00:00",
+      "path": "evaluacion/E2_rerank/calls/99a36e97d78f46138e587c2713e2c18d_2.json"
+    },
+    {
+      "case_variant": "E2_rerank",
+      "call_id": "99a36e97d78f46138e587c2713e2c18d",
+      "kind": "evaluator_llm",
+      "attempt": 3,
+      "status": "error",
+      "seconds": 1.0016572999957134,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:08.452764+00:00",
+      "path": "evaluacion/E2_rerank/calls/99a36e97d78f46138e587c2713e2c18d_3.json"
+    },
+    {
+      "case_variant": "E2_rerank",
+      "call_id": "bd5511fd05d844999f5b496d485485d0",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 1.5442322000017157,
+      "error": {
+        "type": "ServerError",
+        "code": 503,
+        "message": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+      },
+      "started_at": "2026-10-18T23:57:06.662637+00:00",
+      "path": "evaluacion/E2_rerank/calls/bd5511fd05d844999f5b496d485485d0_1.json"
+    },
+    {
+      "case_variant": "I1_basic",
+      "call_id": "195ad47f057541a5a9bde9e3ca1088c8",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 0.29028680000192253,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:03.835887+00:00",
+      "path": "evaluacion/I1_basic/calls/195ad47f057541a5a9bde9e3ca1088c8_1.json"
+    },
+    {
+      "case_variant": "I1_basic",
+      "call_id": "195ad47f057541a5a9bde9e3ca1088c8",
+      "kind": "evaluator_llm",
+      "attempt": 2,
+      "status": "error",
+      "seconds": 0.29582769999979064,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:06.127670+00:00",
+      "path": "evaluacion/I1_basic/calls/195ad47f057541a5a9bde9e3ca1088c8_2.json"
+    },
+    {
+      "case_variant": "I1_basic",
+      "call_id": "195ad47f057541a5a9bde9e3ca1088c8",
+      "kind": "evaluator_llm",
+      "attempt": 3,
+      "status": "error",
+      "seconds": 0.31159499999921536,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:10.424921+00:00",
+      "path": "evaluacion/I1_basic/calls/195ad47f057541a5a9bde9e3ca1088c8_3.json"
+    },
+    {
+      "case_variant": "I2_basic",
+      "call_id": "18f9053fc5204412ab28d628e73cd31a",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 0.3608680999968783,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:22.772157+00:00",
+      "path": "evaluacion/I2_basic/calls/18f9053fc5204412ab28d628e73cd31a_1.json"
+    },
+    {
+      "case_variant": "I2_basic",
+      "call_id": "18f9053fc5204412ab28d628e73cd31a",
+      "kind": "evaluator_llm",
+      "attempt": 2,
+      "status": "error",
+      "seconds": 0.3064617999989423,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:25.134111+00:00",
+      "path": "evaluacion/I2_basic/calls/18f9053fc5204412ab28d628e73cd31a_2.json"
+    },
+    {
+      "case_variant": "I2_basic",
+      "call_id": "18f9053fc5204412ab28d628e73cd31a",
+      "kind": "evaluator_llm",
+      "attempt": 3,
+      "status": "error",
+      "seconds": 1.0067316999993636,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:29.441743+00:00",
+      "path": "evaluacion/I2_basic/calls/18f9053fc5204412ab28d628e73cd31a_3.json"
+    },
+    {
+      "case_variant": "I2_basic",
+      "call_id": "f6667ef818dc4d8ea8ef3e6c81de8df8",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 0.3105356000014581,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:25.452085+00:00",
+      "path": "evaluacion/I2_basic/calls/f6667ef818dc4d8ea8ef3e6c81de8df8_1.json"
+    },
+    {
+      "case_variant": "I2_basic",
+      "call_id": "f6667ef818dc4d8ea8ef3e6c81de8df8",
+      "kind": "evaluator_llm",
+      "attempt": 2,
+      "status": "error",
+      "seconds": 0.32185690000187606,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:27.763675+00:00",
+      "path": "evaluacion/I2_basic/calls/f6667ef818dc4d8ea8ef3e6c81de8df8_2.json"
+    },
+    {
+      "case_variant": "I2_basic",
+      "call_id": "f6667ef818dc4d8ea8ef3e6c81de8df8",
+      "kind": "evaluator_llm",
+      "attempt": 3,
+      "status": "error",
+      "seconds": 0.32269029999588383,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:32.086789+00:00",
+      "path": "evaluacion/I2_basic/calls/f6667ef818dc4d8ea8ef3e6c81de8df8_3.json"
+    },
+    {
+      "case_variant": "I2_rerank",
+      "call_id": "18d67d73aba54636b0a0566e4442f714",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 1.7092637000023387,
+      "error": {
+        "type": "ServerError",
+        "code": 503,
+        "message": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+      },
+      "started_at": "2026-10-19T00:00:12.919854+00:00",
+      "path": "evaluacion/I2_rerank/calls/18d67d73aba54636b0a0566e4442f714_1.json"
+    },
+    {
+      "case_variant": "I2_rerank",
+      "call_id": "3ffdbae498c1430fa038028ccd4efcf8",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 0.3169435000017984,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:38.053589+00:00",
+      "path": "evaluacion/I2_rerank/calls/3ffdbae498c1430fa038028ccd4efcf8_1.json"
+    },
+    {
+      "case_variant": "I2_rerank",
+      "call_id": "3ffdbae498c1430fa038028ccd4efcf8",
+      "kind": "evaluator_llm",
+      "attempt": 2,
+      "status": "error",
+      "seconds": 0.33080019999761134,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:40.371822+00:00",
+      "path": "evaluacion/I2_rerank/calls/3ffdbae498c1430fa038028ccd4efcf8_2.json"
+    },
+    {
+      "case_variant": "I2_rerank",
+      "call_id": "3ffdbae498c1430fa038028ccd4efcf8",
+      "kind": "evaluator_llm",
+      "attempt": 3,
+      "status": "error",
+      "seconds": 0.3228796000039438,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:44.704624+00:00",
+      "path": "evaluacion/I2_rerank/calls/3ffdbae498c1430fa038028ccd4efcf8_3.json"
+    },
+    {
+      "case_variant": "I2_rerank",
+      "call_id": "44623fa7c60e485da005e31e12b72c24",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 1.0083536000020104,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:39.376179+00:00",
+      "path": "evaluacion/I2_rerank/calls/44623fa7c60e485da005e31e12b72c24_1.json"
+    },
+    {
+      "case_variant": "I2_rerank",
+      "call_id": "44623fa7c60e485da005e31e12b72c24",
+      "kind": "evaluator_llm",
+      "attempt": 2,
+      "status": "error",
+      "seconds": 0.32293400000344263,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:42.386057+00:00",
+      "path": "evaluacion/I2_rerank/calls/44623fa7c60e485da005e31e12b72c24_2.json"
+    },
+    {
+      "case_variant": "I2_rerank",
+      "call_id": "44623fa7c60e485da005e31e12b72c24",
+      "kind": "evaluator_llm",
+      "attempt": 3,
+      "status": "error",
+      "seconds": 0.30410890000348445,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:46.710231+00:00",
+      "path": "evaluacion/I2_rerank/calls/44623fa7c60e485da005e31e12b72c24_3.json"
+    },
+    {
+      "case_variant": "I2_rerank",
+      "call_id": "952df75c518b43eeabf4252aab8d527b",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 0.313523199998599,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:32.424252+00:00",
+      "path": "evaluacion/I2_rerank/calls/952df75c518b43eeabf4252aab8d527b_1.json"
+    },
+    {
+      "case_variant": "I2_rerank",
+      "call_id": "952df75c518b43eeabf4252aab8d527b",
+      "kind": "evaluator_llm",
+      "attempt": 2,
+      "status": "error",
+      "seconds": 0.3101786999977776,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:34.739366+00:00",
+      "path": "evaluacion/I2_rerank/calls/952df75c518b43eeabf4252aab8d527b_2.json"
+    },
+    {
+      "case_variant": "I2_rerank",
+      "call_id": "952df75c518b43eeabf4252aab8d527b",
+      "kind": "evaluator_llm",
+      "attempt": 3,
+      "status": "error",
+      "seconds": 0.31417109999893,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:39.050759+00:00",
+      "path": "evaluacion/I2_rerank/calls/952df75c518b43eeabf4252aab8d527b_3.json"
+    },
+    {
+      "case_variant": "I2_rerank",
+      "call_id": "c35d082ef7f54cfab430ae60e9d7dfbc",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 0.9832368999996106,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:30.458396+00:00",
+      "path": "evaluacion/I2_rerank/calls/c35d082ef7f54cfab430ae60e9d7dfbc_1.json"
+    },
+    {
+      "case_variant": "I2_rerank",
+      "call_id": "c35d082ef7f54cfab430ae60e9d7dfbc",
+      "kind": "evaluator_llm",
+      "attempt": 2,
+      "status": "error",
+      "seconds": 0.2937863999977708,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:33.442840+00:00",
+      "path": "evaluacion/I2_rerank/calls/c35d082ef7f54cfab430ae60e9d7dfbc_2.json"
+    },
+    {
+      "case_variant": "I2_rerank",
+      "call_id": "c35d082ef7f54cfab430ae60e9d7dfbc",
+      "kind": "evaluator_llm",
+      "attempt": 3,
+      "status": "error",
+      "seconds": 0.3113813999952981,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:37.737741+00:00",
+      "path": "evaluacion/I2_rerank/calls/c35d082ef7f54cfab430ae60e9d7dfbc_3.json"
+    },
+    {
+      "case_variant": "I2_rerank",
+      "call_id": "c4c8d683d2bc4d39a2b0779dcfac2469",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 0.31227790000411915,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:32.424401+00:00",
+      "path": "evaluacion/I2_rerank/calls/c4c8d683d2bc4d39a2b0779dcfac2469_1.json"
+    },
+    {
+      "case_variant": "I2_rerank",
+      "call_id": "c4c8d683d2bc4d39a2b0779dcfac2469",
+      "kind": "evaluator_llm",
+      "attempt": 2,
+      "status": "error",
+      "seconds": 0.9764751000038814,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:34.738366+00:00",
+      "path": "evaluacion/I2_rerank/calls/c4c8d683d2bc4d39a2b0779dcfac2469_2.json"
+    },
+    {
+      "case_variant": "I2_rerank",
+      "call_id": "c4c8d683d2bc4d39a2b0779dcfac2469",
+      "kind": "evaluator_llm",
+      "attempt": 3,
+      "status": "error",
+      "seconds": 0.3076080000028014,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:39.716125+00:00",
+      "path": "evaluacion/I2_rerank/calls/c4c8d683d2bc4d39a2b0779dcfac2469_3.json"
+    },
+    {
+      "case_variant": "I2_rerank",
+      "call_id": "ebfe574c0a2c48dcad8b25a1cc0109cd",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 0.3227294000025722,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:32.424056+00:00",
+      "path": "evaluacion/I2_rerank/calls/ebfe574c0a2c48dcad8b25a1cc0109cd_1.json"
+    },
+    {
+      "case_variant": "I2_rerank",
+      "call_id": "ebfe574c0a2c48dcad8b25a1cc0109cd",
+      "kind": "evaluator_llm",
+      "attempt": 2,
+      "status": "error",
+      "seconds": 0.2983594000033918,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:34.747867+00:00",
+      "path": "evaluacion/I2_rerank/calls/ebfe574c0a2c48dcad8b25a1cc0109cd_2.json"
+    },
+    {
+      "case_variant": "I2_rerank",
+      "call_id": "ebfe574c0a2c48dcad8b25a1cc0109cd",
+      "kind": "evaluator_llm",
+      "attempt": 3,
+      "status": "error",
+      "seconds": 0.32027349999407306,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:39.047663+00:00",
+      "path": "evaluacion/I2_rerank/calls/ebfe574c0a2c48dcad8b25a1cc0109cd_3.json"
+    },
+    {
+      "case_variant": "S1_basic",
+      "call_id": "e6ac5d4ab5494b8392bcd5a6027a1f67",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 8.86727420000534,
+      "error": {
+        "type": "ServerError",
+        "code": 503
+      },
+      "started_at": "2026-10-18T23:12:40.130456+00:00",
+      "path": "evaluacion/S1_basic/calls/e6ac5d4ab5494b8392bcd5a6027a1f67_1.json"
+    },
+    {
+      "case_variant": "S1_rerank",
+      "call_id": "a5e1675c883e452c9a03f0dff1fdab09",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 0.5323444999958156,
+      "error": {
+        "type": "ServerError",
+        "code": 503,
+        "message": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+      },
+      "started_at": "2026-10-19T00:01:59.073362+00:00",
+      "path": "evaluacion/S1_rerank/calls/a5e1675c883e452c9a03f0dff1fdab09_1.json"
+    },
+    {
+      "case_variant": "S1_rerank",
+      "call_id": "aa24139b548b4b5aa57fb09615ac691a",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 119.60122789999878,
+      "error": {
+        "type": "ServerError",
+        "code": 504
+      },
+      "started_at": "2026-10-18T23:13:27.822834+00:00",
+      "path": "evaluacion/S1_rerank/calls/aa24139b548b4b5aa57fb09615ac691a_1.json"
+    },
+    {
+      "case_variant": "S1_rerank",
+      "call_id": "aa24139b548b4b5aa57fb09615ac691a",
+      "kind": "evaluator_llm",
+      "attempt": 2,
+      "status": "error",
+      "seconds": 25.333638999996765,
+      "error": {
+        "type": "ServerError",
+        "code": 503
+      },
+      "started_at": "2026-10-18T23:15:29.425960+00:00",
+      "path": "evaluacion/S1_rerank/calls/aa24139b548b4b5aa57fb09615ac691a_2.json"
+    },
+    {
+      "case_variant": "S2_basic",
+      "call_id": "579534ca42c940f29e60ef6473c24461",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 63.88888710000174,
+      "error": {
+        "type": "ServerError",
+        "code": 503
+      },
+      "started_at": "2026-10-18T23:17:32.130679+00:00",
+      "path": "evaluacion/S2_basic/calls/579534ca42c940f29e60ef6473c24461_1.json"
+    },
+    {
+      "case_variant": "S2_basic",
+      "call_id": "5ebb31514df54a4a8c58da095c8c75b2",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 116.95696640000097,
+      "error": {
+        "type": "ServerError",
+        "code": 504
+      },
+      "started_at": "2026-10-18T23:16:48.657937+00:00",
+      "path": "evaluacion/S2_basic/calls/5ebb31514df54a4a8c58da095c8c75b2_1.json"
+    }
+  ],
+  "evaluator_attempts_detail": [
+    {
+      "case_variant": "C1_basic",
+      "call_id": "051a3e70d7174325a4c26f2eec85622a",
+      "kind": "evaluator_embeddings",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 1.1310962000061409,
+      "error": null,
+      "started_at": "2026-10-18T23:21:20.207329+00:00",
+      "path": "evaluacion/C1_basic/calls/051a3e70d7174325a4c26f2eec85622a_1.json"
+    },
+    {
+      "case_variant": "C1_basic",
+      "call_id": "2105473d06784ad7977f787f783ef622",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 9.255904899997404,
+      "error": null,
+      "started_at": "2026-10-18T23:20:59.862829+00:00",
+      "path": "evaluacion/C1_basic/calls/2105473d06784ad7977f787f783ef622_1.json"
+    },
+    {
+      "case_variant": "C1_basic",
+      "call_id": "5147739db2f548d096c711dc6017feb9",
+      "kind": "evaluator_embeddings",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 0.4103635999999824,
+      "error": null,
+      "started_at": "2026-10-18T23:21:21.339703+00:00",
+      "path": "evaluacion/C1_basic/calls/5147739db2f548d096c711dc6017feb9_1.json"
+    },
+    {
+      "case_variant": "C1_basic",
+      "call_id": "5c27ebae574640feb38f6603ca2ef94d",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 13.015053000002808,
+      "error": null,
+      "started_at": "2026-10-18T23:20:52.706149+00:00",
+      "path": "evaluacion/C1_basic/calls/5c27ebae574640feb38f6603ca2ef94d_1.json"
+    },
+    {
+      "case_variant": "C1_basic",
+      "call_id": "77041ea4372c47d3ba13440569efb3ed",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 2.144503799994709,
+      "error": null,
+      "started_at": "2026-10-18T23:21:09.123757+00:00",
+      "path": "evaluacion/C1_basic/calls/77041ea4372c47d3ba13440569efb3ed_1.json"
+    },
+    {
+      "case_variant": "C1_basic",
+      "call_id": "8fec9ab3f60c46159be91c1fbcb8601f",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 13.314221499997075,
+      "error": null,
+      "started_at": "2026-10-18T23:20:46.546093+00:00",
+      "path": "evaluacion/C1_basic/calls/8fec9ab3f60c46159be91c1fbcb8601f_1.json"
+    },
+    {
+      "case_variant": "C1_basic",
+      "call_id": "aa96dc9981ff4ad08ca8f3a7c2f0ba00",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 16.772551200003363,
+      "error": null,
+      "started_at": "2026-10-18T23:21:11.270306+00:00",
+      "path": "evaluacion/C1_basic/calls/aa96dc9981ff4ad08ca8f3a7c2f0ba00_1.json"
+    },
+    {
+      "case_variant": "C1_basic",
+      "call_id": "ceffa749fc1d45e998032bfe98089fe3",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 27.49966040000436,
+      "error": null,
+      "started_at": "2026-10-18T23:20:52.706319+00:00",
+      "path": "evaluacion/C1_basic/calls/ceffa749fc1d45e998032bfe98089fe3_1.json"
+    },
+    {
+      "case_variant": "C1_basic",
+      "call_id": "e582f86cd4534b0f9b48f737464cc07e",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 2.8279764000035357,
+      "error": null,
+      "started_at": "2026-10-18T23:21:21.762308+00:00",
+      "path": "evaluacion/C1_basic/calls/e582f86cd4534b0f9b48f737464cc07e_1.json"
+    },
+    {
+      "case_variant": "C1_basic",
+      "call_id": "eb813a223ff24d9bbac6617f06f6d61f",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 10.725811800002703,
+      "error": null,
+      "started_at": "2026-10-18T23:20:52.706464+00:00",
+      "path": "evaluacion/C1_basic/calls/eb813a223ff24d9bbac6617f06f6d61f_1.json"
+    },
+    {
+      "case_variant": "C1_rerank",
+      "call_id": "02a077ec600745b5b8c86e99f8bf3eec",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 3.277869900004589,
+      "error": null,
+      "started_at": "2026-10-18T23:21:24.600065+00:00",
+      "path": "evaluacion/C1_rerank/calls/02a077ec600745b5b8c86e99f8bf3eec_1.json"
+    },
+    {
+      "case_variant": "C1_rerank",
+      "call_id": "07d359af689848e7bc19ee8492a4a8cc",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 119.13657429999876,
+      "error": {
+        "type": "ServerError",
+        "code": 504
+      },
+      "started_at": "2026-10-18T23:21:41.761718+00:00",
+      "path": "evaluacion/C1_rerank/calls/07d359af689848e7bc19ee8492a4a8cc_1.json"
+    },
+    {
+      "case_variant": "C1_rerank",
+      "call_id": "07d359af689848e7bc19ee8492a4a8cc",
+      "kind": "evaluator_llm",
+      "attempt": 2,
+      "status": "error",
+      "seconds": 0.3265068999971845,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:23:42.899195+00:00",
+      "path": "evaluacion/C1_rerank/calls/07d359af689848e7bc19ee8492a4a8cc_2.json"
+    },
+    {
+      "case_variant": "C1_rerank",
+      "call_id": "07d359af689848e7bc19ee8492a4a8cc",
+      "kind": "evaluator_llm",
+      "attempt": 3,
+      "status": "error",
+      "seconds": 0.298778600001242,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:23:47.230159+00:00",
+      "path": "evaluacion/C1_rerank/calls/07d359af689848e7bc19ee8492a4a8cc_3.json"
+    },
+    {
+      "case_variant": "C1_rerank",
+      "call_id": "0931891b5b184d8589e3519793c5d649",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 4.7318699000024935,
+      "error": null,
+      "started_at": "2026-10-18T23:23:09.759485+00:00",
+      "path": "evaluacion/C1_rerank/calls/0931891b5b184d8589e3519793c5d649_1.json"
+    },
+    {
+      "case_variant": "C1_rerank",
+      "call_id": "27296ea84b924b508fb4beb9c0e3978c",
+      "kind": "evaluator_embeddings",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 1.1264795000024606,
+      "error": null,
+      "started_at": "2026-10-18T23:23:08.617639+00:00",
+      "path": "evaluacion/C1_rerank/calls/27296ea84b924b508fb4beb9c0e3978c_1.json"
+    },
+    {
+      "case_variant": "C1_rerank",
+      "call_id": "396985dccaa441109b75cfc9c82fbfd7",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 6.561808599995857,
+      "error": null,
+      "started_at": "2026-10-18T23:21:27.880190+00:00",
+      "path": "evaluacion/C1_rerank/calls/396985dccaa441109b75cfc9c82fbfd7_1.json"
+    },
+    {
+      "case_variant": "C1_rerank",
+      "call_id": "3fc25d6db03d48caa00647110fb2e95f",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 4.75125339999795,
+      "error": null,
+      "started_at": "2026-10-18T23:21:28.048954+00:00",
+      "path": "evaluacion/C1_rerank/calls/3fc25d6db03d48caa00647110fb2e95f_1.json"
+    },
+    {
+      "case_variant": "C1_rerank",
+      "call_id": "56a3eb5669634a2dbf3099e8414d8062",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 7.116547300000093,
+      "error": null,
+      "started_at": "2026-10-18T23:48:02.359470+00:00",
+      "path": "evaluacion/C1_rerank/calls/56a3eb5669634a2dbf3099e8414d8062_1.json"
+    },
+    {
+      "case_variant": "C1_rerank",
+      "call_id": "636e35452c8d49e79c7c0765cd5da97b",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 14.605560299998615,
+      "error": null,
+      "started_at": "2026-10-18T23:48:21.477362+00:00",
+      "path": "evaluacion/C1_rerank/calls/636e35452c8d49e79c7c0765cd5da97b_1.json"
+    },
+    {
+      "case_variant": "C1_rerank",
+      "call_id": "8a558ca812a048748a11d1d29965e916",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 1.4007430999990902,
+      "error": null,
+      "started_at": "2026-10-18T23:21:28.048811+00:00",
+      "path": "evaluacion/C1_rerank/calls/8a558ca812a048748a11d1d29965e916_1.json"
+    },
+    {
+      "case_variant": "C1_rerank",
+      "call_id": "b4ebc3f2436a403b9f74e5b6a018fc84",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 100.12373169999773,
+      "error": null,
+      "started_at": "2026-10-18T23:21:28.048647+00:00",
+      "path": "evaluacion/C1_rerank/calls/b4ebc3f2436a403b9f74e5b6a018fc84_1.json"
+    },
+    {
+      "case_variant": "C1_rerank",
+      "call_id": "bfe63384b3744b47a1344a77f5c45e06",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 0.7253654000014649,
+      "error": {
+        "type": "ServerError",
+        "code": 503,
+        "message": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+      },
+      "started_at": "2026-10-18T23:47:22.884270+00:00",
+      "path": "evaluacion/C1_rerank/calls/bfe63384b3744b47a1344a77f5c45e06_1.json"
+    },
+    {
+      "case_variant": "C1_rerank",
+      "call_id": "bfe63384b3744b47a1344a77f5c45e06",
+      "kind": "evaluator_llm",
+      "attempt": 2,
+      "status": "ok",
+      "seconds": 11.746964600002684,
+      "error": null,
+      "started_at": "2026-10-18T23:47:38.610826+00:00",
+      "path": "evaluacion/C1_rerank/calls/bfe63384b3744b47a1344a77f5c45e06_2.json"
+    },
+    {
+      "case_variant": "C1_rerank",
+      "call_id": "c68c184b774d4a25a6d67a1546f315ad",
+      "kind": "evaluator_embeddings",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 0.44247980000363896,
+      "error": null,
+      "started_at": "2026-10-18T23:23:08.173913+00:00",
+      "path": "evaluacion/C1_rerank/calls/c68c184b774d4a25a6d67a1546f315ad_1.json"
+    },
+    {
+      "case_variant": "C1_rerank",
+      "call_id": "c80e7d4ec03e4b21b0dc01e86f5e77aa",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 2.753625599994848,
+      "error": null,
+      "started_at": "2026-10-18T23:21:39.006309+00:00",
+      "path": "evaluacion/C1_rerank/calls/c80e7d4ec03e4b21b0dc01e86f5e77aa_1.json"
+    },
+    {
+      "case_variant": "C1_rerank",
+      "call_id": "d3d093f58e49475485fe2d02898eff91",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 4.8482159999985015,
+      "error": {
+        "type": "ServerError",
+        "code": 503,
+        "message": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+      },
+      "started_at": "2026-10-18T23:46:24.585801+00:00",
+      "path": "evaluacion/C1_rerank/calls/d3d093f58e49475485fe2d02898eff91_1.json"
+    },
+    {
+      "case_variant": "C1_rerank",
+      "call_id": "d3d093f58e49475485fe2d02898eff91",
+      "kind": "evaluator_llm",
+      "attempt": 2,
+      "status": "ok",
+      "seconds": 26.447097600001143,
+      "error": null,
+      "started_at": "2026-10-18T23:46:44.435544+00:00",
+      "path": "evaluacion/C1_rerank/calls/d3d093f58e49475485fe2d02898eff91_2.json"
+    },
+    {
+      "case_variant": "C1_rerank",
+      "call_id": "f151c00b2b3a4a5b8074c0264925f51d",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 4.556274700000358,
+      "error": null,
+      "started_at": "2026-10-18T23:21:34.448096+00:00",
+      "path": "evaluacion/C1_rerank/calls/f151c00b2b3a4a5b8074c0264925f51d_1.json"
+    },
+    {
+      "case_variant": "C2_basic",
+      "call_id": "0d07b91572ce4421949a2d023125f11e",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 1.212454100001196,
+      "error": null,
+      "started_at": "2026-10-18T23:23:14.496423+00:00",
+      "path": "evaluacion/C2_basic/calls/0d07b91572ce4421949a2d023125f11e_1.json"
+    },
+    {
+      "case_variant": "C2_basic",
+      "call_id": "15f24d93c34b4d66bb47d43bc5f3b6b5",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 1.5437703999996302,
+      "error": null,
+      "started_at": "2026-10-18T23:23:17.657128+00:00",
+      "path": "evaluacion/C2_basic/calls/15f24d93c34b4d66bb47d43bc5f3b6b5_1.json"
+    },
+    {
+      "case_variant": "C2_basic",
+      "call_id": "19901a1d6663484d97b129fdea30db08",
+      "kind": "evaluator_embeddings",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 0.3946737000005669,
+      "error": null,
+      "started_at": "2026-10-18T23:23:19.631793+00:00",
+      "path": "evaluacion/C2_basic/calls/19901a1d6663484d97b129fdea30db08_1.json"
+    },
+    {
+      "case_variant": "C2_basic",
+      "call_id": "1c77df688f844d74938c1085c8a6e189",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 1.0210638000062318,
+      "error": null,
+      "started_at": "2026-10-18T23:23:17.656981+00:00",
+      "path": "evaluacion/C2_basic/calls/1c77df688f844d74938c1085c8a6e189_1.json"
+    },
+    {
+      "case_variant": "C2_basic",
+      "call_id": "28bab9a1392d45cf8b9a648afd671035",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 0.8578332999968552,
+      "error": null,
+      "started_at": "2026-10-18T23:23:17.656781+00:00",
+      "path": "evaluacion/C2_basic/calls/28bab9a1392d45cf8b9a648afd671035_1.json"
+    },
+    {
+      "case_variant": "C2_basic",
+      "call_id": "369a7ad2d4484fc5893fc65e75364c8c",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 1.4625104000006104,
+      "error": null,
+      "started_at": "2026-10-18T23:23:21.029934+00:00",
+      "path": "evaluacion/C2_basic/calls/369a7ad2d4484fc5893fc65e75364c8c_1.json"
+    },
+    {
+      "case_variant": "C2_basic",
+      "call_id": "8754cd09575c42b68c57ab5d731bbd1e",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 1.9400829000005615,
+      "error": null,
+      "started_at": "2026-10-18T23:23:15.711310+00:00",
+      "path": "evaluacion/C2_basic/calls/8754cd09575c42b68c57ab5d731bbd1e_1.json"
+    },
+    {
+      "case_variant": "C2_basic",
+      "call_id": "d1a84561c2a84ad0a5aab462cdf9bf31",
+      "kind": "evaluator_embeddings",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 0.42807619999803137,
+      "error": null,
+      "started_at": "2026-10-18T23:23:19.202275+00:00",
+      "path": "evaluacion/C2_basic/calls/d1a84561c2a84ad0a5aab462cdf9bf31_1.json"
+    },
+    {
+      "case_variant": "C2_basic",
+      "call_id": "f31888c4c1614717af2bd05d055a0b71",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 0.9678323999978602,
+      "error": null,
+      "started_at": "2026-10-18T23:23:20.034735+00:00",
+      "path": "evaluacion/C2_basic/calls/f31888c4c1614717af2bd05d055a0b71_1.json"
+    },
+    {
+      "case_variant": "C2_rerank",
+      "call_id": "09fc1896a07e4d6b84a9ba179d24df50",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 2.126380599998811,
+      "error": null,
+      "started_at": "2026-10-18T23:23:23.964844+00:00",
+      "path": "evaluacion/C2_rerank/calls/09fc1896a07e4d6b84a9ba179d24df50_1.json"
+    },
+    {
+      "case_variant": "C2_rerank",
+      "call_id": "0e5116c2d20c49d6877bf9c14a707e7c",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 1.9674029000016162,
+      "error": null,
+      "started_at": "2026-10-18T23:23:33.567055+00:00",
+      "path": "evaluacion/C2_rerank/calls/0e5116c2d20c49d6877bf9c14a707e7c_1.json"
+    },
+    {
+      "case_variant": "C2_rerank",
+      "call_id": "25a1b8002abe4a83943268aa2a1aed60",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 0.9042480999996769,
+      "error": null,
+      "started_at": "2026-10-18T23:23:37.148093+00:00",
+      "path": "evaluacion/C2_rerank/calls/25a1b8002abe4a83943268aa2a1aed60_1.json"
+    },
+    {
+      "case_variant": "C2_rerank",
+      "call_id": "3d75fd538bd04884b711fe9d1628d16d",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 5.932182999997167,
+      "error": null,
+      "started_at": "2026-10-18T23:23:26.096790+00:00",
+      "path": "evaluacion/C2_rerank/calls/3d75fd538bd04884b711fe9d1628d16d_1.json"
+    },
+    {
+      "case_variant": "C2_rerank",
+      "call_id": "5dea2cce74b047b2bc9dbc06c6c06b5c",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 1.0036076999967918,
+      "error": null,
+      "started_at": "2026-10-18T23:23:26.097022+00:00",
+      "path": "evaluacion/C2_rerank/calls/5dea2cce74b047b2bc9dbc06c6c06b5c_1.json"
+    },
+    {
+      "case_variant": "C2_rerank",
+      "call_id": "60c17bb37ad7474b8b99cf413ebd8dbf",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 1.6089916999990237,
+      "error": null,
+      "started_at": "2026-10-18T23:23:35.536373+00:00",
+      "path": "evaluacion/C2_rerank/calls/60c17bb37ad7474b8b99cf413ebd8dbf_1.json"
+    },
+    {
+      "case_variant": "C2_rerank",
+      "call_id": "77871fc45b764c75b8a3b9fe5dc4f873",
+      "kind": "evaluator_embeddings",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 1.1148969999994733,
+      "error": null,
+      "started_at": "2026-10-18T23:23:32.439707+00:00",
+      "path": "evaluacion/C2_rerank/calls/77871fc45b764c75b8a3b9fe5dc4f873_1.json"
+    },
+    {
+      "case_variant": "C2_rerank",
+      "call_id": "b4eb818a8e34442e9c994d925a6b2589",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 0.3134070999949472,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:23:38.057416+00:00",
+      "path": "evaluacion/C2_rerank/calls/b4eb818a8e34442e9c994d925a6b2589_1.json"
+    },
+    {
+      "case_variant": "C2_rerank",
+      "call_id": "b4eb818a8e34442e9c994d925a6b2589",
+      "kind": "evaluator_llm",
+      "attempt": 2,
+      "status": "ok",
+      "seconds": 2.1829400999995414,
+      "error": null,
+      "started_at": "2026-10-18T23:23:40.372250+00:00",
+      "path": "evaluacion/C2_rerank/calls/b4eb818a8e34442e9c994d925a6b2589_2.json"
+    },
+    {
+      "case_variant": "C2_rerank",
+      "call_id": "c722e7719233438b8553b27a4d620d57",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 1.107573000001139,
+      "error": null,
+      "started_at": "2026-10-18T23:23:26.097173+00:00",
+      "path": "evaluacion/C2_rerank/calls/c722e7719233438b8553b27a4d620d57_1.json"
+    },
+    {
+      "case_variant": "C2_rerank",
+      "call_id": "dfd3e4d18a6e46b59efb6cbaf5576393",
+      "kind": "evaluator_embeddings",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 0.4081794999947306,
+      "error": null,
+      "started_at": "2026-10-18T23:23:32.030325+00:00",
+      "path": "evaluacion/C2_rerank/calls/dfd3e4d18a6e46b59efb6cbaf5576393_1.json"
+    },
+    {
+      "case_variant": "C2_rerank",
+      "call_id": "fd10e07ba36f499483c901a3d8c59b49",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 1.4657321000049706,
+      "error": null,
+      "started_at": "2026-10-18T23:23:22.496867+00:00",
+      "path": "evaluacion/C2_rerank/calls/fd10e07ba36f499483c901a3d8c59b49_1.json"
+    },
+    {
+      "case_variant": "C3_basic",
+      "call_id": "30e50f4bece94878bdc080d5d5f628b4",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 15.282079900003737,
+      "error": null,
+      "started_at": "2026-10-18T23:51:39.173547+00:00",
+      "path": "evaluacion/C3_basic/calls/30e50f4bece94878bdc080d5d5f628b4_1.json"
+    },
+    {
+      "case_variant": "C3_basic",
+      "call_id": "3316bc10f8664d80aa82cf9ecfa0ebdd",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 0.2982138000006671,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:23:42.559441+00:00",
+      "path": "evaluacion/C3_basic/calls/3316bc10f8664d80aa82cf9ecfa0ebdd_1.json"
+    },
+    {
+      "case_variant": "C3_basic",
+      "call_id": "3316bc10f8664d80aa82cf9ecfa0ebdd",
+      "kind": "evaluator_llm",
+      "attempt": 2,
+      "status": "error",
+      "seconds": 0.3920836999968742,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:23:44.858847+00:00",
+      "path": "evaluacion/C3_basic/calls/3316bc10f8664d80aa82cf9ecfa0ebdd_2.json"
+    },
+    {
+      "case_variant": "C3_basic",
+      "call_id": "3316bc10f8664d80aa82cf9ecfa0ebdd",
+      "kind": "evaluator_llm",
+      "attempt": 3,
+      "status": "error",
+      "seconds": 0.2996620999983861,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:23:49.251760+00:00",
+      "path": "evaluacion/C3_basic/calls/3316bc10f8664d80aa82cf9ecfa0ebdd_3.json"
+    },
+    {
+      "case_variant": "C3_basic",
+      "call_id": "43968244c64a40f586010a879c830558",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 0.34633900000335416,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:23:47.533949+00:00",
+      "path": "evaluacion/C3_basic/calls/43968244c64a40f586010a879c830558_1.json"
+    },
+    {
+      "case_variant": "C3_basic",
+      "call_id": "43968244c64a40f586010a879c830558",
+      "kind": "evaluator_llm",
+      "attempt": 2,
+      "status": "error",
+      "seconds": 1.0190336000014213,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:23:49.881317+00:00",
+      "path": "evaluacion/C3_basic/calls/43968244c64a40f586010a879c830558_2.json"
+    },
+    {
+      "case_variant": "C3_basic",
+      "call_id": "43968244c64a40f586010a879c830558",
+      "kind": "evaluator_llm",
+      "attempt": 3,
+      "status": "error",
+      "seconds": 0.3050493999980972,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:23:54.901453+00:00",
+      "path": "evaluacion/C3_basic/calls/43968244c64a40f586010a879c830558_3.json"
+    },
+    {
+      "case_variant": "C3_basic",
+      "call_id": "5a9f697a79b74bb194e9e26f9143fdb3",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 0.3230026999954134,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:23:47.534255+00:00",
+      "path": "evaluacion/C3_basic/calls/5a9f697a79b74bb194e9e26f9143fdb3_1.json"
+    },
+    {
+      "case_variant": "C3_basic",
+      "call_id": "5a9f697a79b74bb194e9e26f9143fdb3",
+      "kind": "evaluator_llm",
+      "attempt": 2,
+      "status": "error",
+      "seconds": 0.3424888999943505,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:23:49.858292+00:00",
+      "path": "evaluacion/C3_basic/calls/5a9f697a79b74bb194e9e26f9143fdb3_2.json"
+    },
+    {
+      "case_variant": "C3_basic",
+      "call_id": "5a9f697a79b74bb194e9e26f9143fdb3",
+      "kind": "evaluator_llm",
+      "attempt": 3,
+      "status": "error",
+      "seconds": 0.2939445999945747,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:23:54.201735+00:00",
+      "path": "evaluacion/C3_basic/calls/5a9f697a79b74bb194e9e26f9143fdb3_3.json"
+    },
+    {
+      "case_variant": "C3_basic",
+      "call_id": "5d85d0d163d3435995f77441a2478f6e",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 1.5948320000024978,
+      "error": null,
+      "started_at": "2026-10-18T23:49:02.391386+00:00",
+      "path": "evaluacion/C3_basic/calls/5d85d0d163d3435995f77441a2478f6e_1.json"
+    },
+    {
+      "case_variant": "C3_basic",
+      "call_id": "7fed4a42cfc0456f9da53bf837ea7d73",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 23.996723700001894,
+      "error": null,
+      "started_at": "2026-10-18T23:49:57.069461+00:00",
+      "path": "evaluacion/C3_basic/calls/7fed4a42cfc0456f9da53bf837ea7d73_1.json"
+    },
+    {
+      "case_variant": "C3_basic",
+      "call_id": "971fad34d6774b97bc286e8714a21498",
+      "kind": "evaluator_embeddings",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 0.4301848999966751,
+      "error": null,
+      "started_at": "2026-10-18T23:49:31.455442+00:00",
+      "path": "evaluacion/C3_basic/calls/971fad34d6774b97bc286e8714a21498_1.json"
+    },
+    {
+      "case_variant": "C3_basic",
+      "call_id": "a9fc9c73e2334340a2709ce1689be83b",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 4.389373899997736,
+      "error": null,
+      "started_at": "2026-10-18T23:51:22.782928+00:00",
+      "path": "evaluacion/C3_basic/calls/a9fc9c73e2334340a2709ce1689be83b_1.json"
+    },
+    {
+      "case_variant": "C3_basic",
+      "call_id": "ab8e4648846a4b589c9c1bea9241de24",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 0.317684100002225,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:23:54.505076+00:00",
+      "path": "evaluacion/C3_basic/calls/ab8e4648846a4b589c9c1bea9241de24_1.json"
+    },
+    {
+      "case_variant": "C3_basic",
+      "call_id": "ab8e4648846a4b589c9c1bea9241de24",
+      "kind": "evaluator_llm",
+      "attempt": 2,
+      "status": "error",
+      "seconds": 0.31105370000295807,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:23:56.824100+00:00",
+      "path": "evaluacion/C3_basic/calls/ab8e4648846a4b589c9c1bea9241de24_2.json"
+    },
+    {
+      "case_variant": "C3_basic",
+      "call_id": "ab8e4648846a4b589c9c1bea9241de24",
+      "kind": "evaluator_llm",
+      "attempt": 3,
+      "status": "error",
+      "seconds": 0.32855689999996684,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:24:01.136478+00:00",
+      "path": "evaluacion/C3_basic/calls/ab8e4648846a4b589c9c1bea9241de24_3.json"
+    },
+    {
+      "case_variant": "C3_basic",
+      "call_id": "b0b5d8350c764faeaa2c74f0189276cc",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 6.7036765000011656,
+      "error": {
+        "type": "ServerError",
+        "code": 503,
+        "message": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+      },
+      "started_at": "2026-10-18T23:50:33.067605+00:00",
+      "path": "evaluacion/C3_basic/calls/b0b5d8350c764faeaa2c74f0189276cc_1.json"
+    },
+    {
+      "case_variant": "C3_basic",
+      "call_id": "b0b5d8350c764faeaa2c74f0189276cc",
+      "kind": "evaluator_llm",
+      "attempt": 2,
+      "status": "ok",
+      "seconds": 1.6801731000014115,
+      "error": null,
+      "started_at": "2026-10-18T23:50:54.772759+00:00",
+      "path": "evaluacion/C3_basic/calls/b0b5d8350c764faeaa2c74f0189276cc_2.json"
+    },
+    {
+      "case_variant": "C3_basic",
+      "call_id": "baab31acc73f48458ae35f915643e965",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 3.466760200004501,
+      "error": null,
+      "started_at": "2026-10-18T23:49:15.987534+00:00",
+      "path": "evaluacion/C3_basic/calls/baab31acc73f48458ae35f915643e965_1.json"
+    },
+    {
+      "case_variant": "C3_basic",
+      "call_id": "d00ffa098b744e90bef127f0ba5a59a3",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 0.31049519999942277,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:23:49.555746+00:00",
+      "path": "evaluacion/C3_basic/calls/d00ffa098b744e90bef127f0ba5a59a3_1.json"
+    },
+    {
+      "case_variant": "C3_basic",
+      "call_id": "d00ffa098b744e90bef127f0ba5a59a3",
+      "kind": "evaluator_llm",
+      "attempt": 2,
+      "status": "error",
+      "seconds": 0.3197733999986667,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:23:51.867159+00:00",
+      "path": "evaluacion/C3_basic/calls/d00ffa098b744e90bef127f0ba5a59a3_2.json"
+    },
+    {
+      "case_variant": "C3_basic",
+      "call_id": "d00ffa098b744e90bef127f0ba5a59a3",
+      "kind": "evaluator_llm",
+      "attempt": 3,
+      "status": "error",
+      "seconds": 0.3095766999977059,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:23:56.188142+00:00",
+      "path": "evaluacion/C3_basic/calls/d00ffa098b744e90bef127f0ba5a59a3_3.json"
+    },
+    {
+      "case_variant": "C3_basic",
+      "call_id": "d01925b28c2345eba8add0af24c2ea02",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 2.327027300001646,
+      "error": null,
+      "started_at": "2026-10-18T23:51:08.454340+00:00",
+      "path": "evaluacion/C3_basic/calls/d01925b28c2345eba8add0af24c2ea02_1.json"
+    },
+    {
+      "case_variant": "C3_basic",
+      "call_id": "e82af51edd9b49f58f5ed4cb7f235477",
+      "kind": "evaluator_embeddings",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 1.173806799997692,
+      "error": null,
+      "started_at": "2026-10-18T23:49:43.887173+00:00",
+      "path": "evaluacion/C3_basic/calls/e82af51edd9b49f58f5ed4cb7f235477_1.json"
+    },
+    {
+      "case_variant": "C3_basic",
+      "call_id": "f20984e81e174a619679d57a18ca28b2",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 2.3058280000041123,
+      "error": null,
+      "started_at": "2026-10-18T23:48:48.084137+00:00",
+      "path": "evaluacion/C3_basic/calls/f20984e81e174a619679d57a18ca28b2_1.json"
+    },
+    {
+      "case_variant": "C3_basic",
+      "call_id": "f6cd7e24e8e04458a02ee4e69bad0544",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 0.32028050000371877,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:23:47.534114+00:00",
+      "path": "evaluacion/C3_basic/calls/f6cd7e24e8e04458a02ee4e69bad0544_1.json"
+    },
+    {
+      "case_variant": "C3_basic",
+      "call_id": "f6cd7e24e8e04458a02ee4e69bad0544",
+      "kind": "evaluator_llm",
+      "attempt": 2,
+      "status": "error",
+      "seconds": 1.0418519000013475,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:23:49.857292+00:00",
+      "path": "evaluacion/C3_basic/calls/f6cd7e24e8e04458a02ee4e69bad0544_2.json"
+    },
+    {
+      "case_variant": "C3_basic",
+      "call_id": "f6cd7e24e8e04458a02ee4e69bad0544",
+      "kind": "evaluator_llm",
+      "attempt": 3,
+      "status": "error",
+      "seconds": 0.31612160000076983,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:23:54.900951+00:00",
+      "path": "evaluacion/C3_basic/calls/f6cd7e24e8e04458a02ee4e69bad0544_3.json"
+    },
+    {
+      "case_variant": "C3_rerank",
+      "call_id": "003bf737b74d4583ad198067f6319044",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 17.93504050000047,
+      "error": null,
+      "started_at": "2026-10-18T23:55:03.685247+00:00",
+      "path": "evaluacion/C3_rerank/calls/003bf737b74d4583ad198067f6319044_1.json"
+    },
+    {
+      "case_variant": "C3_rerank",
+      "call_id": "0a849c372e4b4568b28462a96fdc115a",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 1.7353336999949533,
+      "error": null,
+      "started_at": "2026-10-18T23:54:20.464438+00:00",
+      "path": "evaluacion/C3_rerank/calls/0a849c372e4b4568b28462a96fdc115a_1.json"
+    },
+    {
+      "case_variant": "C3_rerank",
+      "call_id": "0d9c6d15614f4aa0a8f8524ae6af37eb",
+      "kind": "evaluator_embeddings",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 1.1270344000004116,
+      "error": null,
+      "started_at": "2026-10-18T23:53:11.461875+00:00",
+      "path": "evaluacion/C3_rerank/calls/0d9c6d15614f4aa0a8f8524ae6af37eb_1.json"
+    },
+    {
+      "case_variant": "C3_rerank",
+      "call_id": "0f0394360ef34a40aef6476259f335fc",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 3.1769591999982367,
+      "error": null,
+      "started_at": "2026-10-18T23:54:34.201008+00:00",
+      "path": "evaluacion/C3_rerank/calls/0f0394360ef34a40aef6476259f335fc_1.json"
+    },
+    {
+      "case_variant": "C3_rerank",
+      "call_id": "17639fee494143609e0dffaaf6e69667",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 2.3840190000046277,
+      "error": null,
+      "started_at": "2026-10-18T23:53:37.025665+00:00",
+      "path": "evaluacion/C3_rerank/calls/17639fee494143609e0dffaaf6e69667_1.json"
+    },
+    {
+      "case_variant": "C3_rerank",
+      "call_id": "2514de43856a4e27961930ef07f4be3e",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 0.3068656000032206,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:23:56.509757+00:00",
+      "path": "evaluacion/C3_rerank/calls/2514de43856a4e27961930ef07f4be3e_1.json"
+    },
+    {
+      "case_variant": "C3_rerank",
+      "call_id": "2514de43856a4e27961930ef07f4be3e",
+      "kind": "evaluator_llm",
+      "attempt": 2,
+      "status": "error",
+      "seconds": 0.35951330000534654,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:23:58.817906+00:00",
+      "path": "evaluacion/C3_rerank/calls/2514de43856a4e27961930ef07f4be3e_2.json"
+    },
+    {
+      "case_variant": "C3_rerank",
+      "call_id": "2514de43856a4e27961930ef07f4be3e",
+      "kind": "evaluator_llm",
+      "attempt": 3,
+      "status": "error",
+      "seconds": 0.3106737999987672,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:24:03.178885+00:00",
+      "path": "evaluacion/C3_rerank/calls/2514de43856a4e27961930ef07f4be3e_3.json"
+    },
+    {
+      "case_variant": "C3_rerank",
+      "call_id": "320ba6aad93d459db447c1ef12ada3be",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 7.450105200005055,
+      "error": null,
+      "started_at": "2026-10-18T23:52:52.010447+00:00",
+      "path": "evaluacion/C3_rerank/calls/320ba6aad93d459db447c1ef12ada3be_1.json"
+    },
+    {
+      "case_variant": "C3_rerank",
+      "call_id": "4a54aa02e1c74a9a877c8b6500a12430",
+      "kind": "evaluator_embeddings",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 0.43280139999842504,
+      "error": null,
+      "started_at": "2026-10-18T23:53:24.590925+00:00",
+      "path": "evaluacion/C3_rerank/calls/4a54aa02e1c74a9a877c8b6500a12430_1.json"
+    },
+    {
+      "case_variant": "C3_rerank",
+      "call_id": "4a68068106d14f229d7b817092ef386d",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 0.2885298999972292,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:24:01.470933+00:00",
+      "path": "evaluacion/C3_rerank/calls/4a68068106d14f229d7b817092ef386d_1.json"
+    },
+    {
+      "case_variant": "C3_rerank",
+      "call_id": "4a68068106d14f229d7b817092ef386d",
+      "kind": "evaluator_llm",
+      "attempt": 2,
+      "status": "error",
+      "seconds": 1.053786600001331,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:24:03.760759+00:00",
+      "path": "evaluacion/C3_rerank/calls/4a68068106d14f229d7b817092ef386d_2.json"
+    },
+    {
+      "case_variant": "C3_rerank",
+      "call_id": "4a68068106d14f229d7b817092ef386d",
+      "kind": "evaluator_llm",
+      "attempt": 3,
+      "status": "error",
+      "seconds": 0.29806129999633413,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:24:08.815646+00:00",
+      "path": "evaluacion/C3_rerank/calls/4a68068106d14f229d7b817092ef386d_3.json"
+    },
+    {
+      "case_variant": "C3_rerank",
+      "call_id": "4cdff0249835435c94f195a9a95f25a4",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 0.3164556999981869,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:24:03.494017+00:00",
+      "path": "evaluacion/C3_rerank/calls/4cdff0249835435c94f195a9a95f25a4_1.json"
+    },
+    {
+      "case_variant": "C3_rerank",
+      "call_id": "4cdff0249835435c94f195a9a95f25a4",
+      "kind": "evaluator_llm",
+      "attempt": 2,
+      "status": "error",
+      "seconds": 0.37404460000107065,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:24:05.811548+00:00",
+      "path": "evaluacion/C3_rerank/calls/4cdff0249835435c94f195a9a95f25a4_2.json"
+    },
+    {
+      "case_variant": "C3_rerank",
+      "call_id": "4cdff0249835435c94f195a9a95f25a4",
+      "kind": "evaluator_llm",
+      "attempt": 3,
+      "status": "error",
+      "seconds": 0.309683400002541,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:24:10.186795+00:00",
+      "path": "evaluacion/C3_rerank/calls/4cdff0249835435c94f195a9a95f25a4_3.json"
+    },
+    {
+      "case_variant": "C3_rerank",
+      "call_id": "4d3e162e28ae4f169d433183839bea91",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 0.3141012000050978,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:24:01.470587+00:00",
+      "path": "evaluacion/C3_rerank/calls/4d3e162e28ae4f169d433183839bea91_1.json"
+    },
+    {
+      "case_variant": "C3_rerank",
+      "call_id": "4d3e162e28ae4f169d433183839bea91",
+      "kind": "evaluator_llm",
+      "attempt": 2,
+      "status": "error",
+      "seconds": 0.30769100000179606,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:24:03.785727+00:00",
+      "path": "evaluacion/C3_rerank/calls/4d3e162e28ae4f169d433183839bea91_2.json"
+    },
+    {
+      "case_variant": "C3_rerank",
+      "call_id": "4d3e162e28ae4f169d433183839bea91",
+      "kind": "evaluator_llm",
+      "attempt": 3,
+      "status": "error",
+      "seconds": 0.3014617000008002,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:24:08.094789+00:00",
+      "path": "evaluacion/C3_rerank/calls/4d3e162e28ae4f169d433183839bea91_3.json"
+    },
+    {
+      "case_variant": "C3_rerank",
+      "call_id": "543bba2c33364b2ca4267a8992b220fb",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 2.3047450999947614,
+      "error": null,
+      "started_at": "2026-10-18T23:54:49.379151+00:00",
+      "path": "evaluacion/C3_rerank/calls/543bba2c33364b2ca4267a8992b220fb_1.json"
+    },
+    {
+      "case_variant": "C3_rerank",
+      "call_id": "72fc6b952376440889e31a22b962e93c",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 0.8060047000035411,
+      "error": {
+        "type": "ServerError",
+        "code": 503,
+        "message": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+      },
+      "started_at": "2026-10-18T23:53:51.411204+00:00",
+      "path": "evaluacion/C3_rerank/calls/72fc6b952376440889e31a22b962e93c_1.json"
+    },
+    {
+      "case_variant": "C3_rerank",
+      "call_id": "72fc6b952376440889e31a22b962e93c",
+      "kind": "evaluator_llm",
+      "attempt": 2,
+      "status": "ok",
+      "seconds": 1.2441671999986283,
+      "error": null,
+      "started_at": "2026-10-18T23:54:07.219106+00:00",
+      "path": "evaluacion/C3_rerank/calls/72fc6b952376440889e31a22b962e93c_2.json"
+    },
+    {
+      "case_variant": "C3_rerank",
+      "call_id": "7cd31fb87dd64969b7a20721c8db68e3",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 2.5795049000007566,
+      "error": null,
+      "started_at": "2026-10-18T23:24:08.406154+00:00",
+      "path": "evaluacion/C3_rerank/calls/7cd31fb87dd64969b7a20721c8db68e3_1.json"
+    },
+    {
+      "case_variant": "C3_rerank",
+      "call_id": "cb0702b694b74361bafbe6ef3359c528",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 15.791293800000858,
+      "error": null,
+      "started_at": "2026-10-18T23:52:24.217897+00:00",
+      "path": "evaluacion/C3_rerank/calls/cb0702b694b74361bafbe6ef3359c528_1.json"
+    },
+    {
+      "case_variant": "C3_rerank",
+      "call_id": "d28466cf8675485d8f7886d543823b1f",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 0.3127981999932672,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:24:01.470758+00:00",
+      "path": "evaluacion/C3_rerank/calls/d28466cf8675485d8f7886d543823b1f_1.json"
+    },
+    {
+      "case_variant": "C3_rerank",
+      "call_id": "d28466cf8675485d8f7886d543823b1f",
+      "kind": "evaluator_llm",
+      "attempt": 2,
+      "status": "error",
+      "seconds": 0.30159460000140825,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:24:03.785233+00:00",
+      "path": "evaluacion/C3_rerank/calls/d28466cf8675485d8f7886d543823b1f_2.json"
+    },
+    {
+      "case_variant": "C3_rerank",
+      "call_id": "d28466cf8675485d8f7886d543823b1f",
+      "kind": "evaluator_llm",
+      "attempt": 3,
+      "status": "error",
+      "seconds": 1.0007929999992484,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:24:08.087774+00:00",
+      "path": "evaluacion/C3_rerank/calls/d28466cf8675485d8f7886d543823b1f_3.json"
+    },
+    {
+      "case_variant": "C3_rerank",
+      "call_id": "ef539502806b4fc7b6ebcffe67807036",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 5.759812899996177,
+      "error": null,
+      "started_at": "2026-10-18T23:52:06.457025+00:00",
+      "path": "evaluacion/C3_rerank/calls/ef539502806b4fc7b6ebcffe67807036_1.json"
+    },
+    {
+      "case_variant": "E1_basic",
+      "call_id": "0378230285924786b4162a1b27b94a7f",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 13.484961000001931,
+      "error": null,
+      "started_at": "2026-10-18T23:24:17.872061+00:00",
+      "path": "evaluacion/E1_basic/calls/0378230285924786b4162a1b27b94a7f_1.json"
+    },
+    {
+      "case_variant": "E1_basic",
+      "call_id": "293f386117084af8a420556bddfb6090",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 8.193324499996379,
+      "error": null,
+      "started_at": "2026-10-18T23:24:10.991457+00:00",
+      "path": "evaluacion/E1_basic/calls/293f386117084af8a420556bddfb6090_1.json"
+    },
+    {
+      "case_variant": "E1_basic",
+      "call_id": "7f05f62c7a884b908ce02f1840f6b76e",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 8.185083700001996,
+      "error": null,
+      "started_at": "2026-10-18T23:24:10.991149+00:00",
+      "path": "evaluacion/E1_basic/calls/7f05f62c7a884b908ce02f1840f6b76e_1.json"
+    },
+    {
+      "case_variant": "E1_basic",
+      "call_id": "81bc1688321d44a3a4f43a29a8dbb711",
+      "kind": "evaluator_embeddings",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 1.084029500001634,
+      "error": null,
+      "started_at": "2026-10-18T23:24:19.587404+00:00",
+      "path": "evaluacion/E1_basic/calls/81bc1688321d44a3a4f43a29a8dbb711_1.json"
+    },
+    {
+      "case_variant": "E1_basic",
+      "call_id": "92bebfc049714bb98fdca52b7b7dfa4c",
+      "kind": "evaluator_embeddings",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 0.39973489999829326,
+      "error": null,
+      "started_at": "2026-10-18T23:24:19.186287+00:00",
+      "path": "evaluacion/E1_basic/calls/92bebfc049714bb98fdca52b7b7dfa4c_1.json"
+    },
+    {
+      "case_variant": "E1_basic",
+      "call_id": "c3e57c2f89ed455eab9aed1f1843fc75",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 7.3633617000014056,
+      "error": null,
+      "started_at": "2026-10-18T23:24:10.506639+00:00",
+      "path": "evaluacion/E1_basic/calls/c3e57c2f89ed455eab9aed1f1843fc75_1.json"
+    },
+    {
+      "case_variant": "E1_basic",
+      "call_id": "d6b83bdfd94945f2a646d20b27099c3b",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 1.0323473000025842,
+      "error": null,
+      "started_at": "2026-10-18T23:24:10.991316+00:00",
+      "path": "evaluacion/E1_basic/calls/d6b83bdfd94945f2a646d20b27099c3b_1.json"
+    },
+    {
+      "case_variant": "E1_rerank",
+      "call_id": "5f8262090d0741b6b94b4e9e9de926f6",
+      "kind": "evaluator_embeddings",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 0.4064849000060349,
+      "error": null,
+      "started_at": "2026-10-18T23:25:01.421647+00:00",
+      "path": "evaluacion/E1_rerank/calls/5f8262090d0741b6b94b4e9e9de926f6_1.json"
+    },
+    {
+      "case_variant": "E1_rerank",
+      "call_id": "950cb13572cc4573835c1367be048231",
+      "kind": "evaluator_embeddings",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 1.0791023000056157,
+      "error": null,
+      "started_at": "2026-10-18T23:25:00.341223+00:00",
+      "path": "evaluacion/E1_rerank/calls/950cb13572cc4573835c1367be048231_1.json"
+    },
+    {
+      "case_variant": "E1_rerank",
+      "call_id": "b802227645bb4fb7afa77fac154d8958",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 1.5522551000030944,
+      "error": null,
+      "started_at": "2026-10-18T23:24:31.362462+00:00",
+      "path": "evaluacion/E1_rerank/calls/b802227645bb4fb7afa77fac154d8958_1.json"
+    },
+    {
+      "case_variant": "E1_rerank",
+      "call_id": "c1e40f5727d0432d81ecba59b4901b2a",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 0.8896443999983603,
+      "error": null,
+      "started_at": "2026-10-18T23:24:20.684865+00:00",
+      "path": "evaluacion/E1_rerank/calls/c1e40f5727d0432d81ecba59b4901b2a_1.json"
+    },
+    {
+      "case_variant": "E1_rerank",
+      "call_id": "d5ff7685068744e3b0995fbadc3b3e37",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 28.97672479999892,
+      "error": null,
+      "started_at": "2026-10-18T23:24:31.362630+00:00",
+      "path": "evaluacion/E1_rerank/calls/d5ff7685068744e3b0995fbadc3b3e37_1.json"
+    },
+    {
+      "case_variant": "E1_rerank",
+      "call_id": "e03f4643a75945f4837091e23a172127",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 10.754751799999212,
+      "error": null,
+      "started_at": "2026-10-18T23:24:21.577578+00:00",
+      "path": "evaluacion/E1_rerank/calls/e03f4643a75945f4837091e23a172127_1.json"
+    },
+    {
+      "case_variant": "E1_rerank",
+      "call_id": "eb1802f0f2384621a1749d29025bf750",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 0.7921732000031625,
+      "error": null,
+      "started_at": "2026-10-18T23:24:31.362771+00:00",
+      "path": "evaluacion/E1_rerank/calls/eb1802f0f2384621a1749d29025bf750_1.json"
+    },
+    {
+      "case_variant": "E2_basic",
+      "call_id": "063d679af2f24c7cbf450620298ef3c6",
+      "kind": "evaluator_embeddings",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 0.36444370000390336,
+      "error": null,
+      "started_at": "2026-10-18T23:24:56.185727+00:00",
+      "path": "evaluacion/E2_basic/calls/063d679af2f24c7cbf450620298ef3c6_1.json"
+    },
+    {
+      "case_variant": "E2_basic",
+      "call_id": "0f2b06a1fd1740a8b10290eaff8942af",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 0.8237372000003234,
+      "error": null,
+      "started_at": "2026-10-18T23:24:32.336647+00:00",
+      "path": "evaluacion/E2_basic/calls/0f2b06a1fd1740a8b10290eaff8942af_1.json"
+    },
+    {
+      "case_variant": "E2_basic",
+      "call_id": "23ce88edcad84990912bf39ce805a2b1",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 0.9480302000010852,
+      "error": null,
+      "started_at": "2026-10-18T23:24:33.162427+00:00",
+      "path": "evaluacion/E2_basic/calls/23ce88edcad84990912bf39ce805a2b1_1.json"
+    },
+    {
+      "case_variant": "E2_basic",
+      "call_id": "30111f99ea834d10be130b7c2b41adac",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 1.8125341999984812,
+      "error": null,
+      "started_at": "2026-10-18T23:24:34.121290+00:00",
+      "path": "evaluacion/E2_basic/calls/30111f99ea834d10be130b7c2b41adac_1.json"
+    },
+    {
+      "case_variant": "E2_basic",
+      "call_id": "c7bbaf228d004c17903e2818e4d6b2f9",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 22.063210200001777,
+      "error": null,
+      "started_at": "2026-10-18T23:24:34.121134+00:00",
+      "path": "evaluacion/E2_basic/calls/c7bbaf228d004c17903e2818e4d6b2f9_1.json"
+    },
+    {
+      "case_variant": "E2_basic",
+      "call_id": "d0d6f3dd283c4c11af07f00f89d5f4ae",
+      "kind": "evaluator_embeddings",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 0.38166220000130124,
+      "error": null,
+      "started_at": "2026-10-18T23:24:56.551369+00:00",
+      "path": "evaluacion/E2_basic/calls/d0d6f3dd283c4c11af07f00f89d5f4ae_1.json"
+    },
+    {
+      "case_variant": "E2_basic",
+      "call_id": "d5c2326d32a642e792ac6ef53ab5a865",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 0.7493620000022929,
+      "error": null,
+      "started_at": "2026-10-18T23:24:34.121413+00:00",
+      "path": "evaluacion/E2_basic/calls/d5c2326d32a642e792ac6ef53ab5a865_1.json"
+    },
+    {
+      "case_variant": "E2_rerank",
+      "call_id": "239699d4d1b643e88aebff4b20bf86f1",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 2.5798967000009725,
+      "error": null,
+      "started_at": "2026-10-18T23:55:33.621868+00:00",
+      "path": "evaluacion/E2_rerank/calls/239699d4d1b643e88aebff4b20bf86f1_1.json"
+    },
+    {
+      "case_variant": "E2_rerank",
+      "call_id": "25689af82dde4081be0a1f935ba24d47",
+      "kind": "evaluator_embeddings",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 0.4195380000019213,
+      "error": null,
+      "started_at": "2026-10-18T23:56:28.436897+00:00",
+      "path": "evaluacion/E2_rerank/calls/25689af82dde4081be0a1f935ba24d47_1.json"
+    },
+    {
+      "case_variant": "E2_rerank",
+      "call_id": "39aa7f5d0741483fa2a3c53038f76b27",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 0.30430759999580914,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:24:56.941172+00:00",
+      "path": "evaluacion/E2_rerank/calls/39aa7f5d0741483fa2a3c53038f76b27_1.json"
+    },
+    {
+      "case_variant": "E2_rerank",
+      "call_id": "39aa7f5d0741483fa2a3c53038f76b27",
+      "kind": "evaluator_llm",
+      "attempt": 2,
+      "status": "error",
+      "seconds": 0.28225270000257296,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:24:59.246779+00:00",
+      "path": "evaluacion/E2_rerank/calls/39aa7f5d0741483fa2a3c53038f76b27_2.json"
+    },
+    {
+      "case_variant": "E2_rerank",
+      "call_id": "39aa7f5d0741483fa2a3c53038f76b27",
+      "kind": "evaluator_llm",
+      "attempt": 3,
+      "status": "error",
+      "seconds": 0.2993882000009762,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:03.530004+00:00",
+      "path": "evaluacion/E2_rerank/calls/39aa7f5d0741483fa2a3c53038f76b27_3.json"
+    },
+    {
+      "case_variant": "E2_rerank",
+      "call_id": "43aaa803b62c4670814379f52e074202",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 13.80295489999844,
+      "error": null,
+      "started_at": "2026-10-18T23:56:40.858286+00:00",
+      "path": "evaluacion/E2_rerank/calls/43aaa803b62c4670814379f52e074202_1.json"
+    },
+    {
+      "case_variant": "E2_rerank",
+      "call_id": "71098347a56d4eeeb0ff93f30a5097ef",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 3.655270199997176,
+      "error": null,
+      "started_at": "2026-10-18T23:25:01.850663+00:00",
+      "path": "evaluacion/E2_rerank/calls/71098347a56d4eeeb0ff93f30a5097ef_1.json"
+    },
+    {
+      "case_variant": "E2_rerank",
+      "call_id": "73a96f1da76048f3b20484ffdcf6a617",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 2.9463505999956396,
+      "error": null,
+      "started_at": "2026-10-18T23:55:48.203207+00:00",
+      "path": "evaluacion/E2_rerank/calls/73a96f1da76048f3b20484ffdcf6a617_1.json"
+    },
+    {
+      "case_variant": "E2_rerank",
+      "call_id": "79e26055e95243ee84bc03cdc9311f09",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 0.8939275000011548,
+      "error": null,
+      "started_at": "2026-10-18T23:56:03.150519+00:00",
+      "path": "evaluacion/E2_rerank/calls/79e26055e95243ee84bc03cdc9311f09_1.json"
+    },
+    {
+      "case_variant": "E2_rerank",
+      "call_id": "8b5b0fa115ba4297aa0d0d43c92c255b",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 1.95175670000026,
+      "error": null,
+      "started_at": "2026-10-18T23:25:01.850276+00:00",
+      "path": "evaluacion/E2_rerank/calls/8b5b0fa115ba4297aa0d0d43c92c255b_1.json"
+    },
+    {
+      "case_variant": "E2_rerank",
+      "call_id": "99a36e97d78f46138e587c2713e2c18d",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 0.2995160999998916,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:01.850496+00:00",
+      "path": "evaluacion/E2_rerank/calls/99a36e97d78f46138e587c2713e2c18d_1.json"
+    },
+    {
+      "case_variant": "E2_rerank",
+      "call_id": "99a36e97d78f46138e587c2713e2c18d",
+      "kind": "evaluator_llm",
+      "attempt": 2,
+      "status": "error",
+      "seconds": 0.29524210000090534,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:04.156505+00:00",
+      "path": "evaluacion/E2_rerank/calls/99a36e97d78f46138e587c2713e2c18d_2.json"
+    },
+    {
+      "case_variant": "E2_rerank",
+      "call_id": "99a36e97d78f46138e587c2713e2c18d",
+      "kind": "evaluator_llm",
+      "attempt": 3,
+      "status": "error",
+      "seconds": 1.0016572999957134,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:08.452764+00:00",
+      "path": "evaluacion/E2_rerank/calls/99a36e97d78f46138e587c2713e2c18d_3.json"
+    },
+    {
+      "case_variant": "E2_rerank",
+      "call_id": "ab694054be1548b08dae029d28d98b40",
+      "kind": "evaluator_embeddings",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 0.3897385000018403,
+      "error": null,
+      "started_at": "2026-10-18T23:56:16.045524+00:00",
+      "path": "evaluacion/E2_rerank/calls/ab694054be1548b08dae029d28d98b40_1.json"
+    },
+    {
+      "case_variant": "E2_rerank",
+      "call_id": "bd5511fd05d844999f5b496d485485d0",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 1.5442322000017157,
+      "error": {
+        "type": "ServerError",
+        "code": 503,
+        "message": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+      },
+      "started_at": "2026-10-18T23:57:06.662637+00:00",
+      "path": "evaluacion/E2_rerank/calls/bd5511fd05d844999f5b496d485485d0_1.json"
+    },
+    {
+      "case_variant": "E2_rerank",
+      "call_id": "bd5511fd05d844999f5b496d485485d0",
+      "kind": "evaluator_llm",
+      "attempt": 2,
+      "status": "ok",
+      "seconds": 14.331874900002731,
+      "error": null,
+      "started_at": "2026-10-18T23:57:23.208206+00:00",
+      "path": "evaluacion/E2_rerank/calls/bd5511fd05d844999f5b496d485485d0_2.json"
+    },
+    {
+      "case_variant": "I1_basic",
+      "call_id": "195ad47f057541a5a9bde9e3ca1088c8",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 0.29028680000192253,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:03.835887+00:00",
+      "path": "evaluacion/I1_basic/calls/195ad47f057541a5a9bde9e3ca1088c8_1.json"
+    },
+    {
+      "case_variant": "I1_basic",
+      "call_id": "195ad47f057541a5a9bde9e3ca1088c8",
+      "kind": "evaluator_llm",
+      "attempt": 2,
+      "status": "error",
+      "seconds": 0.29582769999979064,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:06.127670+00:00",
+      "path": "evaluacion/I1_basic/calls/195ad47f057541a5a9bde9e3ca1088c8_2.json"
+    },
+    {
+      "case_variant": "I1_basic",
+      "call_id": "195ad47f057541a5a9bde9e3ca1088c8",
+      "kind": "evaluator_llm",
+      "attempt": 3,
+      "status": "error",
+      "seconds": 0.31159499999921536,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:10.424921+00:00",
+      "path": "evaluacion/I1_basic/calls/195ad47f057541a5a9bde9e3ca1088c8_3.json"
+    },
+    {
+      "case_variant": "I1_basic",
+      "call_id": "19e961015ef54b578daf6962cfc3448d",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 1.0474014999999781,
+      "error": null,
+      "started_at": "2026-10-18T23:25:10.740935+00:00",
+      "path": "evaluacion/I1_basic/calls/19e961015ef54b578daf6962cfc3448d_1.json"
+    },
+    {
+      "case_variant": "I1_basic",
+      "call_id": "256e9625456641ce8f79e11656f6a479",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 0.881727599997248,
+      "error": null,
+      "started_at": "2026-10-18T23:25:09.469956+00:00",
+      "path": "evaluacion/I1_basic/calls/256e9625456641ce8f79e11656f6a479_1.json"
+    },
+    {
+      "case_variant": "I1_basic",
+      "call_id": "2a27b13b61254ec691b0e06203a4cee2",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 2.0797004000050947,
+      "error": null,
+      "started_at": "2026-10-18T23:57:49.541156+00:00",
+      "path": "evaluacion/I1_basic/calls/2a27b13b61254ec691b0e06203a4cee2_1.json"
+    },
+    {
+      "case_variant": "I1_basic",
+      "call_id": "634c5100ff11498b86be0e75df4c5790",
+      "kind": "evaluator_embeddings",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 0.41200319999916246,
+      "error": null,
+      "started_at": "2026-10-18T23:25:18.930855+00:00",
+      "path": "evaluacion/I1_basic/calls/634c5100ff11498b86be0e75df4c5790_1.json"
+    },
+    {
+      "case_variant": "I1_basic",
+      "call_id": "6f60cbaef6cc47c2b7b7880083c7c6fc",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 0.7580077999955392,
+      "error": null,
+      "started_at": "2026-10-18T23:25:09.470304+00:00",
+      "path": "evaluacion/I1_basic/calls/6f60cbaef6cc47c2b7b7880083c7c6fc_1.json"
+    },
+    {
+      "case_variant": "I1_basic",
+      "call_id": "916c3d32ec684c6baa116011b9168638",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 2.5037902999974904,
+      "error": null,
+      "started_at": "2026-10-18T23:58:03.621898+00:00",
+      "path": "evaluacion/I1_basic/calls/916c3d32ec684c6baa116011b9168638_1.json"
+    },
+    {
+      "case_variant": "I1_basic",
+      "call_id": "961473c7993141e7abc31cbb79878515",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 9.06383719999576,
+      "error": null,
+      "started_at": "2026-10-18T23:25:09.470150+00:00",
+      "path": "evaluacion/I1_basic/calls/961473c7993141e7abc31cbb79878515_1.json"
+    },
+    {
+      "case_variant": "I1_basic",
+      "call_id": "a419f3cd1889486ea8221fcb3b911dea",
+      "kind": "evaluator_embeddings",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 0.3938391999981832,
+      "error": null,
+      "started_at": "2026-10-18T23:25:18.535673+00:00",
+      "path": "evaluacion/I1_basic/calls/a419f3cd1889486ea8221fcb3b911dea_1.json"
+    },
+    {
+      "case_variant": "I1_basic",
+      "call_id": "c30018a3d3764d9098fd71c20e67e855",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 0.9652750000022934,
+      "error": null,
+      "started_at": "2026-10-18T23:25:11.792839+00:00",
+      "path": "evaluacion/I1_basic/calls/c30018a3d3764d9098fd71c20e67e855_1.json"
+    },
+    {
+      "case_variant": "I1_rerank",
+      "call_id": "11d48af6c76743e0803cb5f5a1bd934a",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 0.8819617999979528,
+      "error": null,
+      "started_at": "2026-10-18T23:25:12.763017+00:00",
+      "path": "evaluacion/I1_rerank/calls/11d48af6c76743e0803cb5f5a1bd934a_1.json"
+    },
+    {
+      "case_variant": "I1_rerank",
+      "call_id": "35482615f3eb41358f3711a2861fe83f",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 1.386831699994218,
+      "error": null,
+      "started_at": "2026-10-18T23:25:15.404015+00:00",
+      "path": "evaluacion/I1_rerank/calls/35482615f3eb41358f3711a2861fe83f_1.json"
+    },
+    {
+      "case_variant": "I1_rerank",
+      "call_id": "359c0a6e60924056af24b0a69052d10a",
+      "kind": "evaluator_embeddings",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 0.39866210000036517,
+      "error": null,
+      "started_at": "2026-10-18T23:25:16.792106+00:00",
+      "path": "evaluacion/I1_rerank/calls/359c0a6e60924056af24b0a69052d10a_1.json"
+    },
+    {
+      "case_variant": "I1_rerank",
+      "call_id": "4568fd23a6c84c3ab9bb9d42aecd1424",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 0.981641699996544,
+      "error": null,
+      "started_at": "2026-10-18T23:25:15.404164+00:00",
+      "path": "evaluacion/I1_rerank/calls/4568fd23a6c84c3ab9bb9d42aecd1424_1.json"
+    },
+    {
+      "case_variant": "I1_rerank",
+      "call_id": "61f6670a440241fb819e288d09770a41",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 1.034006900001259,
+      "error": null,
+      "started_at": "2026-10-18T23:25:17.605599+00:00",
+      "path": "evaluacion/I1_rerank/calls/61f6670a440241fb819e288d09770a41_1.json"
+    },
+    {
+      "case_variant": "I1_rerank",
+      "call_id": "75f2e5758896459291242ea533ffb265",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 1.7515091999957804,
+      "error": null,
+      "started_at": "2026-10-18T23:25:13.647182+00:00",
+      "path": "evaluacion/I1_rerank/calls/75f2e5758896459291242ea533ffb265_1.json"
+    },
+    {
+      "case_variant": "I1_rerank",
+      "call_id": "7eb657ba2d394890a273b91a8b4882d5",
+      "kind": "evaluator_embeddings",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 0.404767100000754,
+      "error": null,
+      "started_at": "2026-10-18T23:25:17.192276+00:00",
+      "path": "evaluacion/I1_rerank/calls/7eb657ba2d394890a273b91a8b4882d5_1.json"
+    },
+    {
+      "case_variant": "I1_rerank",
+      "call_id": "89bfe3fc1eac45fb85bcaf85010a8f2e",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 0.8384418999994523,
+      "error": null,
+      "started_at": "2026-10-18T23:25:15.403855+00:00",
+      "path": "evaluacion/I1_rerank/calls/89bfe3fc1eac45fb85bcaf85010a8f2e_1.json"
+    },
+    {
+      "case_variant": "I1_rerank",
+      "call_id": "94021adcaaa149c58e7ebb8699d71c70",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 1.179077300002973,
+      "error": null,
+      "started_at": "2026-10-18T23:25:19.348923+00:00",
+      "path": "evaluacion/I1_rerank/calls/94021adcaaa149c58e7ebb8699d71c70_1.json"
+    },
+    {
+      "case_variant": "I2_basic",
+      "call_id": "18f9053fc5204412ab28d628e73cd31a",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 0.3608680999968783,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:22.772157+00:00",
+      "path": "evaluacion/I2_basic/calls/18f9053fc5204412ab28d628e73cd31a_1.json"
+    },
+    {
+      "case_variant": "I2_basic",
+      "call_id": "18f9053fc5204412ab28d628e73cd31a",
+      "kind": "evaluator_llm",
+      "attempt": 2,
+      "status": "error",
+      "seconds": 0.3064617999989423,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:25.134111+00:00",
+      "path": "evaluacion/I2_basic/calls/18f9053fc5204412ab28d628e73cd31a_2.json"
+    },
+    {
+      "case_variant": "I2_basic",
+      "call_id": "18f9053fc5204412ab28d628e73cd31a",
+      "kind": "evaluator_llm",
+      "attempt": 3,
+      "status": "error",
+      "seconds": 1.0067316999993636,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:29.441743+00:00",
+      "path": "evaluacion/I2_basic/calls/18f9053fc5204412ab28d628e73cd31a_3.json"
+    },
+    {
+      "case_variant": "I2_basic",
+      "call_id": "22a79b1d84b548a993855513625daef5",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 4.508858400004101,
+      "error": null,
+      "started_at": "2026-10-18T23:58:18.126889+00:00",
+      "path": "evaluacion/I2_basic/calls/22a79b1d84b548a993855513625daef5_1.json"
+    },
+    {
+      "case_variant": "I2_basic",
+      "call_id": "52c75af5a5384587b02cb39df778bffc",
+      "kind": "evaluator_embeddings",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 0.40049420000286773,
+      "error": null,
+      "started_at": "2026-10-18T23:25:22.366325+00:00",
+      "path": "evaluacion/I2_basic/calls/52c75af5a5384587b02cb39df778bffc_1.json"
+    },
+    {
+      "case_variant": "I2_basic",
+      "call_id": "7c519771ebe74fd28ce53d77dc3c6628",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 2.6714223999952083,
+      "error": null,
+      "started_at": "2026-10-18T23:25:22.776129+00:00",
+      "path": "evaluacion/I2_basic/calls/7c519771ebe74fd28ce53d77dc3c6628_1.json"
+    },
+    {
+      "case_variant": "I2_basic",
+      "call_id": "a1317e4b0ff64cd7baa2a2e7f71eaed6",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 0.7116859999950975,
+      "error": null,
+      "started_at": "2026-10-18T23:25:20.534448+00:00",
+      "path": "evaluacion/I2_basic/calls/a1317e4b0ff64cd7baa2a2e7f71eaed6_1.json"
+    },
+    {
+      "case_variant": "I2_basic",
+      "call_id": "b48ee212630d4d5089bfe6055088e84b",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 2.6756951000061235,
+      "error": null,
+      "started_at": "2026-10-18T23:25:19.357775+00:00",
+      "path": "evaluacion/I2_basic/calls/b48ee212630d4d5089bfe6055088e84b_1.json"
+    },
+    {
+      "case_variant": "I2_basic",
+      "call_id": "b5575a386871418a97ae32e6ebf1da7f",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 3.2676282999964315,
+      "error": null,
+      "started_at": "2026-10-18T23:58:34.637232+00:00",
+      "path": "evaluacion/I2_basic/calls/b5575a386871418a97ae32e6ebf1da7f_1.json"
+    },
+    {
+      "case_variant": "I2_basic",
+      "call_id": "d0d22d1ee2bb485bbeee3823b3ff2641",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 1.1371843999950215,
+      "error": null,
+      "started_at": "2026-10-18T23:25:20.534620+00:00",
+      "path": "evaluacion/I2_basic/calls/d0d22d1ee2bb485bbeee3823b3ff2641_1.json"
+    },
+    {
+      "case_variant": "I2_basic",
+      "call_id": "df21b294452840cc8a0b25e089c45300",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 1.4391322000010405,
+      "error": null,
+      "started_at": "2026-10-18T23:25:20.534771+00:00",
+      "path": "evaluacion/I2_basic/calls/df21b294452840cc8a0b25e089c45300_1.json"
+    },
+    {
+      "case_variant": "I2_basic",
+      "call_id": "e7f07ccea56a410eba7abe9645e575e5",
+      "kind": "evaluator_embeddings",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 0.384228399998392,
+      "error": null,
+      "started_at": "2026-10-18T23:25:21.980901+00:00",
+      "path": "evaluacion/I2_basic/calls/e7f07ccea56a410eba7abe9645e575e5_1.json"
+    },
+    {
+      "case_variant": "I2_basic",
+      "call_id": "f6667ef818dc4d8ea8ef3e6c81de8df8",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 0.3105356000014581,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:25.452085+00:00",
+      "path": "evaluacion/I2_basic/calls/f6667ef818dc4d8ea8ef3e6c81de8df8_1.json"
+    },
+    {
+      "case_variant": "I2_basic",
+      "call_id": "f6667ef818dc4d8ea8ef3e6c81de8df8",
+      "kind": "evaluator_llm",
+      "attempt": 2,
+      "status": "error",
+      "seconds": 0.32185690000187606,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:27.763675+00:00",
+      "path": "evaluacion/I2_basic/calls/f6667ef818dc4d8ea8ef3e6c81de8df8_2.json"
+    },
+    {
+      "case_variant": "I2_basic",
+      "call_id": "f6667ef818dc4d8ea8ef3e6c81de8df8",
+      "kind": "evaluator_llm",
+      "attempt": 3,
+      "status": "error",
+      "seconds": 0.32269029999588383,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:32.086789+00:00",
+      "path": "evaluacion/I2_basic/calls/f6667ef818dc4d8ea8ef3e6c81de8df8_3.json"
+    },
+    {
+      "case_variant": "I2_rerank",
+      "call_id": "06d07ecd5fee40a9902f076f950909b3",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 6.954981599999883,
+      "error": null,
+      "started_at": "2026-10-19T00:00:50.530649+00:00",
+      "path": "evaluacion/I2_rerank/calls/06d07ecd5fee40a9902f076f950909b3_1.json"
+    },
+    {
+      "case_variant": "I2_rerank",
+      "call_id": "18d67d73aba54636b0a0566e4442f714",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 1.7092637000023387,
+      "error": {
+        "type": "ServerError",
+        "code": 503,
+        "message": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+      },
+      "started_at": "2026-10-19T00:00:12.919854+00:00",
+      "path": "evaluacion/I2_rerank/calls/18d67d73aba54636b0a0566e4442f714_1.json"
+    },
+    {
+      "case_variant": "I2_rerank",
+      "call_id": "18d67d73aba54636b0a0566e4442f714",
+      "kind": "evaluator_llm",
+      "attempt": 2,
+      "status": "ok",
+      "seconds": 8.898928100003104,
+      "error": null,
+      "started_at": "2026-10-19T00:00:29.630270+00:00",
+      "path": "evaluacion/I2_rerank/calls/18d67d73aba54636b0a0566e4442f714_2.json"
+    },
+    {
+      "case_variant": "I2_rerank",
+      "call_id": "22b35b9671004ea885aea7fa7fb7ab7f",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 0.9500670999987051,
+      "error": null,
+      "started_at": "2026-10-18T23:59:08.209861+00:00",
+      "path": "evaluacion/I2_rerank/calls/22b35b9671004ea885aea7fa7fb7ab7f_1.json"
+    },
+    {
+      "case_variant": "I2_rerank",
+      "call_id": "3ffdbae498c1430fa038028ccd4efcf8",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 0.3169435000017984,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:38.053589+00:00",
+      "path": "evaluacion/I2_rerank/calls/3ffdbae498c1430fa038028ccd4efcf8_1.json"
+    },
+    {
+      "case_variant": "I2_rerank",
+      "call_id": "3ffdbae498c1430fa038028ccd4efcf8",
+      "kind": "evaluator_llm",
+      "attempt": 2,
+      "status": "error",
+      "seconds": 0.33080019999761134,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:40.371822+00:00",
+      "path": "evaluacion/I2_rerank/calls/3ffdbae498c1430fa038028ccd4efcf8_2.json"
+    },
+    {
+      "case_variant": "I2_rerank",
+      "call_id": "3ffdbae498c1430fa038028ccd4efcf8",
+      "kind": "evaluator_llm",
+      "attempt": 3,
+      "status": "error",
+      "seconds": 0.3228796000039438,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:44.704624+00:00",
+      "path": "evaluacion/I2_rerank/calls/3ffdbae498c1430fa038028ccd4efcf8_3.json"
+    },
+    {
+      "case_variant": "I2_rerank",
+      "call_id": "44623fa7c60e485da005e31e12b72c24",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 1.0083536000020104,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:39.376179+00:00",
+      "path": "evaluacion/I2_rerank/calls/44623fa7c60e485da005e31e12b72c24_1.json"
+    },
+    {
+      "case_variant": "I2_rerank",
+      "call_id": "44623fa7c60e485da005e31e12b72c24",
+      "kind": "evaluator_llm",
+      "attempt": 2,
+      "status": "error",
+      "seconds": 0.32293400000344263,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:42.386057+00:00",
+      "path": "evaluacion/I2_rerank/calls/44623fa7c60e485da005e31e12b72c24_2.json"
+    },
+    {
+      "case_variant": "I2_rerank",
+      "call_id": "44623fa7c60e485da005e31e12b72c24",
+      "kind": "evaluator_llm",
+      "attempt": 3,
+      "status": "error",
+      "seconds": 0.30410890000348445,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:46.710231+00:00",
+      "path": "evaluacion/I2_rerank/calls/44623fa7c60e485da005e31e12b72c24_3.json"
+    },
+    {
+      "case_variant": "I2_rerank",
+      "call_id": "7059bd59bf9e480cb0d1f8b0bb53ae3e",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 7.345166200000676,
+      "error": null,
+      "started_at": "2026-10-19T00:01:09.487072+00:00",
+      "path": "evaluacion/I2_rerank/calls/7059bd59bf9e480cb0d1f8b0bb53ae3e_1.json"
+    },
+    {
+      "case_variant": "I2_rerank",
+      "call_id": "755310d600224435b14423b8266367f1",
+      "kind": "evaluator_embeddings",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 0.4843189000021084,
+      "error": null,
+      "started_at": "2026-10-18T23:59:46.595731+00:00",
+      "path": "evaluacion/I2_rerank/calls/755310d600224435b14423b8266367f1_1.json"
+    },
+    {
+      "case_variant": "I2_rerank",
+      "call_id": "79accfbaaf0542759270abbc7cea8c98",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 3.777814399996714,
+      "error": null,
+      "started_at": "2026-10-19T00:01:28.833408+00:00",
+      "path": "evaluacion/I2_rerank/calls/79accfbaaf0542759270abbc7cea8c98_1.json"
+    },
+    {
+      "case_variant": "I2_rerank",
+      "call_id": "952df75c518b43eeabf4252aab8d527b",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 0.313523199998599,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:32.424252+00:00",
+      "path": "evaluacion/I2_rerank/calls/952df75c518b43eeabf4252aab8d527b_1.json"
+    },
+    {
+      "case_variant": "I2_rerank",
+      "call_id": "952df75c518b43eeabf4252aab8d527b",
+      "kind": "evaluator_llm",
+      "attempt": 2,
+      "status": "error",
+      "seconds": 0.3101786999977776,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:34.739366+00:00",
+      "path": "evaluacion/I2_rerank/calls/952df75c518b43eeabf4252aab8d527b_2.json"
+    },
+    {
+      "case_variant": "I2_rerank",
+      "call_id": "952df75c518b43eeabf4252aab8d527b",
+      "kind": "evaluator_llm",
+      "attempt": 3,
+      "status": "error",
+      "seconds": 0.31417109999893,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:39.050759+00:00",
+      "path": "evaluacion/I2_rerank/calls/952df75c518b43eeabf4252aab8d527b_3.json"
+    },
+    {
+      "case_variant": "I2_rerank",
+      "call_id": "9d682d0ba8304eb19d6565c0ca314ff1",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 6.297202699999616,
+      "error": null,
+      "started_at": "2026-10-18T23:58:49.911075+00:00",
+      "path": "evaluacion/I2_rerank/calls/9d682d0ba8304eb19d6565c0ca314ff1_1.json"
+    },
+    {
+      "case_variant": "I2_rerank",
+      "call_id": "c35d082ef7f54cfab430ae60e9d7dfbc",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 0.9832368999996106,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:30.458396+00:00",
+      "path": "evaluacion/I2_rerank/calls/c35d082ef7f54cfab430ae60e9d7dfbc_1.json"
+    },
+    {
+      "case_variant": "I2_rerank",
+      "call_id": "c35d082ef7f54cfab430ae60e9d7dfbc",
+      "kind": "evaluator_llm",
+      "attempt": 2,
+      "status": "error",
+      "seconds": 0.2937863999977708,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:33.442840+00:00",
+      "path": "evaluacion/I2_rerank/calls/c35d082ef7f54cfab430ae60e9d7dfbc_2.json"
+    },
+    {
+      "case_variant": "I2_rerank",
+      "call_id": "c35d082ef7f54cfab430ae60e9d7dfbc",
+      "kind": "evaluator_llm",
+      "attempt": 3,
+      "status": "error",
+      "seconds": 0.3113813999952981,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:37.737741+00:00",
+      "path": "evaluacion/I2_rerank/calls/c35d082ef7f54cfab430ae60e9d7dfbc_3.json"
+    },
+    {
+      "case_variant": "I2_rerank",
+      "call_id": "c4c8d683d2bc4d39a2b0779dcfac2469",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 0.31227790000411915,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:32.424401+00:00",
+      "path": "evaluacion/I2_rerank/calls/c4c8d683d2bc4d39a2b0779dcfac2469_1.json"
+    },
+    {
+      "case_variant": "I2_rerank",
+      "call_id": "c4c8d683d2bc4d39a2b0779dcfac2469",
+      "kind": "evaluator_llm",
+      "attempt": 2,
+      "status": "error",
+      "seconds": 0.9764751000038814,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:34.738366+00:00",
+      "path": "evaluacion/I2_rerank/calls/c4c8d683d2bc4d39a2b0779dcfac2469_2.json"
+    },
+    {
+      "case_variant": "I2_rerank",
+      "call_id": "c4c8d683d2bc4d39a2b0779dcfac2469",
+      "kind": "evaluator_llm",
+      "attempt": 3,
+      "status": "error",
+      "seconds": 0.3076080000028014,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:39.716125+00:00",
+      "path": "evaluacion/I2_rerank/calls/c4c8d683d2bc4d39a2b0779dcfac2469_3.json"
+    },
+    {
+      "case_variant": "I2_rerank",
+      "call_id": "c815ec7e9e7246deb5c31f9c0c63b3c1",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 1.005504100001417,
+      "error": null,
+      "started_at": "2026-10-18T23:59:21.161212+00:00",
+      "path": "evaluacion/I2_rerank/calls/c815ec7e9e7246deb5c31f9c0c63b3c1_1.json"
+    },
+    {
+      "case_variant": "I2_rerank",
+      "call_id": "d4422fef5d3448bc862f347ba6085b6e",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 1.8360974000024726,
+      "error": null,
+      "started_at": "2026-10-18T23:59:59.082461+00:00",
+      "path": "evaluacion/I2_rerank/calls/d4422fef5d3448bc862f347ba6085b6e_1.json"
+    },
+    {
+      "case_variant": "I2_rerank",
+      "call_id": "ea804516cb6744a9a891717639022657",
+      "kind": "evaluator_embeddings",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 0.42640879999817116,
+      "error": null,
+      "started_at": "2026-10-18T23:59:34.167653+00:00",
+      "path": "evaluacion/I2_rerank/calls/ea804516cb6744a9a891717639022657_1.json"
+    },
+    {
+      "case_variant": "I2_rerank",
+      "call_id": "ebfe574c0a2c48dcad8b25a1cc0109cd",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 0.3227294000025722,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:32.424056+00:00",
+      "path": "evaluacion/I2_rerank/calls/ebfe574c0a2c48dcad8b25a1cc0109cd_1.json"
+    },
+    {
+      "case_variant": "I2_rerank",
+      "call_id": "ebfe574c0a2c48dcad8b25a1cc0109cd",
+      "kind": "evaluator_llm",
+      "attempt": 2,
+      "status": "error",
+      "seconds": 0.2983594000033918,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:34.747867+00:00",
+      "path": "evaluacion/I2_rerank/calls/ebfe574c0a2c48dcad8b25a1cc0109cd_2.json"
+    },
+    {
+      "case_variant": "I2_rerank",
+      "call_id": "ebfe574c0a2c48dcad8b25a1cc0109cd",
+      "kind": "evaluator_llm",
+      "attempt": 3,
+      "status": "error",
+      "seconds": 0.32027349999407306,
+      "error": {
+        "type": "ClientError",
+        "code": 429
+      },
+      "started_at": "2026-10-18T23:25:39.047663+00:00",
+      "path": "evaluacion/I2_rerank/calls/ebfe574c0a2c48dcad8b25a1cc0109cd_3.json"
+    },
+    {
+      "case_variant": "S1_basic",
+      "call_id": "087a679246394a9daf70b7e38623e51f",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 24.69010569999955,
+      "error": null,
+      "started_at": "2026-10-18T23:12:13.834497+00:00",
+      "path": "evaluacion/S1_basic/calls/087a679246394a9daf70b7e38623e51f_1.json"
+    },
+    {
+      "case_variant": "S1_basic",
+      "call_id": "42e20e07efaf46869b2bc64ffbedf8be",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 44.33237600000575,
+      "error": null,
+      "started_at": "2026-10-18T23:12:36.173264+00:00",
+      "path": "evaluacion/S1_basic/calls/42e20e07efaf46869b2bc64ffbedf8be_1.json"
+    },
+    {
+      "case_variant": "S1_basic",
+      "call_id": "43ec6fa201ee4ec5a4da04928a566534",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 7.3064786000031745,
+      "error": null,
+      "started_at": "2026-10-18T23:13:20.510950+00:00",
+      "path": "evaluacion/S1_basic/calls/43ec6fa201ee4ec5a4da04928a566534_1.json"
+    },
+    {
+      "case_variant": "S1_basic",
+      "call_id": "75630d6048ca432783f77c7edca213b5",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 21.283823400000983,
+      "error": null,
+      "started_at": "2026-10-18T23:12:13.833446+00:00",
+      "path": "evaluacion/S1_basic/calls/75630d6048ca432783f77c7edca213b5_1.json"
+    },
+    {
+      "case_variant": "S1_basic",
+      "call_id": "b327c20e370b45708a1ad16c7e9fbda9",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 22.365209899995534,
+      "error": null,
+      "started_at": "2026-10-18T23:12:13.798679+00:00",
+      "path": "evaluacion/S1_basic/calls/b327c20e370b45708a1ad16c7e9fbda9_1.json"
+    },
+    {
+      "case_variant": "S1_basic",
+      "call_id": "c008dac1be94429cacc16fab265c06b2",
+      "kind": "evaluator_embeddings",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 1.1197883999993792,
+      "error": null,
+      "started_at": "2026-10-18T23:12:38.526267+00:00",
+      "path": "evaluacion/S1_basic/calls/c008dac1be94429cacc16fab265c06b2_1.json"
+    },
+    {
+      "case_variant": "S1_basic",
+      "call_id": "c03ea99ceddf4cd49a1ef4369b75901c",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 10.767977800001972,
+      "error": null,
+      "started_at": "2026-10-18T23:12:13.835471+00:00",
+      "path": "evaluacion/S1_basic/calls/c03ea99ceddf4cd49a1ef4369b75901c_1.json"
+    },
+    {
+      "case_variant": "S1_basic",
+      "call_id": "e3278cf81b8c40ae88f6ac27498e0faf",
+      "kind": "evaluator_embeddings",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 0.4141359999994165,
+      "error": null,
+      "started_at": "2026-10-18T23:12:39.647309+00:00",
+      "path": "evaluacion/S1_basic/calls/e3278cf81b8c40ae88f6ac27498e0faf_1.json"
+    },
+    {
+      "case_variant": "S1_basic",
+      "call_id": "e6ac5d4ab5494b8392bcd5a6027a1f67",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 8.86727420000534,
+      "error": {
+        "type": "ServerError",
+        "code": 503
+      },
+      "started_at": "2026-10-18T23:12:40.130456+00:00",
+      "path": "evaluacion/S1_basic/calls/e6ac5d4ab5494b8392bcd5a6027a1f67_1.json"
+    },
+    {
+      "case_variant": "S1_basic",
+      "call_id": "e6ac5d4ab5494b8392bcd5a6027a1f67",
+      "kind": "evaluator_llm",
+      "attempt": 2,
+      "status": "ok",
+      "seconds": 51.04845159999968,
+      "error": null,
+      "started_at": "2026-10-18T23:12:50.999220+00:00",
+      "path": "evaluacion/S1_basic/calls/e6ac5d4ab5494b8392bcd5a6027a1f67_2.json"
+    },
+    {
+      "case_variant": "S1_rerank",
+      "call_id": "0d6000c50e4b4a98859e280b55ac59e6",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 64.27933360000316,
+      "error": null,
+      "started_at": "2026-10-18T23:16:27.844440+00:00",
+      "path": "evaluacion/S1_rerank/calls/0d6000c50e4b4a98859e280b55ac59e6_1.json"
+    },
+    {
+      "case_variant": "S1_rerank",
+      "call_id": "24486060eaa14f00acb73a5c0677a8de",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 73.42188520000491,
+      "error": null,
+      "started_at": "2026-10-18T23:14:18.675797+00:00",
+      "path": "evaluacion/S1_rerank/calls/24486060eaa14f00acb73a5c0677a8de_1.json"
+    },
+    {
+      "case_variant": "S1_rerank",
+      "call_id": "3315d0207e4340ba809a836c2dab83c8",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 9.645966500000213,
+      "error": null,
+      "started_at": "2026-10-18T23:13:42.053755+00:00",
+      "path": "evaluacion/S1_rerank/calls/3315d0207e4340ba809a836c2dab83c8_1.json"
+    },
+    {
+      "case_variant": "S1_rerank",
+      "call_id": "417d57bd1bbf4845a79e2f7c17b744d8",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 35.07480270000087,
+      "error": null,
+      "started_at": "2026-10-18T23:13:42.054075+00:00",
+      "path": "evaluacion/S1_rerank/calls/417d57bd1bbf4845a79e2f7c17b744d8_1.json"
+    },
+    {
+      "case_variant": "S1_rerank",
+      "call_id": "4f196f00eb8843d5bd6cbf04ee65ee17",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 2.459287300000142,
+      "error": null,
+      "started_at": "2026-10-19T00:01:44.612946+00:00",
+      "path": "evaluacion/S1_rerank/calls/4f196f00eb8843d5bd6cbf04ee65ee17_1.json"
+    },
+    {
+      "case_variant": "S1_rerank",
+      "call_id": "55bf669ec94c475b93060977c6b59340",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 61.250527000003785,
+      "error": null,
+      "started_at": "2026-10-18T23:15:32.100060+00:00",
+      "path": "evaluacion/S1_rerank/calls/55bf669ec94c475b93060977c6b59340_1.json"
+    },
+    {
+      "case_variant": "S1_rerank",
+      "call_id": "5b44576f4a9f418d96515c9ab74723fe",
+      "kind": "evaluator_embeddings",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 1.1126731000040309,
+      "error": null,
+      "started_at": "2026-10-18T23:14:17.552678+00:00",
+      "path": "evaluacion/S1_rerank/calls/5b44576f4a9f418d96515c9ab74723fe_1.json"
+    },
+    {
+      "case_variant": "S1_rerank",
+      "call_id": "6bf1ea4cfbe64d85b2f71ee777e990bb",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 90.2901328999942,
+      "error": null,
+      "started_at": "2026-10-18T23:16:08.650469+00:00",
+      "path": "evaluacion/S1_rerank/calls/6bf1ea4cfbe64d85b2f71ee777e990bb_1.json"
+    },
+    {
+      "case_variant": "S1_rerank",
+      "call_id": "a5e1675c883e452c9a03f0dff1fdab09",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 0.5323444999958156,
+      "error": {
+        "type": "ServerError",
+        "code": 503,
+        "message": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+      },
+      "started_at": "2026-10-19T00:01:59.073362+00:00",
+      "path": "evaluacion/S1_rerank/calls/a5e1675c883e452c9a03f0dff1fdab09_1.json"
+    },
+    {
+      "case_variant": "S1_rerank",
+      "call_id": "a5e1675c883e452c9a03f0dff1fdab09",
+      "kind": "evaluator_llm",
+      "attempt": 2,
+      "status": "ok",
+      "seconds": 4.443743499999982,
+      "error": null,
+      "started_at": "2026-10-19T00:02:14.607400+00:00",
+      "path": "evaluacion/S1_rerank/calls/a5e1675c883e452c9a03f0dff1fdab09_2.json"
+    },
+    {
+      "case_variant": "S1_rerank",
+      "call_id": "aa24139b548b4b5aa57fb09615ac691a",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 119.60122789999878,
+      "error": {
+        "type": "ServerError",
+        "code": 504
+      },
+      "started_at": "2026-10-18T23:13:27.822834+00:00",
+      "path": "evaluacion/S1_rerank/calls/aa24139b548b4b5aa57fb09615ac691a_1.json"
+    },
+    {
+      "case_variant": "S1_rerank",
+      "call_id": "aa24139b548b4b5aa57fb09615ac691a",
+      "kind": "evaluator_llm",
+      "attempt": 2,
+      "status": "error",
+      "seconds": 25.333638999996765,
+      "error": {
+        "type": "ServerError",
+        "code": 503
+      },
+      "started_at": "2026-10-18T23:15:29.425960+00:00",
+      "path": "evaluacion/S1_rerank/calls/aa24139b548b4b5aa57fb09615ac691a_2.json"
+    },
+    {
+      "case_variant": "S1_rerank",
+      "call_id": "aa24139b548b4b5aa57fb09615ac691a",
+      "kind": "evaluator_llm",
+      "attempt": 3,
+      "status": "ok",
+      "seconds": 9.88705199999822,
+      "error": null,
+      "started_at": "2026-10-18T23:15:58.760923+00:00",
+      "path": "evaluacion/S1_rerank/calls/aa24139b548b4b5aa57fb09615ac691a_3.json"
+    },
+    {
+      "case_variant": "S1_rerank",
+      "call_id": "e97568ab98794b9482b509208f02d4af",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 9.504336400001193,
+      "error": null,
+      "started_at": "2026-10-18T23:13:42.053933+00:00",
+      "path": "evaluacion/S1_rerank/calls/e97568ab98794b9482b509208f02d4af_1.json"
+    },
+    {
+      "case_variant": "S1_rerank",
+      "call_id": "f60febd568174110bd0345b7f396e009",
+      "kind": "evaluator_embeddings",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 0.4184287000025506,
+      "error": null,
+      "started_at": "2026-10-18T23:14:17.132646+00:00",
+      "path": "evaluacion/S1_rerank/calls/f60febd568174110bd0345b7f396e009_1.json"
+    },
+    {
+      "case_variant": "S2_basic",
+      "call_id": "572334d8aee84ccd84bdfe5e8624e7b3",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 2.4295442000002367,
+      "error": null,
+      "started_at": "2026-10-18T23:19:06.167027+00:00",
+      "path": "evaluacion/S2_basic/calls/572334d8aee84ccd84bdfe5e8624e7b3_1.json"
+    },
+    {
+      "case_variant": "S2_basic",
+      "call_id": "579534ca42c940f29e60ef6473c24461",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 63.88888710000174,
+      "error": {
+        "type": "ServerError",
+        "code": 503
+      },
+      "started_at": "2026-10-18T23:17:32.130679+00:00",
+      "path": "evaluacion/S2_basic/calls/579534ca42c940f29e60ef6473c24461_1.json"
+    },
+    {
+      "case_variant": "S2_basic",
+      "call_id": "579534ca42c940f29e60ef6473c24461",
+      "kind": "evaluator_llm",
+      "attempt": 2,
+      "status": "ok",
+      "seconds": 52.38274159999855,
+      "error": null,
+      "started_at": "2026-10-18T23:18:38.020765+00:00",
+      "path": "evaluacion/S2_basic/calls/579534ca42c940f29e60ef6473c24461_2.json"
+    },
+    {
+      "case_variant": "S2_basic",
+      "call_id": "5ebb31514df54a4a8c58da095c8c75b2",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "error",
+      "seconds": 116.95696640000097,
+      "error": {
+        "type": "ServerError",
+        "code": 504
+      },
+      "started_at": "2026-10-18T23:16:48.657937+00:00",
+      "path": "evaluacion/S2_basic/calls/5ebb31514df54a4a8c58da095c8c75b2_1.json"
+    },
+    {
+      "case_variant": "S2_basic",
+      "call_id": "5ebb31514df54a4a8c58da095c8c75b2",
+      "kind": "evaluator_llm",
+      "attempt": 2,
+      "status": "ok",
+      "seconds": 18.545853800002078,
+      "error": null,
+      "started_at": "2026-10-18T23:18:47.616449+00:00",
+      "path": "evaluacion/S2_basic/calls/5ebb31514df54a4a8c58da095c8c75b2_2.json"
+    },
+    {
+      "case_variant": "S2_basic",
+      "call_id": "78786d87981d4ec7ae2bfc469ec1de2e",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 5.8472305000032065,
+      "error": null,
+      "started_at": "2026-10-18T23:17:32.130895+00:00",
+      "path": "evaluacion/S2_basic/calls/78786d87981d4ec7ae2bfc469ec1de2e_1.json"
+    },
+    {
+      "case_variant": "S2_basic",
+      "call_id": "7ecc4092b46c40da9905cd947e41d70b",
+      "kind": "evaluator_embeddings",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 0.43387539999821456,
+      "error": null,
+      "started_at": "2026-10-18T23:19:30.404791+00:00",
+      "path": "evaluacion/S2_basic/calls/7ecc4092b46c40da9905cd947e41d70b_1.json"
+    },
+    {
+      "case_variant": "S2_basic",
+      "call_id": "8909eb19a691484fa55ed200a98fdf1f",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 4.658929599994735,
+      "error": null,
+      "started_at": "2026-10-18T23:17:32.131079+00:00",
+      "path": "evaluacion/S2_basic/calls/8909eb19a691484fa55ed200a98fdf1f_1.json"
+    },
+    {
+      "case_variant": "S2_basic",
+      "call_id": "a534ba22ef3646ad826a499135cd6998",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 19.95215389999794,
+      "error": null,
+      "started_at": "2026-10-18T23:19:08.601059+00:00",
+      "path": "evaluacion/S2_basic/calls/a534ba22ef3646ad826a499135cd6998_1.json"
+    },
+    {
+      "case_variant": "S2_basic",
+      "call_id": "ddd42994979a4b1d83171ac93fdfdd05",
+      "kind": "evaluator_embeddings",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 0.45026010000583483,
+      "error": null,
+      "started_at": "2026-10-18T23:19:30.841086+00:00",
+      "path": "evaluacion/S2_basic/calls/ddd42994979a4b1d83171ac93fdfdd05_1.json"
+    },
+    {
+      "case_variant": "S2_basic",
+      "call_id": "e67b45dbf1d94820b5f9c841ebe1bf5d",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 15.298710499999288,
+      "error": null,
+      "started_at": "2026-10-18T23:16:33.355212+00:00",
+      "path": "evaluacion/S2_basic/calls/e67b45dbf1d94820b5f9c841ebe1bf5d_1.json"
+    },
+    {
+      "case_variant": "S2_rerank",
+      "call_id": "170366296b7b4f61b0d7ac4ea11cb832",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 6.618266299999959,
+      "error": null,
+      "started_at": "2026-10-18T23:19:31.301270+00:00",
+      "path": "evaluacion/S2_rerank/calls/170366296b7b4f61b0d7ac4ea11cb832_1.json"
+    },
+    {
+      "case_variant": "S2_rerank",
+      "call_id": "1856296dadbc4b2e93a9c47362ce793b",
+      "kind": "evaluator_embeddings",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 0.4142260000007809,
+      "error": null,
+      "started_at": "2026-10-18T23:19:41.592532+00:00",
+      "path": "evaluacion/S2_rerank/calls/1856296dadbc4b2e93a9c47362ce793b_1.json"
+    },
+    {
+      "case_variant": "S2_rerank",
+      "call_id": "4b973e32c9aa4fa49a289483e7f99473",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 2.580664799999795,
+      "error": null,
+      "started_at": "2026-10-18T23:19:31.301583+00:00",
+      "path": "evaluacion/S2_rerank/calls/4b973e32c9aa4fa49a289483e7f99473_1.json"
+    },
+    {
+      "case_variant": "S2_rerank",
+      "call_id": "51da7d97158e4e2b8fad994308020991",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 2.851754199997231,
+      "error": null,
+      "started_at": "2026-10-18T23:19:28.562564+00:00",
+      "path": "evaluacion/S2_rerank/calls/51da7d97158e4e2b8fad994308020991_1.json"
+    },
+    {
+      "case_variant": "S2_rerank",
+      "call_id": "6e3242812c5c4a6bba27981f812f7aff",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 16.77026200000546,
+      "error": null,
+      "started_at": "2026-10-18T23:19:31.416642+00:00",
+      "path": "evaluacion/S2_rerank/calls/6e3242812c5c4a6bba27981f812f7aff_1.json"
+    },
+    {
+      "case_variant": "S2_rerank",
+      "call_id": "b5e096e454d5421185deda1744143f98",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 2.8329043999983696,
+      "error": null,
+      "started_at": "2026-10-18T23:19:48.196940+00:00",
+      "path": "evaluacion/S2_rerank/calls/b5e096e454d5421185deda1744143f98_1.json"
+    },
+    {
+      "case_variant": "S2_rerank",
+      "call_id": "c27a266c800347a795a1498c14d09c54",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 10.289594800000486,
+      "error": null,
+      "started_at": "2026-10-18T23:19:31.301436+00:00",
+      "path": "evaluacion/S2_rerank/calls/c27a266c800347a795a1498c14d09c54_1.json"
+    },
+    {
+      "case_variant": "S2_rerank",
+      "call_id": "cef486e8a51d4584a9b8b702574d0796",
+      "kind": "evaluator_embeddings",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 0.4085101000018767,
+      "error": null,
+      "started_at": "2026-10-18T23:19:42.008092+00:00",
+      "path": "evaluacion/S2_rerank/calls/cef486e8a51d4584a9b8b702574d0796_1.json"
+    },
+    {
+      "case_variant": "S2_rerank",
+      "call_id": "e354f68f966c4503a1565d0b3a145f67",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 10.843647900001088,
+      "error": null,
+      "started_at": "2026-10-18T23:19:42.424689+00:00",
+      "path": "evaluacion/S2_rerank/calls/e354f68f966c4503a1565d0b3a145f67_1.json"
+    },
+    {
+      "case_variant": "S3_basic",
+      "call_id": "029304948d724cdeb794e111354b333d",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 18.098260099999607,
+      "error": null,
+      "started_at": "2026-10-18T23:20:19.835524+00:00",
+      "path": "evaluacion/S3_basic/calls/029304948d724cdeb794e111354b333d_1.json"
+    },
+    {
+      "case_variant": "S3_basic",
+      "call_id": "2b68287db18f40c7829d651885bbb064",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 7.658290799998213,
+      "error": null,
+      "started_at": "2026-10-18T23:20:16.139550+00:00",
+      "path": "evaluacion/S3_basic/calls/2b68287db18f40c7829d651885bbb064_1.json"
+    },
+    {
+      "case_variant": "S3_basic",
+      "call_id": "55a534dc1cf1458e94cc5afa08e4fdad",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 2.3257936999943922,
+      "error": null,
+      "started_at": "2026-10-18T23:20:13.808234+00:00",
+      "path": "evaluacion/S3_basic/calls/55a534dc1cf1458e94cc5afa08e4fdad_1.json"
+    },
+    {
+      "case_variant": "S3_basic",
+      "call_id": "5ccc4bccee2d4f2e8163f2dd8837b589",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 5.575610500003677,
+      "error": null,
+      "started_at": "2026-10-18T23:19:53.288202+00:00",
+      "path": "evaluacion/S3_basic/calls/5ccc4bccee2d4f2e8163f2dd8837b589_1.json"
+    },
+    {
+      "case_variant": "S3_basic",
+      "call_id": "a6386eeb4d0341a88a8546549fee2658",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 25.713069400000677,
+      "error": null,
+      "started_at": "2026-10-18T23:19:53.286316+00:00",
+      "path": "evaluacion/S3_basic/calls/a6386eeb4d0341a88a8546549fee2658_1.json"
+    },
+    {
+      "case_variant": "S3_basic",
+      "call_id": "c3afd15165484bca9cf3b6ae4859aed7",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 21.66434759999538,
+      "error": null,
+      "started_at": "2026-10-18T23:19:53.288459+00:00",
+      "path": "evaluacion/S3_basic/calls/c3afd15165484bca9cf3b6ae4859aed7_1.json"
+    },
+    {
+      "case_variant": "S3_basic",
+      "call_id": "dff1ecddb3b140688f3912272cb44ef4",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 22.77134059999662,
+      "error": null,
+      "started_at": "2026-10-18T23:19:51.034829+00:00",
+      "path": "evaluacion/S3_basic/calls/dff1ecddb3b140688f3912272cb44ef4_1.json"
+    },
+    {
+      "case_variant": "S3_basic",
+      "call_id": "e8e002444bbf462b88288b2e9cf807d8",
+      "kind": "evaluator_embeddings",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 0.40981570000440115,
+      "error": null,
+      "started_at": "2026-10-18T23:20:19.000759+00:00",
+      "path": "evaluacion/S3_basic/calls/e8e002444bbf462b88288b2e9cf807d8_1.json"
+    },
+    {
+      "case_variant": "S3_basic",
+      "call_id": "ff6e42181b6f47ad8abd4ab5db586672",
+      "kind": "evaluator_embeddings",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 0.41338839999662014,
+      "error": null,
+      "started_at": "2026-10-18T23:20:19.411923+00:00",
+      "path": "evaluacion/S3_basic/calls/ff6e42181b6f47ad8abd4ab5db586672_1.json"
+    },
+    {
+      "case_variant": "S3_rerank",
+      "call_id": "071918bf51f148d9833a69f3be486f0a",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 9.266870599996764,
+      "error": null,
+      "started_at": "2026-10-18T23:20:36.455484+00:00",
+      "path": "evaluacion/S3_rerank/calls/071918bf51f148d9833a69f3be486f0a_1.json"
+    },
+    {
+      "case_variant": "S3_rerank",
+      "call_id": "235a14f778614bf69743287627c0e9fa",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 8.576256500004092,
+      "error": null,
+      "started_at": "2026-10-18T23:20:37.938294+00:00",
+      "path": "evaluacion/S3_rerank/calls/235a14f778614bf69743287627c0e9fa_1.json"
+    },
+    {
+      "case_variant": "S3_rerank",
+      "call_id": "283f3b152b2047b3a530ec4024703d8a",
+      "kind": "evaluator_embeddings",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 0.37948510000569513,
+      "error": null,
+      "started_at": "2026-10-18T23:20:45.723711+00:00",
+      "path": "evaluacion/S3_rerank/calls/283f3b152b2047b3a530ec4024703d8a_1.json"
+    },
+    {
+      "case_variant": "S3_rerank",
+      "call_id": "32c4b12d7c62477aa68da9fbf2c123f0",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 1.4596644999983255,
+      "error": null,
+      "started_at": "2026-10-18T23:20:36.445415+00:00",
+      "path": "evaluacion/S3_rerank/calls/32c4b12d7c62477aa68da9fbf2c123f0_1.json"
+    },
+    {
+      "case_variant": "S3_rerank",
+      "call_id": "4a9a48f31e75440e8ecd78cfc9cde788",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 8.551300799997989,
+      "error": null,
+      "started_at": "2026-10-18T23:20:23.802447+00:00",
+      "path": "evaluacion/S3_rerank/calls/4a9a48f31e75440e8ecd78cfc9cde788_1.json"
+    },
+    {
+      "case_variant": "S3_rerank",
+      "call_id": "9d9684f42eb34bcd80d0c15daf8bff67",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 6.16314639999473,
+      "error": null,
+      "started_at": "2026-10-18T23:20:46.537902+00:00",
+      "path": "evaluacion/S3_rerank/calls/9d9684f42eb34bcd80d0c15daf8bff67_1.json"
+    },
+    {
+      "case_variant": "S3_rerank",
+      "call_id": "ceb03502d05940dfa6cce0467fb42166",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 4.0833958000002895,
+      "error": null,
+      "started_at": "2026-10-18T23:20:32.356728+00:00",
+      "path": "evaluacion/S3_rerank/calls/ceb03502d05940dfa6cce0467fb42166_1.json"
+    },
+    {
+      "case_variant": "S3_rerank",
+      "call_id": "f7c06a960b444cb9a365f46f81735af0",
+      "kind": "evaluator_embeddings",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 0.4243618999971659,
+      "error": null,
+      "started_at": "2026-10-18T23:20:46.104441+00:00",
+      "path": "evaluacion/S3_rerank/calls/f7c06a960b444cb9a365f46f81735af0_1.json"
+    },
+    {
+      "case_variant": "S3_rerank",
+      "call_id": "f924cb80a6284cfe8a4ff6e849d1635f",
+      "kind": "evaluator_llm",
+      "attempt": 1,
+      "status": "ok",
+      "seconds": 5.276273900002707,
+      "error": null,
+      "started_at": "2026-10-18T23:20:36.445247+00:00",
+      "path": "evaluacion/S3_rerank/calls/f924cb80a6284cfe8a4ff6e849d1635f_1.json"
+    }
+  ],
+  "pipeline_runs": [
+    {
+      "id": "C1",
+      "variant": "basic",
+      "status": "ok",
+      "calls_by_role": {
+        "generator": 1
+      },
+      "usage": [
+        {
+          "run_id": "01a15146-de95-7433-bdb2-7b7133df2499",
+          "role": "generator",
+          "usage": {
+            "input_tokens": 529,
+            "output_tokens": 255,
+            "total_tokens": 784
+          },
+          "provider_usage": {
+            "cache_tokens_details": null,
+            "cached_content_token_count": null,
+            "candidates_token_count": 255,
+            "candidates_tokens_details": null,
+            "prompt_token_count": 529,
+            "prompt_tokens_details": [
+              {
+                "modality": "TEXT",
+                "token_count": 529
+              }
+            ],
+            "thoughts_token_count": null,
+            "tool_use_prompt_token_count": null,
+            "tool_use_prompt_tokens_details": null,
+            "total_token_count": 784,
+            "traffic_type": null
+          }
+        }
+      ],
+      "total_seconds": 3.566770199999155
+    },
+    {
+      "id": "C1",
+      "variant": "rerank",
+      "status": "ok",
+      "calls_by_role": {
+        "judge": 1,
+        "generator": 1
+      },
+      "usage": [
+        {
+          "run_id": "01a15146-ec78-75c2-ac26-a6568e1dbecd",
+          "role": "judge",
+          "usage": {
+            "input_tokens": 1201,
+            "output_tokens": 643,
+            "total_tokens": 1844
+          },
+          "provider_usage": {
+            "cache_tokens_details": null,
+            "cached_content_token_count": null,
+            "candidates_token_count": 643,
+            "candidates_tokens_details": null,
+            "prompt_token_count": 1201,
+            "prompt_tokens_details": [
+              {
+                "modality": "TEXT",
+                "token_count": 1201
+              }
+            ],
+            "thoughts_token_count": null,
+            "tool_use_prompt_token_count": null,
+            "tool_use_prompt_tokens_details": null,
+            "total_token_count": 1844,
+            "traffic_type": null
+          }
+        },
+        {
+          "run_id": "01a15146-fbdb-7233-8331-e35619c0d483",
+          "role": "generator",
+          "usage": {
+            "input_tokens": 727,
+            "output_tokens": 372,
+            "total_tokens": 1099
+          },
+          "provider_usage": {
+            "cache_tokens_details": null,
+            "cached_content_token_count": null,
+            "candidates_token_count": 372,
+            "candidates_tokens_details": null,
+            "prompt_token_count": 727,
+            "prompt_tokens_details": [
+              {
+                "modality": "TEXT",
+                "token_count": 727
+              }
+            ],
+            "thoughts_token_count": null,
+            "tool_use_prompt_token_count": null,
+            "tool_use_prompt_tokens_details": null,
+            "total_token_count": 1099,
+            "traffic_type": null
+          }
+        }
+      ],
+      "total_seconds": 5.756976000004215
+    },
+    {
+      "id": "C2",
+      "variant": "basic",
+      "status": "ok",
+      "calls_by_role": {
+        "generator": 1
+      },
+      "usage": [
+        {
+          "run_id": "01a15147-02d5-71d1-9079-47e63c1ba710",
+          "role": "generator",
+          "usage": {
+            "input_tokens": 379,
+            "output_tokens": 181,
+            "total_tokens": 560
+          },
+          "provider_usage": {
+            "cache_tokens_details": null,
+            "cached_content_token_count": null,
+            "candidates_token_count": 181,
+            "candidates_tokens_details": null,
+            "prompt_token_count": 379,
+            "prompt_tokens_details": [
+              {
+                "modality": "TEXT",
+                "token_count": 379
+              }
+            ],
+            "thoughts_token_count": null,
+            "tool_use_prompt_token_count": null,
+            "tool_use_prompt_tokens_details": null,
+            "total_token_count": 560,
+            "traffic_type": null
+          }
+        }
+      ],
+      "total_seconds": 27.752471199994034
+    },
+    {
+      "id": "C2",
+      "variant": "rerank",
+      "status": "ok",
+      "calls_by_role": {
+        "judge": 1,
+        "generator": 1
+      },
+      "usage": [
+        {
+          "run_id": "01a15147-6f6a-73d3-9df0-23bb2bc587ae",
+          "role": "judge",
+          "usage": {
+            "input_tokens": 1251,
+            "output_tokens": 648,
+            "total_tokens": 1899
+          },
+          "provider_usage": {
+            "cache_tokens_details": null,
+            "cached_content_token_count": null,
+            "candidates_token_count": 648,
+            "candidates_tokens_details": null,
+            "prompt_token_count": 1251,
+            "prompt_tokens_details": [
+              {
+                "modality": "TEXT",
+                "token_count": 1251
+              }
+            ],
+            "thoughts_token_count": null,
+            "tool_use_prompt_token_count": null,
+            "tool_use_prompt_tokens_details": null,
+            "total_token_count": 1899,
+            "traffic_type": null
+          }
+        },
+        {
+          "run_id": "01a15147-7a09-7843-85c8-af20d5633f79",
+          "role": "generator",
+          "usage": {
+            "input_tokens": 603,
+            "output_tokens": 235,
+            "total_tokens": 838
+          },
+          "provider_usage": {
+            "cache_tokens_details": null,
+            "cached_content_token_count": null,
+            "candidates_token_count": 235,
+            "candidates_tokens_details": null,
+            "prompt_token_count": 603,
+            "prompt_tokens_details": [
+              {
+                "modality": "TEXT",
+                "token_count": 603
+              }
+            ],
+            "thoughts_token_count": null,
+            "tool_use_prompt_token_count": null,
+            "tool_use_prompt_tokens_details": null,
+            "total_token_count": 838,
+            "traffic_type": null
+          }
+        }
+      ],
+      "total_seconds": 4.638614600000437
+    },
+    {
+      "id": "C3",
+      "variant": "basic",
+      "status": "ok",
+      "calls_by_role": {
+        "generator": 1
+      },
+      "usage": [
+        {
+          "run_id": "01a15147-8199-7640-b270-1dc421e669ad",
+          "role": "generator",
+          "usage": {
+            "input_tokens": 589,
+            "output_tokens": 399,
+            "total_tokens": 988
+          },
+          "provider_usage": {
+            "cache_tokens_details": null,
+            "cached_content_token_count": null,
+            "candidates_token_count": 399,
+            "candidates_tokens_details": null,
+            "prompt_token_count": 589,
+            "prompt_tokens_details": [
+              {
+                "modality": "TEXT",
+                "token_count": 589
+              }
+            ],
+            "thoughts_token_count": null,
+            "tool_use_prompt_token_count": null,
+            "tool_use_prompt_tokens_details": null,
+            "total_token_count": 988,
+            "traffic_type": null
+          }
+        }
+      ],
+      "total_seconds": 4.795988800004125
+    },
+    {
+      "id": "C3",
+      "variant": "rerank",
+      "status": "ok",
+      "calls_by_role": {
+        "judge": 1,
+        "generator": 1
+      },
+      "usage": [
+        {
+          "run_id": "01a15147-970f-7493-8362-6db57d36a339",
+          "role": "judge",
+          "usage": {
+            "input_tokens": 1287,
+            "output_tokens": 629,
+            "total_tokens": 1916
+          },
+          "provider_usage": {
+            "cache_tokens_details": null,
+            "cached_content_token_count": null,
+            "candidates_token_count": 629,
+            "candidates_tokens_details": null,
+            "prompt_token_count": 1287,
+            "prompt_tokens_details": [
+              {
+                "modality": "TEXT",
+                "token_count": 1287
+              }
+            ],
+            "thoughts_token_count": null,
+            "tool_use_prompt_token_count": null,
+            "tool_use_prompt_tokens_details": null,
+            "total_token_count": 1916,
+            "traffic_type": null
+          }
+        },
+        {
+          "run_id": "01a15147-b179-73c2-b33d-95b37754cfa3",
+          "role": "generator",
+          "usage": {
+            "input_tokens": 747,
+            "output_tokens": 343,
+            "total_tokens": 1090
+          },
+          "provider_usage": {
+            "cache_tokens_details": null,
+            "cached_content_token_count": null,
+            "candidates_token_count": 343,
+            "candidates_tokens_details": null,
+            "prompt_token_count": 747,
+            "prompt_tokens_details": [
+              {
+                "modality": "TEXT",
+                "token_count": 747
+              }
+            ],
+            "thoughts_token_count": null,
+            "tool_use_prompt_token_count": null,
+            "tool_use_prompt_tokens_details": null,
+            "total_token_count": 1090,
+            "traffic_type": null
+          }
+        }
+      ],
+      "total_seconds": 27.96192449999944
+    },
+    {
+      "id": "E1",
+      "variant": "basic",
+      "status": "insufficient_context",
+      "calls_by_role": {},
+      "usage": [],
+      "total_seconds": 0.4259338999981992
+    },
+    {
+      "id": "E1",
+      "variant": "rerank",
+      "status": "insufficient_context",
+      "calls_by_role": {
+        "judge": 1
+      },
+      "usage": [
+        {
+          "run_id": "01a15148-0315-7b42-b32d-bc26399a56ee",
+          "role": "judge",
+          "usage": {
+            "input_tokens": 1167,
+            "output_tokens": 619,
+            "total_tokens": 1786
+          },
+          "provider_usage": {
+            "cache_tokens_details": null,
+            "cached_content_token_count": null,
+            "candidates_token_count": 619,
+            "candidates_tokens_details": null,
+            "prompt_token_count": 1167,
+            "prompt_tokens_details": [
+              {
+                "modality": "TEXT",
+                "token_count": 1167
+              }
+            ],
+            "thoughts_token_count": null,
+            "tool_use_prompt_token_count": null,
+            "tool_use_prompt_tokens_details": null,
+            "total_token_count": 1786,
+            "traffic_type": null
+          }
+        }
+      ],
+      "total_seconds": 15.352844499997445
+    },
+    {
+      "id": "E2",
+      "variant": "basic",
+      "status": "ok",
+      "calls_by_role": {
+        "generator": 1
+      },
+      "usage": [
+        {
+          "run_id": "01a15148-3f36-7140-af8c-7edf122d623c",
+          "role": "generator",
+          "usage": {
+            "input_tokens": 371,
+            "output_tokens": 21,
+            "total_tokens": 392
+          },
+          "provider_usage": {
+            "cache_tokens_details": null,
+            "cached_content_token_count": null,
+            "candidates_token_count": 21,
+            "candidates_tokens_details": null,
+            "prompt_token_count": 371,
+            "prompt_tokens_details": [
+              {
+                "modality": "TEXT",
+                "token_count": 371
+              }
+            ],
+            "thoughts_token_count": null,
+            "tool_use_prompt_token_count": null,
+            "tool_use_prompt_tokens_details": null,
+            "total_token_count": 392,
+            "traffic_type": null
+          }
+        }
+      ],
+      "total_seconds": 3.8905589999994845
+    },
+    {
+      "id": "E2",
+      "variant": "rerank",
+      "status": "insufficient_context",
+      "calls_by_role": {
+        "judge": 1
+      },
+      "usage": [
+        {
+          "run_id": "01a15148-4e72-7531-8b50-8a943574939e",
+          "role": "judge",
+          "usage": {
+            "input_tokens": 1188,
+            "output_tokens": 570,
+            "total_tokens": 1758
+          },
+          "provider_usage": {
+            "cache_tokens_details": null,
+            "cached_content_token_count": null,
+            "candidates_token_count": 570,
+            "candidates_tokens_details": null,
+            "prompt_token_count": 1188,
+            "prompt_tokens_details": [
+              {
+                "modality": "TEXT",
+                "token_count": 1188
+              }
+            ],
+            "thoughts_token_count": null,
+            "tool_use_prompt_token_count": null,
+            "tool_use_prompt_tokens_details": null,
+            "total_token_count": 1758,
+            "traffic_type": null
+          }
+        }
+      ],
+      "total_seconds": 24.619218400002865
+    },
+    {
+      "id": "I1",
+      "variant": "basic",
+      "status": "ok",
+      "calls_by_role": {
+        "generator": 1
+      },
+      "usage": [
+        {
+          "run_id": "01a15148-b18c-7e01-9b31-5a92e42f0144",
+          "role": "generator",
+          "usage": {
+            "input_tokens": 366,
+            "output_tokens": 96,
+            "total_tokens": 462
+          },
+          "provider_usage": {
+            "cache_tokens_details": null,
+            "cached_content_token_count": null,
+            "candidates_token_count": 96,
+            "candidates_tokens_details": null,
+            "prompt_token_count": 366,
+            "prompt_tokens_details": [
+              {
+                "modality": "TEXT",
+                "token_count": 366
+              }
+            ],
+            "thoughts_token_count": null,
+            "tool_use_prompt_token_count": null,
+            "tool_use_prompt_tokens_details": null,
+            "total_token_count": 462,
+            "traffic_type": null
+          }
+        }
+      ],
+      "total_seconds": 2.9311275000000023
+    },
+    {
+      "id": "I1",
+      "variant": "rerank",
+      "status": "ok",
+      "calls_by_role": {
+        "judge": 1,
+        "generator": 1
+      },
+      "usage": [
+        {
+          "run_id": "01a15148-bcde-7c60-9f28-b76ebc2e8abb",
+          "role": "judge",
+          "usage": {
+            "input_tokens": 1186,
+            "output_tokens": 631,
+            "total_tokens": 1817
+          },
+          "provider_usage": {
+            "cache_tokens_details": null,
+            "cached_content_token_count": null,
+            "candidates_token_count": 631,
+            "candidates_tokens_details": null,
+            "prompt_token_count": 1186,
+            "prompt_tokens_details": [
+              {
+                "modality": "TEXT",
+                "token_count": 1186
+              }
+            ],
+            "thoughts_token_count": null,
+            "tool_use_prompt_token_count": null,
+            "tool_use_prompt_tokens_details": null,
+            "total_token_count": 1817,
+            "traffic_type": null
+          }
+        },
+        {
+          "run_id": "01a15148-de85-74e3-adb7-03a962af3b94",
+          "role": "generator",
+          "usage": {
+            "input_tokens": 315,
+            "output_tokens": 117,
+            "total_tokens": 432
+          },
+          "provider_usage": {
+            "cache_tokens_details": null,
+            "cached_content_token_count": null,
+            "candidates_token_count": 117,
+            "candidates_tokens_details": null,
+            "prompt_token_count": 315,
+            "prompt_tokens_details": [
+              {
+                "modality": "TEXT",
+                "token_count": 315
+              }
+            ],
+            "thoughts_token_count": null,
+            "tool_use_prompt_token_count": null,
+            "tool_use_prompt_tokens_details": null,
+            "total_token_count": 432,
+            "traffic_type": null
+          }
+        }
+      ],
+      "total_seconds": 11.132389899998088
+    },
+    {
+      "id": "I2",
+      "variant": "basic",
+      "status": "ok",
+      "calls_by_role": {
+        "generator": 1
+      },
+      "usage": [
+        {
+          "run_id": "01a15148-e598-7d53-b42f-c36f4ef2aef0",
+          "role": "generator",
+          "usage": {
+            "input_tokens": 371,
+            "output_tokens": 208,
+            "total_tokens": 579
+          },
+          "provider_usage": {
+            "cache_tokens_details": null,
+            "cached_content_token_count": null,
+            "candidates_token_count": 208,
+            "candidates_tokens_details": null,
+            "prompt_token_count": 371,
+            "prompt_tokens_details": [
+              {
+                "modality": "TEXT",
+                "token_count": 371
+              }
+            ],
+            "thoughts_token_count": null,
+            "tool_use_prompt_token_count": null,
+            "tool_use_prompt_tokens_details": null,
+            "total_token_count": 579,
+            "traffic_type": null
+          }
+        }
+      ],
+      "total_seconds": 3.8624495999974897
+    },
+    {
+      "id": "I2",
+      "variant": "rerank",
+      "status": "ok",
+      "calls_by_role": {
+        "judge": 1,
+        "generator": 1
+      },
+      "usage": [
+        {
+          "run_id": "01a15148-f770-7262-a06b-4621d74cf9c7",
+          "role": "judge",
+          "usage": {
+            "input_tokens": 1166,
+            "output_tokens": 624,
+            "total_tokens": 1790
+          },
+          "provider_usage": {
+            "cache_tokens_details": null,
+            "cached_content_token_count": null,
+            "candidates_token_count": 624,
+            "candidates_tokens_details": null,
+            "prompt_token_count": 1166,
+            "prompt_tokens_details": [
+              {
+                "modality": "TEXT",
+                "token_count": 1166
+              }
+            ],
+            "thoughts_token_count": null,
+            "tool_use_prompt_token_count": null,
+            "tool_use_prompt_tokens_details": null,
+            "total_token_count": 1790,
+            "traffic_type": null
+          }
+        },
+        {
+          "run_id": "01a15149-1e1d-76b2-99b1-b6f26949503f",
+          "role": "generator",
+          "usage": {
+            "input_tokens": 442,
+            "output_tokens": 276,
+            "total_tokens": 718
+          },
+          "provider_usage": {
+            "cache_tokens_details": null,
+            "cached_content_token_count": null,
+            "candidates_token_count": 276,
+            "candidates_tokens_details": null,
+            "prompt_token_count": 442,
+            "prompt_tokens_details": [
+              {
+                "modality": "TEXT",
+                "token_count": 442
+              }
+            ],
+            "thoughts_token_count": null,
+            "tool_use_prompt_token_count": null,
+            "tool_use_prompt_tokens_details": null,
+            "total_token_count": 718,
+            "traffic_type": null
+          }
+        }
+      ],
+      "total_seconds": 16.618748699998832
+    },
+    {
+      "id": "S1",
+      "variant": "basic",
+      "status": "ok",
+      "calls_by_role": {
+        "generator": 1
+      },
+      "usage": [
+        {
+          "run_id": "01a15145-5599-79b3-9364-833d215944a0",
+          "role": "generator",
+          "usage": {
+            "input_tokens": 364,
+            "output_tokens": 118,
+            "total_tokens": 482
+          },
+          "provider_usage": {
+            "cache_tokens_details": null,
+            "cached_content_token_count": null,
+            "candidates_token_count": 118,
+            "candidates_tokens_details": null,
+            "prompt_token_count": 364,
+            "prompt_tokens_details": [
+              {
+                "modality": "TEXT",
+                "token_count": 364
+              }
+            ],
+            "thoughts_token_count": null,
+            "tool_use_prompt_token_count": null,
+            "tool_use_prompt_tokens_details": null,
+            "total_token_count": 482,
+            "traffic_type": null
+          }
+        }
+      ],
+      "total_seconds": 72.7452215999947
+    },
+    {
+      "id": "S1",
+      "variant": "rerank",
+      "status": "ok",
+      "calls_by_role": {
+        "judge": 1,
+        "generator": 1
+      },
+      "usage": [
+        {
+          "run_id": "01a15146-70e6-7a32-80e1-ec60118b61e8",
+          "role": "judge",
+          "usage": {
+            "input_tokens": 1211,
+            "output_tokens": 639,
+            "total_tokens": 1850
+          },
+          "provider_usage": {
+            "cache_tokens_details": null,
+            "cached_content_token_count": null,
+            "candidates_token_count": 639,
+            "candidates_tokens_details": null,
+            "prompt_token_count": 1211,
+            "prompt_tokens_details": [
+              {
+                "modality": "TEXT",
+                "token_count": 1211
+              }
+            ],
+            "thoughts_token_count": null,
+            "tool_use_prompt_token_count": null,
+            "tool_use_prompt_tokens_details": null,
+            "total_token_count": 1850,
+            "traffic_type": null
+          }
+        },
+        {
+          "run_id": "01a15146-9bd7-7950-8f79-f53519627aa2",
+          "role": "generator",
+          "usage": {
+            "input_tokens": 441,
+            "output_tokens": 215,
+            "total_tokens": 656
+          },
+          "provider_usage": {
+            "cache_tokens_details": null,
+            "cached_content_token_count": null,
+            "candidates_token_count": 215,
+            "candidates_tokens_details": null,
+            "prompt_token_count": 441,
+            "prompt_tokens_details": [
+              {
+                "modality": "TEXT",
+                "token_count": 441
+              }
+            ],
+            "thoughts_token_count": null,
+            "tool_use_prompt_token_count": null,
+            "tool_use_prompt_tokens_details": null,
+            "total_token_count": 656,
+            "traffic_type": null
+          }
+        }
+      ],
+      "total_seconds": 13.283829599997262
+    },
+    {
+      "id": "S2",
+      "variant": "basic",
+      "status": "ok",
+      "calls_by_role": {
+        "generator": 1
+      },
+      "usage": [
+        {
+          "run_id": "01a15146-a4ab-79b0-b096-c30b74991c60",
+          "role": "generator",
+          "usage": {
+            "input_tokens": 358,
+            "output_tokens": 35,
+            "total_tokens": 393
+          },
+          "provider_usage": {
+            "cache_tokens_details": null,
+            "cached_content_token_count": null,
+            "candidates_token_count": 35,
+            "candidates_tokens_details": null,
+            "prompt_token_count": 358,
+            "prompt_tokens_details": [
+              {
+                "modality": "TEXT",
+                "token_count": 358
+              }
+            ],
+            "thoughts_token_count": null,
+            "tool_use_prompt_token_count": null,
+            "tool_use_prompt_tokens_details": null,
+            "total_token_count": 393,
+            "traffic_type": null
+          }
+        }
+      ],
+      "total_seconds": 3.716392199996335
+    },
+    {
+      "id": "S2",
+      "variant": "rerank",
+      "status": "ok",
+      "calls_by_role": {
+        "judge": 1,
+        "generator": 1
+      },
+      "usage": [
+        {
+          "run_id": "01a15146-b364-7b93-a1dd-bbb106b9c654",
+          "role": "judge",
+          "usage": {
+            "input_tokens": 1312,
+            "output_tokens": 643,
+            "total_tokens": 1955
+          },
+          "provider_usage": {
+            "cache_tokens_details": null,
+            "cached_content_token_count": null,
+            "candidates_token_count": 643,
+            "candidates_tokens_details": null,
+            "prompt_token_count": 1312,
+            "prompt_tokens_details": [
+              {
+                "modality": "TEXT",
+                "token_count": 1312
+              }
+            ],
+            "thoughts_token_count": null,
+            "tool_use_prompt_token_count": null,
+            "tool_use_prompt_tokens_details": null,
+            "total_token_count": 1955,
+            "traffic_type": null
+          }
+        },
+        {
+          "run_id": "01a15146-bc6c-7503-9c72-0e8472223443",
+          "role": "generator",
+          "usage": {
+            "input_tokens": 317,
+            "output_tokens": 58,
+            "total_tokens": 375
+          },
+          "provider_usage": {
+            "cache_tokens_details": null,
+            "cached_content_token_count": null,
+            "candidates_token_count": 58,
+            "candidates_tokens_details": null,
+            "prompt_token_count": 317,
+            "prompt_tokens_details": [
+              {
+                "modality": "TEXT",
+                "token_count": 317
+              }
+            ],
+            "thoughts_token_count": null,
+            "tool_use_prompt_token_count": null,
+            "tool_use_prompt_tokens_details": null,
+            "total_token_count": 375,
+            "traffic_type": null
+          }
+        }
+      ],
+      "total_seconds": 5.957956700003706
+    },
+    {
+      "id": "S3",
+      "variant": "basic",
+      "status": "ok",
+      "calls_by_role": {
+        "generator": 1
+      },
+      "usage": [
+        {
+          "run_id": "01a15146-ca8b-77c2-97ff-48378447c425",
+          "role": "generator",
+          "usage": {
+            "input_tokens": 344,
+            "output_tokens": 80,
+            "total_tokens": 424
+          },
+          "provider_usage": {
+            "cache_tokens_details": null,
+            "cached_content_token_count": null,
+            "candidates_token_count": 80,
+            "candidates_tokens_details": null,
+            "prompt_token_count": 344,
+            "prompt_tokens_details": [
+              {
+                "modality": "TEXT",
+                "token_count": 344
+              }
+            ],
+            "thoughts_token_count": null,
+            "tool_use_prompt_token_count": null,
+            "tool_use_prompt_tokens_details": null,
+            "total_token_count": 424,
+            "traffic_type": null
+          }
+        }
+      ],
+      "total_seconds": 1.3472836000000825
+    },
+    {
+      "id": "S3",
+      "variant": "rerank",
+      "status": "ok",
+      "calls_by_role": {
+        "judge": 1,
+        "generator": 1
+      },
+      "usage": [
+        {
+          "run_id": "01a15146-cfcd-76e3-a19c-80a2fcdd654a",
+          "role": "judge",
+          "usage": {
+            "input_tokens": 1217,
+            "output_tokens": 634,
+            "total_tokens": 1851
+          },
+          "provider_usage": {
+            "cache_tokens_details": null,
+            "cached_content_token_count": null,
+            "candidates_token_count": 634,
+            "candidates_tokens_details": null,
+            "prompt_token_count": 1217,
+            "prompt_tokens_details": [
+              {
+                "modality": "TEXT",
+                "token_count": 1217
+              }
+            ],
+            "thoughts_token_count": null,
+            "tool_use_prompt_token_count": null,
+            "tool_use_prompt_tokens_details": null,
+            "total_token_count": 1851,
+            "traffic_type": null
+          }
+        },
+        {
+          "run_id": "01a15146-d912-7d51-b36f-8ca56bf89f9d",
+          "role": "generator",
+          "usage": {
+            "input_tokens": 317,
+            "output_tokens": 125,
+            "total_tokens": 442
+          },
+          "provider_usage": {
+            "cache_tokens_details": null,
+            "cached_content_token_count": null,
+            "candidates_token_count": 125,
+            "candidates_tokens_details": null,
+            "prompt_token_count": 317,
+            "prompt_tokens_details": [
+              {
+                "modality": "TEXT",
+                "token_count": 317
+              }
+            ],
+            "thoughts_token_count": null,
+            "tool_use_prompt_token_count": null,
+            "tool_use_prompt_tokens_details": null,
+            "total_token_count": 442,
+            "traffic_type": null
+          }
+        }
+      ],
+      "total_seconds": 3.765551800002868
+    }
+  ],
+  "notes": "Los reintentos de un mismo call_id son intentos de la misma operación. Los callbacks del pipeline no informan uso de embeddings de consulta; no se estima. Smoke excluido de estos totales."
+}

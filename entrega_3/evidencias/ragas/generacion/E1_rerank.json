@@ -1,0 +1,247 @@
+{
+  "id": "E1",
+  "variant": "rerank",
+  "started_at": "2026-10-18T23:10:35.926154+00:00",
+  "total_seconds": 15.352844499997445,
+  "question": "¿Qué certificado fitosanitario necesito para exportar ganado?",
+  "candidates": [
+    {
+      "id": "DOC-015::chunk-001-3968d5e90d8b8050",
+      "documento": "vigencia acotada. El certificado de libre deuda previsional acredita que no hay deuda de cargas sociales y lo piden licitaciones y organismos públicos. La constancia de CUIL y la constancia de opción de Monotributo son otros pedidos frecuentes. La diferencia operativa importa: la constancia de inscripción es información pública que se entrega de inmediato, mientras que un certificado con vigencia y requisitos exige verificar la situación fiscal del cliente antes de tramitarlo.",
+      "documento_raw": "vigencia acotada. El certificado de libre deuda previsional acredita que no hay deuda de cargas sociales y lo piden licitaciones y organismos públicos. La constancia de CUIL y la constancia de opción de Monotributo son otros pedidos frecuentes. La diferencia operativa importa: la constancia de inscripción es información pública que se entrega de inmediato, mientras que un certificado con vigencia y requisitos exige verificar la situación fiscal del cliente antes de tramitarlo.",
+      "metadatos": {
+        "categoria": "documentacion",
+        "parent_id": "DOC-015",
+        "chunk_id": "DOC-015::chunk-001-3968d5e90d8b8050",
+        "tipo_contribuyente": "general",
+        "chunk_index": 1,
+        "activo": true,
+        "start_index": 398,
+        "tags_regionales": "certificado, constancia, documentacion, constancia de inscripcion, no retencion, libre deuda, cuil",
+        "jurisdiccion": "nacional"
+      },
+      "distancia": 0.3986135721206665,
+      "similitud": 0.6014
+    },
+    {
+      "id": "DOC-015::chunk-000-88c73e4bc15cb2af",
+      "documento": "El estudio emite y gestiona constancias y certificados para sus clientes. La constancia de inscripción acredita en qué impuestos está inscripto el contribuyente y se descarga del padrón con el CUIT, es pública y no requiere clave fiscal. El certificado de no retención evita que los agentes de recaudación retengan cuando el contribuyente acumula saldo a favor, se tramita con clave fiscal y tiene vigencia acotada. El certificado de libre deuda previsional acredita que no hay deuda de cargas",
+      "documento_raw": "El estudio emite y gestiona constancias y certificados para sus clientes. La constancia de inscripción acredita en qué impuestos está inscripto el contribuyente y se descarga del padrón con el CUIT, es pública y no requiere clave fiscal. El certificado de no retención evita que los agentes de recaudación retengan cuando el contribuyente acumula saldo a favor, se tramita con clave fiscal y tiene vigencia acotada. El certificado de libre deuda previsional acredita que no hay deuda de cargas",
+      "metadatos": {
+        "chunk_id": "DOC-015::chunk-000-88c73e4bc15cb2af",
+        "parent_id": "DOC-015",
+        "tipo_contribuyente": "general",
+        "tags_regionales": "certificado, constancia, documentacion, constancia de inscripcion, no retencion, libre deuda, cuil",
+        "jurisdiccion": "nacional",
+        "chunk_index": 0,
+        "categoria": "documentacion",
+        "start_index": 0,
+        "activo": true
+      },
+      "distancia": 0.40470731258392334,
+      "similitud": 0.5953
+    },
+    {
+      "id": "DOC-012::chunk-001-86a2ddefc4629448",
+      "documento": "del contribuyente, el impuesto y el período fiscal. Sin los tres, la búsqueda es ambigua, porque un mismo cliente tiene un comprobante por impuesto y por mes. Los comprobantes son documentación privada del cliente y solo se entregan al titular o a quien el titular autorizó formalmente. El estudio conserva copia de cada comprobante entregado.",
+      "documento_raw": "del contribuyente, el impuesto y el período fiscal. Sin los tres, la búsqueda es ambigua, porque un mismo cliente tiene un comprobante por impuesto y por mes. Los comprobantes son documentación privada del cliente y solo se entregan al titular o a quien el titular autorizó formalmente. El estudio conserva copia de cada comprobante entregado.",
+      "metadatos": {
+        "jurisdiccion": "nacional",
+        "parent_id": "DOC-012",
+        "chunk_index": 1,
+        "tipo_contribuyente": "general",
+        "chunk_id": "DOC-012::chunk-001-86a2ddefc4629448",
+        "activo": true,
+        "tags_regionales": "comprobante, pago, presentacion, acuse, vep, ticket, constancia de pago",
+        "categoria": "comprobantes",
+        "start_index": 404
+      },
+      "distancia": 0.4464312195777893,
+      "similitud": 0.5536
+    },
+    {
+      "id": "DOC-005::chunk-001-1cd05dd2e6da99a1",
+      "documento": "que integran el patrimonio; comprobantes de compra y venta de bienes ocurridas durante el año; y los comprobantes de las deducciones que se piensan computar, que incluyen aportes a obra social y medicina prepaga, intereses de créditos hipotecarios, donaciones, alquileres y gastos de sepelio. La declaración jurada de ganancias se presenta junto con la declaración informativa de bienes personales cuando el contribuyente supera el mínimo no imponible del patrimonio. El período fiscal es el año",
+      "documento_raw": "que integran el patrimonio; comprobantes de compra y venta de bienes ocurridas durante el año; y los comprobantes de las deducciones que se piensan computar, que incluyen aportes a obra social y medicina prepaga, intereses de créditos hipotecarios, donaciones, alquileres y gastos de sepelio. La declaración jurada de ganancias se presenta junto con la declaración informativa de bienes personales cuando el contribuyente supera el mínimo no imponible del patrimonio. El período fiscal es el año",
+      "metadatos": {
+        "tags_regionales": "ganancias, documentacion, ddjj, bienes personales, deducciones, declaracion anual, patrimonio",
+        "activo": true,
+        "parent_id": "DOC-005",
+        "tipo_contribuyente": "persona_humana",
+        "jurisdiccion": "nacional",
+        "chunk_index": 1,
+        "categoria": "documentacion",
+        "chunk_id": "DOC-005::chunk-001-1cd05dd2e6da99a1",
+        "start_index": 401
+      },
+      "distancia": 0.4483511447906494,
+      "similitud": 0.5516
+    },
+    {
+      "id": "DOC-005::chunk-000-bca91900ca926a40",
+      "documento": "Para armar la declaración jurada anual del impuesto a las ganancias de una persona humana, el estudio solicita: recibos de sueldo de los doce meses o el certificado de retenciones que emite el empleador; facturas emitidas y comprobantes de ingresos si hay actividad independiente; resúmenes bancarios y extractos de cuentas al 31 de diciembre; escrituras, cédulas o títulos de los bienes registrables que integran el patrimonio; comprobantes de compra y venta de bienes ocurridas durante el año; y",
+      "documento_raw": "Para armar la declaración jurada anual del impuesto a las ganancias de una persona humana, el estudio solicita: recibos de sueldo de los doce meses o el certificado de retenciones que emite el empleador; facturas emitidas y comprobantes de ingresos si hay actividad independiente; resúmenes bancarios y extractos de cuentas al 31 de diciembre; escrituras, cédulas o títulos de los bienes registrables que integran el patrimonio; comprobantes de compra y venta de bienes ocurridas durante el año; y",
+      "metadatos": {
+        "start_index": 0,
+        "categoria": "documentacion",
+        "jurisdiccion": "nacional",
+        "activo": true,
+        "chunk_id": "DOC-005::chunk-000-bca91900ca926a40",
+        "tipo_contribuyente": "persona_humana",
+        "parent_id": "DOC-005",
+        "chunk_index": 0,
+        "tags_regionales": "ganancias, documentacion, ddjj, bienes personales, deducciones, declaracion anual, patrimonio"
+      },
+      "distancia": 0.44846928119659424,
+      "similitud": 0.5515
+    },
+    {
+      "id": "DOC-014::chunk-001-02ba0b64534fb171",
+      "documento": "la identidad del solicitante contra el CUIT titular, porque un cambio de domicilio o de correo electrónico redirige las notificaciones oficiales y es un vector de fraude conocido. El asistente automatizado no ejecuta escrituras sobre el padrón: registra el pedido, lo identifica y lo deriva para que una persona del estudio lo valide y lo ejecute. El pedido queda con estado pendiente hasta esa validación.",
+      "documento_raw": "la identidad del solicitante contra el CUIT titular, porque un cambio de domicilio o de correo electrónico redirige las notificaciones oficiales y es un vector de fraude conocido. El asistente automatizado no ejecuta escrituras sobre el padrón: registra el pedido, lo identifica y lo deriva para que una persona del estudio lo valide y lo ejecute. El pedido queda con estado pendiente hasta esa validación.",
+      "metadatos": {
+        "categoria": "datos_fiscales",
+        "parent_id": "DOC-014",
+        "start_index": 404,
+        "chunk_index": 1,
+        "tipo_contribuyente": "general",
+        "jurisdiccion": "nacional",
+        "tags_regionales": "actualizacion, datos, cuit, domicilio, padron, escritura, validacion de identidad",
+        "chunk_id": "DOC-014::chunk-001-02ba0b64534fb171",
+        "activo": true
+      },
+      "distancia": 0.4490079879760742,
+      "similitud": 0.551
+    },
+    {
+      "id": "DOC-013::chunk-001-757e9a1ab5f2b921",
+      "documento": "de oficio y, en casos de deuda firme, el juicio de ejecución fiscal. Estas consultas no se responden con información general. Requieren leer la notificación concreta, identificar impuesto, período y monto reclamado, revisar si la obligación efectivamente está incumplida y definir si corresponde presentar el descargo, allanarse o rectificar. Por eso se clasifican como casos de mayor complejidad y se derivan al profesional responsable con el detalle del caso. El asistente no evalúa la procedencia",
+      "documento_raw": "de oficio y, en casos de deuda firme, el juicio de ejecución fiscal. Estas consultas no se responden con información general. Requieren leer la notificación concreta, identificar impuesto, período y monto reclamado, revisar si la obligación efectivamente está incumplida y definir si corresponde presentar el descargo, allanarse o rectificar. Por eso se clasifican como casos de mayor complejidad y se derivan al profesional responsable con el detalle del caso. El asistente no evalúa la procedencia",
+      "metadatos": {
+        "parent_id": "DOC-013",
+        "categoria": "casos_complejos",
+        "jurisdiccion": "nacional",
+        "chunk_id": "DOC-013::chunk-001-757e9a1ab5f2b921",
+        "activo": true,
+        "tipo_contribuyente": "general",
+        "chunk_index": 1,
+        "tags_regionales": "intimacion, inspeccion, requerimiento, multa, descargo, ejecucion fiscal, domicilio fiscal electronico",
+        "start_index": 410
+      },
+      "distancia": 0.451953649520874,
+      "similitud": 0.548
+    },
+    {
+      "id": "DOC-003::chunk-000-42f59d263c71dc15",
+      "documento": "La declaración jurada de IVA del cliente fue procesada por el estudio. El trámite pasó al estado finalizada, ya que la declaración fue presentada correctamente y el saldo correspondiente fue pagado o compensado.",
+      "documento_raw": "La declaración jurada de IVA del cliente fue procesada por el estudio. El trámite pasó al estado finalizada, ya que la declaración fue presentada correctamente y el saldo correspondiente fue pagado o compensado.",
+      "metadatos": {
+        "jurisdiccion": "nacional",
+        "tipo_contribuyente": "responsable_inscripto",
+        "chunk_id": "DOC-003::chunk-000-42f59d263c71dc15",
+        "chunk_index": 0,
+        "categoria": "tramites",
+        "start_index": 0,
+        "activo": true,
+        "parent_id": "DOC-003",
+        "tags_regionales": "iva, estado, declaracion jurada, presentada, finalizada"
+      },
+      "distancia": 0.4599728584289551,
+      "similitud": 0.54
+    }
+  ],
+  "selected": [],
+  "status": "insufficient_context",
+  "judge": {
+    "items": [
+      {
+        "id": "DOC-015::chunk-001-3968d5e90d8b8050",
+        "score": 0.0,
+        "reason": "El fragmento trata sobre certificados fiscales y previsionales, no sobre certificados fitosanitarios para exportación de ganado."
+      },
+      {
+        "id": "DOC-015::chunk-000-88c73e4bc15cb2af",
+        "score": 0.0,
+        "reason": "El fragmento trata sobre constancias de inscripción y certificados de no retención impositiva, sin relación con la exportación de ganado."
+      },
+      {
+        "id": "DOC-012::chunk-001-86a2ddefc4629448",
+        "score": 0.0,
+        "reason": "El fragmento habla sobre comprobantes de impuestos y documentación privada, no sobre certificados fitosanitarios."
+      },
+      {
+        "id": "DOC-005::chunk-001-1cd05dd2e6da99a1",
+        "score": 0.0,
+        "reason": "El fragmento trata sobre declaraciones juradas de ganancias y bienes personales, sin relación con la pregunta."
+      },
+      {
+        "id": "DOC-005::chunk-000-bca91900ca926a40",
+        "score": 0.0,
+        "reason": "El fragmento enumera requisitos para declaraciones juradas de impuestos, no menciona certificados fitosanitarios."
+      },
+      {
+        "id": "DOC-014::chunk-001-02ba0b64534fb171",
+        "score": 0.0,
+        "reason": "El fragmento trata sobre procesos de validación de identidad y seguridad en un sistema, no sobre exportación de ganado."
+      },
+      {
+        "id": "DOC-013::chunk-001-757e9a1ab5f2b921",
+        "score": 0.0,
+        "reason": "El fragmento trata sobre ejecuciones fiscales y notificaciones de deuda, sin relación con la pregunta."
+      },
+      {
+        "id": "DOC-003::chunk-000-42f59d263c71dc15",
+        "score": 0.0,
+        "reason": "El fragmento trata sobre el estado de una declaración jurada de IVA, no sobre certificados fitosanitarios."
+      }
+    ]
+  },
+  "timings": {
+    "retrieval_seconds": 0.3437818000020343,
+    "reranking_seconds": 14.968066100002034
+  },
+  "answer": "No poseo información suficiente en la base de conocimiento para responder esa consulta.",
+  "sources": [],
+  "settings": {
+    "variant": "rerank",
+    "model": "gemini-3.1-flash-lite",
+    "temperature": 0.0,
+    "top_k": 3,
+    "candidate_k": 8,
+    "selected_k": 4,
+    "max_distance": 0.28,
+    "min_judge_score": 0.5
+  },
+  "usage": [
+    {
+      "run_id": "01a15148-0315-7b42-b32d-bc26399a56ee",
+      "role": "judge",
+      "usage": {
+        "input_tokens": 1167,
+        "output_tokens": 619,
+        "total_tokens": 1786
+      },
+      "provider_usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 619,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 1167,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 1167
+          }
+        ],
+        "thoughts_token_count": null,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 1786,
+        "traffic_type": null
+      }
+    }
+  ],
+  "attempts": [],
+  "generator_contexts": [],
+  "generator_payload": null
+}

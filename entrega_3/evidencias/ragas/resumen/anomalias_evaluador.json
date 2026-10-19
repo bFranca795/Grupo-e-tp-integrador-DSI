@@ -1,0 +1,85 @@
+[
+  {
+    "case_variant": "C2_rerank",
+    "metric": "context_precision",
+    "score": 0.0,
+    "status": "ok",
+    "score_sha256": "36152da8c252804928d365e2d7c0b34bd6840b42b9165ab73f36eb8e0c9924fa",
+    "original_judgments": [
+      {
+        "case_variant": "C2_rerank",
+        "call_id": "0e5116c2d20c49d6877bf9c14a707e7c",
+        "attempt": 1,
+        "stage": "context_precision_verdict",
+        "judgment": {
+          "reason": "The context provides the necessary documentation for the registration process, but it does not contain information regarding what the monthly fee includes. The answer includes information about the components of the monthly fee (tax, pension, and health insurance) which is not present in the provided context.",
+          "verdict": 0
+        },
+        "raw_text": "{\n    \"reason\": \"The context provides the necessary documentation for the registration process, but it does not contain information regarding what the monthly fee includes. The answer includes information about the components of the monthly fee (tax, pension, and health insurance) which is not present in the provided context.\",\n    \"verdict\": 0\n}",
+        "path": "evaluacion/C2_rerank/calls/0e5116c2d20c49d6877bf9c14a707e7c_1.json"
+      },
+      {
+        "case_variant": "C2_rerank",
+        "call_id": "25a1b8002abe4a83943268aa2a1aed60",
+        "attempt": 1,
+        "stage": "context_precision_verdict",
+        "judgment": {
+          "reason": "The context provided information about the activity classification and categorization parameters, but it did not contain the specific list of required documentation (DNI, CUIT/CUIL, fiscal address proof, etc.) nor the breakdown of what the monthly quota includes (tax, pension, health insurance). The answer includes significant information not present in the provided context.",
+          "verdict": 0
+        },
+        "raw_text": "{\n  \"reason\": \"The context provided information about the activity classification and categorization parameters, but it did not contain the specific list of required documentation (DNI, CUIT/CUIL, fiscal address proof, etc.) nor the breakdown of what the monthly quota includes (tax, pension, health insurance). The answer includes significant information not present in the provided context.\",\n  \"verdict\": 0\n}",
+        "path": "evaluacion/C2_rerank/calls/25a1b8002abe4a83943268aa2a1aed60_1.json"
+      },
+      {
+        "case_variant": "C2_rerank",
+        "call_id": "60c17bb37ad7474b8b99cf413ebd8dbf",
+        "attempt": 1,
+        "stage": "context_precision_verdict",
+        "judgment": {
+          "reason": "The context provided information about the components of the monthly Monotributo fee, but it did not contain the specific documentation requirements for registration (DNI, CUIT, fiscal key, etc.) mentioned in the answer. Therefore, the context was only partially useful.",
+          "verdict": 0
+        },
+        "raw_text": "{\n    \"reason\": \"The context provided information about the components of the monthly Monotributo fee, but it did not contain the specific documentation requirements for registration (DNI, CUIT, fiscal key, etc.) mentioned in the answer. Therefore, the context was only partially useful.\",\n    \"verdict\": 0\n}",
+        "path": "evaluacion/C2_rerank/calls/60c17bb37ad7474b8b99cf413ebd8dbf_1.json"
+      }
+    ],
+    "reevaluated": false
+  },
+  {
+    "case_variant": "S2_basic",
+    "metric": "faithfulness",
+    "score": 0.6666666666666666,
+    "status": "ok",
+    "score_sha256": "a5d3cb431a1fea1c3136465dd4026515bc7248954e7edd64f8dc434209aff331",
+    "original_judgments": [
+      {
+        "case_variant": "S2_basic",
+        "call_id": "5ebb31514df54a4a8c58da095c8c75b2",
+        "attempt": 2,
+        "stage": "faithfulness_verdicts",
+        "judgment": {
+          "statements": [
+            {
+              "statement": "La cuota mensual del Monotributo integra el impuesto integrado.",
+              "reason": "El texto menciona explícitamente que la cuota mensual integra el impuesto integrado.",
+              "verdict": 1
+            },
+            {
+              "statement": "La cuota mensual del Monotributo integra el aporte jubilatorio.",
+              "reason": "El texto menciona explícitamente que la cuota mensual integra el aporte jubilatorio.",
+              "verdict": 1
+            },
+            {
+              "statement": "La cuota mensual del Monotributo integra el aporte a la obra social según el documento DOC-004.",
+              "reason": "Aunque el texto menciona que la cuota integra el aporte a la obra social, no hace ninguna referencia a un documento llamado DOC-004.",
+              "verdict": 0
+            }
+          ]
+        },
+        "raw_text": "{\n  \"statements\": [\n    {\n      \"statement\": \"La cuota mensual del Monotributo integra el impuesto integrado.\",\n      \"reason\": \"El texto menciona explícitamente que la cuota mensual integra el impuesto integrado.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"La cuota mensual del Monotributo integra el aporte jubilatorio.\",\n      \"reason\": \"El texto menciona explícitamente que la cuota mensual integra el aporte jubilatorio.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"La cuota mensual del Monotributo integra el aporte a la obra social según el documento DOC-004.\",\n      \"reason\": \"Aunque el texto menciona que la cuota integra el aporte a la obra social, no hace ninguna referencia a un documento llamado DOC-004.\",\n      \"verdict\": 0\n    }\n  ]\n}",
+        "path": "evaluacion/S2_basic/calls/5ebb31514df54a4a8c58da095c8c75b2_2.json"
+      }
+    ],
+    "reevaluated": false
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "started_at": "2026-10-18T23:23:20.030696+00:00",
+  "metric": "llm_context_precision_with_reference",
+  "input": {
+    "user_input": "¿Qué documentación necesito para darme de alta en Monotributo y qué incluye la cuota que después debo pagar?",
+    "retrieved_contexts": [
+      "Para dar de alta a una persona en el Monotributo, el estudio pide: DNI del titular (frente y dorso), constancia de CUIT o número de CUIL, clave fiscal con nivel de seguridad suficiente para operar, domicilio fiscal con un comprobante que lo respalde (factura de un servicio a nombre del titular o contrato de alquiler), y una estimación de los ingresos brutos anuales de la actividad. También hace falta definir la actividad económica que se va a declarar, porque de eso depende el código de actividad, y si la actividad es venta de cosas muebles o prestación de servicios, porque los topes de cada categoría difieren. Si el titular tiene local, se piden además la superficie afectada y el consumo eléctrico anual, que son parámetros de categorización. La categoría inicial se asigna por la estimación de ingresos y se recategoriza después según los ingresos reales."
+    ],
+    "reference_contexts": null,
+    "response": "Para dar de alta el Monotributo, el estudio requiere la siguiente documentación:\n\n*   DNI del titular (frente y dorso).\n*   Constancia de CUIT o número de CUIL.\n*   Clave fiscal con nivel de seguridad suficiente para operar.\n*   Domicilio fiscal con un comprobante que lo respalde (factura de un servicio a nombre del titular o contrato de alquiler).\n*   Estimación de los ingresos brutos anuales de la actividad.\n*   Definición de la actividad económica a declarar (para determinar el código de actividad y si es venta de cosas muebles o prestación de servicios).\n*   En caso de tener local: superficie afectada y consumo eléctrico anual.\n\nFuente: DOC-002.\n\nNo poseo información suficiente en la base de conocimiento para responder qué incluye la cuota que debe pagar.",
+    "multi_responses": null,
+    "reference": "Para el alta necesitás DNI frente y dorso, constancia de CUIT o número de CUIL, clave fiscal con seguridad suficiente, domicilio fiscal respaldado por factura de servicio a tu nombre o contrato de alquiler y estimación de ingresos brutos anuales. También debés definir la actividad económica y si vendés cosas muebles o prestás servicios, porque difieren los topes; si tenés local, informar superficie afectada y consumo eléctrico anual. La categoría inicial se asigna por ingresos estimados y después se recategoriza según los reales. La cuota mensual del Monotributo integra el impuesto integrado, el aporte jubilatorio y el aporte a la obra social.",
+    "rubrics": null
+  },
+  "value": 0.0,
+  "raw_value": 0.0,
+  "status": "ok",
+  "seconds": 0.9733075999974972
+}
