@@ -17,3 +17,9 @@ estudio_contable_ids.json
 .uv-cache/
 .tools/
 .venv-repro/
+
+# Persistencia local del agente y auxiliares SQLite.
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite-journal
