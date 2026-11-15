@@ -2,6 +2,7 @@
 __pycache__/
 *.pyc
 .venv/
+.venv-python311-backup-20261115/
 venv/
 *.index
 chroma_db/
