@@ -6,32 +6,97 @@
 
 ## Requisitos
 
-- Python 3.14 o superior; la evaluación de Entrega 3 se probó con **CPython 3.14.8 en Windows 11 AMD64**. El registro previo de 3.14.7/Linux corresponde a etapas anteriores, no a la verificación del entorno RAGAS actual.
+- Python 3.14 o superior. Versión probada: **CPython 3.14.8 en Windows 11 AMD64**.
+- uv para instalar las dependencias de `uv.lock`, o pip como alternativa.
+- Acceso a internet para instalar dependencias y consultar Google Gemini.
 - Una API key de Google Gemini
+
+## Dependencias
+
+[`requirements.txt`](requirements.txt) y [`pyproject.toml`](pyproject.toml) declaran las dependencias directas. [`uv.lock`](uv.lock) fija también las versiones transitivas.
+
+| Componente | Dependencias principales |
+| --- | --- |
+| API y agente | FastAPI 0.162.2, Uvicorn 0.54.0, LangGraph 1.2.20 |
+| Persistencia | langgraph-checkpoint 4.3.1, langgraph-checkpoint-sqlite 3.1.3, aiosqlite 0.22.1 |
+| Modelo y validación | google-genai 2.24.0, Pydantic 2.13.5, python-dotenv 1.2.3 |
+| Búsqueda y RAG | ChromaDB 1.5.9, faiss-cpu 1.15.1, langchain-core 1.6.12, langchain-community 0.3.31 |
+| Evaluación | RAGAS 0.2.15, LangSmith 0.14.11 |
+
+Los comandos siguientes instalan el conjunto completo de dependencias.
 
 ## Instalación
 
-Con `pip`:
+### Windows / PowerShell
+
+Ejecutar desde la raíz del repositorio. Primero preparar el gestor `uv`: el bloque utiliza la copia local si existe, luego busca en `PATH` y, si no encuentra ninguna, lo instala dentro de `.tools` usando un Python con `pip` disponible.
+
+```powershell
+$ErrorActionPreference = 'Stop'
+if (Test-Path .\.tools\bin\uv.exe) {
+    $uv = (Resolve-Path .\.tools\bin\uv.exe).Path
+} elseif (Get-Command uv -ErrorAction SilentlyContinue) {
+    $uv = (Get-Command uv).Source
+} else {
+    python -m pip install --target .tools "uv==0.13.1"
+    if ($LASTEXITCODE -ne 0) { throw 'No se pudo instalar uv. Usar un Python con pip disponible.' }
+    $uv = (Resolve-Path .\.tools\bin\uv.exe).Path
+}
+& $uv --version
+```
+
+En la misma terminal, instalar **Python 3.14.8** y las dependencias:
+
+```powershell
+& $uv python install 3.14.8
+if ($LASTEXITCODE -ne 0) { throw 'No se pudo preparar Python 3.14.8.' }
+& $uv --cache-dir .uv-cache sync --locked --python 3.14.8
+if ($LASTEXITCODE -ne 0) { throw 'No se pudieron instalar las dependencias.' }
+.\.venv\Scripts\python.exe --version
+& $uv --cache-dir .uv-cache pip check --python .venv\Scripts\python.exe
+```
+
+`uv.lock` fija también las dependencias transitivas. No hace falta agregar `uv` al `PATH` ni activar el entorno: para ejecutar los scripts usar, por ejemplo, `.\.venv\Scripts\python.exe app.py`. `.tools` es una instalación local y no se distribuye por Git.
+
+Para activarlo opcionalmente en PowerShell:
+
+```powershell
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned
+.\.venv\Scripts\Activate.ps1
+```
+
+### Alternativa con `pip`
+
+En Windows, con Python 3.14.8 instalado y registrado en el lanzador `py`:
+
+```powershell
+py -3.14 -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+```
+
+En Linux/macOS, comprobar primero que `python --version` sea 3.14 o superior:
 
 ```bash
 python -m venv .venv
-source .venv/bin/activate      # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
+source .venv/bin/activate
+python -m pip install -r requirements.txt
 ```
 
-Con `uv` (el entorno con el que se desarrolló):
+Con `uv` en Linux/macOS:
 
 ```bash
-uv sync --locked
+uv sync --locked --python 3.14.8
 ```
 
 ## Variables de entorno
 
 Copiar `.env.example` a `.env` y completar el valor:
 
-```bash
-cp .env.example .env
+```powershell
+if (-not (Test-Path .env)) { Copy-Item .env.example .env }
 ```
+
+En Linux/macOS: `cp -n .env.example .env`. Editar `.env` y completar `GEMINI_API_KEY`.
 
 | Variable | Descripción |
 | --- | --- |
@@ -40,6 +105,8 @@ cp .env.example .env
 El archivo `.env` está en `.gitignore` y nunca se commitea.
 
 ## Cómo correr
+
+Los comandos con `python` requieren activar `.venv`. Sin activarla, reemplazar `python` por `.\.venv\Scripts\python.exe` en PowerShell o `.venv/bin/python` en Linux/macOS.
 
 ### Entrega 1 — extracción estructurada
 
@@ -141,7 +208,7 @@ if (-not (Test-Path .env)) { Copy-Item .env.example .env }
 Requiere uv instalado: en una copia nueva debe estar disponible en `PATH`. En este
 workspace está en `.tools/bin/uv.exe`, que no se distribuye por Git. El bloque
 selecciona esa copia si existe. No asumir que `python` o `py -3.14` apuntan a 3.14:
-el Python del `PATH` local es 3.11 y el launcher no registra una instalación 3.14.
+comprobar la versión del intérprete antes de crear el entorno.
 
 Para la alternativa pip de la instalación general, ejecutar la creación del entorno
 con un intérprete Python 3.14 comprobado; después usar
@@ -181,10 +248,10 @@ Desde la raíz, con el entorno creado por uv:
 
 En la misma sesión donde se definió `$uvAgente`. Con instalación pip, sustituir
 `& $uvAgente run --locked python` por
-`.\.venv\Scripts\python.exe`. Para el entorno local de desarrollo existente:
+`.\.venv\Scripts\python.exe`. Ejecución directa sin activar el entorno:
 
 ```powershell
-.\.tools\env-agente\Scripts\python.exe -m uvicorn grupo_e_tp_integrador_dsi.api:app --app-dir src --host 127.0.0.1 --port 8000 --workers 1
+.\.venv\Scripts\python.exe -m uvicorn grupo_e_tp_integrador_dsi.api:app --app-dir src --host 127.0.0.1 --port 8000 --workers 1
 ```
 
 `--app-dir src` resuelve el paquete sin configurar `PYTHONPATH`. El lifespan abre
@@ -450,3 +517,53 @@ comprobó igualdad de hashes de los archivos originales de ChromaDB y persistenc
 antes y después. El lanzador y el entorno temporales se retiraron tras la prueba.
 No se ejecutaron consultas válidas con Gemini ni verificaciones remotas nuevas
 de LangSmith. Esta prueba HTTP no sustituye la evidencia histórica de consumo.
+
+## Pruebas en Swagger
+
+Abrir **http://127.0.0.1:8000/docs**. En cada endpoint, seleccionar **Try it out** y luego **Execute**. Para una prueba nueva, cambiar el sufijo del `thread_id` y de la clave de idempotencia; mantener el mismo `thread_id` en ambas consultas y en la consulta de estado.
+
+### 1. GET `/health`
+
+Sin parámetros ni cuerpo JSON.
+
+### 2. POST `/consultar` — crear una solicitud
+
+Pegar en **Request body**:
+
+```json
+{
+  "thread_id": "defensa-en-vivo-001",
+  "pregunta": "Creá una tarea administrativa ficticia de categoría IVA con la descripción Revisar documentación de IVA y clave de idempotencia iva-en-vivo-001."
+}
+```
+
+### 3. POST `/consultar` — consultar la solicitud usando la memoria
+
+Pegar en **Request body**:
+
+```json
+{
+  "thread_id": "defensa-en-vivo-001",
+  "pregunta": "Consultá el estado de la solicitud que acabás de crear."
+}
+```
+
+### 4. GET `/estado/{thread_id}` — hilo existente
+
+Pegar en el campo **thread_id** (no lleva cuerpo JSON):
+
+```text
+defensa-en-vivo-001
+```
+
+### 5. GET `/estado/{thread_id}` — hilo inexistente
+
+Pegar en el campo **thread_id** un identificador que no se haya usado:
+
+```text
+hilo-no-utilizado-001
+```
+
+### 6. GET `/metricas`
+
+Sin parámetros ni cuerpo JSON.
